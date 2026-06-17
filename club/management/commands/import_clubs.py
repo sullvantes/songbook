@@ -1,4 +1,5 @@
 import json
+import re
 from pathlib import Path
 
 from django.core.management.base import BaseCommand, CommandError
@@ -6,7 +7,15 @@ from django.db import transaction
 
 from club.models import Club
 
-OPTIONAL_TEXT_FIELDS = ("nickname", "stadium", "location", "website")
+OPTIONAL_TEXT_FIELDS = (
+    "nickname",
+    "stadium",
+    "location",
+    "website",
+    "primary_color",
+    "secondary_color",
+)
+HEX_COLOR_RE = re.compile(r"^#(?:[0-9a-fA-F]{3}){1,2}$")
 
 
 class Command(BaseCommand):
@@ -52,6 +61,7 @@ class Command(BaseCommand):
                     raise CommandError(f"Record {index} is missing required field 'name'.")
 
                 field_values = self._extract_field_values(item)
+                self._validate_colors(index, name, field_values)
                 tags = item["tags"] if "tags" in item else None
 
                 if tags is not None and not isinstance(tags, list):
@@ -130,3 +140,11 @@ class Command(BaseCommand):
             values["slug"] = item["slug"]
 
         return values
+
+    def _validate_colors(self, index, name, field_values):
+        for field in ("primary_color", "secondary_color"):
+            value = field_values.get(field)
+            if value and not HEX_COLOR_RE.match(value):
+                raise CommandError(
+                    f"Record {index} ({name}): '{field}' must be a hex color (e.g. #C8102E)."
+                )

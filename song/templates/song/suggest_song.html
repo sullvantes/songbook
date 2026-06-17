@@ -1,10 +1,70 @@
 {% extends "song/base.html" %}
 
+{% block title %}Suggest a Song{% endblock %}
+
 {% block content %}
-  <h2>Suggest a New Song</h2>
-  <form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Submit</button>
-  </form>
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <h1 class="h2 mb-1">Suggest a New Song</h1>
+      <p class="text-muted mb-4">
+        Share a chant or song for the archive. Club and player links are optional.
+      </p>
+
+      <form method="post" class="card shadow-sm">
+        <div class="card-body">
+          {% csrf_token %}
+
+          {% if form.non_field_errors %}
+            <div class="alert alert-danger">{{ form.non_field_errors }}</div>
+          {% endif %}
+
+          <div class="mb-3">
+            <label class="form-label" for="{{ form.title.id_for_label }}">Title</label>
+            {{ form.title }}
+            {% if form.title.errors %}
+              <div class="invalid-feedback d-block">{{ form.title.errors }}</div>
+            {% endif %}
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="{{ form.club.id_for_label }}">Club</label>
+            {{ form.club }}
+            {% if form.club.errors %}
+              <div class="invalid-feedback d-block">{{ form.club.errors }}</div>
+            {% endif %}
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="{{ form.player.id_for_label }}">Player</label>
+            {{ form.player }}
+            {% if form.player.errors %}
+              <div class="invalid-feedback d-block">{{ form.player.errors }}</div>
+            {% endif %}
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="{{ form.lyrics.id_for_label }}">Lyrics</label>
+            {{ form.lyrics }}
+            {% if form.lyrics.errors %}
+              <div class="invalid-feedback d-block">{{ form.lyrics.errors }}</div>
+            {% endif %}
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label" for="{{ form.description.id_for_label }}">Description</label>
+            {{ form.description }}
+            <div class="form-text">Background or story behind the song.</div>
+            {% if form.description.errors %}
+              <div class="invalid-feedback d-block">{{ form.description.errors }}</div>
+            {% endif %}
+          </div>
+
+          <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-danger">Submit suggestion</button>
+            <a class="btn btn-outline-secondary" href="{% url 'songs:list' %}">Cancel</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
 {% endblock %}

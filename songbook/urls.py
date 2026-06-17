@@ -18,8 +18,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+from club.views import ClubListView
+
 urlpatterns = [
     path("admin/", admin.site.urls),
+    path("", ClubListView.as_view(), name="home"),
     path("songs/", include("song.urls", namespace="songs")),
     path("players/", include("player.urls", namespace="players")),
     path("clubs/", include("club.urls", namespace="clubs")),

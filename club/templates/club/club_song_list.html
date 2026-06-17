@@ -2,6 +2,30 @@
 
 {% block title %}{{ club.name }} Songs & Chants{% endblock %}
 
+{% block navbar_class %}club-branded-navbar{% if not club.primary_color %} bg-danger{% endif %}{% endblock %}
+{% block navbar_style %} style="{% if club.primary_color %}background-color: {{ club.primary_color }};{% endif %}{% if club.secondary_color %}--club-nav-color: {{ club.secondary_color }};{% endif %}"{% endblock %}
+
+{% block extra_head %}
+  {% if club.secondary_color %}
+    <style>
+      .club-branded-navbar .navbar-brand,
+      .club-branded-navbar .nav-link {
+        color: var(--club-nav-color) !important;
+      }
+
+      .club-branded-navbar .nav-link:hover,
+      .club-branded-navbar .nav-link:focus {
+        color: var(--club-nav-color) !important;
+        opacity: 0.85;
+      }
+
+      .club-branded-navbar .navbar-toggler {
+        border-color: var(--club-nav-color);
+      }
+    </style>
+  {% endif %}
+{% endblock %}
+
 {% block content %}
   <nav aria-label="breadcrumb" class="mb-3">
     <ol class="breadcrumb">

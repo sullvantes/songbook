@@ -6,7 +6,13 @@
     "stadium": "Anfield",
     "location": "Liverpool, England",
     "website": "https://www.liverpoolfc.com",
-    "tags": ["premier-league", "english", "europe"]
+    "tags": [
+      "premier-league",
+      "english",
+      "europe"
+    ],
+    "primary_color": "#C8102E",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Manchester United",
@@ -15,7 +21,13 @@
     "stadium": "Old Trafford",
     "location": "Manchester, England",
     "website": "https://www.manutd.com",
-    "tags": ["premier-league", "english", "europe"]
+    "tags": [
+      "premier-league",
+      "english",
+      "europe"
+    ],
+    "primary_color": "#DA291C",
+    "secondary_color": "#FBE122"
   },
   {
     "name": "Manchester City",
@@ -24,7 +36,13 @@
     "stadium": "Etihad Stadium",
     "location": "Manchester, England",
     "website": "https://www.mancity.com",
-    "tags": ["premier-league", "english", "europe"]
+    "tags": [
+      "premier-league",
+      "english",
+      "europe"
+    ],
+    "primary_color": "#6CABDD",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Arsenal FC",
@@ -33,7 +51,13 @@
     "stadium": "Emirates Stadium",
     "location": "London, England",
     "website": "https://www.arsenal.com",
-    "tags": ["premier-league", "english", "europe"]
+    "tags": [
+      "premier-league",
+      "english",
+      "europe"
+    ],
+    "primary_color": "#EF0107",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Chelsea FC",
@@ -42,7 +66,13 @@
     "stadium": "Stamford Bridge",
     "location": "London, England",
     "website": "https://www.chelseafc.com",
-    "tags": ["premier-league", "english", "europe"]
+    "tags": [
+      "premier-league",
+      "english",
+      "europe"
+    ],
+    "primary_color": "#034694",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Tottenham Hotspur",
@@ -51,7 +81,13 @@
     "stadium": "Tottenham Hotspur Stadium",
     "location": "London, England",
     "website": "https://www.tottenhamhotspur.com",
-    "tags": ["premier-league", "english", "europe"]
+    "tags": [
+      "premier-league",
+      "english",
+      "europe"
+    ],
+    "primary_color": "#132257",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Everton FC",
@@ -60,7 +96,13 @@
     "stadium": "Bramley-Moore Dock Stadium",
     "location": "Liverpool, England",
     "website": "https://www.evertonfc.com",
-    "tags": ["premier-league", "english", "merseyside"]
+    "tags": [
+      "premier-league",
+      "english",
+      "merseyside"
+    ],
+    "primary_color": "#003399",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Newcastle United",
@@ -69,7 +111,12 @@
     "stadium": "St James' Park",
     "location": "Newcastle, England",
     "website": "https://www.newcastleunited.com",
-    "tags": ["premier-league", "english"]
+    "tags": [
+      "premier-league",
+      "english"
+    ],
+    "primary_color": "#241F20",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Aston Villa",
@@ -78,7 +125,12 @@
     "stadium": "Villa Park",
     "location": "Birmingham, England",
     "website": "https://www.avfc.co.uk",
-    "tags": ["premier-league", "english"]
+    "tags": [
+      "premier-league",
+      "english"
+    ],
+    "primary_color": "#670E36",
+    "secondary_color": "#95BFE5"
   },
   {
     "name": "West Ham United",
@@ -87,7 +139,12 @@
     "stadium": "London Stadium",
     "location": "London, England",
     "website": "https://www.whufc.com",
-    "tags": ["premier-league", "english"]
+    "tags": [
+      "premier-league",
+      "english"
+    ],
+    "primary_color": "#7A263A",
+    "secondary_color": "#1BB1E7"
   },
   {
     "name": "Leeds United",
@@ -96,7 +153,12 @@
     "stadium": "Elland Road",
     "location": "Leeds, England",
     "website": "https://www.leedsunited.com",
-    "tags": ["english", "yorkshire"]
+    "tags": [
+      "english",
+      "yorkshire"
+    ],
+    "primary_color": "#FFCD00",
+    "secondary_color": "#1D428A"
   },
   {
     "name": "Nottingham Forest",
@@ -105,7 +167,13 @@
     "stadium": "City Ground",
     "location": "Nottingham, England",
     "website": "https://www.nottinghamforest.co.uk",
-    "tags": ["premier-league", "english", "europe"]
+    "tags": [
+      "premier-league",
+      "english",
+      "europe"
+    ],
+    "primary_color": "#DD0000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Wolverhampton Wanderers",
@@ -114,7 +182,12 @@
     "stadium": "Molineux Stadium",
     "location": "Wolverhampton, England",
     "website": "https://www.wolves.co.uk",
-    "tags": ["premier-league", "english"]
+    "tags": [
+      "premier-league",
+      "english"
+    ],
+    "primary_color": "#FDB913",
+    "secondary_color": "#231F20"
   },
   {
     "name": "Leicester City",
@@ -123,7 +196,11 @@
     "stadium": "King Power Stadium",
     "location": "Leicester, England",
     "website": "https://www.lcfc.com",
-    "tags": ["english"]
+    "tags": [
+      "english"
+    ],
+    "primary_color": "#003090",
+    "secondary_color": "#FDBE11"
   },
   {
     "name": "Southampton FC",
@@ -132,7 +209,11 @@
     "stadium": "St Mary's Stadium",
     "location": "Southampton, England",
     "website": "https://www.southamptonfc.com",
-    "tags": ["english"]
+    "tags": [
+      "english"
+    ],
+    "primary_color": "#D71920",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Brighton & Hove Albion",
@@ -141,7 +222,12 @@
     "stadium": "Amex Stadium",
     "location": "Brighton, England",
     "website": "https://www.brightonandhovealbion.com",
-    "tags": ["premier-league", "english"]
+    "tags": [
+      "premier-league",
+      "english"
+    ],
+    "primary_color": "#0057B8",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Celtic FC",
@@ -150,7 +236,12 @@
     "stadium": "Celtic Park",
     "location": "Glasgow, Scotland",
     "website": "https://www.celticfc.com",
-    "tags": ["scottish", "europe"]
+    "tags": [
+      "scottish",
+      "europe"
+    ],
+    "primary_color": "#00843D",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Rangers FC",
@@ -159,7 +250,12 @@
     "stadium": "Ibrox Stadium",
     "location": "Glasgow, Scotland",
     "website": "https://www.rangers.co.uk",
-    "tags": ["scottish", "europe"]
+    "tags": [
+      "scottish",
+      "europe"
+    ],
+    "primary_color": "#1B458F",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Real Madrid",
@@ -168,7 +264,13 @@
     "stadium": "Santiago Bernabeu",
     "location": "Madrid, Spain",
     "website": "https://www.realmadrid.com",
-    "tags": ["la-liga", "spanish", "europe"]
+    "tags": [
+      "la-liga",
+      "spanish",
+      "europe"
+    ],
+    "primary_color": "#00529F",
+    "secondary_color": "#FEBE10"
   },
   {
     "name": "FC Barcelona",
@@ -177,7 +279,13 @@
     "stadium": "Spotify Camp Nou",
     "location": "Barcelona, Spain",
     "website": "https://www.fcbarcelona.com",
-    "tags": ["la-liga", "spanish", "europe"]
+    "tags": [
+      "la-liga",
+      "spanish",
+      "europe"
+    ],
+    "primary_color": "#A50044",
+    "secondary_color": "#004D98"
   },
   {
     "name": "Atletico Madrid",
@@ -186,7 +294,13 @@
     "stadium": "Civitas Metropolitano",
     "location": "Madrid, Spain",
     "website": "https://www.atleticodemadrid.com",
-    "tags": ["la-liga", "spanish", "europe"]
+    "tags": [
+      "la-liga",
+      "spanish",
+      "europe"
+    ],
+    "primary_color": "#CB3524",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Sevilla FC",
@@ -195,7 +309,13 @@
     "stadium": "Ramon Sanchez-Pizjuan",
     "location": "Seville, Spain",
     "website": "https://www.sevillafc.es",
-    "tags": ["la-liga", "spanish", "europe"]
+    "tags": [
+      "la-liga",
+      "spanish",
+      "europe"
+    ],
+    "primary_color": "#D01012",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Valencia CF",
@@ -204,7 +324,13 @@
     "stadium": "Mestalla",
     "location": "Valencia, Spain",
     "website": "https://www.valenciacf.com",
-    "tags": ["la-liga", "spanish", "europe"]
+    "tags": [
+      "la-liga",
+      "spanish",
+      "europe"
+    ],
+    "primary_color": "#EE3524",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Athletic Club",
@@ -213,7 +339,13 @@
     "stadium": "San Mames",
     "location": "Bilbao, Spain",
     "website": "https://www.athletic-club.eus",
-    "tags": ["la-liga", "spanish", "europe"]
+    "tags": [
+      "la-liga",
+      "spanish",
+      "europe"
+    ],
+    "primary_color": "#EE2523",
+    "secondary_color": "#000000"
   },
   {
     "name": "Real Sociedad",
@@ -222,7 +354,12 @@
     "stadium": "Reale Arena",
     "location": "San Sebastian, Spain",
     "website": "https://www.realsociedad.eus",
-    "tags": ["la-liga", "spanish"]
+    "tags": [
+      "la-liga",
+      "spanish"
+    ],
+    "primary_color": "#0033A0",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Villarreal CF",
@@ -231,7 +368,13 @@
     "stadium": "Estadio de la Ceramica",
     "location": "Villarreal, Spain",
     "website": "https://www.villarrealcf.es",
-    "tags": ["la-liga", "spanish", "europe"]
+    "tags": [
+      "la-liga",
+      "spanish",
+      "europe"
+    ],
+    "primary_color": "#005187",
+    "secondary_color": "#FFE667"
   },
   {
     "name": "Real Betis",
@@ -240,7 +383,12 @@
     "stadium": "Benito Villamarin",
     "location": "Seville, Spain",
     "website": "https://www.realbetisbalompie.es",
-    "tags": ["la-liga", "spanish"]
+    "tags": [
+      "la-liga",
+      "spanish"
+    ],
+    "primary_color": "#00954C",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Juventus",
@@ -249,7 +397,13 @@
     "stadium": "Allianz Stadium",
     "location": "Turin, Italy",
     "website": "https://www.juventus.com",
-    "tags": ["serie-a", "italian", "europe"]
+    "tags": [
+      "serie-a",
+      "italian",
+      "europe"
+    ],
+    "primary_color": "#000000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "AC Milan",
@@ -258,7 +412,13 @@
     "stadium": "San Siro",
     "location": "Milan, Italy",
     "website": "https://www.acmilan.com",
-    "tags": ["serie-a", "italian", "europe"]
+    "tags": [
+      "serie-a",
+      "italian",
+      "europe"
+    ],
+    "primary_color": "#FB090B",
+    "secondary_color": "#000000"
   },
   {
     "name": "Inter Milan",
@@ -267,7 +427,13 @@
     "stadium": "San Siro",
     "location": "Milan, Italy",
     "website": "https://www.inter.it",
-    "tags": ["serie-a", "italian", "europe"]
+    "tags": [
+      "serie-a",
+      "italian",
+      "europe"
+    ],
+    "primary_color": "#010E80",
+    "secondary_color": "#000000"
   },
   {
     "name": "AS Roma",
@@ -276,7 +442,13 @@
     "stadium": "Stadio Olimpico",
     "location": "Rome, Italy",
     "website": "https://www.asroma.com",
-    "tags": ["serie-a", "italian", "europe"]
+    "tags": [
+      "serie-a",
+      "italian",
+      "europe"
+    ],
+    "primary_color": "#8E1F2F",
+    "secondary_color": "#F0BC42"
   },
   {
     "name": "SSC Napoli",
@@ -285,7 +457,13 @@
     "stadium": "Diego Armando Maradona Stadium",
     "location": "Naples, Italy",
     "website": "https://www.sscnapoli.it",
-    "tags": ["serie-a", "italian", "europe"]
+    "tags": [
+      "serie-a",
+      "italian",
+      "europe"
+    ],
+    "primary_color": "#12A0D7",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "SS Lazio",
@@ -294,7 +472,13 @@
     "stadium": "Stadio Olimpico",
     "location": "Rome, Italy",
     "website": "https://www.sslazio.it",
-    "tags": ["serie-a", "italian", "europe"]
+    "tags": [
+      "serie-a",
+      "italian",
+      "europe"
+    ],
+    "primary_color": "#87D8F7",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "ACF Fiorentina",
@@ -303,7 +487,12 @@
     "stadium": "Artemio Franchi",
     "location": "Florence, Italy",
     "website": "https://www.acffiorentina.com",
-    "tags": ["serie-a", "italian"]
+    "tags": [
+      "serie-a",
+      "italian"
+    ],
+    "primary_color": "#482E92",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Atalanta BC",
@@ -312,7 +501,13 @@
     "stadium": "Gewiss Stadium",
     "location": "Bergamo, Italy",
     "website": "https://www.atalanta.it",
-    "tags": ["serie-a", "italian", "europe"]
+    "tags": [
+      "serie-a",
+      "italian",
+      "europe"
+    ],
+    "primary_color": "#1E71B8",
+    "secondary_color": "#000000"
   },
   {
     "name": "Bayern Munich",
@@ -321,7 +516,13 @@
     "stadium": "Allianz Arena",
     "location": "Munich, Germany",
     "website": "https://fcbayern.com",
-    "tags": ["bundesliga", "german", "europe"]
+    "tags": [
+      "bundesliga",
+      "german",
+      "europe"
+    ],
+    "primary_color": "#DC052D",
+    "secondary_color": "#0066B2"
   },
   {
     "name": "Borussia Dortmund",
@@ -330,7 +531,13 @@
     "stadium": "Signal Iduna Park",
     "location": "Dortmund, Germany",
     "website": "https://www.bvb.de",
-    "tags": ["bundesliga", "german", "europe"]
+    "tags": [
+      "bundesliga",
+      "german",
+      "europe"
+    ],
+    "primary_color": "#FDE100",
+    "secondary_color": "#000000"
   },
   {
     "name": "RB Leipzig",
@@ -339,7 +546,13 @@
     "stadium": "Red Bull Arena",
     "location": "Leipzig, Germany",
     "website": "https://rbleipzig.com",
-    "tags": ["bundesliga", "german", "europe"]
+    "tags": [
+      "bundesliga",
+      "german",
+      "europe"
+    ],
+    "primary_color": "#DD0741",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Bayer Leverkusen",
@@ -348,7 +561,13 @@
     "stadium": "BayArena",
     "location": "Leverkusen, Germany",
     "website": "https://www.bayer04.de",
-    "tags": ["bundesliga", "german", "europe"]
+    "tags": [
+      "bundesliga",
+      "german",
+      "europe"
+    ],
+    "primary_color": "#E32221",
+    "secondary_color": "#000000"
   },
   {
     "name": "FC Schalke 04",
@@ -357,7 +576,11 @@
     "stadium": "Veltins-Arena",
     "location": "Gelsenkirchen, Germany",
     "website": "https://www.schalke04.de",
-    "tags": ["german"]
+    "tags": [
+      "german"
+    ],
+    "primary_color": "#004D9D",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "VfB Stuttgart",
@@ -366,7 +589,12 @@
     "stadium": "MHPArena",
     "location": "Stuttgart, Germany",
     "website": "https://www.vfb.de",
-    "tags": ["bundesliga", "german"]
+    "tags": [
+      "bundesliga",
+      "german"
+    ],
+    "primary_color": "#E32219",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Eintracht Frankfurt",
@@ -375,7 +603,13 @@
     "stadium": "Deutsche Bank Park",
     "location": "Frankfurt, Germany",
     "website": "https://www.eintracht.de",
-    "tags": ["bundesliga", "german", "europe"]
+    "tags": [
+      "bundesliga",
+      "german",
+      "europe"
+    ],
+    "primary_color": "#E1000F",
+    "secondary_color": "#000000"
   },
   {
     "name": "Werder Bremen",
@@ -384,7 +618,12 @@
     "stadium": "Weserstadion",
     "location": "Bremen, Germany",
     "website": "https://www.werder.de",
-    "tags": ["bundesliga", "german"]
+    "tags": [
+      "bundesliga",
+      "german"
+    ],
+    "primary_color": "#1D9053",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Hamburger SV",
@@ -393,7 +632,12 @@
     "stadium": "Volksparkstadion",
     "location": "Hamburg, Germany",
     "website": "https://www.hsv.de",
-    "tags": ["german", "europe"]
+    "tags": [
+      "german",
+      "europe"
+    ],
+    "primary_color": "#005CA9",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Borussia Monchengladbach",
@@ -402,7 +646,13 @@
     "stadium": "Borussia-Park",
     "location": "Monchengladbach, Germany",
     "website": "https://www.borussia.de",
-    "tags": ["bundesliga", "german", "europe"]
+    "tags": [
+      "bundesliga",
+      "german",
+      "europe"
+    ],
+    "primary_color": "#000000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "VfL Wolfsburg",
@@ -411,7 +661,12 @@
     "stadium": "Volkswagen Arena",
     "location": "Wolfsburg, Germany",
     "website": "https://www.vfl-wolfsburg.de",
-    "tags": ["bundesliga", "german"]
+    "tags": [
+      "bundesliga",
+      "german"
+    ],
+    "primary_color": "#65B32E",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Paris Saint-Germain",
@@ -420,7 +675,13 @@
     "stadium": "Parc des Princes",
     "location": "Paris, France",
     "website": "https://www.psg.fr",
-    "tags": ["ligue-1", "french", "europe"]
+    "tags": [
+      "ligue-1",
+      "french",
+      "europe"
+    ],
+    "primary_color": "#004170",
+    "secondary_color": "#DA291C"
   },
   {
     "name": "Olympique Marseille",
@@ -429,7 +690,13 @@
     "stadium": "Orange Velodrome",
     "location": "Marseille, France",
     "website": "https://www.om.fr",
-    "tags": ["ligue-1", "french", "europe"]
+    "tags": [
+      "ligue-1",
+      "french",
+      "europe"
+    ],
+    "primary_color": "#2FAEE0",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Olympique Lyon",
@@ -438,7 +705,13 @@
     "stadium": "Groupama Stadium",
     "location": "Lyon, France",
     "website": "https://www.ol.fr",
-    "tags": ["ligue-1", "french", "europe"]
+    "tags": [
+      "ligue-1",
+      "french",
+      "europe"
+    ],
+    "primary_color": "#003580",
+    "secondary_color": "#DA0812"
   },
   {
     "name": "AS Monaco",
@@ -447,7 +720,13 @@
     "stadium": "Stade Louis II",
     "location": "Monaco",
     "website": "https://www.asmonaco.com",
-    "tags": ["ligue-1", "french", "europe"]
+    "tags": [
+      "ligue-1",
+      "french",
+      "europe"
+    ],
+    "primary_color": "#E30613",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Lille OSC",
@@ -456,7 +735,13 @@
     "stadium": "Decathlon Arena",
     "location": "Lille, France",
     "website": "https://www.losc.fr",
-    "tags": ["ligue-1", "french", "europe"]
+    "tags": [
+      "ligue-1",
+      "french",
+      "europe"
+    ],
+    "primary_color": "#E5001C",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "OGC Nice",
@@ -465,7 +750,12 @@
     "stadium": "Allianz Riviera",
     "location": "Nice, France",
     "website": "https://www.ogcnice.com",
-    "tags": ["ligue-1", "french"]
+    "tags": [
+      "ligue-1",
+      "french"
+    ],
+    "primary_color": "#ED1C24",
+    "secondary_color": "#000000"
   },
   {
     "name": "AS Saint-Etienne",
@@ -474,7 +764,12 @@
     "stadium": "Stade Geoffroy-Guichard",
     "location": "Saint-Etienne, France",
     "website": "https://www.asse.fr",
-    "tags": ["french", "europe"]
+    "tags": [
+      "french",
+      "europe"
+    ],
+    "primary_color": "#008E44",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Ajax",
@@ -483,7 +778,13 @@
     "stadium": "Johan Cruyff Arena",
     "location": "Amsterdam, Netherlands",
     "website": "https://www.ajax.nl",
-    "tags": ["eredivisie", "dutch", "europe"]
+    "tags": [
+      "eredivisie",
+      "dutch",
+      "europe"
+    ],
+    "primary_color": "#D2122E",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "PSV Eindhoven",
@@ -492,7 +793,13 @@
     "stadium": "Philips Stadion",
     "location": "Eindhoven, Netherlands",
     "website": "https://www.psv.nl",
-    "tags": ["eredivisie", "dutch", "europe"]
+    "tags": [
+      "eredivisie",
+      "dutch",
+      "europe"
+    ],
+    "primary_color": "#ED1C24",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Feyenoord",
@@ -501,7 +808,13 @@
     "stadium": "De Kuip",
     "location": "Rotterdam, Netherlands",
     "website": "https://www.feyenoord.nl",
-    "tags": ["eredivisie", "dutch", "europe"]
+    "tags": [
+      "eredivisie",
+      "dutch",
+      "europe"
+    ],
+    "primary_color": "#E30512",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "SL Benfica",
@@ -510,7 +823,12 @@
     "stadium": "Estadio da Luz",
     "location": "Lisbon, Portugal",
     "website": "https://www.slbenfica.pt",
-    "tags": ["portuguese", "europe"]
+    "tags": [
+      "portuguese",
+      "europe"
+    ],
+    "primary_color": "#FF0000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "FC Porto",
@@ -519,7 +837,12 @@
     "stadium": "Estadio do Dragao",
     "location": "Porto, Portugal",
     "website": "https://www.fcporto.pt",
-    "tags": ["portuguese", "europe"]
+    "tags": [
+      "portuguese",
+      "europe"
+    ],
+    "primary_color": "#003893",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Sporting CP",
@@ -528,7 +851,12 @@
     "stadium": "Estadio Jose Alvalade",
     "location": "Lisbon, Portugal",
     "website": "https://www.sporting.pt",
-    "tags": ["portuguese", "europe"]
+    "tags": [
+      "portuguese",
+      "europe"
+    ],
+    "primary_color": "#008057",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Galatasaray",
@@ -537,7 +865,12 @@
     "stadium": "Rams Park",
     "location": "Istanbul, Turkey",
     "website": "https://www.galatasaray.org",
-    "tags": ["turkish", "europe"]
+    "tags": [
+      "turkish",
+      "europe"
+    ],
+    "primary_color": "#A90432",
+    "secondary_color": "#FFB600"
   },
   {
     "name": "Fenerbahce",
@@ -546,7 +879,12 @@
     "stadium": "Sukru Saracoglu Stadium",
     "location": "Istanbul, Turkey",
     "website": "https://www.fenerbahce.org",
-    "tags": ["turkish", "europe"]
+    "tags": [
+      "turkish",
+      "europe"
+    ],
+    "primary_color": "#001A72",
+    "secondary_color": "#FFED00"
   },
   {
     "name": "Besiktas",
@@ -555,7 +893,12 @@
     "stadium": "Tupras Stadium",
     "location": "Istanbul, Turkey",
     "website": "https://www.bjk.com.tr",
-    "tags": ["turkish", "europe"]
+    "tags": [
+      "turkish",
+      "europe"
+    ],
+    "primary_color": "#000000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "FC Red Bull Salzburg",
@@ -564,7 +907,12 @@
     "stadium": "Red Bull Arena",
     "location": "Salzburg, Austria",
     "website": "https://www.redbullsalzburg.at",
-    "tags": ["austrian", "europe"]
+    "tags": [
+      "austrian",
+      "europe"
+    ],
+    "primary_color": "#DD0741",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Club Brugge",
@@ -573,7 +921,12 @@
     "stadium": "Jan Breydel Stadium",
     "location": "Bruges, Belgium",
     "website": "https://www.clubbrugge.be",
-    "tags": ["belgian", "europe"]
+    "tags": [
+      "belgian",
+      "europe"
+    ],
+    "primary_color": "#0080C6",
+    "secondary_color": "#000000"
   },
   {
     "name": "RSC Anderlecht",
@@ -582,7 +935,12 @@
     "stadium": "Lotto Park",
     "location": "Brussels, Belgium",
     "website": "https://www.rsca.be",
-    "tags": ["belgian", "europe"]
+    "tags": [
+      "belgian",
+      "europe"
+    ],
+    "primary_color": "#6A018A",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Olympiacos",
@@ -591,7 +949,12 @@
     "stadium": "Karaiskakis Stadium",
     "location": "Piraeus, Greece",
     "website": "https://www.olympiacos.org",
-    "tags": ["greek", "europe"]
+    "tags": [
+      "greek",
+      "europe"
+    ],
+    "primary_color": "#E30613",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Panathinaikos",
@@ -600,7 +963,12 @@
     "stadium": "Leoforos Alexandras Stadium",
     "location": "Athens, Greece",
     "website": "https://www.pao.gr",
-    "tags": ["greek", "europe"]
+    "tags": [
+      "greek",
+      "europe"
+    ],
+    "primary_color": "#007B53",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Red Star Belgrade",
@@ -609,7 +977,12 @@
     "stadium": "Rajko Mitic Stadium",
     "location": "Belgrade, Serbia",
     "website": "https://www.crvenazvezda.rs",
-    "tags": ["serbian", "europe"]
+    "tags": [
+      "serbian",
+      "europe"
+    ],
+    "primary_color": "#FF0000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "FK Partizan",
@@ -618,7 +991,12 @@
     "stadium": "Partizan Stadium",
     "location": "Belgrade, Serbia",
     "website": "https://www.partizan.rs",
-    "tags": ["serbian", "europe"]
+    "tags": [
+      "serbian",
+      "europe"
+    ],
+    "primary_color": "#000000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "GNK Dinamo Zagreb",
@@ -627,7 +1005,12 @@
     "stadium": "Maksimir Stadium",
     "location": "Zagreb, Croatia",
     "website": "https://gnkdinamo.hr",
-    "tags": ["croatian", "europe"]
+    "tags": [
+      "croatian",
+      "europe"
+    ],
+    "primary_color": "#005BAC",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Zenit Saint Petersburg",
@@ -636,7 +1019,12 @@
     "stadium": "Gazprom Arena",
     "location": "Saint Petersburg, Russia",
     "website": "https://fc-zenit.ru",
-    "tags": ["russian", "europe"]
+    "tags": [
+      "russian",
+      "europe"
+    ],
+    "primary_color": "#009EE0",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "FC Dynamo Kyiv",
@@ -645,7 +1033,12 @@
     "stadium": "NSC Olimpiyskiy",
     "location": "Kyiv, Ukraine",
     "website": "https://fcdynamo.com",
-    "tags": ["ukrainian", "europe"]
+    "tags": [
+      "ukrainian",
+      "europe"
+    ],
+    "primary_color": "#0033A0",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "FC Shakhtar Donetsk",
@@ -654,7 +1047,12 @@
     "stadium": "Arena Lviv",
     "location": "Donetsk, Ukraine",
     "website": "https://shakhtar.com",
-    "tags": ["ukrainian", "europe"]
+    "tags": [
+      "ukrainian",
+      "europe"
+    ],
+    "primary_color": "#FF6600",
+    "secondary_color": "#000000"
   },
   {
     "name": "Flamengo",
@@ -663,7 +1061,12 @@
     "stadium": "Maracana",
     "location": "Rio de Janeiro, Brazil",
     "website": "https://www.flamengo.com.br",
-    "tags": ["brazilian", "south-america"]
+    "tags": [
+      "brazilian",
+      "south-america"
+    ],
+    "primary_color": "#E50914",
+    "secondary_color": "#000000"
   },
   {
     "name": "Corinthians",
@@ -672,7 +1075,12 @@
     "stadium": "Neo Quimica Arena",
     "location": "Sao Paulo, Brazil",
     "website": "https://www.corinthians.com.br",
-    "tags": ["brazilian", "south-america"]
+    "tags": [
+      "brazilian",
+      "south-america"
+    ],
+    "primary_color": "#000000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "SE Palmeiras",
@@ -681,7 +1089,12 @@
     "stadium": "Allianz Parque",
     "location": "Sao Paulo, Brazil",
     "website": "https://www.palmeiras.com.br",
-    "tags": ["brazilian", "south-america"]
+    "tags": [
+      "brazilian",
+      "south-america"
+    ],
+    "primary_color": "#006437",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Sao Paulo FC",
@@ -690,7 +1103,12 @@
     "stadium": "MorumBIS",
     "location": "Sao Paulo, Brazil",
     "website": "https://www.saopaulofc.net",
-    "tags": ["brazilian", "south-america"]
+    "tags": [
+      "brazilian",
+      "south-america"
+    ],
+    "primary_color": "#FE0000",
+    "secondary_color": "#000000"
   },
   {
     "name": "Santos FC",
@@ -699,7 +1117,12 @@
     "stadium": "Vila Belmiro",
     "location": "Santos, Brazil",
     "website": "https://www.santosfc.com.br",
-    "tags": ["brazilian", "south-america"]
+    "tags": [
+      "brazilian",
+      "south-america"
+    ],
+    "primary_color": "#000000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "CR Fluminense",
@@ -708,7 +1131,12 @@
     "stadium": "Maracana",
     "location": "Rio de Janeiro, Brazil",
     "website": "https://www.fluminense.com.br",
-    "tags": ["brazilian", "south-america"]
+    "tags": [
+      "brazilian",
+      "south-america"
+    ],
+    "primary_color": "#7A0026",
+    "secondary_color": "#006241"
   },
   {
     "name": "SC Internacional",
@@ -717,7 +1145,12 @@
     "stadium": "Beira-Rio",
     "location": "Porto Alegre, Brazil",
     "website": "https://www.internacional.com.br",
-    "tags": ["brazilian", "south-america"]
+    "tags": [
+      "brazilian",
+      "south-america"
+    ],
+    "primary_color": "#E30613",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Gremio FBPA",
@@ -726,7 +1159,12 @@
     "stadium": "Arena do Gremio",
     "location": "Porto Alegre, Brazil",
     "website": "https://www.gremio.net",
-    "tags": ["brazilian", "south-america"]
+    "tags": [
+      "brazilian",
+      "south-america"
+    ],
+    "primary_color": "#008BC7",
+    "secondary_color": "#000000"
   },
   {
     "name": "Boca Juniors",
@@ -735,7 +1173,12 @@
     "stadium": "La Bombonera",
     "location": "Buenos Aires, Argentina",
     "website": "https://www.bocajuniors.com.ar",
-    "tags": ["argentine", "south-america"]
+    "tags": [
+      "argentine",
+      "south-america"
+    ],
+    "primary_color": "#003087",
+    "secondary_color": "#FFFF00"
   },
   {
     "name": "River Plate",
@@ -744,7 +1187,12 @@
     "stadium": "El Monumental",
     "location": "Buenos Aires, Argentina",
     "website": "https://www.cariverplate.com.ar",
-    "tags": ["argentine", "south-america"]
+    "tags": [
+      "argentine",
+      "south-america"
+    ],
+    "primary_color": "#ED1C24",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Racing Club",
@@ -753,7 +1201,12 @@
     "stadium": "El Cilindro",
     "location": "Avellaneda, Argentina",
     "website": "https://www.racingclub.com.ar",
-    "tags": ["argentine", "south-america"]
+    "tags": [
+      "argentine",
+      "south-america"
+    ],
+    "primary_color": "#6CADDF",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Club Atletico Independiente",
@@ -762,7 +1215,12 @@
     "stadium": "Libertadores de America",
     "location": "Avellaneda, Argentina",
     "website": "https://www.clubindependiente.com.ar",
-    "tags": ["argentine", "south-america"]
+    "tags": [
+      "argentine",
+      "south-america"
+    ],
+    "primary_color": "#ED1C24",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Club America",
@@ -771,7 +1229,12 @@
     "stadium": "Estadio Azteca",
     "location": "Mexico City, Mexico",
     "website": "https://www.clubamerica.com.mx",
-    "tags": ["mexican", "north-america"]
+    "tags": [
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#003087",
+    "secondary_color": "#FBECB2"
   },
   {
     "name": "Chivas Guadalajara",
@@ -780,7 +1243,12 @@
     "stadium": "Estadio Akron",
     "location": "Guadalajara, Mexico",
     "website": "https://www.chivasdecorazon.com.mx",
-    "tags": ["mexican", "north-america"]
+    "tags": [
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#E40613",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Cruz Azul",
@@ -789,7 +1257,12 @@
     "stadium": "Estadio Ciudad de los Deportes",
     "location": "Mexico City, Mexico",
     "website": "https://www.cruzazulfc.com",
-    "tags": ["mexican", "north-america"]
+    "tags": [
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#005CB9",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Al Hilal",
@@ -798,7 +1271,12 @@
     "stadium": "Kingdom Arena",
     "location": "Riyadh, Saudi Arabia",
     "website": "https://www.alhilal.com",
-    "tags": ["saudi", "asia"]
+    "tags": [
+      "saudi",
+      "asia"
+    ],
+    "primary_color": "#004AAC",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Al Nassr",
@@ -807,7 +1285,12 @@
     "stadium": "Al-Awwal Park",
     "location": "Riyadh, Saudi Arabia",
     "website": "https://www.alnassr.com",
-    "tags": ["saudi", "asia"]
+    "tags": [
+      "saudi",
+      "asia"
+    ],
+    "primary_color": "#002A58",
+    "secondary_color": "#FEDC00"
   },
   {
     "name": "Al Ittihad",
@@ -816,7 +1299,12 @@
     "stadium": "King Abdullah Sports City",
     "location": "Jeddah, Saudi Arabia",
     "website": "https://www.alittihadclub.sa",
-    "tags": ["saudi", "asia"]
+    "tags": [
+      "saudi",
+      "asia"
+    ],
+    "primary_color": "#FFFF00",
+    "secondary_color": "#000000"
   },
   {
     "name": "LA Galaxy",
@@ -825,7 +1313,12 @@
     "stadium": "Dignity Health Sports Park",
     "location": "Carson, California, USA",
     "website": "https://www.lagalaxy.com",
-    "tags": ["mls", "north-america"]
+    "tags": [
+      "mls",
+      "north-america"
+    ],
+    "primary_color": "#00245D",
+    "secondary_color": "#FFD200"
   },
   {
     "name": "Inter Miami CF",
@@ -834,7 +1327,12 @@
     "stadium": "Chase Stadium",
     "location": "Fort Lauderdale, Florida, USA",
     "website": "https://www.intermiamicf.com",
-    "tags": ["mls", "north-america"]
+    "tags": [
+      "mls",
+      "north-america"
+    ],
+    "primary_color": "#F692B6",
+    "secondary_color": "#000000"
   },
   {
     "name": "Al Ahly SC",
@@ -843,7 +1341,12 @@
     "stadium": "Cairo International Stadium",
     "location": "Cairo, Egypt",
     "website": "https://www.alahly.com",
-    "tags": ["african", "egyptian"]
+    "tags": [
+      "african",
+      "egyptian"
+    ],
+    "primary_color": "#C8102E",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Zamalek SC",
@@ -852,7 +1355,12 @@
     "stadium": "Cairo International Stadium",
     "location": "Cairo, Egypt",
     "website": "https://www.zamaleksc.com",
-    "tags": ["african", "egyptian"]
+    "tags": [
+      "african",
+      "egyptian"
+    ],
+    "primary_color": "#FFFFFF",
+    "secondary_color": "#C8102E"
   },
   {
     "name": "Urawa Red Diamonds",
@@ -861,7 +1369,12 @@
     "stadium": "Saitama Stadium",
     "location": "Saitama, Japan",
     "website": "https://www.urawa-reds.co.jp",
-    "tags": ["japanese", "asia"]
+    "tags": [
+      "japanese",
+      "asia"
+    ],
+    "primary_color": "#E60012",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "FC Seoul",
@@ -870,7 +1383,12 @@
     "stadium": "Seoul World Cup Stadium",
     "location": "Seoul, South Korea",
     "website": "https://www.fcseoul.com",
-    "tags": ["korean", "asia"]
+    "tags": [
+      "korean",
+      "asia"
+    ],
+    "primary_color": "#C8122E",
+    "secondary_color": "#00448E"
   },
   {
     "name": "Atletico Nacional",
@@ -879,7 +1397,12 @@
     "stadium": "Atanasio Girardot",
     "location": "Medellin, Colombia",
     "website": "https://www.atlnacional.com.co",
-    "tags": ["colombian", "south-america"]
+    "tags": [
+      "colombian",
+      "south-america"
+    ],
+    "primary_color": "#006633",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Colo-Colo",
@@ -888,7 +1411,12 @@
     "stadium": "Estadio Monumental David Arellano",
     "location": "Santiago, Chile",
     "website": "https://www.colocolo.cl",
-    "tags": ["chilean", "south-america"]
+    "tags": [
+      "chilean",
+      "south-america"
+    ],
+    "primary_color": "#000000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Club Atletico Penarol",
@@ -897,6 +1425,11 @@
     "stadium": "Estadio Campeon del Siglo",
     "location": "Montevideo, Uruguay",
     "website": "https://www.peñarol.org",
-    "tags": ["uruguayan", "south-america"]
+    "tags": [
+      "uruguayan",
+      "south-america"
+    ],
+    "primary_color": "#FFFF00",
+    "secondary_color": "#000000"
   }
 ]

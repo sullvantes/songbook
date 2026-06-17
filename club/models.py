@@ -13,6 +13,16 @@ class Club(models.Model):
     location = models.CharField(max_length=255, blank=True)
     crest = models.ImageField(upload_to="clubs/crests/", blank=True, null=True)
     website = models.URLField(blank=True)
+    primary_color = models.CharField(
+        max_length=7,
+        blank=True,
+        help_text="Primary brand color as hex (e.g. #C8102E).",
+    )
+    secondary_color = models.CharField(
+        max_length=7,
+        blank=True,
+        help_text="Secondary brand color as hex (e.g. #FFFFFF).",
+    )
     players = models.ManyToManyField("player.Player", related_name="clubs", blank=True)
 
     tags = TaggableManager(blank=True)

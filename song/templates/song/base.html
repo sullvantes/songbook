@@ -13,7 +13,7 @@
 <body class="bg-light">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+  <nav class="navbar navbar-expand-lg navbar-dark {% block navbar_class %}bg-danger{% endblock %}"{% block navbar_style %}{% endblock %}>
     <div class="container">
       <a class="navbar-brand" href="/">Football Chants</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

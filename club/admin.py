@@ -16,6 +16,9 @@ class ClubAdmin(ModelAdmin):
         (None, {
             "fields": ("name", "nickname", "founded", "stadium", "location")
         }),
+        ("Branding", {
+            "fields": ("crest", "website", "primary_color", "secondary_color")
+        }),
         ("Players", {
             "fields": ("players",)
         }),

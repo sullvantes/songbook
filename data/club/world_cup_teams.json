@@ -10,7 +10,9 @@
       "national-team",
       "world-cup",
       "conmebol"
-    ]
+    ],
+    "primary_color": "#009C3B",
+    "secondary_color": "#FFDF00"
   },
   {
     "name": "Germany",
@@ -23,7 +25,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#000000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Argentina",
@@ -36,7 +40,9 @@
       "national-team",
       "world-cup",
       "conmebol"
-    ]
+    ],
+    "primary_color": "#75AADB",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Italy",
@@ -49,7 +55,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#003399",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Mexico",
@@ -62,7 +70,9 @@
       "national-team",
       "world-cup",
       "concacaf"
-    ]
+    ],
+    "primary_color": "#006847",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Spain",
@@ -75,7 +85,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#AA151B",
+    "secondary_color": "#F1BF00"
   },
   {
     "name": "England",
@@ -88,7 +100,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#FFFFFF",
+    "secondary_color": "#CE1141"
   },
   {
     "name": "France",
@@ -101,7 +115,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#002654",
+    "secondary_color": "#ED2939"
   },
   {
     "name": "Belgium",
@@ -114,7 +130,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#EF3340",
+    "secondary_color": "#FAE042"
   },
   {
     "name": "Uruguay",
@@ -127,7 +145,9 @@
       "national-team",
       "world-cup",
       "conmebol"
-    ]
+    ],
+    "primary_color": "#0038A8",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Switzerland",
@@ -140,7 +160,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#FF0000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Sweden",
@@ -153,7 +175,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#006AA7",
+    "secondary_color": "#FECC00"
   },
   {
     "name": "Serbia",
@@ -166,7 +190,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#C6363C",
+    "secondary_color": "#0C4076"
   },
   {
     "name": "South Korea",
@@ -179,7 +205,9 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#CD2E3A",
+    "secondary_color": "#0047A0"
   },
   {
     "name": "United States",
@@ -192,7 +220,9 @@
       "national-team",
       "world-cup",
       "concacaf"
-    ]
+    ],
+    "primary_color": "#002868",
+    "secondary_color": "#BF0A30"
   },
   {
     "name": "Netherlands",
@@ -205,7 +235,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#F36C21",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Russia",
@@ -218,7 +250,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#D52B1E",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Czech Republic",
@@ -231,7 +265,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#11457E",
+    "secondary_color": "#D7141A"
   },
   {
     "name": "Portugal",
@@ -244,7 +280,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#006600",
+    "secondary_color": "#FF0000"
   },
   {
     "name": "Scotland",
@@ -257,7 +295,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#005EB8",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Paraguay",
@@ -270,7 +310,9 @@
       "national-team",
       "world-cup",
       "conmebol"
-    ]
+    ],
+    "primary_color": "#0038A8",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Hungary",
@@ -283,7 +325,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#CE2939",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Poland",
@@ -296,7 +340,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#DC143C",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Slovakia",
@@ -309,7 +355,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#0B4EA2",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Chile",
@@ -322,7 +370,9 @@
       "national-team",
       "world-cup",
       "conmebol"
-    ]
+    ],
+    "primary_color": "#D52B1E",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Japan",
@@ -335,7 +385,9 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#0A1F44",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Cameroon",
@@ -348,7 +400,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#007A5E",
+    "secondary_color": "#FCD116"
   },
   {
     "name": "Austria",
@@ -361,7 +415,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#ED2939",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Australia",
@@ -374,7 +430,9 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#00843D",
+    "secondary_color": "#FFCD00"
   },
   {
     "name": "Croatia",
@@ -387,7 +445,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#FF0000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Iran",
@@ -400,7 +460,9 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#239F40",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Saudi Arabia",
@@ -413,7 +475,9 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#006C35",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Bulgaria",
@@ -426,7 +490,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#00966E",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Morocco",
@@ -439,7 +505,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#C1272D",
+    "secondary_color": "#006233"
   },
   {
     "name": "Tunisia",
@@ -452,7 +520,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#E70013",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Colombia",
@@ -465,7 +535,9 @@
       "national-team",
       "world-cup",
       "conmebol"
-    ]
+    ],
+    "primary_color": "#FCD116",
+    "secondary_color": "#003893"
   },
   {
     "name": "Romania",
@@ -478,7 +550,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#002B7F",
+    "secondary_color": "#FCD116"
   },
   {
     "name": "Costa Rica",
@@ -491,7 +565,9 @@
       "national-team",
       "world-cup",
       "concacaf"
-    ]
+    ],
+    "primary_color": "#002B7F",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Nigeria",
@@ -504,7 +580,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#008751",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Denmark",
@@ -517,7 +595,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#C8102E",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Ghana",
@@ -530,7 +610,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#006B3F",
+    "secondary_color": "#FCD116"
   },
   {
     "name": "Ecuador",
@@ -543,7 +625,9 @@
       "national-team",
       "world-cup",
       "conmebol"
-    ]
+    ],
+    "primary_color": "#FFDD00",
+    "secondary_color": "#0033A0"
   },
   {
     "name": "Algeria",
@@ -556,7 +640,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#006233",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Peru",
@@ -569,7 +655,9 @@
       "national-team",
       "world-cup",
       "conmebol"
-    ]
+    ],
+    "primary_color": "#D91023",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Senegal",
@@ -582,7 +670,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#00853F",
+    "secondary_color": "#FDEF42"
   },
   {
     "name": "Ivory Coast",
@@ -595,7 +685,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#F77F00",
+    "secondary_color": "#009E60"
   },
   {
     "name": "Norway",
@@ -608,7 +700,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#BA0C2F",
+    "secondary_color": "#00205B"
   },
   {
     "name": "South Africa",
@@ -621,7 +715,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#007A4D",
+    "secondary_color": "#FFB612"
   },
   {
     "name": "Egypt",
@@ -634,7 +730,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#CE1126",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Turkey",
@@ -647,7 +745,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#E30A17",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Canada",
@@ -660,7 +760,9 @@
       "national-team",
       "world-cup",
       "concacaf"
-    ]
+    ],
+    "primary_color": "#FF0000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Northern Ireland",
@@ -673,7 +775,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#009639",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Honduras",
@@ -686,7 +790,9 @@
       "national-team",
       "world-cup",
       "concacaf"
-    ]
+    ],
+    "primary_color": "#0073CF",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Republic of Ireland",
@@ -699,7 +805,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#009A44",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Greece",
@@ -712,7 +820,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#0D5EAF",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "New Zealand",
@@ -725,7 +835,9 @@
       "national-team",
       "world-cup",
       "ofc"
-    ]
+    ],
+    "primary_color": "#000000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Bolivia",
@@ -738,7 +850,9 @@
       "national-team",
       "world-cup",
       "conmebol"
-    ]
+    ],
+    "primary_color": "#007934",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "DR Congo",
@@ -751,7 +865,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#007FFF",
+    "secondary_color": "#F7D117"
   },
   {
     "name": "Qatar",
@@ -764,7 +880,9 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#8A1538",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Haiti",
@@ -777,7 +895,9 @@
       "national-team",
       "world-cup",
       "concacaf"
-    ]
+    ],
+    "primary_color": "#00209F",
+    "secondary_color": "#D21034"
   },
   {
     "name": "Bosnia and Herzegovina",
@@ -790,7 +910,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#002395",
+    "secondary_color": "#FECB00"
   },
   {
     "name": "Panama",
@@ -803,7 +925,9 @@
       "national-team",
       "world-cup",
       "concacaf"
-    ]
+    ],
+    "primary_color": "#DA121A",
+    "secondary_color": "#072357"
   },
   {
     "name": "Iraq",
@@ -816,7 +940,9 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#007A3D",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Wales",
@@ -829,7 +955,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#D30731",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "North Korea",
@@ -842,7 +970,9 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#024FA2",
+    "secondary_color": "#ED1C27"
   },
   {
     "name": "El Salvador",
@@ -855,7 +985,9 @@
       "national-team",
       "world-cup",
       "concacaf"
-    ]
+    ],
+    "primary_color": "#0047AB",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Slovenia",
@@ -868,7 +1000,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#005DA4",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Cuba",
@@ -881,7 +1015,9 @@
       "national-team",
       "world-cup",
       "concacaf"
-    ]
+    ],
+    "primary_color": "#002A8F",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Indonesia",
@@ -894,7 +1030,9 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#FF0000",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Israel",
@@ -907,7 +1045,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#0038B8",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "East Germany",
@@ -920,7 +1060,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#000000",
+    "secondary_color": "#FFD700"
   },
   {
     "name": "Kuwait",
@@ -933,7 +1075,9 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#007A3D",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "United Arab Emirates",
@@ -946,7 +1090,9 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#00732F",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Jamaica",
@@ -959,7 +1105,9 @@
       "national-team",
       "world-cup",
       "concacaf"
-    ]
+    ],
+    "primary_color": "#009B3A",
+    "secondary_color": "#FED100"
   },
   {
     "name": "China",
@@ -972,7 +1120,9 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#DE2910",
+    "secondary_color": "#FFDE00"
   },
   {
     "name": "Angola",
@@ -985,7 +1135,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#CC092F",
+    "secondary_color": "#000000"
   },
   {
     "name": "Togo",
@@ -998,7 +1150,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#006A4E",
+    "secondary_color": "#FFCE00"
   },
   {
     "name": "Trinidad and Tobago",
@@ -1011,7 +1165,9 @@
       "national-team",
       "world-cup",
       "concacaf"
-    ]
+    ],
+    "primary_color": "#CE1126",
+    "secondary_color": "#000000"
   },
   {
     "name": "Ukraine",
@@ -1024,7 +1180,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#005BBB",
+    "secondary_color": "#FFD500"
   },
   {
     "name": "Iceland",
@@ -1037,7 +1195,9 @@
       "national-team",
       "world-cup",
       "uefa"
-    ]
+    ],
+    "primary_color": "#02529C",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Cape Verde",
@@ -1050,7 +1210,9 @@
       "national-team",
       "world-cup",
       "caf"
-    ]
+    ],
+    "primary_color": "#003893",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Curacao",
@@ -1063,7 +1225,9 @@
       "national-team",
       "world-cup",
       "concacaf"
-    ]
+    ],
+    "primary_color": "#002B7F",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Jordan",
@@ -1076,7 +1240,9 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#007A3D",
+    "secondary_color": "#FFFFFF"
   },
   {
     "name": "Uzbekistan",
@@ -1089,6 +1255,8 @@
       "national-team",
       "world-cup",
       "afc"
-    ]
+    ],
+    "primary_color": "#1EB53A",
+    "secondary_color": "#FFFFFF"
   }
 ]
