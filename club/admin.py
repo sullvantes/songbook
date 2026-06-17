@@ -9,10 +9,14 @@ class ClubAdmin(ModelAdmin):
     search_fields = ("name", "nickname", "stadium", "location")
     list_filter = ("founded",)
     ordering = ("name",)
+    filter_horizontal = ("players",)
 
     fieldsets = (
         (None, {
             "fields": ("name", "nickname", "founded", "stadium", "location")
+        }),
+        ("Players", {
+            "fields": ("players",)
         }),
         ("Tags", {
             "fields": ("tags",)

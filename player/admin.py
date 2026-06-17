@@ -13,6 +13,9 @@ class PlayerAdmin(ModelAdmin):
         (None, {
             "fields": ("name", "position", "years_active", "photo")
         }),
+        ("Clubs", {
+            "fields": ("clubs",)
+        }),
         ("Tags", {
             "fields": ("tags",)
         }),
