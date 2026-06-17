@@ -14,6 +14,21 @@ class Song(models.Model):
     created_by = models.ForeignKey(User, on_delete=models.CASCADE)
     updated_at = models.DateTimeField(auto_now=True)
 
+    club = models.ForeignKey(
+        "club.Club",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="songs",
+    )
+    player = models.ForeignKey(
+        "player.Player",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="songs",
+    )
+
     # relationships
     tags = TaggableManager(blank=True)
 
