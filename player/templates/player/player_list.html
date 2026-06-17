@@ -1,0 +1,100 @@
+{% extends "song/base.html" %}
+
+{% block title %}Players{% if active_club %} · {{ active_club.name }}{% endif %}{% endblock %}
+
+{% block content %}
+  <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+    <div>
+      <h1 class="h2 mb-1">Players</h1>
+      <p class="text-muted mb-0">
+        {% if paginator.count %}
+          {{ paginator.count }} player{{ paginator.count|pluralize }} in the archive
+          {% if active_club %}
+            for <strong>{{ active_club.name }}</strong>
+          {% endif %}
+          {% if is_paginated %}
+            · showing {{ page_obj.start_index }}–{{ page_obj.end_index }}
+          {% endif %}
+        {% else %}
+          {% if active_club %}
+            No players linked to <strong>{{ active_club.name }}</strong>
+          {% else %}
+            No players in the archive yet
+          {% endif %}
+        {% endif %}
+      </p>
+    </div>
+    {% if active_club %}
+      <a class="btn btn-outline-secondary btn-sm" href="{% url 'players:list' %}">All players</a>
+    {% endif %}
+  </div>
+
+  {% if player_list %}
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      {% for player in player_list %}
+        <div class="col">
+          <article class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h2 class="card-title h5 mb-1">
+                <a class="text-decoration-none text-dark" href="{% url 'players:detail' player.slug %}">{{ player.name }}</a>
+              </h2>
+
+              {% if player.position or player.years_active %}
+                <dl class="small mb-3">
+                  {% if player.position %}
+                    <dt class="text-muted">Position</dt>
+                    <dd class="mb-2">{{ player.position }}</dd>
+                  {% endif %}
+                  {% if player.years_active %}
+                    <dt class="text-muted">Years active</dt>
+                    <dd class="mb-2">{{ player.years_active }}</dd>
+                  {% endif %}
+                </dl>
+              {% endif %}
+
+              {% if player.club_count %}
+                <div class="small mb-3">
+                  <p class="text-muted mb-1">Clubs</p>
+                  {% for club in player.clubs.all|slice:":6" %}
+                    <a class="badge rounded-pill text-bg-light border text-decoration-none me-1 mb-1" href="{% url 'clubs:songs' club.slug %}">{{ club.name }}</a>
+                  {% endfor %}
+                  {% if player.club_count > 6 %}
+                    <span class="badge rounded-pill text-bg-secondary mb-1">+{{ player.club_count|add:"-6" }} more</span>
+                  {% endif %}
+                </div>
+              {% endif %}
+
+              <div class="mt-auto pt-2 border-top d-flex flex-wrap justify-content-between align-items-center gap-2">
+                <span class="small text-muted">
+                  {% if player.song_count %}
+                    {{ player.song_count }} song{{ player.song_count|pluralize }}
+                  {% else %}
+                    No songs yet
+                  {% endif %}
+                  {% if player.club_count %}
+                    · {{ player.club_count }} club{{ player.club_count|pluralize }}
+                  {% endif %}
+                </span>
+                <a class="btn btn-sm btn-outline-danger" href="{% url 'players:detail' player.slug %}">View profile</a>
+              </div>
+
+              {% if player.tags.all %}
+                <div class="mt-2">
+                  {% for tag in player.tags.all %}
+                    <span class="badge text-bg-light text-dark me-1 mb-1">#{{ tag.name }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+          </article>
+        </div>
+      {% endfor %}
+    </div>
+
+    {% include "song/includes/pagination.html" with aria_label="Player list pagination" pagination_query=pagination_query %}
+  {% else %}
+    <div class="text-center py-5">
+      <p class="lead text-muted mb-0">No players have been added yet.</p>
+    </div>
+  {% endif %}
+{% endblock %}

@@ -39,7 +39,9 @@
 
             {% if song.player %}
               <dt class="text-muted">Player</dt>
-              <dd class="mb-2">{{ song.player.name }}</dd>
+              <dd class="mb-2">
+                <a class="text-decoration-none" href="{% url 'players:detail' song.player.slug %}">{{ song.player.name }}</a>
+              </dd>
             {% endif %}
           </dl>
 

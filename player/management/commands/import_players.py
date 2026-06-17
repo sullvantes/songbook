@@ -137,6 +137,9 @@ class Command(BaseCommand):
                 continue
             value = item[field]
             values[field] = "" if value is None else value
+        if "slug" in item:
+            values["slug"] = item["slug"]
+
         return values
 
     def _resolve_clubs(self, index, player_name, club_names):

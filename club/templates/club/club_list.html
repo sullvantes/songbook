@@ -82,10 +82,10 @@
                 <div class="small mb-3">
                   <p class="text-muted mb-1">Players</p>
                   {% for player in club.players.all|slice:":6" %}
-                    <span class="badge rounded-pill text-bg-light border me-1 mb-1">{{ player.name }}</span>
+                    <a class="badge rounded-pill text-bg-light border text-decoration-none me-1 mb-1" href="{% url 'players:detail' player.slug %}">{{ player.name }}</a>
                   {% endfor %}
                   {% if club.player_count > 6 %}
-                    <span class="badge rounded-pill text-bg-secondary mb-1">+{{ club.player_count|add:"-6" }} more</span>
+                    <a class="badge rounded-pill text-bg-secondary text-decoration-none mb-1" href="{% url 'players:list' %}?club={{ club.slug }}">+{{ club.player_count|add:"-6" }} more</a>
                   {% endif %}
                 </div>
               {% endif %}
@@ -101,7 +101,12 @@
                     · {{ club.player_count }} player{{ club.player_count|pluralize }}
                   {% endif %}
                 </span>
-                <a class="btn btn-sm btn-outline-danger" href="{% url 'clubs:songs' club.slug %}">View songs</a>
+                <div class="d-flex flex-wrap gap-2">
+                  {% if club.player_count %}
+                    <a class="btn btn-sm btn-outline-secondary" href="{% url 'players:list' %}?club={{ club.slug }}">View players</a>
+                  {% endif %}
+                  <a class="btn btn-sm btn-outline-danger" href="{% url 'clubs:songs' club.slug %}">View songs</a>
+                </div>
               </div>
 
               {% if club.tags.all %}

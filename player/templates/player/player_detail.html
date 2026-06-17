@@ -1,0 +1,78 @@
+{% extends "song/base.html" %}
+
+{% block title %}{{ player.name }}{% endblock %}
+
+{% block content %}
+  <nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'players:list' %}">Players</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ player.name }}</li>
+    </ol>
+  </nav>
+
+  <div class="row g-4 mb-4">
+    <div class="col-lg-8">
+      <h1 class="h2 mb-1">{{ player.name }}</h1>
+      {% if player.position %}
+        <p class="text-muted mb-1">{{ player.position }}</p>
+      {% endif %}
+      {% if player.years_active %}
+        <p class="text-muted mb-0">Active: {{ player.years_active }}</p>
+      {% endif %}
+    </div>
+    {% if player.photo %}
+      <div class="col-lg-4 text-lg-end">
+        <img class="img-fluid rounded shadow-sm" src="{{ player.photo.url }}" alt="{{ player.name }}" style="max-height: 200px;">
+      </div>
+    {% endif %}
+  </div>
+
+  {% if player.clubs.all %}
+    <section class="mb-5">
+      <h2 class="h4 mb-3">Clubs</h2>
+      <div class="d-flex flex-wrap gap-2">
+        {% for club in player.clubs.all %}
+          <a class="badge rounded-pill text-bg-light border text-dark text-decoration-none py-2 px-3" href="{% url 'clubs:songs' club.slug %}">{{ club.name }}</a>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if player.tags.all %}
+    <section class="mb-5">
+      <h2 class="h4 mb-3">Tags</h2>
+      <div class="d-flex flex-wrap gap-2">
+        {% for tag in player.tags.all %}
+          <span class="badge text-bg-light text-dark">#{{ tag.name }}</span>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  <section>
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+      <div>
+        <h2 class="h4 mb-1">Songs & Chants</h2>
+        <p class="text-muted mb-0">
+          {% if paginator.count %}
+            {{ paginator.count }} accepted song{{ paginator.count|pluralize }} for {{ player.name }}
+            {% if is_paginated %}
+              · showing {{ page_obj.start_index }}–{{ page_obj.end_index }}
+            {% endif %}
+          {% else %}
+            No songs linked to this player yet
+          {% endif %}
+        </p>
+      </div>
+    </div>
+
+    {% if song_list %}
+      {% include "song/includes/song_cards.html" with show_clubs=True %}
+      {% include "song/includes/pagination.html" with aria_label="Player song list pagination" pagination_query=pagination_query %}
+    {% else %}
+      <div class="text-center py-4">
+        <p class="text-muted mb-0">No songs have been linked to this player yet.</p>
+      </div>
+    {% endif %}
+  </section>
+{% endblock %}
