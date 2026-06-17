@@ -3,27 +3,10 @@
 {% block title %}{{ club.name }} Songs & Chants{% endblock %}
 
 {% block navbar_class %}club-branded-navbar{% if not club.primary_color %} bg-danger{% endif %}{% endblock %}
-{% block navbar_style %} style="{% if club.primary_color %}background-color: {{ club.primary_color }};{% endif %}{% if club.secondary_color %}--club-nav-color: {{ club.secondary_color }};{% endif %}"{% endblock %}
+{% block navbar_style %} style="{% if club.primary_color %}background-color: {{ club.primary_color }};{% endif %}"{% endblock %}
 
 {% block extra_head %}
-  {% if club.secondary_color %}
-    <style>
-      .club-branded-navbar .navbar-brand,
-      .club-branded-navbar .nav-link {
-        color: var(--club-nav-color) !important;
-      }
-
-      .club-branded-navbar .nav-link:hover,
-      .club-branded-navbar .nav-link:focus {
-        color: var(--club-nav-color) !important;
-        opacity: 0.85;
-      }
-
-      .club-branded-navbar .navbar-toggler {
-        border-color: var(--club-nav-color);
-      }
-    </style>
-  {% endif %}
+  {% include "club/includes/club_branding_styles.html" with club=club %}
 {% endblock %}
 
 {% block content %}
@@ -58,7 +41,7 @@
         </p>
       {% endif %}
     </div>
-    <a class="btn btn-danger" href="{% url 'songs:suggest' %}">Suggest a song</a>
+    {% include "club/includes/club_suggest_button.html" with club=club club_slug=club.slug label="Suggest a song" %}
   </div>
 
   {% if song_list %}
@@ -67,7 +50,7 @@
   {% else %}
     <div class="text-center py-5">
       <p class="lead text-muted mb-3">No songs for {{ club.name }} yet.</p>
-      <a class="btn btn-outline-danger" href="{% url 'songs:suggest' %}">Suggest a song for this club</a>
+      {% include "club/includes/club_suggest_button.html" with club=club club_slug=club.slug label="Suggest a song for this club" outline=True %}
     </div>
   {% endif %}
 {% endblock %}

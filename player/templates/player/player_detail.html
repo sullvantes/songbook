@@ -2,6 +2,15 @@
 
 {% block title %}{{ player.name }}{% endblock %}
 
+{% block navbar_class %}club-branded-navbar{% if not branding_club or not branding_club.primary_color %} bg-danger{% endif %}{% endblock %}
+{% block navbar_style %}{% if branding_club %} style="{% if branding_club.primary_color %}background-color: {{ branding_club.primary_color }};{% endif %}"{% endif %}{% endblock %}
+
+{% block extra_head %}
+  {% if branding_club %}
+    {% include "club/includes/club_branding_styles.html" with club=branding_club %}
+  {% endif %}
+{% endblock %}
+
 {% block content %}
   <nav aria-label="breadcrumb" class="mb-3">
     <ol class="breadcrumb">
@@ -64,6 +73,11 @@
           {% endif %}
         </p>
       </div>
+      {% if branding_club %}
+        {% include "club/includes/club_suggest_button.html" with club=branding_club player_slug=player.slug label="Suggest a song" %}
+      {% else %}
+        <a class="btn btn-danger" href="{% url 'songs:suggest' %}?player={{ player.slug }}">Suggest a song</a>
+      {% endif %}
     </div>
 
     {% if song_list %}
@@ -71,7 +85,12 @@
       {% include "song/includes/pagination.html" with aria_label="Player song list pagination" pagination_query=pagination_query %}
     {% else %}
       <div class="text-center py-4">
-        <p class="text-muted mb-0">No songs have been linked to this player yet.</p>
+        <p class="text-muted mb-3">No songs have been linked to this player yet.</p>
+        {% if branding_club %}
+          {% include "club/includes/club_suggest_button.html" with club=branding_club player_slug=player.slug label="Suggest a song for this player" outline=True %}
+        {% else %}
+          <a class="btn btn-outline-danger" href="{% url 'songs:suggest' %}?player={{ player.slug }}">Suggest a song for this player</a>
+        {% endif %}
       </div>
     {% endif %}
   </section>

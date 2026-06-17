@@ -1,0 +1,856 @@
+[
+  {
+    "title": "Verde Listos",
+    "lyrics": "Verde listos! Verde listos!\nAustin FC, we're ready to go!\nVerde listos! Verde listos!\nQ2 Stadium, let the green flag flow!",
+    "description": "Austin FC's official motto chant — 'Green, Ready' — sung by supporters at Q2 Stadium.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "anthem",
+      "motto",
+      "pre-match"
+    ]
+  },
+  {
+    "title": "Verde Till I Die",
+    "lyrics": "Verde till I die, on this I do rely,\nWe will love you Austin FC, till the day we die.",
+    "description": "Terrace pledge of lifelong support for the Verde and Black.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "We Are Austin",
+    "lyrics": "We are Austin, super Austin,\nWe are Austin, from the capital city!",
+    "description": "Call-and-response chant celebrating Austin as Texas's capital.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "city"
+    ]
+  },
+  {
+    "title": "Austin FC Ole Ole Ole",
+    "lyrics": "Ole, ole, ole ole! Ole, ole!\nAustin FC, ole, ole!",
+    "description": "Victory chant adapted from the universal Ole Ole Ole.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "victory"
+    ]
+  },
+  {
+    "title": "Verde Verde Verde",
+    "lyrics": "Verde, verde, verde!\nAustin FC! Austin FC!\nVerde, verde, verde!",
+    "description": "Simple repetitive chant for the club's green identity.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "identity"
+    ]
+  },
+  {
+    "title": "Capital City Boys",
+    "lyrics": "We're the capital city boys, making all the noise,\nAustin FC, Austin FC, we're the capital city boys!",
+    "description": "Chant linking the club to Austin's status as capital of Texas.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "city"
+    ]
+  },
+  {
+    "title": "ATX Till I Die",
+    "lyrics": "ATX till I die, on this I do rely,\nWe will love you Austin FC, till the day we die.",
+    "description": "Variant terrace song using the city's ATX abbreviation.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "Q2 Stadium Belongs to Us",
+    "lyrics": "Q2 Stadium belongs to us,\nQ2 Stadium belongs to us,\nEverywhere we go, the people want to know,\nWho we are, so we tell them.",
+    "description": "Home end chant asserting Q2 Stadium as Austin FC territory.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "stadium"
+    ]
+  },
+  {
+    "title": "Listos Verdes",
+    "lyrics": "Listos verdes, listos verdes,\nAustin FC on the march again!",
+    "description": "Spanish-English hybrid chant using the club's green-ready identity.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "bilingual"
+    ]
+  },
+  {
+    "title": "Keep Austin Verde",
+    "lyrics": "Keep Austin verde, keep Austin verde,\nKeep Austin verde, Austin FC!",
+    "description": "Play on Austin's 'Keep Austin Weird' slogan adapted for the club.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "city"
+    ]
+  },
+  {
+    "title": "Lone Star Greens",
+    "lyrics": "Lone Star greens, Lone Star greens,\nAustin FC, the finest team you've seen!",
+    "description": "Chant referencing Texas as the Lone Star State.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "texas"
+    ]
+  },
+  {
+    "title": "March to Q2",
+    "lyrics": "March to Q2, march to Q2,\nAustin FC, we're marching through!",
+    "description": "Pre-match march chant as supporters head to the stadium.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "pre-match",
+      "stadium"
+    ]
+  },
+  {
+    "title": "Austin FC Anthem",
+    "lyrics": "Austin FC, the capital's team,\nVerde and black is all we need,\nFrom the Hill Country to the coast,\nAustin FC, we love you most!",
+    "description": "Original-style fan anthem for the club.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "anthem",
+      "fan-song"
+    ]
+  },
+  {
+    "title": "La La La Austin FC",
+    "lyrics": "La la la la la, la la la la la,\nLa la la la la la la, Austin FC!",
+    "description": "Simple la-la-la terrace chant used during matches.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "Green and Black Army",
+    "lyrics": "Green and black army, green and black army,\nAustin FC, the green and black army!",
+    "description": "Terrace identity chant for the Verde and Black supporters.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "identity"
+    ]
+  },
+  {
+    "title": "Over Land and Sea and ATX",
+    "lyrics": "We all follow Austin FC, over land and sea and ATX,\nWe all follow Austin FC, on to victory!",
+    "description": "Away-support chant adapted from English terrace traditions.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "away"
+    ]
+  },
+  {
+    "title": "Verde on a Saturday",
+    "lyrics": "Verde on a Saturday, we're going out today,\nFor a game of football with the Austin FC!",
+    "description": "Matchday terrace song for Saturday kickoffs.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-song",
+      "matchday"
+    ]
+  },
+  {
+    "title": "Austin FC We Love You",
+    "lyrics": "Austin FC, we love you, we do,\nAustin FC, we love you, we do,\nAustin FC, we love you, we do,\nAnd Q2 is our home!",
+    "description": "Simple love song for the club and stadium.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "Texas Soccer Town",
+    "lyrics": "Austin, Texas, soccer town,\nVerde and black we're world renowned!",
+    "description": "Chant positioning Austin as a growing American soccer city.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "city",
+      "texas"
+    ]
+  },
+  {
+    "title": "Section Verde",
+    "lyrics": "Section Verde, Section Verde,\nLoudest section in the league!",
+    "description": "Chant for the loudest supporter sections at Q2 Stadium.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "supporters"
+    ]
+  },
+  {
+    "title": "Austin FC Allez Allez",
+    "lyrics": "Allez, allez, allez,\nWe are Austin FC, super Austin FC,\nAllez, allez, allez!",
+    "description": "Adapted allez-allez chant popular across global soccer.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "modern"
+    ]
+  },
+  {
+    "title": "Verde Wave",
+    "lyrics": "Do the verde wave, do the verde wave,\nAustin FC, Austin FC, do the verde wave!",
+    "description": "Stadium participation chant encouraging the wave.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "stadium"
+    ]
+  },
+  {
+    "title": "ATX FC On Tour",
+    "lyrics": "ATX FC on tour, ATX FC on tour,\nEverywhere we go, people want to know,\nWho we are, where we come from.",
+    "description": "Away-day chant for travelling Austin FC supporters.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "away"
+    ]
+  },
+  {
+    "title": "Green Flag High",
+    "lyrics": "Keep the green flag flying high, in the Texas sky,\nAustin FC forever, till the day we die!",
+    "description": "Terrace song about flying the club's green flag.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-song",
+      "identity"
+    ]
+  },
+  {
+    "title": "Sebastian Driussi Song",
+    "lyrics": "Seba, Seba, Seba Driussi,\nAustin FC number ten, he's the best you'll ever see!",
+    "description": "Player chant for Argentine forward Sebastian Driussi.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "player-tribute",
+      "driussi"
+    ]
+  },
+  {
+    "title": "Driussi Is His Name",
+    "lyrics": "His name is Seba Driussi, he plays for Austin FC,\nHis name is Seba Driussi, he's better than Messi!",
+    "description": "Humorous player tribute comparing Driussi to Lionel Messi.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "player-tribute",
+      "driussi"
+    ]
+  },
+  {
+    "title": "Diego Fagundez Song",
+    "lyrics": "Diego, Diego Fagundez, running down the wing,\nDiego, Diego Fagundez, Austin FC king!",
+    "description": "Chant for longtime MLS winger Diego Fagundez.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "player-tribute",
+      "fagundez"
+    ]
+  },
+  {
+    "title": "Alex Ring Song",
+    "lyrics": "Alex Ring, Alex Ring, leading from the back,\nAlex Ring, Alex Ring, captain of the pack!",
+    "description": "Tribute to Danish captain and defender Alex Ring.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "player-tribute",
+      "ring"
+    ]
+  },
+  {
+    "title": "Rodrigo Bentancur Chant",
+    "lyrics": "Bentancur, Bentancur, running through the middle,\nBentancur, Bentancur, Austin FC's riddle!",
+    "description": "Chant for Uruguayan midfielder Rodrigo Bentancur at Austin FC.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "player-tribute"
+    ]
+  },
+  {
+    "title": "Nick Lima Song",
+    "lyrics": "Nick Lima, Nick Lima, overlapping down the right,\nNick Lima, Nick Lima, green and black delight!",
+    "description": "Full-back tribute for Nick Lima.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "player-tribute",
+      "lima"
+    ]
+  },
+  {
+    "title": "Cascante in the Middle",
+    "lyrics": "Cascante in the middle, Cascante in the middle,\nRunning the show, running the show!",
+    "description": "Chant for Costa Rican midfielder Diego Cascante.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "player-tribute",
+      "cascante"
+    ]
+  },
+  {
+    "title": "Brad Stuver Song",
+    "lyrics": "Brad Stuver, Brad Stuver, standing tall in goal,\nBrad Stuver, Brad Stuver, keeping a clean sheet whole!",
+    "description": "Goalkeeper tribute for Brad Stuver.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "player-tribute",
+      "goalkeeper"
+    ]
+  },
+  {
+    "title": "Pochettino Chant",
+    "lyrics": "Pochettino, Pochettino, scoring for the green,\nPochettino, Pochettino, best we've ever seen!",
+    "description": "Chant for Austin FC forward Brandon Pochettino.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "player-tribute"
+    ]
+  },
+  {
+    "title": "Emiliano Rigoni Song",
+    "lyrics": "Rigoni, Rigoni, magic on the ball,\nRigoni, Rigoni, best of them all!",
+    "description": "Player tribute for Argentine winger Emiliano Rigoni.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "player-tribute",
+      "rigoni"
+    ]
+  },
+  {
+    "title": "Verde Goal Celebration",
+    "lyrics": "Score a goal, verde celebration,\nAustin FC all across the nation!",
+    "description": "Post-goal terrace chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "goal"
+    ]
+  },
+  {
+    "title": "MLS Expansion Pride",
+    "lyrics": "Twenty twenty-one we arrived, Austin FC came alive,\nMLS expansion, verde and black, we thrive!",
+    "description": "Chant referencing Austin FC's 2021 MLS expansion debut.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "history",
+      "expansion"
+    ]
+  },
+  {
+    "title": "First Match at Q2",
+    "lyrics": "First match at Q2, history was made,\nVerde and black, a new parade!",
+    "description": "Chant commemorating the inaugural match at Q2 Stadium.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "history",
+      "stadium"
+    ]
+  },
+  {
+    "title": "Playoffs Verde",
+    "lyrics": "Playoffs verde, playoffs verde,\nAustin FC marching on!",
+    "description": "Playoff push chant for late-season matches.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "playoffs"
+    ]
+  },
+  {
+    "title": "Beat Houston",
+    "lyrics": "Beat Houston, beat Houston, beat Houston today,\nTexas derby, verde all the way!",
+    "description": "Texas derby chant against Houston Dynamo FC.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "derby",
+      "houston"
+    ]
+  },
+  {
+    "title": "Beat FC Dallas",
+    "lyrics": "Beat Dallas, beat Dallas, beat Dallas today,\nCopa Tejas on the line, verde all the way!",
+    "description": "Copa Tejas rivalry chant against FC Dallas.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "derby",
+      "dallas"
+    ]
+  },
+  {
+    "title": "Copa Tejas Champions",
+    "lyrics": "Copa Tejas champions, Copa Tejas champions,\nAustin FC, the best in Texas!",
+    "description": "Chant celebrating the Copa Tejas in-state trophy.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "derby",
+      "trophy"
+    ]
+  },
+  {
+    "title": "Verde Night",
+    "lyrics": "Verde night, verde night, everything's alright,\nAustin FC under the Q2 lights!",
+    "description": "Evening kickoff atmosphere chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "night-match"
+    ]
+  },
+  {
+    "title": "Jump Around Q2",
+    "lyrics": "Jump around! Jump around! Jump around!\nAustin FC, Q2 Stadium, jump around!",
+    "description": "Stadium hype chant inspired by jump-around traditions.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "stadium"
+    ]
+  },
+  {
+    "title": "Verde Drums",
+    "lyrics": "Beat the drums, beat the drums, verde drums are here,\nAustin FC supporters, loudest in the atmosphere!",
+    "description": "Chant for the supporter drumming sections.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "supporters"
+    ]
+  },
+  {
+    "title": "Austin FC Forever",
+    "lyrics": "Austin FC forever, whatever the weather,\nVerde and black together, now and forever!",
+    "description": "Closing terrace song affirming long-term loyalty.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-song",
+      "classic"
+    ]
+  },
+  {
+    "title": "Green Smoke Rise",
+    "lyrics": "Green smoke rise, green smoke rise,\nAustin FC, open your eyes!",
+    "description": "Tifo and smoke celebration chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "tifo"
+    ]
+  },
+  {
+    "title": "Verde Away Days",
+    "lyrics": "Verde away days, verde away days,\nFollowing Austin every mile!",
+    "description": "Dedicated travelling supporters chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "away"
+    ]
+  },
+  {
+    "title": "Listos for Glory",
+    "lyrics": "Listos for glory, listos for glory,\nAustin FC writing history!",
+    "description": "Ambitious terrace chant for silverware.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "ambition"
+    ]
+  },
+  {
+    "title": "Hill Country to Q2",
+    "lyrics": "From the Hill Country to Q2,\nAustin FC, we follow you!",
+    "description": "Geographic chant referencing the Texas Hill Country around Austin.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "city",
+      "texas"
+    ]
+  },
+  {
+    "title": "Verde Heartbeat",
+    "lyrics": "Feel the verde heartbeat, feel the verde heartbeat,\nAustin FC, can't be beat!",
+    "description": "Rhythmic clapping chant in the stands.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Austin FC"
+    ],
+    "tags": [
+      "chant",
+      "austin-fc",
+      "mls",
+      "fan-chant",
+      "rhythm"
+    ]
+  }
+]

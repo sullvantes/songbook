@@ -1,0 +1,1 @@
+<a class="btn {% if club.primary_color %}club-branded-btn{% if outline %} club-branded-btn-outline{% endif %}{% else %}btn-{% if outline %}outline-{% endif %}danger{% endif %}" href="{% url 'songs:suggest' %}{% if club_slug %}?club={{ club_slug }}{% elif player_slug %}?player={{ player_slug }}{% endif %}">{{ label }}</a>

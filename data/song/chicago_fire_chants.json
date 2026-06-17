@@ -1,0 +1,862 @@
+[
+  {
+    "title": "For Chicago For Chicago Fire",
+    "lyrics": "For Chicago, for Chicago Fire,\nFor Chicago, for Chicago Fire,\nWe will follow you wherever you go!",
+    "description": "Classic Chicago Fire supporter chant — one of the club's most recognizable terrace songs.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "anthem",
+      "classic",
+      "supporters"
+    ]
+  },
+  {
+    "title": "Chicago Fire Till I Die",
+    "lyrics": "Chicago Fire till I die, on this I do rely,\nWe will love you Chicago Fire, till the day we die.",
+    "description": "Terrace pledge of lifelong support for the Fire.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "We Are the Fire",
+    "lyrics": "We are the Fire, the mighty Fire,\nWe are the Fire, from Chicago!",
+    "description": "Identity chant for the club's Fire nickname.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "identity"
+    ]
+  },
+  {
+    "title": "Burn Burn Burn",
+    "lyrics": "Burn, burn, burn, Chicago Fire burn,\nBurn, burn, burn, till the league is overturned!",
+    "description": "High-energy chant built around the Fire name.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "identity"
+    ]
+  },
+  {
+    "title": "Section 8 Is Here",
+    "lyrics": "Section 8 is here, Section 8 is here,\nLoudest section in MLS, Section 8 is here!",
+    "description": "Chant for Section 8, the independent Chicago Fire supporters group.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "supporters",
+      "section-8"
+    ]
+  },
+  {
+    "title": "Let Your Light Shine",
+    "lyrics": "Let your light shine, let your light shine,\nChicago Fire, let your light shine!",
+    "description": "Chant inspired by the club's 'Let Your Light Shine' motto.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "motto"
+    ]
+  },
+  {
+    "title": "Chicago Fire Ole Ole Ole",
+    "lyrics": "Ole, ole, ole ole! Ole, ole!\nChicago Fire, ole, ole!",
+    "description": "Victory chant adapted from the universal Ole Ole Ole.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "victory"
+    ]
+  },
+  {
+    "title": "Fire Away",
+    "lyrics": "Fire away, fire away, Chicago Fire away,\nFire away, fire away, every single day!",
+    "description": "Simple repetitive terrace chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "Chicago Fire Allez Allez",
+    "lyrics": "Allez, allez, allez,\nWe are Chicago Fire, super Chicago Fire,\nAllez, allez, allez!",
+    "description": "Adapted allez-allez chant popular across global soccer.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "modern"
+    ]
+  },
+  {
+    "title": "MLS Original",
+    "lyrics": "Ninety-eight we won it all, Chicago Fire standing tall,\nMLS original, the first of them all!",
+    "description": "Chant celebrating the Fire's 1998 MLS Cup as an original MLS club.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "history",
+      "mls-cup"
+    ]
+  },
+  {
+    "title": "1998 MLS Cup Champions",
+    "lyrics": "Nineteen ninety-eight, we were great,\nChicago Fire, MLS Cup champions of the league!",
+    "description": "Historical chant for the club's inaugural MLS Cup triumph.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "history",
+      "mls-cup"
+    ]
+  },
+  {
+    "title": "Double in 98",
+    "lyrics": "Double in ninety-eight, double in ninety-eight,\nOpen Cup and MLS Cup, Chicago Fire was great!",
+    "description": "Chant referencing the 1998 domestic double (MLS Cup and US Open Cup).",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "history",
+      "trophy"
+    ]
+  },
+  {
+    "title": "Soldier Field Belongs to Us",
+    "lyrics": "Soldier Field belongs to us,\nSoldier Field belongs to us,\nEverywhere we go, the people want to know,\nWho we are, so we tell them.",
+    "description": "Home end chant at Soldier Field.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "stadium"
+    ]
+  },
+  {
+    "title": "Bridgeview Days",
+    "lyrics": "Bridgeview days, Bridgeview days,\nToyota Park memories never fade away!",
+    "description": "Nostalgic chant referencing the club's former stadium in Bridgeview.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "history",
+      "stadium"
+    ]
+  },
+  {
+    "title": "Chicago Fire Anthem",
+    "lyrics": "Chicago Fire, burning bright,\nRed and white through day and night,\nFrom the lakefront to the west,\nChicago Fire, you're the best!",
+    "description": "Original-style fan anthem for the club.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "anthem",
+      "fan-song"
+    ]
+  },
+  {
+    "title": "Windy City Fire",
+    "lyrics": "Windy City Fire, Windy City Fire,\nChicago Fire, taking us higher!",
+    "description": "Chant linking the club to Chicago's Windy City nickname.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "city"
+    ]
+  },
+  {
+    "title": "Midwest Soccer Pride",
+    "lyrics": "Midwest soccer pride, Midwest soccer pride,\nChicago Fire, side by side!",
+    "description": "Regional identity chant for Midwest soccer culture.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "midwest"
+    ]
+  },
+  {
+    "title": "Polish Triangle Fire",
+    "lyrics": "Polish Triangle, Polish Triangle,\nChicago Fire, we all mingle!",
+    "description": "Chant referencing Chicago's historic Polish Triangle neighborhood and fan culture.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "city",
+      "culture"
+    ]
+  },
+  {
+    "title": "Over Land and Sea and Chicago",
+    "lyrics": "We all follow Chicago Fire, over land and sea and Chicago,\nWe all follow Chicago Fire, on to victory!",
+    "description": "Away-support chant adapted from English terrace traditions.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "away"
+    ]
+  },
+  {
+    "title": "Chicago Fire We Love You",
+    "lyrics": "Chicago Fire, we love you, we do,\nChicago Fire, we love you, we do,\nChicago Fire, we love you, we do,\nAnd Soldier Field is our home!",
+    "description": "Simple love song for the club and stadium.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "Red and White Army",
+    "lyrics": "Red and white army, red and white army,\nChicago Fire, the red and white army!",
+    "description": "Terrace identity chant for the club's colors.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "identity"
+    ]
+  },
+  {
+    "title": "Fire on a Saturday",
+    "lyrics": "Fire on a Saturday, we're going out today,\nFor a game of football with the Chicago Fire!",
+    "description": "Matchday terrace song for Saturday kickoffs.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-song",
+      "matchday"
+    ]
+  },
+  {
+    "title": "La La La Chicago Fire",
+    "lyrics": "La la la la la, la la la la la,\nLa la la la la la la, Chicago Fire!",
+    "description": "Simple la-la-la terrace chant used during matches.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "Cuauhtémoc Blanco Song",
+    "lyrics": "Cuauhtémoc Blanco, magic on the pitch,\nCuauhtémoc Blanco, Chicago Fire's witch!",
+    "description": "Player tribute for Mexican legend Cuauhtémoc Blanco.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "player-tribute",
+      "blanco",
+      "legend"
+    ]
+  },
+  {
+    "title": "Blanco La Ola",
+    "lyrics": "Blanco, Blanco, running with the ball,\nBlanco, Blanco, best of them all!",
+    "description": "Chant celebrating Cuauhtémoc Blanco's flair at Chicago Fire.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "player-tribute",
+      "blanco"
+    ]
+  },
+  {
+    "title": "Hristo Stoichkov Song",
+    "lyrics": "Hristo, Hristo Stoichkov, Bulgarian king,\nHristo, Hristo Stoichkov, hear the Fire sing!",
+    "description": "Tribute to Bulgarian legend Hristo Stoichkov.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "player-tribute",
+      "stoichkov",
+      "legend"
+    ]
+  },
+  {
+    "title": "Bastian Schweinsteiger Chant",
+    "lyrics": "Schweinsteiger, Schweinsteiger, World Cup winner here,\nSchweinsteiger, Schweinsteiger, Fire legend we revere!",
+    "description": "Chant for German World Cup winner Bastian Schweinsteiger.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "player-tribute",
+      "schweinsteiger",
+      "legend"
+    ]
+  },
+  {
+    "title": "Brian McBride Song",
+    "lyrics": "McBride, McBride, heading in the goal,\nMcBride, McBride, Fire in his soul!",
+    "description": "Tribute to American legend and former captain Brian McBride.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "player-tribute",
+      "mcbride",
+      "legend"
+    ]
+  },
+  {
+    "title": "Chris Armas Chant",
+    "lyrics": "Chris Armas, Chris Armas, engine of the team,\nChris Armas, Chris Armas, Fire's midfield dream!",
+    "description": "Player tribute for former midfielder Chris Armas.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "player-tribute",
+      "armas"
+    ]
+  },
+  {
+    "title": "CJ Sapong Song",
+    "lyrics": "Sapong, Sapong, scoring for the Fire,\nSapong, Sapong, taking us higher!",
+    "description": "Chant for forward CJ Sapong.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "player-tribute"
+    ]
+  },
+  {
+    "title": "Xherdan Shaqiri Chant",
+    "lyrics": "Shaqiri, Shaqiri, left foot like a whip,\nShaqiri, Shaqiri, Chicago Fire's chip!",
+    "description": "Player tribute for Swiss star Xherdan Shaqiri.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "player-tribute",
+      "shaqiri"
+    ]
+  },
+  {
+    "title": "Chris Mueller Song",
+    "lyrics": "Mueller, Mueller, running down the wing,\nMueller, Mueller, hear the Fire sing!",
+    "description": "Chant for winger Chris Mueller.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "player-tribute"
+    ]
+  },
+  {
+    "title": "Gabriel Slonina Chant",
+    "lyrics": "Slonina, Slonina, standing in the goal,\nSlonina, Slonina, Chicago Fire's soul!",
+    "description": "Goalkeeper tribute for Gabriel Slonina.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "player-tribute",
+      "goalkeeper"
+    ]
+  },
+  {
+    "title": "Fire Goal Celebration",
+    "lyrics": "Score a goal, fire celebration,\nChicago Fire all across the nation!",
+    "description": "Post-goal terrace chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "goal"
+    ]
+  },
+  {
+    "title": "Beat the Crew",
+    "lyrics": "Beat the Crew, beat the Crew, beat the Crew today,\nHell is real, but the Fire's here to stay!",
+    "description": "Rivalry chant against Columbus Crew.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "derby",
+      "columbus"
+    ]
+  },
+  {
+    "title": "Beat Sporting KC",
+    "lyrics": "Beat Sporting, beat Sporting, beat Sporting today,\nHeartland rivalry, Fire all the way!",
+    "description": "Rivalry chant against Sporting Kansas City.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "derby",
+      "sporting-kc"
+    ]
+  },
+  {
+    "title": "Beat St Louis City",
+    "lyrics": "Beat St Louis, beat St Louis, beat St Louis today,\nMidwest derby, Fire all the way!",
+    "description": "Regional rivalry chant against St. Louis CITY SC.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "derby",
+      "st-louis"
+    ]
+  },
+  {
+    "title": "Playoffs Fire",
+    "lyrics": "Playoffs fire, playoffs fire,\nChicago Fire marching on!",
+    "description": "Playoff push chant for late-season matches.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "playoffs"
+    ]
+  },
+  {
+    "title": "Fire Drums",
+    "lyrics": "Beat the drums, beat the drums, Fire drums are here,\nChicago Fire supporters, loudest in the atmosphere!",
+    "description": "Chant for the supporter drumming sections.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "supporters"
+    ]
+  },
+  {
+    "title": "Smoke and Flares",
+    "lyrics": "Smoke and flares, smoke and flares,\nChicago Fire filling the air!",
+    "description": "Tifo and smoke celebration chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "tifo"
+    ]
+  },
+  {
+    "title": "Fire Away Days",
+    "lyrics": "Fire away days, Fire away days,\nFollowing Chicago every mile!",
+    "description": "Dedicated travelling supporters chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "away"
+    ]
+  },
+  {
+    "title": "I Will Follow You Into the Fire",
+    "lyrics": "I will follow you into the Fire,\nI will follow you into the Fire,\nChicago Fire, wherever you go!",
+    "description": "Terrace song play on the club name inspired by supporter culture.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-song",
+      "classic"
+    ]
+  },
+  {
+    "title": "Chicago Till I Die",
+    "lyrics": "Chicago till I die, on this I do rely,\nWe will love you Chicago Fire, till the day we die.",
+    "description": "City-focused variant of the till-I-die pledge.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "Original 10 Pride",
+    "lyrics": "Original ten pride, original ten pride,\nChicago Fire, MLS since ninety-five!",
+    "description": "Chant celebrating the Fire as one of MLS's original ten clubs.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "history",
+      "mls-original"
+    ]
+  },
+  {
+    "title": "Lamar Hunt Open Cup",
+    "lyrics": "Open Cup champions, Open Cup champions,\nChicago Fire, trophy hunters!",
+    "description": "Chant celebrating multiple US Open Cup wins.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "history",
+      "open-cup"
+    ]
+  },
+  {
+    "title": "Fire Night",
+    "lyrics": "Fire night, fire night, everything's alright,\nChicago Fire under the Soldier Field lights!",
+    "description": "Evening kickoff atmosphere chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "night-match"
+    ]
+  },
+  {
+    "title": "Jump Around Soldier Field",
+    "lyrics": "Jump around! Jump around! Jump around!\nChicago Fire, Soldier Field, jump around!",
+    "description": "Stadium hype chant inspired by jump-around traditions.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "stadium"
+    ]
+  },
+  {
+    "title": "Chicago Fire Forever",
+    "lyrics": "Chicago Fire forever, whatever the weather,\nRed and white together, now and forever!",
+    "description": "Closing terrace song affirming long-term loyalty.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-song",
+      "classic"
+    ]
+  },
+  {
+    "title": "Fuego Fuego",
+    "lyrics": "Fuego, fuego, Chicago Fire fuego,\nFuego, fuego, burning through the league-o!",
+    "description": "Bilingual fire-themed terrace chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "bilingual"
+    ]
+  },
+  {
+    "title": "Lakefront to the Loop",
+    "lyrics": "From the lakefront to the Loop,\nChicago Fire, we follow you!",
+    "description": "Geographic chant referencing Chicago neighborhoods.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chicago Fire FC"
+    ],
+    "tags": [
+      "chant",
+      "chicago-fire",
+      "mls",
+      "fan-chant",
+      "city"
+    ]
+  }
+]

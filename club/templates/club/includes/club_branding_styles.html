@@ -1,0 +1,56 @@
+{% if club.primary_color or club.secondary_color %}
+  <style>
+    {% if club.primary_color or club.secondary_color %}
+      :root {
+        {% if club.primary_color %}--club-primary-color: {{ club.primary_color }};{% endif %}
+        {% if club.secondary_color %}--club-secondary-color: {{ club.secondary_color }};{% endif %}
+      }
+    {% endif %}
+
+    {% if club.secondary_color %}
+      .club-branded-navbar .navbar-brand,
+      .club-branded-navbar .nav-link {
+        color: var(--club-secondary-color) !important;
+      }
+
+      .club-branded-navbar .nav-link:hover,
+      .club-branded-navbar .nav-link:focus {
+        color: var(--club-secondary-color) !important;
+        opacity: 0.85;
+      }
+
+      .club-branded-navbar .navbar-toggler {
+        border-color: var(--club-secondary-color);
+      }
+    {% endif %}
+
+    {% if club.primary_color %}
+      .club-branded-btn {
+        background-color: var(--club-primary-color);
+        border-color: var(--club-primary-color);
+        color: var(--club-secondary-color, #fff);
+      }
+
+      .club-branded-btn:hover,
+      .club-branded-btn:focus {
+        background-color: var(--club-primary-color);
+        border-color: var(--club-primary-color);
+        color: var(--club-secondary-color, #fff);
+        opacity: 0.9;
+      }
+
+      .club-branded-btn-outline {
+        background-color: transparent;
+        color: var(--club-primary-color);
+        border-color: var(--club-primary-color);
+      }
+
+      .club-branded-btn-outline:hover,
+      .club-branded-btn-outline:focus {
+        background-color: var(--club-primary-color);
+        color: var(--club-secondary-color, #fff);
+        border-color: var(--club-primary-color);
+      }
+    {% endif %}
+  </style>
+{% endif %}

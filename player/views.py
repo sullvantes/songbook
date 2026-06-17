@@ -75,6 +75,10 @@ class PlayerDetailView(DetailView):
         paginator = Paginator(songs, self.paginate_by)
         page_number = self.request.GET.get("page")
         page_obj = paginator.get_page(page_number)
+        clubs = list(self.object.clubs.all())
+        branding_club = next((club for club in clubs if club.primary_color), None)
+        if branding_club is None and clubs:
+            branding_club = clubs[0]
         context.update(
             {
                 "song_list": page_obj.object_list,
@@ -82,6 +86,7 @@ class PlayerDetailView(DetailView):
                 "paginator": paginator,
                 "is_paginated": page_obj.has_other_pages(),
                 "pagination_query": "",
+                "branding_club": branding_club,
             }
         )
         return context
