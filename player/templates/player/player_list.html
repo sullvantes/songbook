@@ -30,65 +30,50 @@
   </div>
 
   {% if player_list %}
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-      {% for player in player_list %}
-        <div class="col">
-          <article class="card h-100 shadow-sm">
-            <div class="card-body d-flex flex-column">
-              <h2 class="card-title h5 mb-1">
-                <a class="text-decoration-none text-dark" href="{% url 'players:detail' player.slug %}">{{ player.name }}</a>
-              </h2>
+    <div class="card shadow-sm">
+      <ul class="list-group list-group-flush">
+        {% for player in player_list %}
+          <li class="list-group-item">
+            <div class="d-flex flex-wrap justify-content-between align-items-start gap-3">
+              <div class="flex-grow-1">
+                <a class="h6 mb-1 text-decoration-none" href="{% url 'players:detail' player.slug %}">{{ player.name }}</a>
+                <p class="small text-muted mb-2">
+                  {% if player.position %}{{ player.position }}{% endif %}
+                  {% if player.position and player.years_active %} · {% endif %}
+                  {% if player.years_active %}{{ player.years_active }}{% endif %}
+                </p>
 
-              {% if player.position or player.years_active %}
-                <dl class="small mb-3">
-                  {% if player.position %}
-                    <dt class="text-muted">Position</dt>
-                    <dd class="mb-2">{{ player.position }}</dd>
-                  {% endif %}
-                  {% if player.years_active %}
-                    <dt class="text-muted">Years active</dt>
-                    <dd class="mb-2">{{ player.years_active }}</dd>
-                  {% endif %}
-                </dl>
-              {% endif %}
+                {% if player.clubs.all %}
+                  <div class="small">
+                    {% for club in player.clubs.all|slice:":8" %}
+                      <a class="badge rounded-pill text-bg-light border text-decoration-none me-1 mb-1" href="{% url 'clubs:songs' club.slug %}">{{ club.name }}</a>
+                    {% endfor %}
+                    {% if player.club_count > 8 %}
+                      <span class="badge rounded-pill text-bg-secondary mb-1">+{{ player.club_count|add:"-8" }} more</span>
+                    {% endif %}
+                  </div>
+                {% endif %}
 
-              {% if player.club_count %}
-                <div class="small mb-3">
-                  <p class="text-muted mb-1">Clubs</p>
-                  {% for club in player.clubs.all|slice:":6" %}
-                    <a class="badge rounded-pill text-bg-light border text-decoration-none me-1 mb-1" href="{% url 'clubs:songs' club.slug %}">{{ club.name }}</a>
-                  {% endfor %}
-                  {% if player.club_count > 6 %}
-                    <span class="badge rounded-pill text-bg-secondary mb-1">+{{ player.club_count|add:"-6" }} more</span>
-                  {% endif %}
-                </div>
-              {% endif %}
-
-              <div class="mt-auto pt-2 border-top d-flex flex-wrap justify-content-between align-items-center gap-2">
-                <span class="small text-muted">
-                  {% if player.song_count %}
-                    {{ player.song_count }} song{{ player.song_count|pluralize }}
-                  {% else %}
-                    No songs yet
-                  {% endif %}
-                  {% if player.club_count %}
-                    · {{ player.club_count }} club{{ player.club_count|pluralize }}
-                  {% endif %}
-                </span>
-                <a class="btn btn-sm btn-outline-danger" href="{% url 'players:detail' player.slug %}">View profile</a>
+                {% if player.tags.all %}
+                  <div class="mt-2">
+                    {% for tag in player.tags.all %}
+                      <span class="badge text-bg-light text-dark me-1 mb-1">#{{ tag.name }}</span>
+                    {% endfor %}
+                  </div>
+                {% endif %}
               </div>
 
-              {% if player.tags.all %}
-                <div class="mt-2">
-                  {% for tag in player.tags.all %}
-                    <span class="badge text-bg-light text-dark me-1 mb-1">#{{ tag.name }}</span>
-                  {% endfor %}
-                </div>
-              {% endif %}
+              <div class="text-end small text-muted text-nowrap">
+                {% if player.song_count %}
+                  {{ player.song_count }} song{{ player.song_count|pluralize }}
+                {% else %}
+                  No songs
+                {% endif %}
+              </div>
             </div>
-          </article>
-        </div>
-      {% endfor %}
+          </li>
+        {% endfor %}
+      </ul>
     </div>
 
     {% include "song/includes/pagination.html" with aria_label="Player list pagination" pagination_query=pagination_query %}

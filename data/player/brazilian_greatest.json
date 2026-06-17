@@ -1,0 +1,1489 @@
+[
+  {
+    "name": "Pele",
+    "position": "Forward",
+    "years_active": "1956–1977",
+    "clubs": [
+      "Santos FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "goat",
+      "1950s",
+      "1960s",
+      "1970s"
+    ]
+  },
+  {
+    "name": "Garrincha",
+    "position": "Forward",
+    "years_active": "1953–1972",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "goat",
+      "1960s"
+    ]
+  },
+  {
+    "name": "Zico",
+    "position": "Midfielder",
+    "years_active": "1971–1989",
+    "clubs": [
+      "Flamengo",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1980s"
+    ]
+  },
+  {
+    "name": "Socrates",
+    "position": "Midfielder",
+    "years_active": "1974–1989",
+    "clubs": [
+      "Corinthians",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1980s"
+    ]
+  },
+  {
+    "name": "Rivaldo",
+    "position": "Forward",
+    "years_active": "1991–2015",
+    "clubs": [
+      "FC Barcelona",
+      "AC Milan",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Ronaldo",
+    "position": "Forward",
+    "years_active": "1993–2011",
+    "clubs": [
+      "FC Barcelona",
+      "Inter Milan",
+      "Real Madrid",
+      "Corinthians",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "goat",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Ronaldinho",
+    "position": "Forward",
+    "years_active": "1998–2015",
+    "clubs": [
+      "Paris Saint-Germain",
+      "FC Barcelona",
+      "AC Milan",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Kaka",
+    "position": "Midfielder",
+    "years_active": "2001–2017",
+    "clubs": [
+      "AC Milan",
+      "Real Madrid",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Neymar",
+    "position": "Forward",
+    "years_active": "2009–present",
+    "clubs": [
+      "Santos FC",
+      "FC Barcelona",
+      "Paris Saint-Germain",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Romario",
+    "position": "Forward",
+    "years_active": "1985–2009",
+    "clubs": [
+      "PSV Eindhoven",
+      "FC Barcelona",
+      "Flamengo",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Bebeto",
+    "position": "Forward",
+    "years_active": "1983–1999",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Adriano",
+    "position": "Forward",
+    "years_active": "2000–2016",
+    "clubs": [
+      "Inter Milan",
+      "Sao Paulo FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Gabriel Jesus",
+    "position": "Forward",
+    "years_active": "2015–present",
+    "clubs": [
+      "Manchester City",
+      "Arsenal FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Roberto Firmino",
+    "position": "Forward",
+    "years_active": "2011–2023",
+    "clubs": [
+      "Liverpool FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Vinicius Junior",
+    "position": "Forward",
+    "years_active": "2017–present",
+    "clubs": [
+      "Real Madrid",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Rodrygo",
+    "position": "Forward",
+    "years_active": "2018–present",
+    "clubs": [
+      "Real Madrid",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Richarlison",
+    "position": "Forward",
+    "years_active": "2015–present",
+    "clubs": [
+      "Everton FC",
+      "Tottenham Hotspur",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Hulk",
+    "position": "Forward",
+    "years_active": "2006–present",
+    "clubs": [
+      "Zenit Saint Petersburg",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Fred",
+    "position": "Forward",
+    "years_active": "2009–present",
+    "clubs": [
+      "Manchester United",
+      "FC Shakhtar Donetsk",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Tostao",
+    "position": "Forward",
+    "years_active": "1963–1972",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1960s",
+      "1970s"
+    ]
+  },
+  {
+    "name": "Jairzinho",
+    "position": "Forward",
+    "years_active": "1965–1982",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1960s",
+      "1970s"
+    ]
+  },
+  {
+    "name": "Careca",
+    "position": "Forward",
+    "years_active": "1978–1997",
+    "clubs": [
+      "SSC Napoli",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1980s",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Muller",
+    "position": "Forward",
+    "years_active": "1974–1992",
+    "clubs": [
+      "Sao Paulo FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1980s",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Evaristo",
+    "position": "Forward",
+    "years_active": "1957–1968",
+    "clubs": [
+      "FC Barcelona",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1950s",
+      "1960s"
+    ]
+  },
+  {
+    "name": "Rivelino",
+    "position": "Midfielder",
+    "years_active": "1965–1981",
+    "clubs": [
+      "Corinthians",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1970s"
+    ]
+  },
+  {
+    "name": "Gerson",
+    "position": "Midfielder",
+    "years_active": "1961–1974",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1960s",
+      "1970s"
+    ]
+  },
+  {
+    "name": "Didi",
+    "position": "Midfielder",
+    "years_active": "1945–1966",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1950s",
+      "1960s"
+    ]
+  },
+  {
+    "name": "Zizinho",
+    "position": "Midfielder",
+    "years_active": "1941–1967",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1950s"
+    ]
+  },
+  {
+    "name": "Falcao",
+    "position": "Midfielder",
+    "years_active": "1972–1989",
+    "clubs": [
+      "AS Roma",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1980s"
+    ]
+  },
+  {
+    "name": "Rai",
+    "position": "Midfielder",
+    "years_active": "1987–2000",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Sao Paulo FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Leonardo",
+    "position": "Midfielder",
+    "years_active": "1987–2005",
+    "clubs": [
+      "AC Milan",
+      "Paris Saint-Germain",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Juninho Pernambucano",
+    "position": "Midfielder",
+    "years_active": "1993–2013",
+    "clubs": [
+      "Olympique Lyon",
+      "Al Nassr",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Alex",
+    "position": "Midfielder",
+    "years_active": "1999–2014",
+    "clubs": [
+      "Chelsea FC",
+      "Fenerbahce",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Paulinho",
+    "position": "Midfielder",
+    "years_active": "2008–2021",
+    "clubs": [
+      "Tottenham Hotspur",
+      "FC Barcelona",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Casemiro",
+    "position": "Midfielder",
+    "years_active": "2011–present",
+    "clubs": [
+      "Real Madrid",
+      "Manchester United",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Fernandinho",
+    "position": "Midfielder",
+    "years_active": "2005–2022",
+    "clubs": [
+      "Manchester City",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Fabinho",
+    "position": "Midfielder",
+    "years_active": "2013–2023",
+    "clubs": [
+      "Liverpool FC",
+      "AS Monaco",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Philippe Coutinho",
+    "position": "Midfielder",
+    "years_active": "2010–2022",
+    "clubs": [
+      "Liverpool FC",
+      "FC Barcelona",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Lucas Moura",
+    "position": "Midfielder",
+    "years_active": "2010–present",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Tottenham Hotspur",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Willian",
+    "position": "Forward",
+    "years_active": "2007–2021",
+    "clubs": [
+      "Chelsea FC",
+      "Arsenal FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Oscar",
+    "position": "Midfielder",
+    "years_active": "2008–2017",
+    "clubs": [
+      "Chelsea FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Ramires",
+    "position": "Midfielder",
+    "years_active": "2009–2016",
+    "clubs": [
+      "Chelsea FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Dunga",
+    "position": "Midfielder",
+    "years_active": "1982–1998",
+    "clubs": [
+      "Inter Milan",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1980s",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Ze Roberto",
+    "position": "Midfielder",
+    "years_active": "1994–2012",
+    "clubs": [
+      "Bayer Leverkusen",
+      "Bayern Munich",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Gilberto Silva",
+    "position": "Midfielder",
+    "years_active": "1997–2013",
+    "clubs": [
+      "Arsenal FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Hernanes",
+    "position": "Midfielder",
+    "years_active": "2007–2017",
+    "clubs": [
+      "SS Lazio",
+      "Inter Milan",
+      "Juventus",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Anderson",
+    "position": "Midfielder",
+    "years_active": "2004–2015",
+    "clubs": [
+      "Manchester United",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Diego",
+    "position": "Midfielder",
+    "years_active": "2002–2016",
+    "clubs": [
+      "FC Porto",
+      "Werder Bremen",
+      "Atletico Madrid",
+      "Juventus",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Ederson",
+    "position": "Goalkeeper",
+    "years_active": "2011–present",
+    "clubs": [
+      "Manchester City",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Alisson Becker",
+    "position": "Goalkeeper",
+    "years_active": "2016–present",
+    "clubs": [
+      "Liverpool FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Julio Cesar",
+    "position": "Goalkeeper",
+    "years_active": "1997–2015",
+    "clubs": [
+      "Inter Milan",
+      "Tottenham Hotspur",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Dida",
+    "position": "Goalkeeper",
+    "years_active": "1991–2015",
+    "clubs": [
+      "AC Milan",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Marcos",
+    "position": "Goalkeeper",
+    "years_active": "1992–2011",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Taffarel",
+    "position": "Goalkeeper",
+    "years_active": "1985–2003",
+    "clubs": [
+      "Atletico Madrid",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1980s",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Rogerio Ceni",
+    "position": "Goalkeeper",
+    "years_active": "1990–2015",
+    "clubs": [
+      "Sao Paulo FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Gilmar",
+    "position": "Goalkeeper",
+    "years_active": "1951–1969",
+    "clubs": [
+      "Santos FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1950s",
+      "1960s"
+    ]
+  },
+  {
+    "name": "Cafu",
+    "position": "Defender",
+    "years_active": "1988–2008",
+    "clubs": [
+      "AS Roma",
+      "AC Milan",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Roberto Carlos",
+    "position": "Defender",
+    "years_active": "1991–2012",
+    "clubs": [
+      "Real Madrid",
+      "Inter Milan",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Thiago Silva",
+    "position": "Defender",
+    "years_active": "2004–present",
+    "clubs": [
+      "AC Milan",
+      "Paris Saint-Germain",
+      "Chelsea FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Lucio",
+    "position": "Defender",
+    "years_active": "1997–2016",
+    "clubs": [
+      "Bayer Leverkusen",
+      "Inter Milan",
+      "Tottenham Hotspur",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Dani Alves",
+    "position": "Defender",
+    "years_active": "2003–2023",
+    "clubs": [
+      "FC Barcelona",
+      "Paris Saint-Germain",
+      "Sao Paulo FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Maicon",
+    "position": "Defender",
+    "years_active": "2001–2018",
+    "clubs": [
+      "Inter Milan",
+      "AS Roma",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Marcelo",
+    "position": "Defender",
+    "years_active": "2005–2022",
+    "clubs": [
+      "Real Madrid",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Aldair",
+    "position": "Defender",
+    "years_active": "1983–2000",
+    "clubs": [
+      "AS Roma",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1980s",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Branco",
+    "position": "Defender",
+    "years_active": "1982–2002",
+    "clubs": [
+      "ACF Fiorentina",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1980s",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Jorginho",
+    "position": "Defender",
+    "years_active": "1989–1995",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Miranda",
+    "position": "Defender",
+    "years_active": "2006–2019",
+    "clubs": [
+      "Atletico Madrid",
+      "Inter Milan",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Juan",
+    "position": "Defender",
+    "years_active": "1999–2012",
+    "clubs": [
+      "AS Roma",
+      "Inter Milan",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Edmilson",
+    "position": "Defender",
+    "years_active": "1994–2011",
+    "clubs": [
+      "Olympique Lyon",
+      "FC Barcelona",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Julio Belletti",
+    "position": "Defender",
+    "years_active": "1992–2010",
+    "clubs": [
+      "FC Barcelona",
+      "Chelsea FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Gabriel Magalhaes",
+    "position": "Defender",
+    "years_active": "2015–present",
+    "clubs": [
+      "Arsenal FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Marquinhos",
+    "position": "Defender",
+    "years_active": "2012–present",
+    "clubs": [
+      "Paris Saint-Germain",
+      "AS Roma",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Danilo",
+    "position": "Defender",
+    "years_active": "2007–present",
+    "clubs": [
+      "FC Porto",
+      "Real Madrid",
+      "Juventus",
+      "Manchester City",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Carlos Alberto",
+    "position": "Defender",
+    "years_active": "1958–1982",
+    "clubs": [
+      "Santos FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1960s",
+      "1970s"
+    ]
+  },
+  {
+    "name": "Nilton Santos",
+    "position": "Defender",
+    "years_active": "1948–1964",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1950s",
+      "1960s"
+    ]
+  },
+  {
+    "name": "Djalma Santos",
+    "position": "Defender",
+    "years_active": "1948–1970",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1950s",
+      "1960s",
+      "1970s"
+    ]
+  },
+  {
+    "name": "Clodoaldo",
+    "position": "Midfielder",
+    "years_active": "1965–1984",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1970s",
+      "1980s"
+    ]
+  },
+  {
+    "name": "Leao",
+    "position": "Goalkeeper",
+    "years_active": "1967–1986",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1970s",
+      "1980s"
+    ]
+  },
+  {
+    "name": "Robinho",
+    "position": "Forward",
+    "years_active": "2002–2020",
+    "clubs": [
+      "Real Madrid",
+      "Manchester City",
+      "AC Milan",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Denilson",
+    "position": "Midfielder",
+    "years_active": "1991–2006",
+    "clubs": [
+      "Real Betis",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Kleberson",
+    "position": "Midfielder",
+    "years_active": "1998–2013",
+    "clubs": [
+      "Manchester United",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Luis Fabiano",
+    "position": "Forward",
+    "years_active": "1998–2016",
+    "clubs": [
+      "Sevilla FC",
+      "Sao Paulo FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Elano",
+    "position": "Forward",
+    "years_active": "2001–2015",
+    "clubs": [
+      "Manchester City",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Grafite",
+    "position": "Forward",
+    "years_active": "2001–2016",
+    "clubs": [
+      "VfL Wolfsburg",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Gabriel Barbosa",
+    "position": "Forward",
+    "years_active": "2013–present",
+    "clubs": [
+      "Inter Milan",
+      "Flamengo",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Raphinha",
+    "position": "Forward",
+    "years_active": "2014–present",
+    "clubs": [
+      "Leeds United",
+      "FC Barcelona",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Martinelli",
+    "position": "Forward",
+    "years_active": "2019–present",
+    "clubs": [
+      "Arsenal FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Malcom",
+    "position": "Forward",
+    "years_active": "2014–present",
+    "clubs": [
+      "FC Barcelona",
+      "Zenit Saint Petersburg",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Talisca",
+    "position": "Midfielder",
+    "years_active": "2013–present",
+    "clubs": [
+      "SL Benfica",
+      "Al Nassr",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Luiz Gustavo",
+    "position": "Midfielder",
+    "years_active": "2007–2022",
+    "clubs": [
+      "Bayern Munich",
+      "VfL Wolfsburg",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Renato Gaucho",
+    "position": "Midfielder",
+    "years_active": "1983–2011",
+    "clubs": [
+      "Flamengo",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1980s",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Edmundo",
+    "position": "Forward",
+    "years_active": "1991–2008",
+    "clubs": [
+      "ACF Fiorentina",
+      "Valencia CF",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Viola",
+    "position": "Forward",
+    "years_active": "1985–2006",
+    "clubs": [
+      "Corinthians",
+      "Sao Paulo FC",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "1980s",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Vava",
+    "position": "Forward",
+    "years_active": "1951–1969",
+    "clubs": [
+      "Atletico Madrid",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1950s",
+      "1960s"
+    ]
+  },
+  {
+    "name": "Leonidas da Silva",
+    "position": "Forward",
+    "years_active": "1929–1950",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1930s",
+      "1940s"
+    ]
+  },
+  {
+    "name": "Formiga",
+    "position": "Midfielder",
+    "years_active": "1995–2021",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "1990s",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Marta",
+    "position": "Forward",
+    "years_active": "2000–2024",
+    "clubs": [
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "legend",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Cristiane",
+    "position": "Forward",
+    "years_active": "2000–2020",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Olympique Lyon",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Pedro",
+    "position": "Forward",
+    "years_active": "2006–present",
+    "clubs": [
+      "Chelsea FC",
+      "Flamengo",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Arthur",
+    "position": "Midfielder",
+    "years_active": "2015–present",
+    "clubs": [
+      "FC Barcelona",
+      "Liverpool FC",
+      "Juventus",
+      "Brazil"
+    ],
+    "tags": [
+      "brazilian",
+      "2010s",
+      "2020s"
+    ]
+  }
+]
