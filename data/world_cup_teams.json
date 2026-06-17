@@ -1,0 +1,1094 @@
+[
+  {
+    "name": "Brazil",
+    "nickname": "Seleção",
+    "founded": 1914,
+    "stadium": "Maracana",
+    "location": "Rio de Janeiro, Brazil",
+    "website": "https://www.cbf.com.br",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "conmebol"
+    ]
+  },
+  {
+    "name": "Germany",
+    "nickname": "Die Mannschaft",
+    "founded": 1900,
+    "stadium": "Olympiastadion Berlin",
+    "location": "Berlin, Germany",
+    "website": "https://www.dfb.de",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Argentina",
+    "nickname": "La Albiceleste",
+    "founded": 1893,
+    "stadium": "Estadio Monumental",
+    "location": "Buenos Aires, Argentina",
+    "website": "https://www.afa.com.ar",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "conmebol"
+    ]
+  },
+  {
+    "name": "Italy",
+    "nickname": "Gli Azzurri",
+    "founded": 1898,
+    "stadium": "Stadio Olimpico",
+    "location": "Rome, Italy",
+    "website": "https://www.figc.it",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Mexico",
+    "nickname": "El Tri",
+    "founded": 1927,
+    "stadium": "Estadio Azteca",
+    "location": "Mexico City, Mexico",
+    "website": "https://www.miseleccion.mx",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "concacaf"
+    ]
+  },
+  {
+    "name": "Spain",
+    "nickname": "La Roja",
+    "founded": 1913,
+    "stadium": "Santiago Bernabeu",
+    "location": "Madrid, Spain",
+    "website": "https://www.rfef.es",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "England",
+    "nickname": "The Three Lions",
+    "founded": 1863,
+    "stadium": "Wembley Stadium",
+    "location": "London, England",
+    "website": "https://www.thefa.com",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "France",
+    "nickname": "Les Bleus",
+    "founded": 1919,
+    "stadium": "Stade de France",
+    "location": "Saint-Denis, France",
+    "website": "https://www.fff.fr",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Belgium",
+    "nickname": "The Red Devils",
+    "founded": 1895,
+    "stadium": "King Baudouin Stadium",
+    "location": "Brussels, Belgium",
+    "website": "https://www.rbfa.be",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Uruguay",
+    "nickname": "La Celeste",
+    "founded": 1900,
+    "stadium": "Estadio Centenario",
+    "location": "Montevideo, Uruguay",
+    "website": "https://www.auf.org.uy",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "conmebol"
+    ]
+  },
+  {
+    "name": "Switzerland",
+    "nickname": "Nati",
+    "founded": 1895,
+    "stadium": "Stade de Geneve",
+    "location": "Geneva, Switzerland",
+    "website": "https://www.football.ch",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Sweden",
+    "nickname": "Blagult",
+    "founded": 1904,
+    "stadium": "Friends Arena",
+    "location": "Solna, Sweden",
+    "website": "https://www.svenskfotboll.se",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Serbia",
+    "nickname": "Orlovi",
+    "founded": 1919,
+    "stadium": "Rajko Mitic Stadium",
+    "location": "Belgrade, Serbia",
+    "website": "https://fss.rs",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "South Korea",
+    "nickname": "Taegeuk Warriors",
+    "founded": 1933,
+    "stadium": "Seoul World Cup Stadium",
+    "location": "Seoul, South Korea",
+    "website": "https://www.kfa.or.kr",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  },
+  {
+    "name": "United States",
+    "nickname": "USMNT",
+    "founded": 1913,
+    "stadium": "MetLife Stadium",
+    "location": "East Rutherford, USA",
+    "website": "https://www.ussoccer.com",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "concacaf"
+    ]
+  },
+  {
+    "name": "Netherlands",
+    "nickname": "Oranje",
+    "founded": 1889,
+    "stadium": "Johan Cruyff Arena",
+    "location": "Amsterdam, Netherlands",
+    "website": "https://www.knvb.nl",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Russia",
+    "nickname": "Sbornaya",
+    "founded": 1912,
+    "stadium": "Luzhniki Stadium",
+    "location": "Moscow, Russia",
+    "website": "https://www.rfs.ru",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Czech Republic",
+    "nickname": "Narodni tym",
+    "founded": 1901,
+    "stadium": "Fortuna Arena",
+    "location": "Prague, Czech Republic",
+    "website": "https://www.fotbal.cz",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Portugal",
+    "nickname": "A Selecao",
+    "founded": 1914,
+    "stadium": "Estadio da Luz",
+    "location": "Lisbon, Portugal",
+    "website": "https://www.fpf.pt",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Scotland",
+    "nickname": "Tartan Army",
+    "founded": 1873,
+    "stadium": "Hampden Park",
+    "location": "Glasgow, Scotland",
+    "website": "https://www.scottishfa.co.uk",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Paraguay",
+    "nickname": "La Albirroja",
+    "founded": 1900,
+    "stadium": "Estadio Defensores del Chaco",
+    "location": "Asuncion, Paraguay",
+    "website": "https://www.apf.org.py",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "conmebol"
+    ]
+  },
+  {
+    "name": "Hungary",
+    "nickname": "Magyarok",
+    "founded": 1901,
+    "stadium": "Puskas Arena",
+    "location": "Budapest, Hungary",
+    "website": "https://www.mlsz.hu",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Poland",
+    "nickname": "Bialo-czerwoni",
+    "founded": 1919,
+    "stadium": "Stadion Narodowy",
+    "location": "Warsaw, Poland",
+    "website": "https://www.pzpn.pl",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Slovakia",
+    "nickname": "Reprezentacia",
+    "founded": 1993,
+    "stadium": "Tehelne pole",
+    "location": "Bratislava, Slovakia",
+    "website": "https://www.futbalsf.sk",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Chile",
+    "nickname": "La Roja",
+    "founded": 1895,
+    "stadium": "Estadio Nacional",
+    "location": "Santiago, Chile",
+    "website": "https://www.anfp.cl",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "conmebol"
+    ]
+  },
+  {
+    "name": "Japan",
+    "nickname": "Samurai Blue",
+    "founded": 1921,
+    "stadium": "National Stadium",
+    "location": "Tokyo, Japan",
+    "website": "https://www.jfa.jp",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  },
+  {
+    "name": "Cameroon",
+    "nickname": "Indomitable Lions",
+    "founded": 1959,
+    "stadium": "Stade Ahmadou Ahidjo",
+    "location": "Yaounde, Cameroon",
+    "website": "https://www.fecafoot-officiel.com",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Austria",
+    "nickname": "Das Team",
+    "founded": 1904,
+    "stadium": "Ernst Happel Stadion",
+    "location": "Vienna, Austria",
+    "website": "https://www.oefb.at",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Australia",
+    "nickname": "Socceroos",
+    "founded": 1961,
+    "stadium": "Stadium Australia",
+    "location": "Sydney, Australia",
+    "website": "https://www.footballaustralia.com.au",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  },
+  {
+    "name": "Croatia",
+    "nickname": "Vatreni",
+    "founded": 1912,
+    "stadium": "Stadion Maksimir",
+    "location": "Zagreb, Croatia",
+    "website": "https://hns-cff.hr",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Iran",
+    "nickname": "Team Melli",
+    "founded": 1920,
+    "stadium": "Azadi Stadium",
+    "location": "Tehran, Iran",
+    "website": "https://www.ffiri.ir",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  },
+  {
+    "name": "Saudi Arabia",
+    "nickname": "Green Falcons",
+    "founded": 1956,
+    "stadium": "King Abdullah Sports City",
+    "location": "Jeddah, Saudi Arabia",
+    "website": "https://www.saff.com.sa",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  },
+  {
+    "name": "Bulgaria",
+    "nickname": "Lavut",
+    "founded": 1923,
+    "stadium": "Vasil Levski National Stadium",
+    "location": "Sofia, Bulgaria",
+    "website": "https://www.bfunion.bg",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Morocco",
+    "nickname": "Atlas Lions",
+    "founded": 1955,
+    "stadium": "Stade de Marrakech",
+    "location": "Marrakech, Morocco",
+    "website": "https://www.frmf.ma",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Tunisia",
+    "nickname": "Eagles of Carthage",
+    "founded": 1957,
+    "stadium": "Stade Olympique de Radès",
+    "location": "Radès, Tunisia",
+    "website": "https://www.ftf.org.tn",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Colombia",
+    "nickname": "Los Cafeteros",
+    "founded": 1924,
+    "stadium": "Estadio Metropolitano",
+    "location": "Barranquilla, Colombia",
+    "website": "https://www.fcf.com.co",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "conmebol"
+    ]
+  },
+  {
+    "name": "Romania",
+    "nickname": "Tricolorii",
+    "founded": 1909,
+    "stadium": "Arena Nationala",
+    "location": "Bucharest, Romania",
+    "website": "https://www.frfr.ro",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Costa Rica",
+    "nickname": "Los Ticos",
+    "founded": 1921,
+    "stadium": "Estadio Nacional",
+    "location": "San Jose, Costa Rica",
+    "website": "https://www.fedefutbol.com",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "concacaf"
+    ]
+  },
+  {
+    "name": "Nigeria",
+    "nickname": "Super Eagles",
+    "founded": 1945,
+    "stadium": "Moshood Abiola National Stadium",
+    "location": "Abuja, Nigeria",
+    "website": "https://www.nigeriaff.com",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Denmark",
+    "nickname": "Danish Dynamite",
+    "founded": 1889,
+    "stadium": "Parken Stadium",
+    "location": "Copenhagen, Denmark",
+    "website": "https://www.dbu.dk",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Ghana",
+    "nickname": "Black Stars",
+    "founded": 1957,
+    "stadium": "Accra Sports Stadium",
+    "location": "Accra, Ghana",
+    "website": "https://www.ghanafa.org",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Ecuador",
+    "nickname": "La Tri",
+    "founded": 1925,
+    "stadium": "Estadio Rodrigo Paz Delgado",
+    "location": "Quito, Ecuador",
+    "website": "https://www.fef.ec",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "conmebol"
+    ]
+  },
+  {
+    "name": "Algeria",
+    "nickname": "Les Fennecs",
+    "founded": 1962,
+    "stadium": "Stade Nelson Mandela",
+    "location": "Algiers, Algeria",
+    "website": "https://www.faf.dz",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Peru",
+    "nickname": "La Blanquirroja",
+    "founded": 1922,
+    "stadium": "Estadio Nacional",
+    "location": "Lima, Peru",
+    "website": "https://www.fpf.org.pe",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "conmebol"
+    ]
+  },
+  {
+    "name": "Senegal",
+    "nickname": "Lions of Teranga",
+    "founded": 1960,
+    "stadium": "Stade Leopold Senghor",
+    "location": "Dakar, Senegal",
+    "website": "https://www.fsf.sn",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Ivory Coast",
+    "nickname": "Les Elephants",
+    "founded": 1960,
+    "stadium": "Stade Alassane Ouattara",
+    "location": "Abidjan, Ivory Coast",
+    "website": "https://www.fif.ci",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Norway",
+    "nickname": "Løvene",
+    "founded": 1902,
+    "stadium": "Ullevaal Stadion",
+    "location": "Oslo, Norway",
+    "website": "https://www.fotball.no",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "South Africa",
+    "nickname": "Bafana Bafana",
+    "founded": 1991,
+    "stadium": "FNB Stadium",
+    "location": "Johannesburg, South Africa",
+    "website": "https://www.safa.net",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Egypt",
+    "nickname": "The Pharaohs",
+    "founded": 1921,
+    "stadium": "Cairo International Stadium",
+    "location": "Cairo, Egypt",
+    "website": "https://www.faf.org.eg",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Turkey",
+    "nickname": "Ay-Yildizlilar",
+    "founded": 1923,
+    "stadium": "Ataturk Olympic Stadium",
+    "location": "Istanbul, Turkey",
+    "website": "https://www.tff.org",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Canada",
+    "nickname": "CanMNT",
+    "founded": 1912,
+    "stadium": "BMO Field",
+    "location": "Toronto, Canada",
+    "website": "https://www.canadasoccer.com",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "concacaf"
+    ]
+  },
+  {
+    "name": "Northern Ireland",
+    "nickname": "Green and White Army",
+    "founded": 1880,
+    "stadium": "Windsor Park",
+    "location": "Belfast, Northern Ireland",
+    "website": "https://www.irishfa.com",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Honduras",
+    "nickname": "Los Catrachos",
+    "founded": 1951,
+    "stadium": "Estadio Jose de la Paz Herrera",
+    "location": "San Pedro Sula, Honduras",
+    "website": "https://www.fenafuth.org",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "concacaf"
+    ]
+  },
+  {
+    "name": "Republic of Ireland",
+    "nickname": "The Boys in Green",
+    "founded": 1921,
+    "stadium": "Aviva Stadium",
+    "location": "Dublin, Ireland",
+    "website": "https://www.fai.ie",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Greece",
+    "nickname": "Ethniki",
+    "founded": 1926,
+    "stadium": "Agia Sophia Stadium",
+    "location": "Athens, Greece",
+    "website": "https://www.epo.gr",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "New Zealand",
+    "nickname": "All Whites",
+    "founded": 1891,
+    "stadium": "Mount Smart Stadium",
+    "location": "Auckland, New Zealand",
+    "website": "https://www.nzfootball.co.nz",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "ofc"
+    ]
+  },
+  {
+    "name": "Bolivia",
+    "nickname": "La Verde",
+    "founded": 1925,
+    "stadium": "Estadio Hernando Siles",
+    "location": "La Paz, Bolivia",
+    "website": "https://www.fbf.com.bo",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "conmebol"
+    ]
+  },
+  {
+    "name": "DR Congo",
+    "nickname": "Leopards",
+    "founded": 1919,
+    "stadium": "Stade des Martyrs",
+    "location": "Kinshasa, DR Congo",
+    "website": "https://www.fecofa.cd",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Qatar",
+    "nickname": "Al Annabi",
+    "founded": 1960,
+    "stadium": "Lusail Stadium",
+    "location": "Lusail, Qatar",
+    "website": "https://www.qfa.qa",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  },
+  {
+    "name": "Haiti",
+    "nickname": "Les Grenadiers",
+    "founded": 1904,
+    "stadium": "Stade Sylvio Cator",
+    "location": "Port-au-Prince, Haiti",
+    "website": "https://www.fhf.ht",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "concacaf"
+    ]
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "nickname": "Zmajevi",
+    "founded": 1992,
+    "stadium": "Grbavica Stadium",
+    "location": "Sarajevo, Bosnia and Herzegovina",
+    "website": "https://www.nfsbih.ba",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Panama",
+    "nickname": "Los Canaleros",
+    "founded": 1937,
+    "stadium": "Estadio Rommel Fernandez",
+    "location": "Panama City, Panama",
+    "website": "https://www.fepafut.com",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "concacaf"
+    ]
+  },
+  {
+    "name": "Iraq",
+    "nickname": "Usud al-Rafidain",
+    "founded": 1948,
+    "stadium": "Basra International Stadium",
+    "location": "Basra, Iraq",
+    "website": "https://www.ifa.iq",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  },
+  {
+    "name": "Wales",
+    "nickname": "The Dragons",
+    "founded": 1876,
+    "stadium": "Cardiff City Stadium",
+    "location": "Cardiff, Wales",
+    "website": "https://www.faw.cymru",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "North Korea",
+    "nickname": "Chollima",
+    "founded": 1945,
+    "stadium": "Rungrado 1st of May Stadium",
+    "location": "Pyongyang, North Korea",
+    "website": "https://www.dprkfa.com",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  },
+  {
+    "name": "El Salvador",
+    "nickname": "La Selecta",
+    "founded": 1935,
+    "stadium": "Estadio Cuscatlan",
+    "location": "San Salvador, El Salvador",
+    "website": "https://www.fesfut.org.sv",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "concacaf"
+    ]
+  },
+  {
+    "name": "Slovenia",
+    "nickname": "Zmajceki",
+    "founded": 1920,
+    "stadium": "Stozice Stadium",
+    "location": "Ljubljana, Slovenia",
+    "website": "https://www.nogometna-zveza.si",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Cuba",
+    "nickname": "Leones del Caribe",
+    "founded": 1924,
+    "stadium": "Estadio Pedro Marrero",
+    "location": "Havana, Cuba",
+    "website": "https://www.fcfc.cu",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "concacaf"
+    ]
+  },
+  {
+    "name": "Indonesia",
+    "nickname": "Garuda",
+    "founded": 1930,
+    "stadium": "Gelora Bung Karno Stadium",
+    "location": "Jakarta, Indonesia",
+    "website": "https://www.pssi.org",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  },
+  {
+    "name": "Israel",
+    "nickname": "The Blue and White",
+    "founded": 1928,
+    "stadium": "Teddy Stadium",
+    "location": "Jerusalem, Israel",
+    "website": "https://www.football.org.il",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "East Germany",
+    "nickname": "DFV-Elf",
+    "founded": 1951,
+    "stadium": "Zentralstadion",
+    "location": "Leipzig, East Germany",
+    "website": "https://www.dfb.de",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Kuwait",
+    "nickname": "Al-Azraq",
+    "founded": 1952,
+    "stadium": "Jaber Al-Ahmad International Stadium",
+    "location": "Kuwait City, Kuwait",
+    "website": "https://www.kfa.org.kw",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  },
+  {
+    "name": "United Arab Emirates",
+    "nickname": "Al Abyad",
+    "founded": 1971,
+    "stadium": "Mohammed bin Zayed Stadium",
+    "location": "Abu Dhabi, UAE",
+    "website": "https://www.uaeproleague.ae",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  },
+  {
+    "name": "Jamaica",
+    "nickname": "Reggae Boyz",
+    "founded": 1910,
+    "stadium": "Independence Park",
+    "location": "Kingston, Jamaica",
+    "website": "https://www.jamaicafootballfederation.com",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "concacaf"
+    ]
+  },
+  {
+    "name": "China",
+    "nickname": "Team Dragon",
+    "founded": 1924,
+    "stadium": "Beijing Workers' Stadium",
+    "location": "Beijing, China",
+    "website": "https://www.thecfa.cn",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  },
+  {
+    "name": "Angola",
+    "nickname": "Palancas Negras",
+    "founded": 1979,
+    "stadium": "Estadio 11 de Novembro",
+    "location": "Luanda, Angola",
+    "website": "https://www.faf.co.ao",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Togo",
+    "nickname": "Les Eperviers",
+    "founded": 1960,
+    "stadium": "Stade de Kegue",
+    "location": "Lome, Togo",
+    "website": "https://www.ftf.tg",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "nickname": "Soca Warriors",
+    "founded": 1908,
+    "stadium": "Hasely Crawford Stadium",
+    "location": "Port of Spain, Trinidad and Tobago",
+    "website": "https://www.thettfa.com",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "concacaf"
+    ]
+  },
+  {
+    "name": "Ukraine",
+    "nickname": "Zbirna",
+    "founded": 1991,
+    "stadium": "NSC Olimpiyskiy",
+    "location": "Kyiv, Ukraine",
+    "website": "https://www.ufaf.org.ua",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Iceland",
+    "nickname": "Thridja ordid",
+    "founded": 1947,
+    "stadium": "Laugardalsvollur",
+    "location": "Reykjavik, Iceland",
+    "website": "https://www.ksi.is",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "uefa"
+    ]
+  },
+  {
+    "name": "Cape Verde",
+    "nickname": "Tubaroes Azuis",
+    "founded": 1982,
+    "stadium": "Estadio Nacional de Cabo Verde",
+    "location": "Praia, Cape Verde",
+    "website": "https://www.fcf.cv",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "caf"
+    ]
+  },
+  {
+    "name": "Curacao",
+    "nickname": "Korsou",
+    "founded": 1921,
+    "stadium": "Ergilio Hato Stadium",
+    "location": "Willemstad, Curacao",
+    "website": "https://www.ffk.cw",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "concacaf"
+    ]
+  },
+  {
+    "name": "Jordan",
+    "nickname": "Al-Nashama",
+    "founded": 1949,
+    "stadium": "Amman International Stadium",
+    "location": "Amman, Jordan",
+    "website": "https://www.jfa.com.jo",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  },
+  {
+    "name": "Uzbekistan",
+    "nickname": "Oq bo'rilar",
+    "founded": 1946,
+    "stadium": "Milliy Stadium",
+    "location": "Tashkent, Uzbekistan",
+    "website": "https://www.pfl.uz",
+    "tags": [
+      "national-team",
+      "world-cup",
+      "afc"
+    ]
+  }
+]
