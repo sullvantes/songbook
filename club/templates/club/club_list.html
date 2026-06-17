@@ -1,6 +1,6 @@
 {% extends "song/base.html" %}
 
-{% block title %}Clubs{% if active_tag %} · {{ active_tag.name }}{% endif %}{% endblock %}
+{% block title %}Clubs{% if active_tag %} · {{ active_tag.name }}{% endif %}{% if search_query %} · Search{% endif %}{% endblock %}
 
 {% block content %}
   <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
@@ -9,14 +9,20 @@
       <p class="text-muted mb-0">
         {% if paginator.count %}
           {{ paginator.count }} club{{ paginator.count|pluralize }} in the archive
+          {% if search_query %}
+            matching <strong>"{{ search_query }}"</strong>
+          {% endif %}
           {% if active_tag %}
-            tagged <strong>#{{ active_tag.name }}</strong>
+            {% if search_query %} · {% endif %}tagged <strong>#{{ active_tag.name }}</strong>
           {% endif %}
           {% if is_paginated %}
             · showing {{ page_obj.start_index }}–{{ page_obj.end_index }}
           {% endif %}
         {% else %}
-          {% if active_tag %}
+          {% if search_query %}
+            No clubs matching <strong>"{{ search_query }}"</strong>
+            {% if active_tag %} tagged <strong>#{{ active_tag.name }}</strong>{% endif %}
+          {% elif active_tag %}
             No clubs tagged <strong>#{{ active_tag.name }}</strong>
           {% else %}
             No clubs in the archive yet
@@ -25,9 +31,32 @@
       </p>
     </div>
     {% if active_tag %}
-      <a class="btn btn-outline-secondary btn-sm" href="{% url 'clubs:list' %}">Clear filter</a>
+      <a class="btn btn-outline-secondary btn-sm" href="{% url 'clubs:list' %}{% if search_query %}?q={{ search_query|urlencode }}{% endif %}">Clear filter</a>
     {% endif %}
   </div>
+
+  <form method="get" class="row g-2 align-items-center mb-4">
+    {% if active_tag_slug %}
+      <input type="hidden" name="tag" value="{{ active_tag_slug }}">
+    {% endif %}
+    <div class="col-md-8 col-lg-6">
+      <label class="visually-hidden" for="club-search">Search clubs</label>
+      <input
+        type="search"
+        name="q"
+        id="club-search"
+        class="form-control"
+        value="{{ search_query }}"
+        placeholder="Search by name, nickname, location, player..."
+      >
+    </div>
+    <div class="col-auto d-flex gap-2">
+      <button type="submit" class="btn btn-danger">Search</button>
+      {% if search_query %}
+        <a class="btn btn-outline-secondary" href="{% url 'clubs:list' %}{% if active_tag_slug %}?tag={{ active_tag_slug }}{% endif %}">Clear</a>
+      {% endif %}
+    </div>
+  </form>
 
   {% if club_tags %}
     <div class="mb-4">
@@ -35,12 +64,12 @@
       <div class="d-flex flex-wrap gap-2">
         <a
           class="badge rounded-pill text-decoration-none {% if not active_tag_slug %}text-bg-danger{% else %}text-bg-light border text-dark{% endif %}"
-          href="{% url 'clubs:list' %}"
+          href="{% url 'clubs:list' %}{% if search_query %}?q={{ search_query|urlencode }}{% endif %}"
         >All</a>
         {% for tag in club_tags %}
           <a
             class="badge rounded-pill text-decoration-none {% if active_tag_slug == tag.slug %}text-bg-danger{% else %}text-bg-light border text-dark{% endif %}"
-            href="{% url 'clubs:list' %}?tag={{ tag.slug }}"
+            href="{% url 'clubs:list' %}?tag={{ tag.slug }}{% if search_query %}&q={{ search_query|urlencode }}{% endif %}"
           >#{{ tag.name }}</a>
         {% endfor %}
       </div>
@@ -106,6 +135,12 @@
                     <a class="btn btn-sm btn-outline-secondary" href="{% url 'players:list' %}?club={{ club.slug }}">View players</a>
                   {% endif %}
                   <a class="btn btn-sm btn-outline-danger" href="{% url 'clubs:songs' club.slug %}">View songs</a>
+                  {% if user.is_staff %}
+                    {% url 'clubs:delete' club.slug as delete_url %}
+                    {% with confirm_message="Delete "|add:club.name|add:" permanently?" %}
+                      {% include "song/includes/staff_delete_button.html" with delete_url=delete_url confirm_message=confirm_message %}
+                    {% endwith %}
+                  {% endif %}
                 </div>
               </div>
 
@@ -114,7 +149,7 @@
                   {% for tag in club.tags.all %}
                     <a
                       class="badge text-bg-light text-dark text-decoration-none me-1 mb-1 {% if active_tag_slug == tag.slug %}border border-danger{% endif %}"
-                      href="{% url 'clubs:list' %}?tag={{ tag.slug }}"
+                      href="{% url 'clubs:list' %}?tag={{ tag.slug }}{% if search_query %}&q={{ search_query|urlencode }}{% endif %}"
                     >#{{ tag.name }}</a>
                   {% endfor %}
                 </div>
@@ -128,7 +163,10 @@
     {% include "song/includes/pagination.html" with aria_label="Club list pagination" pagination_query=pagination_query %}
   {% else %}
     <div class="text-center py-5">
-      {% if active_tag %}
+      {% if search_query %}
+        <p class="lead text-muted mb-3">No clubs match your search.</p>
+        <a class="btn btn-outline-secondary" href="{% url 'clubs:list' %}{% if active_tag_slug %}?tag={{ active_tag_slug }}{% endif %}">Clear search</a>
+      {% elif active_tag %}
         <p class="lead text-muted mb-3">No clubs match this tag.</p>
         <a class="btn btn-outline-secondary" href="{% url 'clubs:list' %}">View all clubs</a>
       {% else %}

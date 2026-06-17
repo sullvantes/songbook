@@ -1,15 +1,20 @@
 # songs/views.py
+from urllib.parse import urlencode
+
 from django.contrib import messages
 from django.contrib.auth import get_user_model
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.tokens import default_token_generator
 from django.contrib.auth.views import LoginView
-from django.shortcuts import redirect
+from django.db.models import Q
+from django.shortcuts import get_object_or_404, redirect
 from django.urls import reverse_lazy
 from django.utils.encoding import force_str
 from django.utils.http import urlsafe_base64_decode
 from django.views.generic import CreateView, FormView, ListView, TemplateView, View
+
+from songbook.mixins import StaffRequiredMixin
 
 from club.models import Club
 from player.models import Player
@@ -120,11 +125,43 @@ class SongListView(ListView):
     paginate_by = 20
 
     def get_queryset(self):
-        return (
+        queryset = (
             Song.objects.filter(accepted=True)
             .prefetch_related("clubs", "tags")
             .select_related("player")
+            .order_by("title")
         )
+
+        search_query = self.request.GET.get("q", "").strip()
+        self.search_query = search_query or None
+        if search_query:
+            queryset = queryset.filter(
+                Q(title__icontains=search_query)
+                | Q(lyrics__icontains=search_query)
+                | Q(description__icontains=search_query)
+                | Q(player__name__icontains=search_query)
+                | Q(clubs__name__icontains=search_query)
+                | Q(tags__name__icontains=search_query)
+            )
+
+        return queryset.distinct()
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["search_query"] = self.search_query or ""
+        context["pagination_query"] = (
+            f"&{urlencode({'q': self.search_query})}" if self.search_query else ""
+        )
+        return context
+
+
+class SongDeleteView(StaffRequiredMixin, View):
+    def post(self, request, pk):
+        song = get_object_or_404(Song, pk=pk)
+        title = song.title
+        song.delete()
+        messages.success(request, f'Deleted song "{title}".')
+        return redirect("songs:list")
 
 
 class SongSuggestionCreateView(LoginRequiredMixin, CreateView):

@@ -1,6 +1,12 @@
+from urllib.parse import urlencode
+
+from django.contrib import messages
 from django.core.paginator import Paginator
-from django.db.models import Count, IntegerField, OuterRef, Prefetch, Subquery
-from django.views.generic import DetailView, ListView
+from django.db.models import Count, IntegerField, OuterRef, Prefetch, Q, Subquery
+from django.shortcuts import get_object_or_404, redirect
+from django.views.generic import DetailView, ListView, View
+
+from songbook.mixins import StaffRequiredMixin
 
 from club.models import Club
 from song.models import Song
@@ -36,6 +42,16 @@ class PlayerListView(ListView):
         if club_slug:
             queryset = queryset.filter(clubs__slug=club_slug)
 
+        search_query = self.request.GET.get("q", "").strip()
+        self.search_query = search_query or None
+        if search_query:
+            queryset = queryset.filter(
+                Q(name__icontains=search_query)
+                | Q(position__icontains=search_query)
+                | Q(years_active__icontains=search_query)
+                | Q(clubs__name__icontains=search_query)
+            )
+
         return queryset.distinct()
 
     def get_context_data(self, **kwargs):
@@ -46,10 +62,23 @@ class PlayerListView(ListView):
             if self.active_club_slug
             else None
         )
-        context["pagination_query"] = (
-            f"&club={self.active_club_slug}" if self.active_club_slug else ""
-        )
+        context["search_query"] = self.search_query or ""
+        query_params = {}
+        if self.active_club_slug:
+            query_params["club"] = self.active_club_slug
+        if self.search_query:
+            query_params["q"] = self.search_query
+        context["pagination_query"] = f"&{urlencode(query_params)}" if query_params else ""
         return context
+
+
+class PlayerDeleteView(StaffRequiredMixin, View):
+    def post(self, request, slug):
+        player = get_object_or_404(Player, slug=slug)
+        name = player.name
+        player.delete()
+        messages.success(request, f'Deleted player "{name}".')
+        return redirect("players:list")
 
 
 class PlayerDetailView(DetailView):

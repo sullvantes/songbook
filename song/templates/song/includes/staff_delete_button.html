@@ -1,0 +1,6 @@
+{% if user.is_staff %}
+  <form method="post" action="{{ delete_url }}" class="d-inline" onsubmit="return confirm('{{ confirm_message|escapejs }}');">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-sm btn-outline-danger">Delete</button>
+  </form>
+{% endif %}

@@ -1,6 +1,6 @@
 {% extends "song/base.html" %}
 
-{% block title %}Players{% if active_club %} · {{ active_club.name }}{% endif %}{% endblock %}
+{% block title %}Players{% if active_club %} · {{ active_club.name }}{% endif %}{% if search_query %} · Search{% endif %}{% endblock %}
 
 {% block content %}
   <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
@@ -9,14 +9,20 @@
       <p class="text-muted mb-0">
         {% if paginator.count %}
           {{ paginator.count }} player{{ paginator.count|pluralize }} in the archive
+          {% if search_query %}
+            matching <strong>"{{ search_query }}"</strong>
+          {% endif %}
           {% if active_club %}
-            for <strong>{{ active_club.name }}</strong>
+            {% if search_query %} · {% endif %}for <strong>{{ active_club.name }}</strong>
           {% endif %}
           {% if is_paginated %}
             · showing {{ page_obj.start_index }}–{{ page_obj.end_index }}
           {% endif %}
         {% else %}
-          {% if active_club %}
+          {% if search_query %}
+            No players matching <strong>"{{ search_query }}"</strong>
+            {% if active_club %} for <strong>{{ active_club.name }}</strong>{% endif %}
+          {% elif active_club %}
             No players linked to <strong>{{ active_club.name }}</strong>
           {% else %}
             No players in the archive yet
@@ -25,9 +31,32 @@
       </p>
     </div>
     {% if active_club %}
-      <a class="btn btn-outline-secondary btn-sm" href="{% url 'players:list' %}">All players</a>
+      <a class="btn btn-outline-secondary btn-sm" href="{% url 'players:list' %}{% if search_query %}?q={{ search_query|urlencode }}{% endif %}">All players</a>
     {% endif %}
   </div>
+
+  <form method="get" class="row g-2 align-items-center mb-4">
+    {% if active_club_slug %}
+      <input type="hidden" name="club" value="{{ active_club_slug }}">
+    {% endif %}
+    <div class="col-md-8 col-lg-6">
+      <label class="visually-hidden" for="player-search">Search players</label>
+      <input
+        type="search"
+        name="q"
+        id="player-search"
+        class="form-control"
+        value="{{ search_query }}"
+        placeholder="Search by name, position, club..."
+      >
+    </div>
+    <div class="col-auto d-flex gap-2">
+      <button type="submit" class="btn btn-danger">Search</button>
+      {% if search_query %}
+        <a class="btn btn-outline-secondary" href="{% url 'players:list' %}{% if active_club_slug %}?club={{ active_club_slug }}{% endif %}">Clear</a>
+      {% endif %}
+    </div>
+  </form>
 
   {% if player_list %}
     <div class="card shadow-sm">
@@ -63,11 +92,19 @@
                 {% endif %}
               </div>
 
-              <div class="text-end small text-muted text-nowrap">
-                {% if player.song_count %}
-                  {{ player.song_count }} song{{ player.song_count|pluralize }}
-                {% else %}
-                  No songs
+              <div class="text-end d-flex flex-column align-items-end gap-2">
+                <span class="small text-muted text-nowrap">
+                  {% if player.song_count %}
+                    {{ player.song_count }} song{{ player.song_count|pluralize }}
+                  {% else %}
+                    No songs
+                  {% endif %}
+                </span>
+                {% if user.is_staff %}
+                  {% url 'players:delete' player.slug as delete_url %}
+                  {% with confirm_message="Delete "|add:player.name|add:" permanently?" %}
+                    {% include "song/includes/staff_delete_button.html" with delete_url=delete_url confirm_message=confirm_message %}
+                  {% endwith %}
                 {% endif %}
               </div>
             </div>
@@ -79,7 +116,12 @@
     {% include "song/includes/pagination.html" with aria_label="Player list pagination" pagination_query=pagination_query %}
   {% else %}
     <div class="text-center py-5">
-      <p class="lead text-muted mb-0">No players have been added yet.</p>
+      {% if search_query %}
+        <p class="lead text-muted mb-3">No players match your search.</p>
+        <a class="btn btn-outline-secondary" href="{% url 'players:list' %}{% if active_club_slug %}?club={{ active_club_slug }}{% endif %}">Clear search</a>
+      {% else %}
+        <p class="lead text-muted mb-0">No players have been added yet.</p>
+      {% endif %}
     </div>
   {% endif %}
 {% endblock %}

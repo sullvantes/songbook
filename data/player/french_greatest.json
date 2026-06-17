@@ -1,0 +1,1597 @@
+[
+  {
+    "name": "Michel Platini",
+    "position": "Forward",
+    "years_active": "1972–1987",
+    "clubs": [
+      "Juventus",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "goat",
+      "1970s",
+      "1980s"
+    ]
+  },
+  {
+    "name": "Zinedine Zidane",
+    "position": "Midfielder",
+    "years_active": "1988–2006",
+    "clubs": [
+      "Juventus",
+      "Real Madrid",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "goat",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Thierry Henry",
+    "position": "Forward",
+    "years_active": "1994–2014",
+    "clubs": [
+      "AS Monaco",
+      "Arsenal FC",
+      "FC Barcelona",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "goat",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Raymond Kopa",
+    "position": "Forward",
+    "years_active": "1949–1967",
+    "clubs": [
+      "Real Madrid",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1950s",
+      "1960s"
+    ]
+  },
+  {
+    "name": "Just Fontaine",
+    "position": "Forward",
+    "years_active": "1950–1962",
+    "clubs": [
+      "OGC Nice",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1950s",
+      "1960s"
+    ]
+  },
+  {
+    "name": "Lilian Thuram",
+    "position": "Defender",
+    "years_active": "1990–2008",
+    "clubs": [
+      "AS Monaco",
+      "Juventus",
+      "FC Barcelona",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Marcel Desailly",
+    "position": "Defender",
+    "years_active": "1986–2006",
+    "clubs": [
+      "Olympique Marseille",
+      "AC Milan",
+      "Chelsea FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1980s",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Laurent Blanc",
+    "position": "Defender",
+    "years_active": "1983–2003",
+    "clubs": [
+      "AS Saint-Etienne",
+      "Olympique Marseille",
+      "AS Roma",
+      "Inter Milan",
+      "Manchester United",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1980s",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Emmanuel Petit",
+    "position": "Midfielder",
+    "years_active": "1988–2005",
+    "clubs": [
+      "AS Monaco",
+      "Arsenal FC",
+      "FC Barcelona",
+      "Chelsea FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Patrick Vieira",
+    "position": "Midfielder",
+    "years_active": "1993–2011",
+    "clubs": [
+      "AS Monaco",
+      "Arsenal FC",
+      "Inter Milan",
+      "Manchester City",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Robert Pires",
+    "position": "Midfielder",
+    "years_active": "1992–2014",
+    "clubs": [
+      "AS Saint-Etienne",
+      "Olympique Marseille",
+      "Arsenal FC",
+      "Villarreal CF",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Franck Ribery",
+    "position": "Forward",
+    "years_active": "2000–2023",
+    "clubs": [
+      "Olympique Marseille",
+      "Bayern Munich",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Karim Benzema",
+    "position": "Forward",
+    "years_active": "2004–present",
+    "clubs": [
+      "Olympique Lyon",
+      "Real Madrid",
+      "Al Ittihad",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Kylian Mbappe",
+    "position": "Forward",
+    "years_active": "2015–present",
+    "clubs": [
+      "AS Monaco",
+      "Paris Saint-Germain",
+      "Real Madrid",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Antoine Griezmann",
+    "position": "Forward",
+    "years_active": "2009–present",
+    "clubs": [
+      "Real Sociedad",
+      "Atletico Madrid",
+      "FC Barcelona",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "N'Golo Kante",
+    "position": "Midfielder",
+    "years_active": "2010–present",
+    "clubs": [
+      "Leicester City",
+      "Chelsea FC",
+      "Al Ittihad",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Hugo Lloris",
+    "position": "Goalkeeper",
+    "years_active": "2001–present",
+    "clubs": [
+      "OGC Nice",
+      "Tottenham Hotspur",
+      "LA Galaxy",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Raphael Varane",
+    "position": "Defender",
+    "years_active": "2010–2024",
+    "clubs": [
+      "Real Madrid",
+      "Manchester United",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Jean-Pierre Papin",
+    "position": "Forward",
+    "years_active": "1984–1998",
+    "clubs": [
+      "Olympique Marseille",
+      "AC Milan",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1980s",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Eric Cantona",
+    "position": "Forward",
+    "years_active": "1983–1997",
+    "clubs": [
+      "Olympique Marseille",
+      "Leeds United",
+      "Manchester United",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1980s",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Didier Deschamps",
+    "position": "Midfielder",
+    "years_active": "1985–2003",
+    "clubs": [
+      "Olympique Marseille",
+      "Juventus",
+      "Chelsea FC",
+      "Valencia CF",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1980s",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Fabien Barthez",
+    "position": "Goalkeeper",
+    "years_active": "1991–2007",
+    "clubs": [
+      "AS Monaco",
+      "Manchester United",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Bixente Lizarazu",
+    "position": "Defender",
+    "years_active": "1988–2006",
+    "clubs": [
+      "Bayern Munich",
+      "Borussia Dortmund",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1980s",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Youri Djorkaeff",
+    "position": "Forward",
+    "years_active": "1984–2006",
+    "clubs": [
+      "AS Monaco",
+      "Inter Milan",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1980s",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "David Trezeguet",
+    "position": "Forward",
+    "years_active": "1994–2014",
+    "clubs": [
+      "AS Monaco",
+      "Juventus",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Claude Makelele",
+    "position": "Midfielder",
+    "years_active": "1989–2011",
+    "clubs": [
+      "Real Madrid",
+      "Chelsea FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Sylvain Wiltord",
+    "position": "Forward",
+    "years_active": "1993–2012",
+    "clubs": [
+      "Arsenal FC",
+      "Olympique Lyon",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "William Gallas",
+    "position": "Defender",
+    "years_active": "1997–2015",
+    "clubs": [
+      "Chelsea FC",
+      "Arsenal FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Samir Nasri",
+    "position": "Midfielder",
+    "years_active": "2004–2020",
+    "clubs": [
+      "Olympique Marseille",
+      "Arsenal FC",
+      "Manchester City",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Nicolas Anelka",
+    "position": "Forward",
+    "years_active": "1996–2015",
+    "clubs": [
+      "Arsenal FC",
+      "Real Madrid",
+      "Chelsea FC",
+      "Manchester City",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Olivier Giroud",
+    "position": "Forward",
+    "years_active": "2005–present",
+    "clubs": [
+      "Arsenal FC",
+      "Chelsea FC",
+      "AC Milan",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Paul Pogba",
+    "position": "Midfielder",
+    "years_active": "2011–present",
+    "clubs": [
+      "Manchester United",
+      "Juventus",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Ousmane Dembele",
+    "position": "Forward",
+    "years_active": "2014–present",
+    "clubs": [
+      "Borussia Dortmund",
+      "FC Barcelona",
+      "Paris Saint-Germain",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Nabil Fekir",
+    "position": "Forward",
+    "years_active": "2010–present",
+    "clubs": [
+      "Olympique Lyon",
+      "Real Betis",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Kingsley Coman",
+    "position": "Forward",
+    "years_active": "2013–present",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Juventus",
+      "Bayern Munich",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Adrien Rabiot",
+    "position": "Midfielder",
+    "years_active": "2012–present",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Juventus",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Aurelien Tchouameni",
+    "position": "Midfielder",
+    "years_active": "2018–present",
+    "clubs": [
+      "AS Monaco",
+      "Real Madrid",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Eduardo Camavinga",
+    "position": "Midfielder",
+    "years_active": "2018–present",
+    "clubs": [
+      "Real Madrid",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Jules Kounde",
+    "position": "Defender",
+    "years_active": "2016–present",
+    "clubs": [
+      "Sevilla FC",
+      "FC Barcelona",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Dayot Upamecano",
+    "position": "Defender",
+    "years_active": "2015–present",
+    "clubs": [
+      "RB Leipzig",
+      "Bayern Munich",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Theo Hernandez",
+    "position": "Defender",
+    "years_active": "2014–present",
+    "clubs": [
+      "AC Milan",
+      "Real Madrid",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Lucas Hernandez",
+    "position": "Defender",
+    "years_active": "2014–present",
+    "clubs": [
+      "Atletico Madrid",
+      "Bayern Munich",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Benjamin Pavard",
+    "position": "Defender",
+    "years_active": "2014–present",
+    "clubs": [
+      "VfB Stuttgart",
+      "Bayern Munich",
+      "Inter Milan",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Presnel Kimpembe",
+    "position": "Defender",
+    "years_active": "2014–present",
+    "clubs": [
+      "Paris Saint-Germain",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Dimitri Payet",
+    "position": "Midfielder",
+    "years_active": "2000–present",
+    "clubs": [
+      "Olympique Marseille",
+      "West Ham United",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Steve Mandanda",
+    "position": "Goalkeeper",
+    "years_active": "2004–present",
+    "clubs": [
+      "Olympique Marseille",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Mike Maignan",
+    "position": "Goalkeeper",
+    "years_active": "2015–present",
+    "clubs": [
+      "Lille OSC",
+      "AC Milan",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Marius Tresor",
+    "position": "Defender",
+    "years_active": "1968–1983",
+    "clubs": [
+      "Olympique Marseille",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1960s",
+      "1970s",
+      "1980s"
+    ]
+  },
+  {
+    "name": "Dominique Rocheteau",
+    "position": "Forward",
+    "years_active": "1972–1989",
+    "clubs": [
+      "AS Saint-Etienne",
+      "Paris Saint-Germain",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1970s",
+      "1980s"
+    ]
+  },
+  {
+    "name": "Alain Giresse",
+    "position": "Midfielder",
+    "years_active": "1970–1988",
+    "clubs": [
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1970s",
+      "1980s"
+    ]
+  },
+  {
+    "name": "Jean Tigana",
+    "position": "Midfielder",
+    "years_active": "1975–1995",
+    "clubs": [
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1970s",
+      "1980s",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Luis Fernandez",
+    "position": "Midfielder",
+    "years_active": "1978–1997",
+    "clubs": [
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1970s",
+      "1980s",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Maxime Bossis",
+    "position": "Defender",
+    "years_active": "1969–1985",
+    "clubs": [
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1960s",
+      "1970s",
+      "1980s"
+    ]
+  },
+  {
+    "name": "Roger Piantoni",
+    "position": "Forward",
+    "years_active": "1950–1966",
+    "clubs": [
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1950s",
+      "1960s"
+    ]
+  },
+  {
+    "name": "Maryan Wisnieski",
+    "position": "Forward",
+    "years_active": "1953–1968",
+    "clubs": [
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1950s",
+      "1960s"
+    ]
+  },
+  {
+    "name": "Robert Jonquet",
+    "position": "Defender",
+    "years_active": "1943–1960",
+    "clubs": [
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1940s",
+      "1950s",
+      "1960s"
+    ]
+  },
+  {
+    "name": "Bernard Bosquier",
+    "position": "Defender",
+    "years_active": "1963–1978",
+    "clubs": [
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1960s",
+      "1970s"
+    ]
+  },
+  {
+    "name": "Michel Hidalgo",
+    "position": "Midfielder",
+    "years_active": "1952–1966",
+    "clubs": [
+      "Olympique Lyon",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1950s",
+      "1960s"
+    ]
+  },
+  {
+    "name": "Bruno Bellone",
+    "position": "Forward",
+    "years_active": "1977–1994",
+    "clubs": [
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1970s",
+      "1980s",
+      "1990s"
+    ]
+  },
+  {
+    "name": "Hatem Ben Arfa",
+    "position": "Forward",
+    "years_active": "2004–present",
+    "clubs": [
+      "Olympique Marseille",
+      "Newcastle United",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Wissam Ben Yedder",
+    "position": "Forward",
+    "years_active": "2010–present",
+    "clubs": [
+      "AS Monaco",
+      "Sevilla FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Lucas Digne",
+    "position": "Defender",
+    "years_active": "2011–present",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Everton FC",
+      "Aston Villa",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Yohan Cabaye",
+    "position": "Midfielder",
+    "years_active": "2004–2019",
+    "clubs": [
+      "Lille OSC",
+      "Paris Saint-Germain",
+      "Newcastle United",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Blaise Matuidi",
+    "position": "Midfielder",
+    "years_active": "2004–2022",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Juventus",
+      "Inter Miami CF",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Jeremy Menez",
+    "position": "Forward",
+    "years_active": "2004–2020",
+    "clubs": [
+      "AS Roma",
+      "Paris Saint-Germain",
+      "AC Milan",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Mathieu Flamini",
+    "position": "Midfielder",
+    "years_active": "2003–2019",
+    "clubs": [
+      "Arsenal FC",
+      "AC Milan",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Alexandre Lacazette",
+    "position": "Forward",
+    "years_active": "2009–present",
+    "clubs": [
+      "Olympique Lyon",
+      "Arsenal FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Corentin Tolisso",
+    "position": "Midfielder",
+    "years_active": "2013–present",
+    "clubs": [
+      "Olympique Lyon",
+      "Bayern Munich",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Ferland Mendy",
+    "position": "Defender",
+    "years_active": "2015–present",
+    "clubs": [
+      "Olympique Lyon",
+      "Real Madrid",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Christopher Nkunku",
+    "position": "Forward",
+    "years_active": "2015–present",
+    "clubs": [
+      "Paris Saint-Germain",
+      "RB Leipzig",
+      "Chelsea FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Ibrahima Konate",
+    "position": "Defender",
+    "years_active": "2017–present",
+    "clubs": [
+      "RB Leipzig",
+      "Liverpool FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Wesley Fofana",
+    "position": "Defender",
+    "years_active": "2018–present",
+    "clubs": [
+      "Leicester City",
+      "Chelsea FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Kurt Zouma",
+    "position": "Defender",
+    "years_active": "2011–present",
+    "clubs": [
+      "Chelsea FC",
+      "West Ham United",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Axel Disasi",
+    "position": "Defender",
+    "years_active": "2016–present",
+    "clubs": [
+      "AS Monaco",
+      "Chelsea FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Djibril Cisse",
+    "position": "Forward",
+    "years_active": "1998–2015",
+    "clubs": [
+      "Olympique Marseille",
+      "Liverpool FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Sidney Govou",
+    "position": "Forward",
+    "years_active": "2000–2015",
+    "clubs": [
+      "Olympique Lyon",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Florent Malouda",
+    "position": "Midfielder",
+    "years_active": "1997–2018",
+    "clubs": [
+      "Olympique Lyon",
+      "Chelsea FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "1990s",
+      "2000s",
+      "2010s"
+    ]
+  },
+  {
+    "name": "Johan Micoud",
+    "position": "Midfielder",
+    "years_active": "1990–2008",
+    "clubs": [
+      "Werder Bremen",
+      "Bayern Munich",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Christian Karembeu",
+    "position": "Midfielder",
+    "years_active": "1988–2005",
+    "clubs": [
+      "Olympique Marseille",
+      "Real Madrid",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1980s",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Frank Leboeuf",
+    "position": "Defender",
+    "years_active": "1988–2007",
+    "clubs": [
+      "Olympique Marseille",
+      "Chelsea FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1980s",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Bernard Lama",
+    "position": "Goalkeeper",
+    "years_active": "1983–2001",
+    "clubs": [
+      "Paris Saint-Germain",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1980s",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Marcus Thuram",
+    "position": "Forward",
+    "years_active": "2015–present",
+    "clubs": [
+      "Borussia Monchengladbach",
+      "Inter Milan",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Loic Remy",
+    "position": "Forward",
+    "years_active": "2005–2021",
+    "clubs": [
+      "Chelsea FC",
+      "Newcastle United",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Anthony Martial",
+    "position": "Forward",
+    "years_active": "2012–present",
+    "clubs": [
+      "Manchester United",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Tanguy Ndombele",
+    "position": "Midfielder",
+    "years_active": "2016–present",
+    "clubs": [
+      "Tottenham Hotspur",
+      "Olympique Lyon",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Christophe Dugarry",
+    "position": "Forward",
+    "years_active": "1990–2008",
+    "clubs": [
+      "FC Barcelona",
+      "Olympique Marseille",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "1990s",
+      "2000s"
+    ]
+  },
+  {
+    "name": "Andre-Pierre Gignac",
+    "position": "Forward",
+    "years_active": "2004–present",
+    "clubs": [
+      "Olympique Lyon",
+      "Olympique Marseille",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Amine Gouiri",
+    "position": "Forward",
+    "years_active": "2017–present",
+    "clubs": [
+      "OGC Nice",
+      "Real Sociedad",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Alphonse Areola",
+    "position": "Goalkeeper",
+    "years_active": "2012–present",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Real Madrid",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "William Saliba",
+    "position": "Defender",
+    "years_active": "2018–present",
+    "clubs": [
+      "Arsenal FC",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Moussa Sissoko",
+    "position": "Midfielder",
+    "years_active": "2007–present",
+    "clubs": [
+      "Newcastle United",
+      "Tottenham Hotspur",
+      "SSC Napoli",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Jean-Pierre Adams",
+    "position": "Defender",
+    "years_active": "1963–1976",
+    "clubs": [
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "1960s",
+      "1970s"
+    ]
+  },
+  {
+    "name": "Wendie Renard",
+    "position": "Defender",
+    "years_active": "2007–present",
+    "clubs": [
+      "Olympique Lyon",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Marie-Antoinette Katoto",
+    "position": "Forward",
+    "years_active": "2015–present",
+    "clubs": [
+      "Paris Saint-Germain",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Kadidiatou Diani",
+    "position": "Forward",
+    "years_active": "2011–present",
+    "clubs": [
+      "Paris Saint-Germain",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Amandine Henry",
+    "position": "Midfielder",
+    "years_active": "2004–present",
+    "clubs": [
+      "Olympique Lyon",
+      "Paris Saint-Germain",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Eugenie Le Sommer",
+    "position": "Forward",
+    "years_active": "2004–present",
+    "clubs": [
+      "Olympique Lyon",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "legend",
+      "2000s",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Sakina Karchaoui",
+    "position": "Defender",
+    "years_active": "2013–present",
+    "clubs": [
+      "Paris Saint-Germain",
+      "Manchester City",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Grace Geyoro",
+    "position": "Midfielder",
+    "years_active": "2015–present",
+    "clubs": [
+      "Paris Saint-Germain",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  },
+  {
+    "name": "Selma Bacha",
+    "position": "Defender",
+    "years_active": "2018–present",
+    "clubs": [
+      "Olympique Lyon",
+      "France"
+    ],
+    "tags": [
+      "french",
+      "2010s",
+      "2020s"
+    ]
+  }
+]

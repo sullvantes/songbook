@@ -1,6 +1,6 @@
 {% extends "song/base.html" %}
 
-{% block title %}Songs & Chants{% endblock %}
+{% block title %}Songs & Chants{% if search_query %} · Search{% endif %}{% endblock %}
 
 {% block content %}
   <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
@@ -9,24 +9,56 @@
       <p class="text-muted mb-0">
         {% if paginator.count %}
           {{ paginator.count }} accepted song{{ paginator.count|pluralize }} in the archive
+          {% if search_query %}
+            matching <strong>"{{ search_query }}"</strong>
+          {% endif %}
           {% if is_paginated %}
             · showing {{ page_obj.start_index }}–{{ page_obj.end_index }}
           {% endif %}
         {% else %}
-          No songs in the archive yet
+          {% if search_query %}
+            No songs matching <strong>"{{ search_query }}"</strong>
+          {% else %}
+            No songs in the archive yet
+          {% endif %}
         {% endif %}
       </p>
     </div>
     <a class="btn btn-danger" href="{% url 'songs:suggest' %}">Suggest a song</a>
   </div>
 
+  <form method="get" class="row g-2 align-items-center mb-4">
+    <div class="col-md-8 col-lg-6">
+      <label class="visually-hidden" for="song-search">Search songs</label>
+      <input
+        type="search"
+        name="q"
+        id="song-search"
+        class="form-control"
+        value="{{ search_query }}"
+        placeholder="Search by title, lyrics, club, player..."
+      >
+    </div>
+    <div class="col-auto d-flex gap-2">
+      <button type="submit" class="btn btn-danger">Search</button>
+      {% if search_query %}
+        <a class="btn btn-outline-secondary" href="{% url 'songs:list' %}">Clear</a>
+      {% endif %}
+    </div>
+  </form>
+
   {% if song_list %}
     {% include "song/includes/song_cards.html" with show_clubs=True %}
-    {% include "song/includes/pagination.html" with aria_label="Song list pagination" %}
+    {% include "song/includes/pagination.html" with aria_label="Song list pagination" pagination_query=pagination_query %}
   {% else %}
     <div class="text-center py-5">
-      <p class="lead text-muted mb-3">The archive is empty for now.</p>
-      <a class="btn btn-outline-danger" href="{% url 'songs:suggest' %}">Be the first to suggest a song</a>
+      {% if search_query %}
+        <p class="lead text-muted mb-3">No songs match your search.</p>
+        <a class="btn btn-outline-secondary" href="{% url 'songs:list' %}">Clear search</a>
+      {% else %}
+        <p class="lead text-muted mb-3">The archive is empty for now.</p>
+        <a class="btn btn-outline-danger" href="{% url 'songs:suggest' %}">Be the first to suggest a song</a>
+      {% endif %}
     </div>
   {% endif %}
 {% endblock %}
