@@ -6,9 +6,14 @@ from .models import Song
 
 class SongListView(ListView):
     model = Song
+    paginate_by = 20
 
     def get_queryset(self):
-        return Song.objects.filter(accepted=True)
+        return (
+            Song.objects.filter(accepted=True)
+            .prefetch_related("clubs", "tags")
+            .select_related("player")
+        )
 
 class SongSuggestionCreateView(CreateView):
     form_class = SongSuggestionForm
