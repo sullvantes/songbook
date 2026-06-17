@@ -1,0 +1,902 @@
+[
+  {
+    "name": "Liverpool FC",
+    "nickname": "The Reds",
+    "founded": 1892,
+    "stadium": "Anfield",
+    "location": "Liverpool, England",
+    "website": "https://www.liverpoolfc.com",
+    "tags": ["premier-league", "english", "europe"]
+  },
+  {
+    "name": "Manchester United",
+    "nickname": "The Red Devils",
+    "founded": 1878,
+    "stadium": "Old Trafford",
+    "location": "Manchester, England",
+    "website": "https://www.manutd.com",
+    "tags": ["premier-league", "english", "europe"]
+  },
+  {
+    "name": "Manchester City",
+    "nickname": "The Citizens",
+    "founded": 1880,
+    "stadium": "Etihad Stadium",
+    "location": "Manchester, England",
+    "website": "https://www.mancity.com",
+    "tags": ["premier-league", "english", "europe"]
+  },
+  {
+    "name": "Arsenal FC",
+    "nickname": "The Gunners",
+    "founded": 1886,
+    "stadium": "Emirates Stadium",
+    "location": "London, England",
+    "website": "https://www.arsenal.com",
+    "tags": ["premier-league", "english", "europe"]
+  },
+  {
+    "name": "Chelsea FC",
+    "nickname": "The Blues",
+    "founded": 1905,
+    "stadium": "Stamford Bridge",
+    "location": "London, England",
+    "website": "https://www.chelseafc.com",
+    "tags": ["premier-league", "english", "europe"]
+  },
+  {
+    "name": "Tottenham Hotspur",
+    "nickname": "Spurs",
+    "founded": 1882,
+    "stadium": "Tottenham Hotspur Stadium",
+    "location": "London, England",
+    "website": "https://www.tottenhamhotspur.com",
+    "tags": ["premier-league", "english", "europe"]
+  },
+  {
+    "name": "Everton FC",
+    "nickname": "The Toffees",
+    "founded": 1878,
+    "stadium": "Bramley-Moore Dock Stadium",
+    "location": "Liverpool, England",
+    "website": "https://www.evertonfc.com",
+    "tags": ["premier-league", "english", "merseyside"]
+  },
+  {
+    "name": "Newcastle United",
+    "nickname": "The Magpies",
+    "founded": 1892,
+    "stadium": "St James' Park",
+    "location": "Newcastle, England",
+    "website": "https://www.newcastleunited.com",
+    "tags": ["premier-league", "english"]
+  },
+  {
+    "name": "Aston Villa",
+    "nickname": "The Villans",
+    "founded": 1874,
+    "stadium": "Villa Park",
+    "location": "Birmingham, England",
+    "website": "https://www.avfc.co.uk",
+    "tags": ["premier-league", "english"]
+  },
+  {
+    "name": "West Ham United",
+    "nickname": "The Hammers",
+    "founded": 1895,
+    "stadium": "London Stadium",
+    "location": "London, England",
+    "website": "https://www.whufc.com",
+    "tags": ["premier-league", "english"]
+  },
+  {
+    "name": "Leeds United",
+    "nickname": "The Whites",
+    "founded": 1919,
+    "stadium": "Elland Road",
+    "location": "Leeds, England",
+    "website": "https://www.leedsunited.com",
+    "tags": ["english", "yorkshire"]
+  },
+  {
+    "name": "Nottingham Forest",
+    "nickname": "Forest",
+    "founded": 1865,
+    "stadium": "City Ground",
+    "location": "Nottingham, England",
+    "website": "https://www.nottinghamforest.co.uk",
+    "tags": ["premier-league", "english", "europe"]
+  },
+  {
+    "name": "Wolverhampton Wanderers",
+    "nickname": "Wolves",
+    "founded": 1877,
+    "stadium": "Molineux Stadium",
+    "location": "Wolverhampton, England",
+    "website": "https://www.wolves.co.uk",
+    "tags": ["premier-league", "english"]
+  },
+  {
+    "name": "Leicester City",
+    "nickname": "The Foxes",
+    "founded": 1884,
+    "stadium": "King Power Stadium",
+    "location": "Leicester, England",
+    "website": "https://www.lcfc.com",
+    "tags": ["english"]
+  },
+  {
+    "name": "Southampton FC",
+    "nickname": "The Saints",
+    "founded": 1885,
+    "stadium": "St Mary's Stadium",
+    "location": "Southampton, England",
+    "website": "https://www.southamptonfc.com",
+    "tags": ["english"]
+  },
+  {
+    "name": "Brighton & Hove Albion",
+    "nickname": "The Seagulls",
+    "founded": 1901,
+    "stadium": "Amex Stadium",
+    "location": "Brighton, England",
+    "website": "https://www.brightonandhovealbion.com",
+    "tags": ["premier-league", "english"]
+  },
+  {
+    "name": "Celtic FC",
+    "nickname": "The Bhoys",
+    "founded": 1887,
+    "stadium": "Celtic Park",
+    "location": "Glasgow, Scotland",
+    "website": "https://www.celticfc.com",
+    "tags": ["scottish", "europe"]
+  },
+  {
+    "name": "Rangers FC",
+    "nickname": "The Gers",
+    "founded": 1872,
+    "stadium": "Ibrox Stadium",
+    "location": "Glasgow, Scotland",
+    "website": "https://www.rangers.co.uk",
+    "tags": ["scottish", "europe"]
+  },
+  {
+    "name": "Real Madrid",
+    "nickname": "Los Blancos",
+    "founded": 1902,
+    "stadium": "Santiago Bernabeu",
+    "location": "Madrid, Spain",
+    "website": "https://www.realmadrid.com",
+    "tags": ["la-liga", "spanish", "europe"]
+  },
+  {
+    "name": "FC Barcelona",
+    "nickname": "Barca",
+    "founded": 1899,
+    "stadium": "Spotify Camp Nou",
+    "location": "Barcelona, Spain",
+    "website": "https://www.fcbarcelona.com",
+    "tags": ["la-liga", "spanish", "europe"]
+  },
+  {
+    "name": "Atletico Madrid",
+    "nickname": "Atleti",
+    "founded": 1903,
+    "stadium": "Civitas Metropolitano",
+    "location": "Madrid, Spain",
+    "website": "https://www.atleticodemadrid.com",
+    "tags": ["la-liga", "spanish", "europe"]
+  },
+  {
+    "name": "Sevilla FC",
+    "nickname": "Sevilla",
+    "founded": 1890,
+    "stadium": "Ramon Sanchez-Pizjuan",
+    "location": "Seville, Spain",
+    "website": "https://www.sevillafc.es",
+    "tags": ["la-liga", "spanish", "europe"]
+  },
+  {
+    "name": "Valencia CF",
+    "nickname": "Los Che",
+    "founded": 1919,
+    "stadium": "Mestalla",
+    "location": "Valencia, Spain",
+    "website": "https://www.valenciacf.com",
+    "tags": ["la-liga", "spanish", "europe"]
+  },
+  {
+    "name": "Athletic Club",
+    "nickname": "The Lions",
+    "founded": 1898,
+    "stadium": "San Mames",
+    "location": "Bilbao, Spain",
+    "website": "https://www.athletic-club.eus",
+    "tags": ["la-liga", "spanish", "europe"]
+  },
+  {
+    "name": "Real Sociedad",
+    "nickname": "La Real",
+    "founded": 1909,
+    "stadium": "Reale Arena",
+    "location": "San Sebastian, Spain",
+    "website": "https://www.realsociedad.eus",
+    "tags": ["la-liga", "spanish"]
+  },
+  {
+    "name": "Villarreal CF",
+    "nickname": "The Yellow Submarine",
+    "founded": 1923,
+    "stadium": "Estadio de la Ceramica",
+    "location": "Villarreal, Spain",
+    "website": "https://www.villarrealcf.es",
+    "tags": ["la-liga", "spanish", "europe"]
+  },
+  {
+    "name": "Real Betis",
+    "nickname": "Betis",
+    "founded": 1907,
+    "stadium": "Benito Villamarin",
+    "location": "Seville, Spain",
+    "website": "https://www.realbetisbalompie.es",
+    "tags": ["la-liga", "spanish"]
+  },
+  {
+    "name": "Juventus",
+    "nickname": "The Old Lady",
+    "founded": 1897,
+    "stadium": "Allianz Stadium",
+    "location": "Turin, Italy",
+    "website": "https://www.juventus.com",
+    "tags": ["serie-a", "italian", "europe"]
+  },
+  {
+    "name": "AC Milan",
+    "nickname": "Rossoneri",
+    "founded": 1899,
+    "stadium": "San Siro",
+    "location": "Milan, Italy",
+    "website": "https://www.acmilan.com",
+    "tags": ["serie-a", "italian", "europe"]
+  },
+  {
+    "name": "Inter Milan",
+    "nickname": "Nerazzurri",
+    "founded": 1908,
+    "stadium": "San Siro",
+    "location": "Milan, Italy",
+    "website": "https://www.inter.it",
+    "tags": ["serie-a", "italian", "europe"]
+  },
+  {
+    "name": "AS Roma",
+    "nickname": "Giallorossi",
+    "founded": 1927,
+    "stadium": "Stadio Olimpico",
+    "location": "Rome, Italy",
+    "website": "https://www.asroma.com",
+    "tags": ["serie-a", "italian", "europe"]
+  },
+  {
+    "name": "SSC Napoli",
+    "nickname": "Partenopei",
+    "founded": 1926,
+    "stadium": "Diego Armando Maradona Stadium",
+    "location": "Naples, Italy",
+    "website": "https://www.sscnapoli.it",
+    "tags": ["serie-a", "italian", "europe"]
+  },
+  {
+    "name": "SS Lazio",
+    "nickname": "Biancocelesti",
+    "founded": 1900,
+    "stadium": "Stadio Olimpico",
+    "location": "Rome, Italy",
+    "website": "https://www.sslazio.it",
+    "tags": ["serie-a", "italian", "europe"]
+  },
+  {
+    "name": "ACF Fiorentina",
+    "nickname": "Viola",
+    "founded": 1926,
+    "stadium": "Artemio Franchi",
+    "location": "Florence, Italy",
+    "website": "https://www.acffiorentina.com",
+    "tags": ["serie-a", "italian"]
+  },
+  {
+    "name": "Atalanta BC",
+    "nickname": "La Dea",
+    "founded": 1907,
+    "stadium": "Gewiss Stadium",
+    "location": "Bergamo, Italy",
+    "website": "https://www.atalanta.it",
+    "tags": ["serie-a", "italian", "europe"]
+  },
+  {
+    "name": "Bayern Munich",
+    "nickname": "FC Bayern",
+    "founded": 1900,
+    "stadium": "Allianz Arena",
+    "location": "Munich, Germany",
+    "website": "https://fcbayern.com",
+    "tags": ["bundesliga", "german", "europe"]
+  },
+  {
+    "name": "Borussia Dortmund",
+    "nickname": "BVB",
+    "founded": 1909,
+    "stadium": "Signal Iduna Park",
+    "location": "Dortmund, Germany",
+    "website": "https://www.bvb.de",
+    "tags": ["bundesliga", "german", "europe"]
+  },
+  {
+    "name": "RB Leipzig",
+    "nickname": "Die Roten Bullen",
+    "founded": 2009,
+    "stadium": "Red Bull Arena",
+    "location": "Leipzig, Germany",
+    "website": "https://rbleipzig.com",
+    "tags": ["bundesliga", "german", "europe"]
+  },
+  {
+    "name": "Bayer Leverkusen",
+    "nickname": "Die Werkself",
+    "founded": 1904,
+    "stadium": "BayArena",
+    "location": "Leverkusen, Germany",
+    "website": "https://www.bayer04.de",
+    "tags": ["bundesliga", "german", "europe"]
+  },
+  {
+    "name": "FC Schalke 04",
+    "nickname": "Schalke",
+    "founded": 1904,
+    "stadium": "Veltins-Arena",
+    "location": "Gelsenkirchen, Germany",
+    "website": "https://www.schalke04.de",
+    "tags": ["german"]
+  },
+  {
+    "name": "VfB Stuttgart",
+    "nickname": "Stuttgart",
+    "founded": 1893,
+    "stadium": "MHPArena",
+    "location": "Stuttgart, Germany",
+    "website": "https://www.vfb.de",
+    "tags": ["bundesliga", "german"]
+  },
+  {
+    "name": "Eintracht Frankfurt",
+    "nickname": "Die Adler",
+    "founded": 1899,
+    "stadium": "Deutsche Bank Park",
+    "location": "Frankfurt, Germany",
+    "website": "https://www.eintracht.de",
+    "tags": ["bundesliga", "german", "europe"]
+  },
+  {
+    "name": "Werder Bremen",
+    "nickname": "Die Werderaner",
+    "founded": 1899,
+    "stadium": "Weserstadion",
+    "location": "Bremen, Germany",
+    "website": "https://www.werder.de",
+    "tags": ["bundesliga", "german"]
+  },
+  {
+    "name": "Hamburger SV",
+    "nickname": "HSV",
+    "founded": 1887,
+    "stadium": "Volksparkstadion",
+    "location": "Hamburg, Germany",
+    "website": "https://www.hsv.de",
+    "tags": ["german", "europe"]
+  },
+  {
+    "name": "Borussia Monchengladbach",
+    "nickname": "Gladbach",
+    "founded": 1900,
+    "stadium": "Borussia-Park",
+    "location": "Monchengladbach, Germany",
+    "website": "https://www.borussia.de",
+    "tags": ["bundesliga", "german", "europe"]
+  },
+  {
+    "name": "VfL Wolfsburg",
+    "nickname": "Die Wolfe",
+    "founded": 1945,
+    "stadium": "Volkswagen Arena",
+    "location": "Wolfsburg, Germany",
+    "website": "https://www.vfl-wolfsburg.de",
+    "tags": ["bundesliga", "german"]
+  },
+  {
+    "name": "Paris Saint-Germain",
+    "nickname": "PSG",
+    "founded": 1970,
+    "stadium": "Parc des Princes",
+    "location": "Paris, France",
+    "website": "https://www.psg.fr",
+    "tags": ["ligue-1", "french", "europe"]
+  },
+  {
+    "name": "Olympique Marseille",
+    "nickname": "OM",
+    "founded": 1899,
+    "stadium": "Orange Velodrome",
+    "location": "Marseille, France",
+    "website": "https://www.om.fr",
+    "tags": ["ligue-1", "french", "europe"]
+  },
+  {
+    "name": "Olympique Lyon",
+    "nickname": "OL",
+    "founded": 1950,
+    "stadium": "Groupama Stadium",
+    "location": "Lyon, France",
+    "website": "https://www.ol.fr",
+    "tags": ["ligue-1", "french", "europe"]
+  },
+  {
+    "name": "AS Monaco",
+    "nickname": "Monaco",
+    "founded": 1924,
+    "stadium": "Stade Louis II",
+    "location": "Monaco",
+    "website": "https://www.asmonaco.com",
+    "tags": ["ligue-1", "french", "europe"]
+  },
+  {
+    "name": "Lille OSC",
+    "nickname": "LOSC",
+    "founded": 1944,
+    "stadium": "Decathlon Arena",
+    "location": "Lille, France",
+    "website": "https://www.losc.fr",
+    "tags": ["ligue-1", "french", "europe"]
+  },
+  {
+    "name": "OGC Nice",
+    "nickname": "Nice",
+    "founded": 1904,
+    "stadium": "Allianz Riviera",
+    "location": "Nice, France",
+    "website": "https://www.ogcnice.com",
+    "tags": ["ligue-1", "french"]
+  },
+  {
+    "name": "AS Saint-Etienne",
+    "nickname": "Les Verts",
+    "founded": 1919,
+    "stadium": "Stade Geoffroy-Guichard",
+    "location": "Saint-Etienne, France",
+    "website": "https://www.asse.fr",
+    "tags": ["french", "europe"]
+  },
+  {
+    "name": "Ajax",
+    "nickname": "De Godenzonen",
+    "founded": 1900,
+    "stadium": "Johan Cruyff Arena",
+    "location": "Amsterdam, Netherlands",
+    "website": "https://www.ajax.nl",
+    "tags": ["eredivisie", "dutch", "europe"]
+  },
+  {
+    "name": "PSV Eindhoven",
+    "nickname": "PSV",
+    "founded": 1913,
+    "stadium": "Philips Stadion",
+    "location": "Eindhoven, Netherlands",
+    "website": "https://www.psv.nl",
+    "tags": ["eredivisie", "dutch", "europe"]
+  },
+  {
+    "name": "Feyenoord",
+    "nickname": "De Club van het Volk",
+    "founded": 1908,
+    "stadium": "De Kuip",
+    "location": "Rotterdam, Netherlands",
+    "website": "https://www.feyenoord.nl",
+    "tags": ["eredivisie", "dutch", "europe"]
+  },
+  {
+    "name": "SL Benfica",
+    "nickname": "As Aguias",
+    "founded": 1904,
+    "stadium": "Estadio da Luz",
+    "location": "Lisbon, Portugal",
+    "website": "https://www.slbenfica.pt",
+    "tags": ["portuguese", "europe"]
+  },
+  {
+    "name": "FC Porto",
+    "nickname": "Os Dragoes",
+    "founded": 1893,
+    "stadium": "Estadio do Dragao",
+    "location": "Porto, Portugal",
+    "website": "https://www.fcporto.pt",
+    "tags": ["portuguese", "europe"]
+  },
+  {
+    "name": "Sporting CP",
+    "nickname": "Sporting",
+    "founded": 1906,
+    "stadium": "Estadio Jose Alvalade",
+    "location": "Lisbon, Portugal",
+    "website": "https://www.sporting.pt",
+    "tags": ["portuguese", "europe"]
+  },
+  {
+    "name": "Galatasaray",
+    "nickname": "Cimbom",
+    "founded": 1905,
+    "stadium": "Rams Park",
+    "location": "Istanbul, Turkey",
+    "website": "https://www.galatasaray.org",
+    "tags": ["turkish", "europe"]
+  },
+  {
+    "name": "Fenerbahce",
+    "nickname": "The Yellow Canaries",
+    "founded": 1907,
+    "stadium": "Sukru Saracoglu Stadium",
+    "location": "Istanbul, Turkey",
+    "website": "https://www.fenerbahce.org",
+    "tags": ["turkish", "europe"]
+  },
+  {
+    "name": "Besiktas",
+    "nickname": "The Black Eagles",
+    "founded": 1903,
+    "stadium": "Tupras Stadium",
+    "location": "Istanbul, Turkey",
+    "website": "https://www.bjk.com.tr",
+    "tags": ["turkish", "europe"]
+  },
+  {
+    "name": "FC Red Bull Salzburg",
+    "nickname": "Salzburg",
+    "founded": 1933,
+    "stadium": "Red Bull Arena",
+    "location": "Salzburg, Austria",
+    "website": "https://www.redbullsalzburg.at",
+    "tags": ["austrian", "europe"]
+  },
+  {
+    "name": "Club Brugge",
+    "nickname": "Club",
+    "founded": 1891,
+    "stadium": "Jan Breydel Stadium",
+    "location": "Bruges, Belgium",
+    "website": "https://www.clubbrugge.be",
+    "tags": ["belgian", "europe"]
+  },
+  {
+    "name": "RSC Anderlecht",
+    "nickname": "Anderlecht",
+    "founded": 1908,
+    "stadium": "Lotto Park",
+    "location": "Brussels, Belgium",
+    "website": "https://www.rsca.be",
+    "tags": ["belgian", "europe"]
+  },
+  {
+    "name": "Olympiacos",
+    "nickname": "Thrylos",
+    "founded": 1925,
+    "stadium": "Karaiskakis Stadium",
+    "location": "Piraeus, Greece",
+    "website": "https://www.olympiacos.org",
+    "tags": ["greek", "europe"]
+  },
+  {
+    "name": "Panathinaikos",
+    "nickname": "PAO",
+    "founded": 1908,
+    "stadium": "Leoforos Alexandras Stadium",
+    "location": "Athens, Greece",
+    "website": "https://www.pao.gr",
+    "tags": ["greek", "europe"]
+  },
+  {
+    "name": "Red Star Belgrade",
+    "nickname": "Zvezda",
+    "founded": 1945,
+    "stadium": "Rajko Mitic Stadium",
+    "location": "Belgrade, Serbia",
+    "website": "https://www.crvenazvezda.rs",
+    "tags": ["serbian", "europe"]
+  },
+  {
+    "name": "FK Partizan",
+    "nickname": "Partizan",
+    "founded": 1945,
+    "stadium": "Partizan Stadium",
+    "location": "Belgrade, Serbia",
+    "website": "https://www.partizan.rs",
+    "tags": ["serbian", "europe"]
+  },
+  {
+    "name": "GNK Dinamo Zagreb",
+    "nickname": "Dinamo",
+    "founded": 1911,
+    "stadium": "Maksimir Stadium",
+    "location": "Zagreb, Croatia",
+    "website": "https://gnkdinamo.hr",
+    "tags": ["croatian", "europe"]
+  },
+  {
+    "name": "Zenit Saint Petersburg",
+    "nickname": "Zenit",
+    "founded": 1925,
+    "stadium": "Gazprom Arena",
+    "location": "Saint Petersburg, Russia",
+    "website": "https://fc-zenit.ru",
+    "tags": ["russian", "europe"]
+  },
+  {
+    "name": "FC Dynamo Kyiv",
+    "nickname": "Dynamo",
+    "founded": 1927,
+    "stadium": "NSC Olimpiyskiy",
+    "location": "Kyiv, Ukraine",
+    "website": "https://fcdynamo.com",
+    "tags": ["ukrainian", "europe"]
+  },
+  {
+    "name": "FC Shakhtar Donetsk",
+    "nickname": "Shakhtar",
+    "founded": 1936,
+    "stadium": "Arena Lviv",
+    "location": "Donetsk, Ukraine",
+    "website": "https://shakhtar.com",
+    "tags": ["ukrainian", "europe"]
+  },
+  {
+    "name": "Flamengo",
+    "nickname": "Mengao",
+    "founded": 1895,
+    "stadium": "Maracana",
+    "location": "Rio de Janeiro, Brazil",
+    "website": "https://www.flamengo.com.br",
+    "tags": ["brazilian", "south-america"]
+  },
+  {
+    "name": "Corinthians",
+    "nickname": "Timao",
+    "founded": 1910,
+    "stadium": "Neo Quimica Arena",
+    "location": "Sao Paulo, Brazil",
+    "website": "https://www.corinthians.com.br",
+    "tags": ["brazilian", "south-america"]
+  },
+  {
+    "name": "SE Palmeiras",
+    "nickname": "Verdao",
+    "founded": 1914,
+    "stadium": "Allianz Parque",
+    "location": "Sao Paulo, Brazil",
+    "website": "https://www.palmeiras.com.br",
+    "tags": ["brazilian", "south-america"]
+  },
+  {
+    "name": "Sao Paulo FC",
+    "nickname": "Tricolor Paulista",
+    "founded": 1930,
+    "stadium": "MorumBIS",
+    "location": "Sao Paulo, Brazil",
+    "website": "https://www.saopaulofc.net",
+    "tags": ["brazilian", "south-america"]
+  },
+  {
+    "name": "Santos FC",
+    "nickname": "Peixe",
+    "founded": 1912,
+    "stadium": "Vila Belmiro",
+    "location": "Santos, Brazil",
+    "website": "https://www.santosfc.com.br",
+    "tags": ["brazilian", "south-america"]
+  },
+  {
+    "name": "CR Fluminense",
+    "nickname": "Flu",
+    "founded": 1902,
+    "stadium": "Maracana",
+    "location": "Rio de Janeiro, Brazil",
+    "website": "https://www.fluminense.com.br",
+    "tags": ["brazilian", "south-america"]
+  },
+  {
+    "name": "SC Internacional",
+    "nickname": "Inter",
+    "founded": 1909,
+    "stadium": "Beira-Rio",
+    "location": "Porto Alegre, Brazil",
+    "website": "https://www.internacional.com.br",
+    "tags": ["brazilian", "south-america"]
+  },
+  {
+    "name": "Gremio FBPA",
+    "nickname": "Gremio",
+    "founded": 1903,
+    "stadium": "Arena do Gremio",
+    "location": "Porto Alegre, Brazil",
+    "website": "https://www.gremio.net",
+    "tags": ["brazilian", "south-america"]
+  },
+  {
+    "name": "Boca Juniors",
+    "nickname": "Xeneizes",
+    "founded": 1905,
+    "stadium": "La Bombonera",
+    "location": "Buenos Aires, Argentina",
+    "website": "https://www.bocajuniors.com.ar",
+    "tags": ["argentine", "south-america"]
+  },
+  {
+    "name": "River Plate",
+    "nickname": "Los Millonarios",
+    "founded": 1901,
+    "stadium": "El Monumental",
+    "location": "Buenos Aires, Argentina",
+    "website": "https://www.cariverplate.com.ar",
+    "tags": ["argentine", "south-america"]
+  },
+  {
+    "name": "Racing Club",
+    "nickname": "La Academia",
+    "founded": 1903,
+    "stadium": "El Cilindro",
+    "location": "Avellaneda, Argentina",
+    "website": "https://www.racingclub.com.ar",
+    "tags": ["argentine", "south-america"]
+  },
+  {
+    "name": "Club Atletico Independiente",
+    "nickname": "El Rojo",
+    "founded": 1905,
+    "stadium": "Libertadores de America",
+    "location": "Avellaneda, Argentina",
+    "website": "https://www.clubindependiente.com.ar",
+    "tags": ["argentine", "south-america"]
+  },
+  {
+    "name": "Club America",
+    "nickname": "Las Aguilas",
+    "founded": 1916,
+    "stadium": "Estadio Azteca",
+    "location": "Mexico City, Mexico",
+    "website": "https://www.clubamerica.com.mx",
+    "tags": ["mexican", "north-america"]
+  },
+  {
+    "name": "Chivas Guadalajara",
+    "nickname": "Chivas",
+    "founded": 1906,
+    "stadium": "Estadio Akron",
+    "location": "Guadalajara, Mexico",
+    "website": "https://www.chivasdecorazon.com.mx",
+    "tags": ["mexican", "north-america"]
+  },
+  {
+    "name": "Cruz Azul",
+    "nickname": "La Maquina",
+    "founded": 1927,
+    "stadium": "Estadio Ciudad de los Deportes",
+    "location": "Mexico City, Mexico",
+    "website": "https://www.cruzazulfc.com",
+    "tags": ["mexican", "north-america"]
+  },
+  {
+    "name": "Al Hilal",
+    "nickname": "The Leader",
+    "founded": 1957,
+    "stadium": "Kingdom Arena",
+    "location": "Riyadh, Saudi Arabia",
+    "website": "https://www.alhilal.com",
+    "tags": ["saudi", "asia"]
+  },
+  {
+    "name": "Al Nassr",
+    "nickname": "Al Alami",
+    "founded": 1955,
+    "stadium": "Al-Awwal Park",
+    "location": "Riyadh, Saudi Arabia",
+    "website": "https://www.alnassr.com",
+    "tags": ["saudi", "asia"]
+  },
+  {
+    "name": "Al Ittihad",
+    "nickname": "The Tigers",
+    "founded": 1927,
+    "stadium": "King Abdullah Sports City",
+    "location": "Jeddah, Saudi Arabia",
+    "website": "https://www.alittihadclub.sa",
+    "tags": ["saudi", "asia"]
+  },
+  {
+    "name": "LA Galaxy",
+    "nickname": "Galaxy",
+    "founded": 1995,
+    "stadium": "Dignity Health Sports Park",
+    "location": "Carson, California, USA",
+    "website": "https://www.lagalaxy.com",
+    "tags": ["mls", "north-america"]
+  },
+  {
+    "name": "Inter Miami CF",
+    "nickname": "The Herons",
+    "founded": 2018,
+    "stadium": "Chase Stadium",
+    "location": "Fort Lauderdale, Florida, USA",
+    "website": "https://www.intermiamicf.com",
+    "tags": ["mls", "north-america"]
+  },
+  {
+    "name": "Al Ahly SC",
+    "nickname": "The Red Devils",
+    "founded": 1907,
+    "stadium": "Cairo International Stadium",
+    "location": "Cairo, Egypt",
+    "website": "https://www.alahly.com",
+    "tags": ["african", "egyptian"]
+  },
+  {
+    "name": "Zamalek SC",
+    "nickname": "The White Knights",
+    "founded": 1911,
+    "stadium": "Cairo International Stadium",
+    "location": "Cairo, Egypt",
+    "website": "https://www.zamaleksc.com",
+    "tags": ["african", "egyptian"]
+  },
+  {
+    "name": "Urawa Red Diamonds",
+    "nickname": "Urawa",
+    "founded": 1950,
+    "stadium": "Saitama Stadium",
+    "location": "Saitama, Japan",
+    "website": "https://www.urawa-reds.co.jp",
+    "tags": ["japanese", "asia"]
+  },
+  {
+    "name": "FC Seoul",
+    "nickname": "Seoul",
+    "founded": 1983,
+    "stadium": "Seoul World Cup Stadium",
+    "location": "Seoul, South Korea",
+    "website": "https://www.fcseoul.com",
+    "tags": ["korean", "asia"]
+  },
+  {
+    "name": "Atletico Nacional",
+    "nickname": "El Verde",
+    "founded": 1947,
+    "stadium": "Atanasio Girardot",
+    "location": "Medellin, Colombia",
+    "website": "https://www.atlnacional.com.co",
+    "tags": ["colombian", "south-america"]
+  },
+  {
+    "name": "Colo-Colo",
+    "nickname": "Cacique",
+    "founded": 1925,
+    "stadium": "Estadio Monumental David Arellano",
+    "location": "Santiago, Chile",
+    "website": "https://www.colocolo.cl",
+    "tags": ["chilean", "south-america"]
+  },
+  {
+    "name": "Club Atletico Penarol",
+    "nickname": "Manya",
+    "founded": 1891,
+    "stadium": "Estadio Campeon del Siglo",
+    "location": "Montevideo, Uruguay",
+    "website": "https://www.peñarol.org",
+    "tags": ["uruguayan", "south-america"]
+  }
+]
