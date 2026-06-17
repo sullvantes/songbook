@@ -1,0 +1,1679 @@
+[
+  {
+    "title": "You'll Never Walk Alone",
+    "lyrics": "When you walk through a storm, hold your head up high,\nAnd don't be afraid of the dark.\nAt the end of a storm, there's a golden sky,\nAnd the sweet silver song of a lark.\nWalk on through the wind, walk on through the rain,\nThough your dreams be tossed and blown.\nWalk on, walk on, with hope in your heart,\nAnd you'll never walk alone.",
+    "description": "Liverpool's anthem, sung by the Kop before kickoff. Adapted from Rodgers and Hammerstein's Carousel.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "anthem",
+      "classic",
+      "pre-match"
+    ]
+  },
+  {
+    "title": "Fields of Anfield Road",
+    "lyrics": "Outside the Safeway supermarket, I heard a Kopite moan,\nHe said we can't buy players when we're trying to build a home,\nBut I said we play the Liverpool way, we press and never tire,\nAnd when the Reds go marching in, we set the world on fire.",
+    "description": "Liverpool fan song sung to the tune of Fields of Athenry, about life around Anfield.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-song",
+      "classic"
+    ]
+  },
+  {
+    "title": "Poor Scouser Tommy",
+    "lyrics": "Let me tell you the story of a poor boy,\nWho left his home in the Isle of Dogs,\nTo join a good ship and sail the world wide,\nBut he never returned to the Isle of Dogs.",
+    "description": "Traditional Liverpool folk song about a sailor from the Isle of Dogs; often sung on away trips.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-song",
+      "classic",
+      "folk"
+    ]
+  },
+  {
+    "title": "Walk On",
+    "lyrics": "Walk on, walk on, with hope in your heart,\nAnd you'll never walk alone.",
+    "description": "Refrain from You'll Never Walk Alone; sung throughout matches after the full anthem.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "anthem",
+      "classic"
+    ]
+  },
+  {
+    "title": "In My Liverpool Home",
+    "lyrics": "In my Liverpool home, in my Liverpool home,\nWe speak with an accent exceedingly rare,\nWe meet under a statue exceedingly bare,\nIf you want a cathedral, we've got one to spare,\nIn my Liverpool home.",
+    "description": "Comic Liverpool folk song celebrating the city's character.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-song",
+      "folk"
+    ]
+  },
+  {
+    "title": "Liverpool Lou",
+    "lyrics": "Oh, Liverpool Lou, lovely Liverpool Lou,\nWhy don't you behave, love, like the others do?",
+    "description": "Traditional Merseyside folk song associated with Liverpool supporters.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-song",
+      "folk"
+    ]
+  },
+  {
+    "title": "The Leaving of Liverpool",
+    "lyrics": "Farewell to Prince's Landing Pier,\nWhere many a pleasant hour I spent,\nI'm bound off for California,\nA place I know right well.",
+    "description": "Sea shanty and folk standard sung by Liverpool travelling support.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-song",
+      "folk",
+      "away"
+    ]
+  },
+  {
+    "title": "We All Follow Liverpool",
+    "lyrics": "We all follow Liverpool,\nOver land and sea and Leicester,\nWe all follow Liverpool,\nOn to victory.",
+    "description": "Core Liverpool call-and-response chant declaring support home and away.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "Oh Liverpool We Love You",
+    "lyrics": "Oh Liverpool, we love you,\nWe do, oh Liverpool we love you, we do,\nOh Liverpool we love you, we do,\nAnd we love the Kop as well.",
+    "description": "Simple terrace song affirming support for the club and the Kop.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "The Liver Bird Upon My Chest",
+    "lyrics": "I've got a Liver Bird upon my chest,\nOne nothing else will do,\nI've got a Liver Bird upon my chest,\n'Cause I'm a Liverpudlian through and through.",
+    "description": "Terrace song about wearing the Liver Bird crest with pride.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "This Is Anfield",
+    "lyrics": "This is Anfield,\nThis is Anfield,\nNo one wants to be here.",
+    "description": "Chant referencing the famous This Is Anfield sign in the players' tunnel.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "anfield"
+    ]
+  },
+  {
+    "title": "Allez Allez Allez",
+    "lyrics": "Allez, allez, allez,\nWe are Liverpool, super Liverpool,\nAllez, allez, allez.",
+    "description": "Adapted terrace chant popularised during Liverpool's 2018 Champions League run.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "modern",
+      "european"
+    ]
+  },
+  {
+    "title": "Allez Les Rouges",
+    "lyrics": "Allez les Rouges, allez les Rouges,\nAllez les Rouges.",
+    "description": "French-style chant for Liverpool's red kit ('the Reds').",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "We Are Liverpool, Tra La La",
+    "lyrics": "We are Liverpool, tra la la la la,\nWe are Liverpool, tra la la la la la la la.",
+    "description": "Simple repetitive call chant used on the Kop and around the ground.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "One Kiss",
+    "lyrics": "One kiss is all it takes,\nFallin' in love with me...",
+    "description": "Dua Lipa song adopted by Liverpool fans during the 2018-19 title challenge.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "modern",
+      "pop"
+    ]
+  },
+  {
+    "title": "Ring of Fire",
+    "lyrics": "Love is a burning thing,\nAnd it makes a fiery ring...",
+    "description": "Johnny Cash song adopted on the Kop, especially during big European nights.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-song",
+      "terrace"
+    ]
+  },
+  {
+    "title": "Every Other Tuesday",
+    "lyrics": "Every other Tuesday, we work and we slouch,\nThe other day's for football, and going to the match...",
+    "description": "Humorous Liverpool song about European away nights and matchday routine.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-song",
+      "european"
+    ]
+  },
+  {
+    "title": "Pass and Move (It's the Liverpool Groove)",
+    "lyrics": "Pass and move, pass and move, pass and move, pass and move,\nIt's the Liverpool groove, ba da da da da...",
+    "description": "1990s terrace song celebrating Liverpool's passing style.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "The Anfield Rap",
+    "lyrics": "Anfield rap, we're the Liverpool crew...",
+    "description": "1980s novelty song by John Barnes and Craig Johnston; part of club folklore.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-song",
+      "1980s",
+      "novelty"
+    ]
+  },
+  {
+    "title": "Justice for the 96",
+    "lyrics": "Justice for the 96,\nJustice for the 96.",
+    "description": "Remembrance chant for the 97 victims of the Hillsborough disaster (96 plus later inquest).",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "remembrance",
+      "hillsborough"
+    ]
+  },
+  {
+    "title": "Istanbul 2005 Chant",
+    "lyrics": "Istanbul, Istanbul, we won it five times,\nIstanbul, Istanbul, we won it five times...",
+    "description": "Chant celebrating Liverpool's fifth European Cup, won in Istanbul in 2005.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "european",
+      "classic"
+    ]
+  },
+  {
+    "title": "We Won It Six Times",
+    "lyrics": "We won it six times, we won it six times,\nLiverpool FC, we won it six times.",
+    "description": "Chant celebrating Liverpool's sixth European Cup/Champions League title (2019).",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "european",
+      "modern"
+    ]
+  },
+  {
+    "title": "Luis Garcia (Barcelona 2005)",
+    "lyrics": "His name is Luis Garcia, he plays for Liverpool,\nHe came from Barcelona to Liverpool,\nHe plays on the left, he plays on the right,\nHe makes the Kop sing every night.",
+    "description": "Chant for Luis Garcia, especially remembered for the 'ghost goal' against Chelsea in 2005.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "european"
+    ]
+  },
+  {
+    "title": "Corner Taken Quickly",
+    "lyrics": "Corner taken quickly, ORIGI!",
+    "description": "Chant immortalising Divock Origi's goal against Barcelona in the 2019 Champions League semi-final.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "european",
+      "modern",
+      "origi"
+    ]
+  },
+  {
+    "title": "Origi Against Barcelona",
+    "lyrics": "Divock Origi, he scores the winning goal,\nDivock Origi, he scores the winning goal...",
+    "description": "Celebration song for Divock Origi's decisive goals in the 2019 Barcelona comeback.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "european",
+      "origi"
+    ]
+  },
+  {
+    "title": "Steve Gerrard Is His Name",
+    "lyrics": "His name is Steven Gerrard, he wears the number eight,\nHis name is Steven Gerrard, he plays for Liverpool great...",
+    "description": "Terrace tribute to Steven Gerrard, Liverpool captain and club legend.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "legend",
+      "gerrard"
+    ]
+  },
+  {
+    "title": "Steven Gerrard Leader of the Kop",
+    "lyrics": "Steven Gerrard, leader of the Kop,\nSteven Gerrard, leader of the Kop...",
+    "description": "Kop-end chant honouring Gerrard's leadership.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "legend",
+      "gerrard"
+    ]
+  },
+  {
+    "title": "We All Dream of a Team of Carraghers",
+    "lyrics": "We all dream of a team of Carraghers,\nA team of Carraghers, a team of Carraghers...",
+    "description": "Jamie Carragher tribute sung to the tune of Just Can't Get Enough.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "legend",
+      "carragher"
+    ]
+  },
+  {
+    "title": "Jamie Carragher Is His Name",
+    "lyrics": "His name is Jamie Carragher, he plays for Liverpool...",
+    "description": "Direct terrace tribute to defender Jamie Carragher.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "legend",
+      "carragher"
+    ]
+  },
+  {
+    "title": "Robbie Fowler God",
+    "lyrics": "Worship to Fowler, God almighty Fowler,\nYou are the son of God, Robbie Fowler...",
+    "description": "Kop chant for Robbie Fowler, one of Liverpool's greatest natural goalscorers.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "legend",
+      "fowler"
+    ]
+  },
+  {
+    "title": "Ian Rush Scored 346",
+    "lyrics": "Ian Rush scored 346,\nIan Rush scored 346...",
+    "description": "Chant celebrating Ian Rush's Liverpool goal-scoring record.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "legend",
+      "rush"
+    ]
+  },
+  {
+    "title": "King Kenny Dalglish",
+    "lyrics": "Kenny Dalglish, King Kenny Dalglish,\nKenny Dalglish, King Kenny Dalglish...",
+    "description": "Chant for Kenny Dalglish as player and manager.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "legend",
+      "dalglish"
+    ]
+  },
+  {
+    "title": "John Barnes",
+    "lyrics": "There's only one John Barnes, one John Barnes,\nThere's only one John Barnes...",
+    "description": "Tribute to winger John Barnes, key figure in Liverpool's 1980s success.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "legend",
+      "barnes"
+    ]
+  },
+  {
+    "title": "Michael Owen",
+    "lyrics": "Michael Owen, Michael Owen, running down the wing...",
+    "description": "1990s/2000s terrace song for striker Michael Owen.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "owen"
+    ]
+  },
+  {
+    "title": "Luis Suarez",
+    "lyrics": "He plays on the left, he plays on the right,\nThat boy Suarez makes Messi look shite...",
+    "description": "2010s chant for Luis Suarez during his prolific Liverpool spell.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "suarez"
+    ]
+  },
+  {
+    "title": "Fernando Torres",
+    "lyrics": "His arse offends me, his arse offends me,\nFernando Torres, his arse offends me...",
+    "description": "Playful terrace song from Fernando Torres's Liverpool era.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "torres"
+    ]
+  },
+  {
+    "title": "Dirk Kuyt",
+    "lyrics": "Dirk Kuyt, Dirk Kuyt, running down the wing...",
+    "description": "Chant for Dutch forward Dirk Kuyt, known for relentless work rate.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "kuyt"
+    ]
+  },
+  {
+    "title": "Peter Crouch",
+    "lyrics": "He's taller than you, he's taller than you,\nPeter Crouch, he's taller than you...",
+    "description": "Terrace song for striker Peter Crouch referencing his height.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "crouch"
+    ]
+  },
+  {
+    "title": "Xabi Alonso",
+    "lyrics": "Xabi Alonso, he plays in midfield,\nXabi Alonso, he plays for Liverpool...",
+    "description": "Chant for Spanish midfielder Xabi Alonso.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "alonso"
+    ]
+  },
+  {
+    "title": "Pepe Reina",
+    "lyrics": "Pepe Reina, la la la la la la la la la la...",
+    "description": "Goalkeeper chant for Pepe Reina during his Anfield years.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "reina",
+      "goalkeeper"
+    ]
+  },
+  {
+    "title": "Si Senor (Firmino)",
+    "lyrics": "Si senor, give the ball to Bobby Firmino,\nSi senor, give the ball to Bobby Firmino...",
+    "description": "Brazilian-themed chant for Roberto Firmino.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "firmino",
+      "modern"
+    ]
+  },
+  {
+    "title": "Si Senor (Henderson)",
+    "lyrics": "Si senor, pass the ball to Jordan Henderson...",
+    "description": "Variant of Si Senor for captain Jordan Henderson.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "henderson",
+      "modern"
+    ]
+  },
+  {
+    "title": "Mo Salah (Egyptian King)",
+    "lyrics": "Mo Salah, la la la la la la,\nIf he's good enough for you, he's good enough for me,\nIf he scores another few, then I'll be Muslim too...",
+    "description": "Iconic Mohamed Salah chant celebrating his goalscoring and global impact.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "salah",
+      "modern",
+      "legend"
+    ]
+  },
+  {
+    "title": "Running Down the Wing (Salah)",
+    "lyrics": "He's running down the wing, Salah la la la la la,\nThe Egyptian King, la la la la la...",
+    "description": "Alternative Mohamed Salah terrace melody.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "salah",
+      "modern"
+    ]
+  },
+  {
+    "title": "Sadio Mane",
+    "lyrics": "Sadio Mane, running down the wing,\nSadio Mane, running down the wing...",
+    "description": "Chant for Senegalese forward Sadio Mane during the Klopp era.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "mane",
+      "modern"
+    ]
+  },
+  {
+    "title": "Mane Mane Mane",
+    "lyrics": "Mane, Mane, Mane, Mane, Mane, Mane, Mane...",
+    "description": "Simple repetitive chant for Sadio Mane.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "mane",
+      "modern"
+    ]
+  },
+  {
+    "title": "Virgil van Dijk",
+    "lyrics": "Oh Virgil van Dijk, oh Virgil van Dijk,\nVirgil van Dijk, he plays for Liverpool...",
+    "description": "Chant for centre-back Virgil van Dijk.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "vandijk",
+      "modern"
+    ]
+  },
+  {
+    "title": "Big Virg",
+    "lyrics": "Big Virg, Big Virg, Big Virg...",
+    "description": "Nickname chant for Virgil van Dijk.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "vandijk",
+      "modern"
+    ]
+  },
+  {
+    "title": "Alisson Becker",
+    "lyrics": "Alisson Becker, the goalkeeper,\nAlisson Becker, the best in the world...",
+    "description": "Chant for Brazilian goalkeeper Alisson Becker.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "alisson",
+      "modern",
+      "goalkeeper"
+    ]
+  },
+  {
+    "title": "Trent Alexander-Arnold",
+    "lyrics": "Trent Alexander-Arnold, he's our right-back,\nTrent Alexander-Arnold, he's our right-back...",
+    "description": "Homegrown right-back chant for Trent Alexander-Arnold.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "trent",
+      "modern"
+    ]
+  },
+  {
+    "title": "Andy Robertson",
+    "lyrics": "Andy Robertson, he plays left-back,\nAndy Robertson, he plays for Liverpool...",
+    "description": "Chant for Scottish left-back Andy Robertson.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "robertson",
+      "modern"
+    ]
+  },
+  {
+    "title": "Fabinho",
+    "lyrics": "Fabinho, Fabinho, Fabinho...",
+    "description": "Midfield destroyer chant for Fabinho.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "fabinho",
+      "modern"
+    ]
+  },
+  {
+    "title": "Diogo Jota",
+    "lyrics": "Diogo Jota, he scores the goals,\nDiogo Jota, he plays for Liverpool...",
+    "description": "Tribute to Diogo Jota, tragically killed in 2024.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "jota",
+      "modern",
+      "remembrance"
+    ]
+  },
+  {
+    "title": "Luis Diaz",
+    "lyrics": "Luis Diaz, la la la la la,\nLuis Diaz, la la la la la...",
+    "description": "Chant for Colombian winger Luis Diaz.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "diaz",
+      "modern"
+    ]
+  },
+  {
+    "title": "Darwin Nunez",
+    "lyrics": "Darwin Nunez, he plays for Liverpool,\nDarwin Nunez, he scores the goals...",
+    "description": "Chant for Uruguayan striker Darwin Nunez.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "nunez",
+      "modern"
+    ]
+  },
+  {
+    "title": "Alexis Mac Allister",
+    "lyrics": "Alexis Mac Allister, he plays for Liverpool,\nWorld Cup winner, Alexis Mac Allister...",
+    "description": "Chant for Argentine midfielder Alexis Mac Allister.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "mac-allister",
+      "modern"
+    ]
+  },
+  {
+    "title": "Wataru Endo",
+    "lyrics": "Wataru Endo, he sits in midfield,\nWataru Endo, he plays for Liverpool...",
+    "description": "Chant for Japanese midfielder Wataru Endo.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "endo",
+      "modern"
+    ]
+  },
+  {
+    "title": "Dominik Szoboszlai",
+    "lyrics": "Szoboszlai, la la la la la,\nDominik Szoboszlai...",
+    "description": "Chant for Hungarian midfielder Dominik Szoboszlai.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "szoboszlai",
+      "modern"
+    ]
+  },
+  {
+    "title": "Curtis Jones",
+    "lyrics": "Curtis Jones, he plays for the team,\nHe wears the number seventeen...",
+    "description": "Homegrown midfielder chant for Curtis Jones.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "curtis-jones",
+      "modern",
+      "academy"
+    ]
+  },
+  {
+    "title": "Harvey Elliott",
+    "lyrics": "Harvey Elliott, la la la la la...",
+    "description": "Chant for academy graduate Harvey Elliott.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "elliott",
+      "modern",
+      "academy"
+    ]
+  },
+  {
+    "title": "Cody Gakpo",
+    "lyrics": "Cody Gakpo, he plays for Liverpool...",
+    "description": "Chant for Dutch forward Cody Gakpo.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "gakpo",
+      "modern"
+    ]
+  },
+  {
+    "title": "Ibrahima Konate",
+    "lyrics": "Ibrahima Konate, he plays at the back...",
+    "description": "Chant for French centre-back Ibrahima Konate.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "konate",
+      "modern"
+    ]
+  },
+  {
+    "title": "I'm So Glad Jurgen Klopp Is a Red",
+    "lyrics": "I'm so glad, Jurgen Klopp is a Red,\nI'm so glad, he said fuck off to the Kop...",
+    "description": "Celebratory chant for manager Jurgen Klopp during the successful era.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "manager-tribute",
+      "klopp",
+      "modern"
+    ]
+  },
+  {
+    "title": "Jurgen Klopp La La La",
+    "lyrics": "Jurgen Klopp, la la la la la la la la,\nJurgen Klopp, la la la la la la la la...",
+    "description": "Simple melody chant for Jurgen Klopp.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "manager-tribute",
+      "klopp",
+      "modern"
+    ]
+  },
+  {
+    "title": "The Normal One",
+    "lyrics": "I'm the normal one, I'm the normal one...",
+    "description": "Reference to Klopp's famous 'I'm the normal one' introductory press conference.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "manager-tribute",
+      "klopp",
+      "modern"
+    ]
+  },
+  {
+    "title": "Arne Slot Chant",
+    "lyrics": "Arne Slot, he leads the Reds,\nArne Slot, he leads the Reds...",
+    "description": "Chant for manager Arne Slot, Jurgen Klopp's successor.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "manager-tribute",
+      "slot",
+      "modern"
+    ]
+  },
+  {
+    "title": "Bill Shankly Song",
+    "lyrics": "Shankly, Shankly, the name on every tongue,\nShankly, Shankly, he made the Kop sing...",
+    "description": "Tribute to legendary manager Bill Shankly, architect of modern Liverpool.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "manager-tribute",
+      "legend",
+      "shankly"
+    ]
+  },
+  {
+    "title": "Bob Paisley Song",
+    "lyrics": "Bob Paisley, he won it all,\nBob Paisley, he won it all...",
+    "description": "Tribute to manager Bob Paisley, who won three European Cups.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "manager-tribute",
+      "legend",
+      "paisley"
+    ]
+  },
+  {
+    "title": "Scouser Tommy (Shankly Gates)",
+    "lyrics": "Outside the Shankly Gates, I heard a Kopite moan...",
+    "description": "Variant of Poor Scouser Tommy referencing the Shankly Gates at Anfield.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-song",
+      "anfield"
+    ]
+  },
+  {
+    "title": "Let's Talk About Six Baby",
+    "lyrics": "Let's talk about six, baby, let's talk about you and me,\nLet's talk about all the good things and the bad things that may be...",
+    "description": "Spice Girls parody celebrating Liverpool's sixth European Cup (2019).",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "european",
+      "modern",
+      "parody"
+    ]
+  },
+  {
+    "title": "Song 2 (Woo Hoo)",
+    "lyrics": "Woo hoo, woo hoo...",
+    "description": "Blur's Song 2 riff frequently sung on the Kop during exciting passages of play.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "terrace",
+      "pop"
+    ]
+  },
+  {
+    "title": "We Can See You Waving",
+    "lyrics": "We can see you waving, we can see you waving,\nYour arms are going mad, your arms are going mad...",
+    "description": "Away-end taunt sung by Liverpool fans to home supporters.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "away"
+    ]
+  },
+  {
+    "title": "Who Are Ya",
+    "lyrics": "Who are ya? Who are ya? Who are ya?",
+    "description": "Generic terrace taunt used by Liverpool fans toward opposition.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "away"
+    ]
+  },
+  {
+    "title": "Where Do You Come From",
+    "lyrics": "Where do you come from? Where do you come from?\nWhere do you come from, Liverpool?",
+    "description": "Call-and-response chant about Liverpool origins and identity.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "Red Men Chant",
+    "lyrics": "We are the red men, mighty mighty red men...",
+    "description": "Terrace identity chant for Liverpool's red kit.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "Liverpool FC (Club Song)",
+    "lyrics": "Liverpool FC, Liverpool FC,\nWe are the greatest team in history...",
+    "description": "General club pride chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "Georginio Wijnaldum",
+    "lyrics": "Georginio Wijnaldum, he scores the goals...",
+    "description": "Chant for Dutch midfielder Georginio Wijnaldum, key in the 2019 Barcelona comeback.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "wijnaldum",
+      "modern"
+    ]
+  },
+  {
+    "title": "James Milner",
+    "lyrics": "James Milner, he runs all day,\nJames Milner, he runs all day...",
+    "description": "Chant celebrating James Milner's extraordinary fitness and versatility.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "milner",
+      "modern"
+    ]
+  },
+  {
+    "title": "Naby Keita",
+    "lyrics": "Naby Keita, he plays in midfield...",
+    "description": "Chant for Guinean midfielder Naby Keita.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "keita",
+      "modern"
+    ]
+  },
+  {
+    "title": "Joel Matip",
+    "lyrics": "Joel Matip, he plays at the back...",
+    "description": "Chant for Cameroonian centre-back Joel Matip.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "matip",
+      "modern"
+    ]
+  },
+  {
+    "title": "Thiago Alcantara",
+    "lyrics": "Thiago, Thiago, Thiago Alcantara...",
+    "description": "Chant for Spanish midfielder Thiago Alcantara.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "thiago",
+      "modern"
+    ]
+  },
+  {
+    "title": "Takumi Minamino",
+    "lyrics": "Minamino, Minamino, Minamino...",
+    "description": "Chant for Japanese forward Takumi Minamino.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "minamino",
+      "modern"
+    ]
+  },
+  {
+    "title": "Kostas Tsimikas",
+    "lyrics": "Kostas Tsimikas, he plays left-back...",
+    "description": "Chant for Greek left-back Kostas Tsimikas.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "tsimikas",
+      "modern"
+    ]
+  },
+  {
+    "title": "Ryan Gravenberch",
+    "lyrics": "Ryan Gravenberch, he plays for Liverpool...",
+    "description": "Chant for Dutch midfielder Ryan Gravenberch.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "gravenberch",
+      "modern"
+    ]
+  },
+  {
+    "title": "Conor Bradley",
+    "lyrics": "Conor Bradley, he plays right-back...",
+    "description": "Chant for Northern Irish academy graduate Conor Bradley.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "bradley",
+      "modern",
+      "academy"
+    ]
+  },
+  {
+    "title": "Jarell Quansah",
+    "lyrics": "Jarell Quansah, he plays at the back...",
+    "description": "Chant for homegrown centre-back Jarell Quansah.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "quansah",
+      "modern",
+      "academy"
+    ]
+  },
+  {
+    "title": "Emile Heskey",
+    "lyrics": "Emile Heskey, he scores the goals...",
+    "description": "Chant for striker Emile Heskey during his Liverpool years.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "heskey"
+    ]
+  },
+  {
+    "title": "Steve McManaman",
+    "lyrics": "McManaman, running down the wing...",
+    "description": "Chant for winger Steve McManaman, local boy and academy product.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "mcmanaman",
+      "academy"
+    ]
+  },
+  {
+    "title": "Dietmar Hamann",
+    "lyrics": "Hamann, Hamann, Dietmar Hamann...",
+    "description": "Chant for German midfielder Dietmar Hamann, Istanbul 2005 hero.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "hamann",
+      "european"
+    ]
+  },
+  {
+    "title": "Jerzy Dudek",
+    "lyrics": "Jerzy Dudek, he saved the day...",
+    "description": "Tribute to goalkeeper Jerzy Dudek's penalty shootout heroics in Istanbul 2005.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "dudek",
+      "european",
+      "goalkeeper"
+    ]
+  },
+  {
+    "title": "Samuel Eto'o Mockery (2005 Final)",
+    "lyrics": "Samuel Eto'o, he walks alone...",
+    "description": "Taunting chant from the 2005 Champions League final context.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "european",
+      "banter"
+    ]
+  },
+  {
+    "title": "Steven Gerrard Istanbul",
+    "lyrics": "Steven Gerrard, he led the team,\nIn Istanbul, he fulfilled the dream...",
+    "description": "Celebrating Gerrard's role in the 2005 Champions League final comeback.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "gerrard",
+      "european",
+      "legend"
+    ]
+  },
+  {
+    "title": "Champions League Dream",
+    "lyrics": "We're Liverpool FC, we're going to win the Champions League...",
+    "description": "European campaign chant sung during knockout runs.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "european"
+    ]
+  },
+  {
+    "title": "Goodison Park Taunt",
+    "lyrics": "If you all hate Everton, clap your hands...",
+    "description": "Rivalry chant sung toward Everton; part of Merseyside derby culture.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "derby",
+      "everton"
+    ]
+  },
+  {
+    "title": "Poor Little Everton",
+    "lyrics": "Poor little Everton, they haven't won a thing...",
+    "description": "Merseyside derby taunt referencing Everton's trophy drought.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "derby",
+      "everton",
+      "banter"
+    ]
+  },
+  {
+    "title": "Manchester United Taunt",
+    "lyrics": "You're not singing anymore, you're not singing anymore...",
+    "description": "Generic taunt often directed at Manchester United at Anfield.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "banter",
+      "rivalry"
+    ]
+  },
+  {
+    "title": "Chelsea Taunt (2005)",
+    "lyrics": "Cheer up lads, you'll never walk alone...",
+    "description": "Ironic taunt sung to Chelsea after Liverpool's 2005 semi-final victory.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-chant",
+      "banter",
+      "european"
+    ]
+  },
+  {
+    "title": "Fields of Athenry (Away Version)",
+    "lyrics": "Low lie the fields of Anfield Road,\nWhere once we watched the great Bill Shankly...",
+    "description": "Away-end variant of the Fields of Athenry melody with Liverpool lyrics.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "fan-song",
+      "away",
+      "classic"
+    ]
+  },
+  {
+    "title": "Emre Can",
+    "lyrics": "Emre Can, Emre Can, Emre Can...",
+    "description": "Chant for German midfielder Emre Can during his Liverpool spell.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "can"
+    ]
+  },
+  {
+    "title": "Adam Lallana",
+    "lyrics": "Adam Lallana, he plays for Liverpool,\nAdam Lallana, he plays for Liverpool...",
+    "description": "Chant for midfielder Adam Lallana in the Klopp era.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "chant",
+      "liverpool",
+      "player-tribute",
+      "lallana",
+      "modern"
+    ]
+  }
+]

@@ -1,0 +1,1487 @@
+[
+  {
+    "title": "You'll Never Walk Alone",
+    "lyrics": "When you walk through a storm, hold your head up high...",
+    "description": "Anthem adapted from Carousel; sung at Liverpool, Celtic, Dortmund, Feyenoord and others.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem",
+      "classic"
+    ],
+    "clubs": [
+      "Liverpool FC",
+      "Celtic FC",
+      "Borussia Dortmund",
+      "Feyenoord"
+    ]
+  },
+  {
+    "title": "Ole Ole Ole",
+    "lyrics": "Ole, ole, ole ole! Ole, ole!",
+    "description": "Universal victory chant heard in stadiums worldwide.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "global"
+    ]
+  },
+  {
+    "title": "Seven Nation Army",
+    "lyrics": "Oh, oh, oh, oh oh oh oh... (White Stripes riff)",
+    "description": "White Stripes riff adopted by fans globally.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "global"
+    ]
+  },
+  {
+    "title": "Allez Allez Allez",
+    "lyrics": "Allez, allez, allez...",
+    "description": "Adapted terrace chant used by many clubs including Liverpool and Chelsea.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Liverpool FC",
+      "Chelsea FC"
+    ]
+  },
+  {
+    "title": "Vamos Vamos",
+    "lyrics": "Vamos vamos Argentina...",
+    "description": "Passionate Argentine national team chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "national-team"
+    ],
+    "clubs": [
+      "Argentina"
+    ]
+  },
+  {
+    "title": "Guantanamera",
+    "lyrics": "Guantanamera, guajira Guantanamera...",
+    "description": "Traditional song sung in many stadiums.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "global"
+    ]
+  },
+  {
+    "title": "Fields of Anfield Road",
+    "lyrics": "Outside the Safeway supermarket...",
+    "description": "Liverpool fan song set to Fields of Athenry.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Liverpool FC"
+    ]
+  },
+  {
+    "title": "Poor Scouser Tommy",
+    "lyrics": "Let me tell you the story of a poor boy...",
+    "description": "Classic Liverpool folk-style terrace song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song",
+      "classic"
+    ],
+    "clubs": [
+      "Liverpool FC"
+    ]
+  },
+  {
+    "title": "One Kiss",
+    "lyrics": "One kiss is all it takes...",
+    "description": "Dua Lipa song adopted by Liverpool fans.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant",
+      "modern"
+    ],
+    "clubs": [
+      "Liverpool FC"
+    ]
+  },
+  {
+    "title": "Steve Gerrard Is His Name",
+    "lyrics": "His name is Steven Gerrard...",
+    "description": "Terrace tribute to Steven Gerrard.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "player-tribute"
+    ],
+    "clubs": [
+      "Liverpool FC"
+    ]
+  },
+  {
+    "title": "Si Senor",
+    "lyrics": "Si senor, give the ball to Bobby Firmino...",
+    "description": "Liverpool chant for Roberto Firmino.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "player-tribute"
+    ],
+    "clubs": [
+      "Liverpool FC"
+    ]
+  },
+  {
+    "title": "We Are Liverpool, Tra La La",
+    "lyrics": "We are Liverpool, tra la la la la...",
+    "description": "Simple Liverpool call-and-response song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Liverpool FC"
+    ]
+  },
+  {
+    "title": "Allez Les Rouges",
+    "lyrics": "Allez les Rouges...",
+    "description": "Liverpool terrace chant for the Reds.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Liverpool FC"
+    ]
+  },
+  {
+    "title": "Scouser Tommy (Fields Variant)",
+    "lyrics": "Outside the Shankly Gates...",
+    "description": "Variant Liverpool travelling song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Liverpool FC"
+    ]
+  },
+  {
+    "title": "Glory Glory Man United",
+    "lyrics": "Glory, glory, Man United...",
+    "description": "Manchester United adaptation of Glory Glory.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "Manchester United"
+    ]
+  },
+  {
+    "title": "United Road (Take Me Home)",
+    "lyrics": "Take me home, United Road...",
+    "description": "Man United song to the tune of Country Roads.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Manchester United"
+    ]
+  },
+  {
+    "title": "Sit Down, Sit Down",
+    "lyrics": "Sit down, sit down, sit down, sit down...",
+    "description": "Taunt sung by Manchester United fans.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Manchester United"
+    ]
+  },
+  {
+    "title": "Red Army",
+    "lyrics": "United, United, United...",
+    "description": "Manchester United home end chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Manchester United"
+    ]
+  },
+  {
+    "title": "Blue Moon",
+    "lyrics": "Blue moon, you saw me standing alone...",
+    "description": "Manchester City anthem.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "Manchester City"
+    ]
+  },
+  {
+    "title": "We Love You City",
+    "lyrics": "We love you City, we do...",
+    "description": "Classic Manchester City terrace song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Manchester City"
+    ]
+  },
+  {
+    "title": "Manchester City European Nights",
+    "lyrics": "Blue moon, you saw me standing alone...",
+    "description": "City European night atmosphere.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Manchester City"
+    ]
+  },
+  {
+    "title": "Don't Look Back in Anger",
+    "lyrics": "So Sally can wait...",
+    "description": "Oasis anthem adopted by Manchester City fans.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Manchester City"
+    ]
+  },
+  {
+    "title": "Carefree",
+    "lyrics": "Carefree, wherever we may be...",
+    "description": "Chelsea fan song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Chelsea FC"
+    ]
+  },
+  {
+    "title": "Celery",
+    "lyrics": "Celery, celery...",
+    "description": "Historic Chelsea terrace chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant",
+      "historic"
+    ],
+    "clubs": [
+      "Chelsea FC"
+    ]
+  },
+  {
+    "title": "Ten Men Went to Mow",
+    "lyrics": "Ten men went to mow, went to mow a meadow...",
+    "description": "Traditional counting song at Chelsea.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Chelsea FC"
+    ]
+  },
+  {
+    "title": "Jose Mourinho Chant",
+    "lyrics": "Jose Mourinho, Jose Mourinho...",
+    "description": "Chelsea tribute to Jose Mourinho.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "manager-tribute"
+    ],
+    "clubs": [
+      "Chelsea FC"
+    ]
+  },
+  {
+    "title": "Good Old Arsenal",
+    "lyrics": "Good old Arsenal, good old Arsenal...",
+    "description": "Classic Arsenal fan song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Arsenal FC"
+    ]
+  },
+  {
+    "title": "1 Nil to the Arsenal",
+    "lyrics": "One nil to the Arsenal...",
+    "description": "Arsenal chant for narrow victories.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Arsenal FC"
+    ]
+  },
+  {
+    "title": "Hot Stuff",
+    "lyrics": "Hot stuff, baby this evening...",
+    "description": "Donna Summer track adopted by Arsenal.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Arsenal FC"
+    ]
+  },
+  {
+    "title": "Gooners Gooners Gooners",
+    "lyrics": "Gooners, gooners, gooners...",
+    "description": "Arsenal fan self-identification chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Arsenal FC"
+    ]
+  },
+  {
+    "title": "Marching On Together",
+    "lyrics": "Marching on together, now we're gonna see you through...",
+    "description": "Leeds United anthem.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "Leeds United"
+    ]
+  },
+  {
+    "title": "Leeds! Leeds! Leeds!",
+    "lyrics": "Leeds, Leeds, Leeds...",
+    "description": "Leeds United call chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Leeds United"
+    ]
+  },
+  {
+    "title": "Glory Glory (Leeds)",
+    "lyrics": "Glory, glory, Leeds United...",
+    "description": "Leeds adaptation of Glory Glory.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Leeds United"
+    ]
+  },
+  {
+    "title": "I'm Forever Blowing Bubbles",
+    "lyrics": "I'm forever blowing bubbles, pretty bubbles in the air...",
+    "description": "West Ham United anthem since the 1920s.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "West Ham United"
+    ]
+  },
+  {
+    "title": "It's a Grand Old Team",
+    "lyrics": "It's a grand old team to play for...",
+    "description": "Everton fan song to the tune of The Red Flag.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Everton FC"
+    ]
+  },
+  {
+    "title": "Z-Cars Theme",
+    "lyrics": "Johnny Todd (instrumental theme)...",
+    "description": "Everton entrance music from Z-Cars.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "Everton FC"
+    ]
+  },
+  {
+    "title": "Blaydon Races",
+    "lyrics": "Oh, lads, ye shudda seen us gannin'...",
+    "description": "Geordie folk song adopted by Newcastle.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song",
+      "classic"
+    ],
+    "clubs": [
+      "Newcastle United"
+    ]
+  },
+  {
+    "title": "Local Hero",
+    "lyrics": "Instrumental / Mark Knopfler theme...",
+    "description": "Newcastle entrance music from Local Hero.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "Newcastle United"
+    ]
+  },
+  {
+    "title": "Glory Glory Tottenham Hotspur",
+    "lyrics": "Glory, glory, Tottenham Hotspur...",
+    "description": "Tottenham Glory Glory adaptation.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "Tottenham Hotspur"
+    ]
+  },
+  {
+    "title": "When the Year Ends in One",
+    "lyrics": "Oh when the year ends in one...",
+    "description": "Tottenham chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Tottenham Hotspur"
+    ]
+  },
+  {
+    "title": "Oh When the Spurs",
+    "lyrics": "Oh when the Spurs go marching in...",
+    "description": "Tottenham song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Tottenham Hotspur"
+    ]
+  },
+  {
+    "title": "Spurs Are on Their Way to Wembley",
+    "lyrics": "Spurs are on their way to Wembley...",
+    "description": "Tottenham cup run chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Tottenham Hotspur"
+    ]
+  },
+  {
+    "title": "Blue Army",
+    "lyrics": "Blue army, blue army...",
+    "description": "Leicester City terrace chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Leicester City"
+    ]
+  },
+  {
+    "title": "Mull of Kintyre",
+    "lyrics": "Mull of Kintyre...",
+    "description": "Paul McCartney song associated with Aston Villa.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Aston Villa"
+    ]
+  },
+  {
+    "title": "Villa Villa Villa",
+    "lyrics": "Villa, Villa, Villa...",
+    "description": "Aston Villa call chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Aston Villa"
+    ]
+  },
+  {
+    "title": "Sweet Caroline",
+    "lyrics": "Sweet Caroline, ba ba ba...",
+    "description": "Neil Diamond song sung at England matches.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "national-team",
+      "global"
+    ],
+    "clubs": [
+      "England"
+    ]
+  },
+  {
+    "title": "Three Lions",
+    "lyrics": "It's coming home, it's coming home...",
+    "description": "England Euro 96 song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "national-team",
+      "fan-song"
+    ],
+    "clubs": [
+      "England"
+    ]
+  },
+  {
+    "title": "Vindaloo",
+    "lyrics": "Me and me dad and me dad's dad...",
+    "description": "England 1998 World Cup song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "national-team"
+    ],
+    "clubs": [
+      "England"
+    ]
+  },
+  {
+    "title": "Country Roads",
+    "lyrics": "Country roads, take me home...",
+    "description": "John Denver song sung by England fans.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "national-team",
+      "global"
+    ],
+    "clubs": [
+      "England"
+    ]
+  },
+  {
+    "title": "Wonderwall",
+    "lyrics": "Today is gonna be the day...",
+    "description": "Oasis song on England away trips.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "national-team"
+    ],
+    "clubs": [
+      "England"
+    ]
+  },
+  {
+    "title": "The Celtic Song",
+    "lyrics": "It's a grand old team to play for...",
+    "description": "Celtic fan song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Celtic FC"
+    ]
+  },
+  {
+    "title": "Grace",
+    "lyrics": "As we draw near the end of the season...",
+    "description": "Celtic title celebration song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Celtic FC"
+    ]
+  },
+  {
+    "title": "Just Can't Get Enough",
+    "lyrics": "Just can't get enough of Celtic...",
+    "description": "Depeche Mode track adopted by Celtic.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Celtic FC"
+    ]
+  },
+  {
+    "title": "The Wild Rover",
+    "lyrics": "I've been a wild rover for many's the year...",
+    "description": "Irish folk song in Scottish football culture.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Celtic FC"
+    ]
+  },
+  {
+    "title": "Follow Follow",
+    "lyrics": "Follow, follow, we will follow Rangers...",
+    "description": "Rangers FC terrace song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Rangers FC"
+    ]
+  },
+  {
+    "title": "Simply the Best",
+    "lyrics": "You're simply the best...",
+    "description": "Tina Turner song associated with Rangers.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Rangers FC"
+    ]
+  },
+  {
+    "title": "Every Other Saturday",
+    "lyrics": "Every other Saturday, my heart's in Glasgow...",
+    "description": "Rangers matchday song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Rangers FC"
+    ]
+  },
+  {
+    "title": "Come On You Boys in Green",
+    "lyrics": "Come on you boys in green...",
+    "description": "Republic of Ireland chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "national-team"
+    ],
+    "clubs": [
+      "Republic of Ireland"
+    ]
+  },
+  {
+    "title": "Stern des Sudens",
+    "lyrics": "Stern des Sudens, du bist ein Meister...",
+    "description": "Bayern Munich anthem.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "Bayern Munich"
+    ]
+  },
+  {
+    "title": "Forever Number One",
+    "lyrics": "Forever number one...",
+    "description": "Bayern Munich fan song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Bayern Munich"
+    ]
+  },
+  {
+    "title": "Mia San Mia",
+    "lyrics": "Mia san mia...",
+    "description": "Bayern motto chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Bayern Munich"
+    ]
+  },
+  {
+    "title": "Allez Paris-Saint-Germain",
+    "lyrics": "Allez Paris-Saint-Germain...",
+    "description": "PSG call chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Paris Saint-Germain"
+    ]
+  },
+  {
+    "title": "Ici C'est Paris",
+    "lyrics": "Ici c'est Paris...",
+    "description": "PSG declaration chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Paris Saint-Germain"
+    ]
+  },
+  {
+    "title": "Au Champs-Elysees",
+    "lyrics": "Aux Champs-Elysees...",
+    "description": "French song sung by Les Bleus supporters.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "national-team"
+    ],
+    "clubs": [
+      "France"
+    ]
+  },
+  {
+    "title": "Allez Les Bleus",
+    "lyrics": "Allez les Bleus!",
+    "description": "France national team chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "national-team"
+    ],
+    "clubs": [
+      "France"
+    ]
+  },
+  {
+    "title": "Hala Madrid",
+    "lyrics": "Hala Madrid, y nada mas...",
+    "description": "Real Madrid anthem.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "Real Madrid"
+    ]
+  },
+  {
+    "title": "Vamos Real Madrid",
+    "lyrics": "Vamos Real, vamos a ganar...",
+    "description": "Real Madrid Spanish terrace chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Real Madrid"
+    ]
+  },
+  {
+    "title": "Mes Que Un Club",
+    "lyrics": "Mes que un club...",
+    "description": "Barcelona motto.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "FC Barcelona"
+    ]
+  },
+  {
+    "title": "Cant del Barca",
+    "lyrics": "Tot l'any seguim amb tu...",
+    "description": "Official FC Barcelona anthem.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "FC Barcelona"
+    ]
+  },
+  {
+    "title": "Ciao Mama",
+    "lyrics": "Ciao mama, ciao mama...",
+    "description": "Napoli terrace chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "SSC Napoli"
+    ]
+  },
+  {
+    "title": "Un Giorno All'Improvviso",
+    "lyrics": "Un giorno all'improvviso...",
+    "description": "Napoli fan song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "SSC Napoli"
+    ]
+  },
+  {
+    "title": "Wij Houden Van Ajax",
+    "lyrics": "Wij houden van Ajax...",
+    "description": "Ajax fan chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Ajax"
+    ]
+  },
+  {
+    "title": "Porto Chant (Dragoes Azuis)",
+    "lyrics": "Porto, Porto, Porto...",
+    "description": "FC Porto terrace chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "FC Porto"
+    ]
+  },
+  {
+    "title": "Benfica Slavia",
+    "lyrics": "Slavia, Slavia, Benfica...",
+    "description": "Benfica eagle-themed chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "SL Benfica"
+    ]
+  },
+  {
+    "title": "Dale Boca",
+    "lyrics": "Dale, dale, dale Boca...",
+    "description": "Boca Juniors call chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Boca Juniors"
+    ]
+  },
+  {
+    "title": "Muchachos Ahora Nos Volvimos a Ilusionar",
+    "lyrics": "Muchachos, ahora nos volvimos a ilusionar...",
+    "description": "Argentina World Cup song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "national-team",
+      "fan-song"
+    ],
+    "clubs": [
+      "Argentina"
+    ]
+  },
+  {
+    "title": "Vai Corinthians",
+    "lyrics": "Vai, Corinthians!",
+    "description": "Corinthians call chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Corinthians"
+    ]
+  },
+  {
+    "title": "Flamengo Mengao Chant",
+    "lyrics": "Uma vez Flamengo, Flamengo ate morrer...",
+    "description": "Flamengo anthem line.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "Flamengo"
+    ]
+  },
+  {
+    "title": "Cacique Chant",
+    "lyrics": "Colo-Colo, Colo-Colo...",
+    "description": "Colo-Colo terrace chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Colo-Colo"
+    ]
+  },
+  {
+    "title": "Freed from Desire",
+    "lyrics": "My love is cheap, you're talking money...",
+    "description": "Gala track adopted by many fan groups.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "global"
+    ]
+  },
+  {
+    "title": "We Are the Champions",
+    "lyrics": "We are the champions, my friends...",
+    "description": "Queen song sung after cup wins.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "global"
+    ]
+  },
+  {
+    "title": "Hi Ho Silver Lining",
+    "lyrics": "Hi ho, silver lining...",
+    "description": "Jeff Beck song on terraces.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "global"
+    ]
+  },
+  {
+    "title": "On the Ball, City",
+    "lyrics": "Kick off, throw in, header, goal...",
+    "description": "Classic English football song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "global",
+      "classic"
+    ]
+  },
+  {
+    "title": "Play Up Pompey",
+    "lyrics": "Play up Pompey, Pompey play up...",
+    "description": "Portsmouth chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "global"
+    ]
+  },
+  {
+    "title": "No One Likes Us",
+    "lyrics": "No one likes us, we don't care...",
+    "description": "Millwall anthem.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "global"
+    ]
+  },
+  {
+    "title": "We Shall Not Be Moved",
+    "lyrics": "We shall not be moved...",
+    "description": "Tradition song sung on terraces.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "global"
+    ]
+  },
+  {
+    "title": "Vamos Vamos Mexico",
+    "lyrics": "Vamos, vamos Mexico...",
+    "description": "Mexico national team chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "national-team"
+    ],
+    "clubs": [
+      "Mexico"
+    ]
+  },
+  {
+    "title": "Sevilla Ole",
+    "lyrics": "Ole, ole, ole, Sevilla...",
+    "description": "Sevilla FC call chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Sevilla FC"
+    ]
+  },
+  {
+    "title": "Atleti Chant",
+    "lyrics": "Atleti, Atleti...",
+    "description": "Atletico Madrid terrace chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Atletico Madrid"
+    ]
+  },
+  {
+    "title": "Juventus Anthem",
+    "lyrics": "Storia di un grande amore...",
+    "description": "Official Juventus anthem.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "Juventus"
+    ]
+  },
+  {
+    "title": "Forza Milan",
+    "lyrics": "Forza Milan, forza Milan...",
+    "description": "AC Milan call chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "AC Milan"
+    ]
+  },
+  {
+    "title": "Pazza Inter Amala",
+    "lyrics": "Pazza Inter amala...",
+    "description": "Inter Milan anthem.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "Inter Milan"
+    ]
+  },
+  {
+    "title": "Roma Roma Roma",
+    "lyrics": "Roma, Roma, Roma...",
+    "description": "AS Roma terrace chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "AS Roma"
+    ]
+  },
+  {
+    "title": "When the Saints Go Marching In",
+    "lyrics": "Oh when the saints go marching in...",
+    "description": "Southampton FC anthem.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "anthem"
+    ],
+    "clubs": [
+      "Southampton FC"
+    ]
+  },
+  {
+    "title": "Seagulls Seagulls",
+    "lyrics": "Seagulls, seagulls...",
+    "description": "Brighton & Hove Albion chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Brighton & Hove Albion"
+    ]
+  },
+  {
+    "title": "We've Got the Whole World in Our Hands",
+    "lyrics": "We've got the whole world in our hands...",
+    "description": "Nottingham Forest fan song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-song"
+    ],
+    "clubs": [
+      "Nottingham Forest"
+    ]
+  },
+  {
+    "title": "Hi Ho Wolverhampton",
+    "lyrics": "Hi ho, Wolverhampton...",
+    "description": "Wolverhampton Wanderers chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Wolverhampton Wanderers"
+    ]
+  },
+  {
+    "title": "E-I-E-I-O",
+    "lyrics": "E-I-E-I-O...",
+    "description": "Everton call-and-response chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Everton FC"
+    ]
+  },
+  {
+    "title": "Dortmund Ole",
+    "lyrics": "Ole, ole, ole, BVB...",
+    "description": "Borussia Dortmund victory chant.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant"
+    ],
+    "clubs": [
+      "Borussia Dortmund"
+    ]
+  },
+  {
+    "title": "Istanbul 2005 Chant",
+    "lyrics": "Istanbul, Istanbul, we won it five times...",
+    "description": "Liverpool chant celebrating the 2005 Champions League final.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "tags": [
+      "chant",
+      "soccer",
+      "fan-chant",
+      "classic"
+    ],
+    "clubs": [
+      "Liverpool FC"
+    ]
+  }
+]

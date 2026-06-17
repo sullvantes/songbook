@@ -11,9 +11,10 @@ class MediaLinkInline(admin.TabularInline):
 
 @admin.register(Song)
 class SongAdmin(ModelAdmin):
-    list_display = ("title", "club", "player", "is_fan_chant", "created_at", "updated_at")
-    list_filter = ("is_fan_chant", "club", "player", "created_at")
-    search_fields = ("title", "lyrics", "description", "club__name", "player__name")
+    list_display = ("title", "display_clubs", "player", "is_fan_chant", "created_at", "updated_at")
+    list_filter = ("is_fan_chant", "clubs", "player", "created_at")
+    search_fields = ("title", "lyrics", "description", "clubs__name", "player__name")
+    filter_horizontal = ("clubs",)
 
     inlines = [MediaLinkInline]
 
@@ -22,9 +23,13 @@ class SongAdmin(ModelAdmin):
             "fields": ("title", "lyrics", "description", "is_fan_chant")
         }),
         ("Related To", {
-            "fields": ("club", "player")
+            "fields": ("clubs", "player")
         }),
         ("Tags", {
             "fields": ("tags",)
         }),
     )
+
+    @admin.display(description="Clubs")
+    def display_clubs(self, obj):
+        return ", ".join(obj.clubs.values_list("name", flat=True))
