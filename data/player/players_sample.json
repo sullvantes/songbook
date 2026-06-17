@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Mohamed Salah",
+    "position": "Forward",
+    "years_active": "2017–present",
+    "clubs": ["Liverpool FC", "Egypt"],
+    "tags": ["egyptian", "premier-league"]
+  },
+  {
+    "name": "Steven Gerrard",
+    "position": "Midfielder",
+    "years_active": "1998–2015",
+    "clubs": ["Liverpool FC", "England"],
+    "tags": ["english", "legend"]
+  }
+]

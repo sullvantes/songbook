@@ -1,0 +1,281 @@
+[
+  {
+    "name": "Fabio Cannavaro",
+    "position": "Defender",
+    "years_active": "1992–2011",
+    "clubs": [
+      "Real Madrid",
+      "Juventus",
+      "Inter Milan",
+      "Italy"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-winner",
+      "2006-winner",
+      "italian"
+    ]
+  },
+  {
+    "name": "Gianluigi Buffon",
+    "position": "Goalkeeper",
+    "years_active": "1995–2023",
+    "clubs": [
+      "Juventus",
+      "Paris Saint-Germain",
+      "Italy"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-runner-up",
+      "2006-runner-up",
+      "italian"
+    ]
+  },
+  {
+    "name": "Kaka",
+    "position": "Midfielder",
+    "years_active": "2001–2017",
+    "clubs": [
+      "AC Milan",
+      "Real Madrid",
+      "Brazil"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-winner",
+      "2007-winner",
+      "brazilian"
+    ]
+  },
+  {
+    "name": "Cristiano Ronaldo",
+    "position": "Forward",
+    "years_active": "2002–present",
+    "clubs": [
+      "Manchester United",
+      "Real Madrid",
+      "Juventus",
+      "Portugal"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-winner",
+      "ballon-dor-runner-up",
+      "2008-winner",
+      "2013-winner",
+      "2014-winner",
+      "2016-winner",
+      "2017-winner",
+      "2007-runner-up",
+      "2009-runner-up",
+      "2011-runner-up",
+      "2012-runner-up",
+      "2015-runner-up",
+      "2018-runner-up",
+      "portuguese"
+    ]
+  },
+  {
+    "name": "Lionel Messi",
+    "position": "Forward",
+    "years_active": "2004–present",
+    "clubs": [
+      "FC Barcelona",
+      "Paris Saint-Germain",
+      "Inter Miami CF",
+      "Argentina"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-winner",
+      "ballon-dor-runner-up",
+      "2009-winner",
+      "2010-winner",
+      "2011-winner",
+      "2012-winner",
+      "2015-winner",
+      "2019-winner",
+      "2021-winner",
+      "2023-winner",
+      "2008-runner-up",
+      "2013-runner-up",
+      "2014-runner-up",
+      "2016-runner-up",
+      "2017-runner-up",
+      "argentine"
+    ]
+  },
+  {
+    "name": "Andres Iniesta",
+    "position": "Midfielder",
+    "years_active": "2002–2023",
+    "clubs": [
+      "FC Barcelona",
+      "Spain"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-runner-up",
+      "2010-runner-up",
+      "spanish"
+    ]
+  },
+  {
+    "name": "Luka Modric",
+    "position": "Midfielder",
+    "years_active": "2003–present",
+    "clubs": [
+      "Real Madrid",
+      "Tottenham Hotspur",
+      "Croatia"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-winner",
+      "2018-winner",
+      "croatian"
+    ]
+  },
+  {
+    "name": "Virgil van Dijk",
+    "position": "Defender",
+    "years_active": "2010–present",
+    "clubs": [
+      "Liverpool FC",
+      "Netherlands"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-runner-up",
+      "2019-runner-up",
+      "dutch"
+    ]
+  },
+  {
+    "name": "Robert Lewandowski",
+    "position": "Forward",
+    "years_active": "2006–present",
+    "clubs": [
+      "Bayern Munich",
+      "FC Barcelona",
+      "Poland"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-runner-up",
+      "2021-runner-up",
+      "polish"
+    ]
+  },
+  {
+    "name": "Karim Benzema",
+    "position": "Forward",
+    "years_active": "2004–2023",
+    "clubs": [
+      "Real Madrid",
+      "Olympique Lyon",
+      "France"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-winner",
+      "2022-winner",
+      "french"
+    ]
+  },
+  {
+    "name": "Sadio Mane",
+    "position": "Forward",
+    "years_active": "2011–present",
+    "clubs": [
+      "Liverpool FC",
+      "Bayern Munich",
+      "Senegal"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-runner-up",
+      "2022-runner-up",
+      "senegalese"
+    ]
+  },
+  {
+    "name": "Erling Haaland",
+    "position": "Forward",
+    "years_active": "2015–present",
+    "clubs": [
+      "Manchester City",
+      "Borussia Dortmund",
+      "Norway"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-runner-up",
+      "2023-runner-up",
+      "norwegian"
+    ]
+  },
+  {
+    "name": "Rodri",
+    "position": "Midfielder",
+    "years_active": "2015–present",
+    "clubs": [
+      "Manchester City",
+      "Spain"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-winner",
+      "2024-winner",
+      "spanish"
+    ]
+  },
+  {
+    "name": "Vinicius Junior",
+    "position": "Forward",
+    "years_active": "2017–present",
+    "clubs": [
+      "Real Madrid",
+      "Brazil"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-runner-up",
+      "2024-runner-up",
+      "brazilian"
+    ]
+  },
+  {
+    "name": "Ousmane Dembele",
+    "position": "Forward",
+    "years_active": "2015–present",
+    "clubs": [
+      "Paris Saint-Germain",
+      "FC Barcelona",
+      "Borussia Dortmund",
+      "France"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-winner",
+      "2025-winner",
+      "french"
+    ]
+  },
+  {
+    "name": "Lamine Yamal",
+    "position": "Forward",
+    "years_active": "2023–present",
+    "clubs": [
+      "FC Barcelona",
+      "Spain"
+    ],
+    "tags": [
+      "ballon-dor",
+      "ballon-dor-runner-up",
+      "2025-runner-up",
+      "spanish"
+    ]
+  }
+]
