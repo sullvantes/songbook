@@ -1,0 +1,897 @@
+[
+  {
+    "title": "Glory Glory Man United",
+    "lyrics": "Glory, glory, Man United,\nGlory, glory, Man United,\nGlory, glory, Man United,\nAs the Reds go marching on, on, on.",
+    "description": "Manchester United's signature anthem, sung throughout Old Trafford and on away trips.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "anthem",
+      "classic"
+    ]
+  },
+  {
+    "title": "United Road",
+    "lyrics": "United Road take me home,\nTo the place I belong,\nTo Old Trafford, to see United,\nUnited Road take me home.",
+    "description": "Fan song sung to the tune of Country Roads, celebrating the journey to Old Trafford.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-song",
+      "classic",
+      "old-trafford"
+    ]
+  },
+  {
+    "title": "Sit Down Sit Down",
+    "lyrics": "If you hate Man United stand up,\nIf you hate Man United stand up,\nIf you hate Man United, if you hate Man United,\nIf you hate Man United stand up.",
+    "description": "Terrace baiting chant sung to the tune of Blue Moon; invites rival fans to stand if they hate United.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "classic",
+      "terrace"
+    ]
+  },
+  {
+    "title": "Red Army",
+    "lyrics": "We are the Red Army,\nMarching along,\nSinging our song,\nShouting together,\nWe are the Red Army.",
+    "description": "Identity chant for United's travelling support, known as the Red Army.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "classic",
+      "away"
+    ]
+  },
+  {
+    "title": "20 Times Champions",
+    "lyrics": "20 times, 20 times, Man United,\n20 times I tell you, 20 times,\n20 times, 20 times, Man United,\nWe've won the League 20 times.",
+    "description": "Chant celebrating Manchester United's record 20 English league titles.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "classic",
+      "trophy"
+    ]
+  },
+  {
+    "title": "Theatre of Dreams",
+    "lyrics": "This is the Theatre of Dreams,\nThis is the Theatre of Dreams,\nThis is the Theatre of Dreams,\nAnd we're gonna win today.",
+    "description": "Chant referencing Old Trafford's famous nickname, coined by Bobby Charlton.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "old-trafford",
+      "classic"
+    ]
+  },
+  {
+    "title": "Stretford End",
+    "lyrics": "We're the Stretford End,\nWe're the Stretford End,\nWe're the Stretford End,\nAnd we're gonna sing our song.",
+    "description": "Chant from the Stretford End, United's historic home terrace at Old Trafford.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "old-trafford",
+      "stretford-end"
+    ]
+  },
+  {
+    "title": "We Are the Red Devils",
+    "lyrics": "We are the Red Devils,\nMighty, mighty Red Devils,\nWe are the Red Devils,\nAnd we follow United.",
+    "description": "Terrace identity chant for Manchester United's Red Devils nickname.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "Manchester Is Red",
+    "lyrics": "Manchester is red, Manchester is red,\nWe hate City, we hate Liverpool,\nManchester is red.",
+    "description": "Chant asserting United's dominance in Manchester and rivalry with City and Liverpool.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "rivalry",
+      "classic"
+    ]
+  },
+  {
+    "title": "George Best (The Belfast Boy)",
+    "lyrics": "Georgie Best, Georgie Best,\nThe Belfast Boy,\nGeorgie Best, Georgie Best,\nThe greatest of them all.",
+    "description": "Tribute to George Best, United's dazzling 1960s winger and Ballon d'Or winner.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "legend",
+      "best"
+    ]
+  },
+  {
+    "title": "Ooh Aah Cantona",
+    "lyrics": "Ooh aah Cantona,\nOoh aah Cantona,\nOoh aah Cantona,\nOoh aah Cantona.",
+    "description": "Iconic Eric Cantona chant from the 1990s; one of United's most enduring terrace songs.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "legend",
+      "cantona"
+    ]
+  },
+  {
+    "title": "Ryan Giggs Will Tear You Apart",
+    "lyrics": "Ryan Giggs, Ryan Giggs,\nWill tear you apart again.",
+    "description": "Chant for Ryan Giggs sung to the tune of Joy Division's Love Will Tear Us Apart.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "legend",
+      "giggs"
+    ]
+  },
+  {
+    "title": "Paul Scholes From Fifty Yards",
+    "lyrics": "Paul Scholes, he'll score you goals,\nPaul Scholes, from 50 yards.",
+    "description": "Terrace tribute celebrating Paul Scholes's long-range shooting and midfield mastery.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "legend",
+      "scholes"
+    ]
+  },
+  {
+    "title": "David Beckham",
+    "lyrics": "Posh and Becks, Posh and Becks,\nDavid Beckham, he's the best,\nPosh and Becks, Posh and Becks,\nDavid Beckham, he's the best.",
+    "description": "1990s chant for David Beckham, United's iconic right midfielder and free-kick specialist.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "legend",
+      "beckham"
+    ]
+  },
+  {
+    "title": "Wayne Rooney (Running Down the Wing)",
+    "lyrics": "Rooney, Rooney,\nRunning down the wing,\nRooney, Rooney,\nRunning down the wing.",
+    "description": "Terrace song for Wayne Rooney, United's record goalscorer.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "legend",
+      "rooney"
+    ]
+  },
+  {
+    "title": "Viva Ronaldo",
+    "lyrics": "Viva Ronaldo,\nViva Ronaldo,\nViva Ronaldo,\nViva Ronaldo.",
+    "description": "Chant for Cristiano Ronaldo during his first spell at Old Trafford (2003-2009).",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "legend",
+      "ronaldo"
+    ]
+  },
+  {
+    "title": "Stand Up If You Love Roy Keane",
+    "lyrics": "Stand up if you love Roy Keane,\nStand up if you love Roy Keane,\nStand up if you love Roy Keane,\nStand up, stand up.",
+    "description": "Call-and-response tribute to captain Roy Keane, the heart of United's midfield dynasty.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "legend",
+      "keane"
+    ]
+  },
+  {
+    "title": "Sir Alex Ferguson",
+    "lyrics": "There's only one Alex Ferguson,\nOne Alex Ferguson,\nThere's only one Alex Ferguson.",
+    "description": "Tribute to Sir Alex Ferguson, manager of United's 26-year trophy-laden era.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "manager-tribute",
+      "legend",
+      "ferguson"
+    ]
+  },
+  {
+    "title": "Marcus Rashford",
+    "lyrics": "Rashford, la la la la la la la,\nRashford, la la la la la la la,\nIf he's good enough for you, he's good enough for me,\nIf he scores another few, then I'll be Mancunian too.",
+    "description": "Modern terrace chant for Marcus Rashford, adapted from the Mo Salah melody.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "rashford",
+      "modern"
+    ]
+  },
+  {
+    "title": "Bruno Fernandes",
+    "lyrics": "Bruno, Bruno, Bruno Fernandes,\nFrom Sporting to United,\nBruno, Bruno, Bruno Fernandes,\nHe's our Portuguese jewel.",
+    "description": "Chant for Bruno Fernandes, United's creative midfield talisman since 2020.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "bruno-fernandes",
+      "modern"
+    ]
+  },
+  {
+    "title": "1999 Treble",
+    "lyrics": "We've won the treble,\nWe've won the treble,\nManchester United,\nWe've won the treble.",
+    "description": "Celebration chant for United's historic 1998-99 treble of Premier League, FA Cup, and Champions League.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "treble",
+      "1999",
+      "classic"
+    ]
+  },
+  {
+    "title": "One Nil to United (Solskjaer)",
+    "lyrics": "One nil to United, one nil to United,\nOle Gunnar Solskjaer, one nil to United.",
+    "description": "Chant immortalising Ole Gunnar Solskjaer's injury-time winner in the 1999 Champions League final.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "solskjaer",
+      "1999",
+      "treble",
+      "european"
+    ]
+  },
+  {
+    "title": "Manchester City Taunt (Blue Moon)",
+    "lyrics": "Blue Moon, you saw me standing alone,\nWithout a dream in my heart,\nWithout a trophy of my own.",
+    "description": "Rivalry taunt sung to Manchester City's Blue Moon anthem, mocking their trophy drought.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "rivalry",
+      "manchester-city",
+      "banter"
+    ]
+  },
+  {
+    "title": "Bertie's Got a City",
+    "lyrics": "Bertie's got a City, City, City,\nBertie's got a City on his head.",
+    "description": "Classic Manchester derby taunt referencing City's perceived inferiority to United.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "rivalry",
+      "manchester-city",
+      "derby",
+      "banter"
+    ]
+  },
+  {
+    "title": "Going Down Liverpool",
+    "lyrics": "Going down, going down, so are Liverpool,\nGoing down, going down, so are Liverpool,\nIf you hate Liverpool, clap your hands.",
+    "description": "Rivalry chant directed at Liverpool, often sung during title races or relegation battles.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "rivalry",
+      "liverpool",
+      "banter"
+    ]
+  },
+  {
+    "title": "Arsenal Taunt (What Were You Thinking)",
+    "lyrics": "What were you thinking, what were you thinking,\nSigning Emmanuel Adebayor?",
+    "description": "Banter chant aimed at Arsenal, referencing Adebayor's move to Manchester City.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "rivalry",
+      "arsenal",
+      "banter"
+    ]
+  },
+  {
+    "title": "Leeds United Taunt",
+    "lyrics": "We all hate Leeds Scum, we all hate Leeds Scum,\nWe all hate Leeds Scum.",
+    "description": "Rivalry chant against Leeds United, one of English football's fiercest historic rivalries.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "rivalry",
+      "leeds",
+      "banter"
+    ]
+  },
+  {
+    "title": "We're Man United Sing What We Want",
+    "lyrics": "We're Man United, we'll sing what we want,\nWe're Man United, we'll sing what we want.",
+    "description": "Defiant away-end chant asserting United fans' right to sing anywhere.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "away",
+      "classic"
+    ]
+  },
+  {
+    "title": "You're Not Singing Anymore",
+    "lyrics": "You're not singing anymore, you're not singing anymore,\nYour team's going home, your team's going home.",
+    "description": "Generic terrace taunt used by United fans when silencing opposition supporters.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "away",
+      "banter"
+    ]
+  },
+  {
+    "title": "Who Are Ya",
+    "lyrics": "Who are ya? Who are ya? Who are ya?",
+    "description": "Standard away-end taunt directed at opposition fans whose team is losing.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "away",
+      "banter"
+    ]
+  },
+  {
+    "title": "Bobby Charlton",
+    "lyrics": "Bobby Charlton, Bobby Charlton,\nThe greatest Red of all,\nBobby Charlton, Bobby Charlton,\nHe never took a fall.",
+    "description": "Tribute to Sir Bobby Charlton, 1968 European Cup winner and England World Cup hero.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "legend",
+      "charlton"
+    ]
+  },
+  {
+    "title": "Bryan Robson (Captain Marvel)",
+    "lyrics": "Captain Marvel, Captain Marvel,\nBryan Robson, Captain Marvel.",
+    "description": "Chant for Bryan Robson, United's inspirational captain through the 1980s and early 1990s.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "legend",
+      "robson"
+    ]
+  },
+  {
+    "title": "Denis Law (The King)",
+    "lyrics": "Denis Law, Denis Law,\nThe King of Old Trafford,\nDenis Law, Denis Law,\nThe King of Old Trafford.",
+    "description": "Tribute to Denis Law, the Lawman, one of United's greatest strikers of the 1960s.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "legend",
+      "law"
+    ]
+  },
+  {
+    "title": "Ole Gunnar Solskjaer (Baby-Faced Assassin)",
+    "lyrics": "Ole, Ole, Ole Gunnar Solskjaer,\nOle, Ole, Ole Gunnar Solskjaer.",
+    "description": "Celebratory chant for Ole Gunnar Solskjaer, super-sub and 1999 Champions League hero.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "solskjaer",
+      "1999",
+      "legend"
+    ]
+  },
+  {
+    "title": "Peter Schmeichel",
+    "lyrics": "Schmeichel, Schmeichel,\nStanding on the wall,\nSchmeichel, Schmeichel,\nHe's the best of all.",
+    "description": "Tribute to Peter Schmeichel, United's legendary Danish goalkeeper of the 1990s dynasty.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "legend",
+      "schmeichel",
+      "goalkeeper"
+    ]
+  },
+  {
+    "title": "Rio Ferdinand",
+    "lyrics": "Rio Ferdinand, he plays at the back,\nRio Ferdinand, he's the best in the land.",
+    "description": "Chant for Rio Ferdinand, commanding centre-back of the Ferguson era.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "ferdinand",
+      "modern"
+    ]
+  },
+  {
+    "title": "Nemanja Vidic",
+    "lyrics": "Vidic, Vidic, Nemanja Vidic,\nVidic, Vidic, he'll break your legs.",
+    "description": "Terrace tribute to Nemanja Vidic, United's fearsome Serbian centre-back.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "vidic",
+      "modern"
+    ]
+  },
+  {
+    "title": "Rio and Vida (Defence Partnership)",
+    "lyrics": "Rio and Vida, Rio and Vida,\nRio and Vida, the best in the land.",
+    "description": "Chant celebrating the Rio Ferdinand and Nemanja Vidic centre-back partnership.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "ferdinand",
+      "vidic",
+      "modern"
+    ]
+  },
+  {
+    "title": "Patrice Evra",
+    "lyrics": "Patrice Evra, he plays left-back,\nPatrice Evra, he plays for United.",
+    "description": "Chant for French left-back Patrice Evra, a key member of multiple title-winning sides.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "evra",
+      "modern"
+    ]
+  },
+  {
+    "title": "Park Ji-sung",
+    "lyrics": "Park Ji-sung, he runs all day,\nPark Ji-sung, he runs all day.",
+    "description": "Tribute to Park Ji-sung, the tireless South Korean midfielder beloved at Old Trafford.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "park-ji-sung",
+      "modern"
+    ]
+  },
+  {
+    "title": "Edwin van der Sar",
+    "lyrics": "Edwin van der Sar, the goalkeeper,\nEdwin van der Sar, the best in the world.",
+    "description": "Chant for Dutch goalkeeper Edwin van der Sar, United's No. 1 from 2005 to 2011.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "van-der-sar",
+      "modern",
+      "goalkeeper"
+    ]
+  },
+  {
+    "title": "Dwight Yorke",
+    "lyrics": "Dwight Yorke, he scores the goals,\nDwight Yorke, he plays for United.",
+    "description": "Tribute to Dwight Yorke, prolific striker and key figure in the 1999 treble season.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "player-tribute",
+      "yorke",
+      "1999",
+      "treble"
+    ]
+  },
+  {
+    "title": "Faith in Youth",
+    "lyrics": "Faith, faith in youth,\nUnited have got faith in youth,\nFaith, faith in youth,\nUnited have got faith in youth.",
+    "description": "Chant celebrating United's tradition of developing young players through the academy.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "academy",
+      "classic"
+    ]
+  },
+  {
+    "title": "The Busby Babes",
+    "lyrics": "The Busby Babes were glorious,\nThe Busby Babes were glorious,\nThe Busby Babes were glorious,\nAnd they never will be forgotten.",
+    "description": "Remembrance chant for the Busby Babes, United's young team tragically lost in the 1958 Munich air disaster.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "remembrance",
+      "busby-babes",
+      "classic"
+    ]
+  },
+  {
+    "title": "Flowers of Manchester",
+    "lyrics": "The flowers of Manchester lay sleeping,\nIn the cold, dark earth, in the rain,\nAnd the flowers of Manchester united,\nWill bloom and bloom again.",
+    "description": "Solemn song commemorating the Munich air disaster of 6 February 1958.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "remembrance",
+      "busby-babes",
+      "folk"
+    ]
+  },
+  {
+    "title": "Three European Cups",
+    "lyrics": "We've won it three times, we've won it three times,\nManchester United, we've won it three times.",
+    "description": "Chant celebrating United's three European Cup/Champions League titles before 2008.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "european",
+      "classic"
+    ]
+  },
+  {
+    "title": "Champions of Europe (1968)",
+    "lyrics": "Champions of Europe, champions of Europe,\nManchester United, champions of Europe.",
+    "description": "Celebration of United's first European Cup triumph at Wembley in 1968 under Matt Busby.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "european",
+      "1968",
+      "classic"
+    ]
+  },
+  {
+    "title": "Follow Follow Man United",
+    "lyrics": "Follow, follow, follow,\nFollow Man United,\nFollow, follow, follow,\nOn to victory.",
+    "description": "Core call-and-response chant declaring support for United home and away.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "classic",
+      "away"
+    ]
+  },
+  {
+    "title": "Come On You Reds",
+    "lyrics": "Come on you Reds, come on you Reds,\nCome on you Reds, come on you Reds.",
+    "description": "Simple repetitive terrace chant urging United on during matches.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "We Love United",
+    "lyrics": "We love United, we do,\nOh United we love you, we do,\nOh United we love you, we do,\nAnd we follow United through and through.",
+    "description": "Terrace song affirming lifelong support for Manchester United.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "Old Trafford Bound",
+    "lyrics": "We're going up to Old Trafford,\nWe're going up to Old Trafford,\nWe're going up to Old Trafford,\nTo see United win.",
+    "description": "Matchday chant sung by fans heading to the Theatre of Dreams.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "old-trafford",
+      "matchday"
+    ]
+  },
+  {
+    "title": "Everywhere We Go",
+    "lyrics": "Everywhere we go,\nPeople want to know,\nWho we are,\nSo we tell them,\nWe are United, mighty mighty United.",
+    "description": "Away-day chant introducing United's travelling support to rival grounds.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Manchester United"
+    ],
+    "tags": [
+      "chant",
+      "manchester-united",
+      "fan-chant",
+      "away",
+      "classic"
+    ]
+  }
+]

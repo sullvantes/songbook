@@ -1,0 +1,1008 @@
+[
+  {
+    "title": "Good Old Arsenal",
+    "lyrics": "Good old Arsenal is proud to say,\nThat we are the best team the world has ever seen,\nWe are the best team the world has ever seen,\nAnd it's Arsenal, Arsenal FC,\nWe're by far the greatest team the world has ever seen.",
+    "description": "Arsenal's official club song, released in 1971 and still sung before home matches.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "anthem",
+      "classic",
+      "pre-match"
+    ]
+  },
+  {
+    "title": "One Nil to the Arsenal",
+    "lyrics": "One nil to the Arsenal, one nil to the Arsenal,\nOne nil to the Arsenal, one nil to the Arsenal.",
+    "description": "Iconic terrace chant sung to the tune of Go West; celebrates Arsenal's reputation for 1-0 wins.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic",
+      "terrace"
+    ]
+  },
+  {
+    "title": "Hot Stuff",
+    "lyrics": "Hot stuff baby this evening,\nBaby needs a goal, and I'm in need of a win,\nHot stuff baby this evening,\nGonna get my way, gonna get a win.",
+    "description": "Donna Summer adaptation sung on the terraces, especially during tense matches.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic",
+      "terrace",
+      "pop"
+    ]
+  },
+  {
+    "title": "We Are the Gooners",
+    "lyrics": "We are the Gooners, the mighty mighty Gooners,\nWe are the Gooners, from Highbury.",
+    "description": "Core identity chant for Arsenal supporters, referencing the Gooner nickname and old ground.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic",
+      "gooners"
+    ]
+  },
+  {
+    "title": "North London Forever",
+    "lyrics": "North London forever, whatever the weather,\nThese colours must never fade,\nNo matter the reason, no matter the season,\nThese colours must never fade.",
+    "description": "Modern Arsenal anthem celebrating North London identity and the red-and-white colours.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "anthem",
+      "modern",
+      "north-london"
+    ]
+  },
+  {
+    "title": "Victoria Concordia Crescit",
+    "lyrics": "Victoria Concordia Crescit,\nVictory through harmony.",
+    "description": "Chant referencing Arsenal's Latin motto, meaning 'Victory Through Harmony'.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic",
+      "motto"
+    ]
+  },
+  {
+    "title": "49 Unbeaten",
+    "lyrics": "Forty-nine, forty-nine unbeaten,\nForty-nine, forty-nine unbeaten,\nWe won the league without losing.",
+    "description": "Chant celebrating the Invincibles' 49-match unbeaten run in the 2003-04 title season.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic",
+      "invincibles"
+    ]
+  },
+  {
+    "title": "The Invincibles",
+    "lyrics": "We are the Invincibles, the mighty mighty Invincibles,\nWe are the Invincibles, from Highbury.",
+    "description": "Terrace song honouring the unbeaten 2003-04 Premier League champions.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic",
+      "invincibles"
+    ]
+  },
+  {
+    "title": "Thierry Henry Is His Name",
+    "lyrics": "His name is Thierry Henry, Thierry Henry,\nHis name is Thierry Henry, he plays for Arsenal.",
+    "description": "Classic terrace tribute to Thierry Henry, Arsenal's all-time leading goalscorer.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "legend",
+      "henry"
+    ]
+  },
+  {
+    "title": "Thierry Henry (Va Va Voom)",
+    "lyrics": "Thierry Henry, Thierry Henry, Thierry Henry,\nVa va voom, va va voom.",
+    "description": "Celebratory chant for Thierry Henry, referencing his famous 'va va voom' catchphrase.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "legend",
+      "henry"
+    ]
+  },
+  {
+    "title": "Dennis Bergkamp",
+    "lyrics": "Dennis Bergkamp, Dennis Bergkamp, Dennis Bergkamp,\nNumber ten, number ten.",
+    "description": "Tribute to Dutch forward Dennis Bergkamp, one of Arsenal's greatest ever players.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "legend",
+      "bergkamp"
+    ]
+  },
+  {
+    "title": "There's Only One Tony Adams",
+    "lyrics": "There's only one Tony Adams, one Tony Adams,\nThere's only one Tony Adams.",
+    "description": "Terrace chant for captain Tony Adams, leader of the famous back four.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "legend",
+      "adams"
+    ]
+  },
+  {
+    "title": "Ian Wright",
+    "lyrics": "Wrighty, Wrighty, Wrighty, Wrighty,\nIan Wright, Ian Wright.",
+    "description": "Kop-end style chant for striker Ian Wright, Arsenal legend and club record holder before Henry.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "legend",
+      "wright"
+    ]
+  },
+  {
+    "title": "Patrick Vieira",
+    "lyrics": "Vieira, Vieira, Vieira, Vieira,\nPatrick Vieira, Patrick Vieira.",
+    "description": "Midfield general chant for Patrick Vieira, captain of the Wenger era's greatest teams.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "legend",
+      "vieira"
+    ]
+  },
+  {
+    "title": "Bukayo Saka",
+    "lyrics": "Bukayo Saka, he plays on the right,\nBukayo Saka, his future's looking bright.",
+    "description": "Modern homegrown hero chant for Bukayo Saka, academy graduate and England star.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "saka",
+      "modern",
+      "academy"
+    ]
+  },
+  {
+    "title": "Martin Odegaard",
+    "lyrics": "Martin Odegaard, he's our Norwegian prince,\nMartin Odegaard, he plays for Arsenal.",
+    "description": "Chant for captain Martin Odegaard, Arsenal's creative midfield leader.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "odegaard",
+      "modern"
+    ]
+  },
+  {
+    "title": "Declan Rice",
+    "lyrics": "Declan Rice, Declan Rice, Declan Rice,\nHe sits in midfield, he sits in midfield.",
+    "description": "Terrace song for England midfielder Declan Rice, signed from West Ham in 2023.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "rice",
+      "modern"
+    ]
+  },
+  {
+    "title": "There's Only One Arsene Wenger",
+    "lyrics": "There's only one Arsene Wenger, one Arsene Wenger,\nThere's only one Arsene Wenger.",
+    "description": "Tribute to legendary manager Arsene Wenger, who managed Arsenal for 22 years.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "manager-tribute",
+      "legend",
+      "wenger"
+    ]
+  },
+  {
+    "title": "Arsene Wenger (One Arsene Wenger)",
+    "lyrics": "One Arsene Wenger, there's only one Arsene Wenger,\nOne Arsene Wenger, there's only one Arsene Wenger.",
+    "description": "Alternative Wenger chant sung during his long reign at Highbury and the Emirates.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "manager-tribute",
+      "legend",
+      "wenger"
+    ]
+  },
+  {
+    "title": "What Do You Think of Tottenham?",
+    "lyrics": "What do you think of Tottenham? Shit!\nWhat do you think of Tottenham? Shit!\nWhat do you think of Tottenham? Shit!\nWhat do you think of Tottenham? Shit!",
+    "description": "Classic North London derby call-and-response chant directed at Tottenham Hotspur.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "derby",
+      "tottenham",
+      "north-london"
+    ]
+  },
+  {
+    "title": "Stand Up If You Love the Arsenal",
+    "lyrics": "Stand up if you love the Arsenal,\nStand up if you love the Arsenal.",
+    "description": "Simple terrace call chant used to rouse the home support at the Emirates.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic",
+      "terrace"
+    ]
+  },
+  {
+    "title": "Arsenal Till I Die",
+    "lyrics": "Arsenal till I die, I know I am,\nI'm Arsenal till I die, I know I am, I know I am.",
+    "description": "Loyalty chant sung to the tune of Bread of Heaven, declaring lifelong support.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "Red and White Army",
+    "lyrics": "We are the Red and White Army, the mighty mighty Red and White Army,\nWe are the Red and White Army, from Highbury.",
+    "description": "Identity chant celebrating Arsenal's red and white colours.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "Over Land and Sea and Tottenham",
+    "lyrics": "We all follow Arsenal, over land and sea and Tottenham,\nWe all follow Arsenal, on to victory.",
+    "description": "Core support chant declaring allegiance home, away, and over local rivals.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic",
+      "tottenham"
+    ]
+  },
+  {
+    "title": "We Hate Tottenham",
+    "lyrics": "We hate Tottenham, we hate Tottenham,\nWe hate Tottenham, and we hate Tottenham.",
+    "description": "North London derby chant expressing the long-standing rivalry with Spurs.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "derby",
+      "tottenham",
+      "north-london"
+    ]
+  },
+  {
+    "title": "Where's Your European Cup?",
+    "lyrics": "Where's your European Cup? Where's your European Cup?\nWhere's your European Cup? Where's your European Cup?",
+    "description": "Derby taunt referencing Tottenham's lack of a European Cup/Champions League title.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "derby",
+      "tottenham",
+      "banter"
+    ]
+  },
+  {
+    "title": "Spurs Are on Their Way to Wembley",
+    "lyrics": "Spurs are on their way to Wembley, Spurs are on their way to Wembley,\nThey've won it twice, they've won it twice, and the Emirates is shite.",
+    "description": "Banter chant mocking Tottenham's temporary Wembley spell and trophy record.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "derby",
+      "tottenham",
+      "banter"
+    ]
+  },
+  {
+    "title": "Highbury",
+    "lyrics": "Highbury, Highbury, Highbury,\nWe will never forget you.",
+    "description": "Nostalgic chant for Arsenal's former home, Highbury, closed in 2006.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic",
+      "highbury"
+    ]
+  },
+  {
+    "title": "The Clock End",
+    "lyrics": "The Clock End, the Clock End, the Clock End,\nWe are the Clock End army.",
+    "description": "Chant referencing the famous Clock End stand at Highbury, now echoed at the Emirates.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic",
+      "highbury"
+    ]
+  },
+  {
+    "title": "North Bank",
+    "lyrics": "North Bank, la la la la la,\nNorth Bank, la la la la la.",
+    "description": "Chant for the North Bank, the vocal heart of the Highbury and Emirates support.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic",
+      "highbury"
+    ]
+  },
+  {
+    "title": "Emirates Stadium",
+    "lyrics": "This is the Emirates, this is the Emirates,\nNo one wants to be here.",
+    "description": "Chant referencing the Emirates Stadium, parodying the intimidating home atmosphere.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "emirates",
+      "modern"
+    ]
+  },
+  {
+    "title": "We Love You Arsenal",
+    "lyrics": "We love you Arsenal, we do,\nWe love you Arsenal, we do,\nWe love you Arsenal, we do,\nAnd the North Bank loves you too.",
+    "description": "Simple terrace song affirming support for the club and the North Bank faithful.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "We've Got the Whole World in Our Hands",
+    "lyrics": "We've got the whole world in our hands,\nWe've got the whole wide world in our hands.",
+    "description": "Spiritual adapted as an Arsenal celebration chant during title challenges.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-song",
+      "classic",
+      "terrace"
+    ]
+  },
+  {
+    "title": "She Wears a Red and White Shirt",
+    "lyrics": "She wears a red and white shirt, red and white shirt,\nRed and white shirt, she wears a red and white shirt,\nAnd she knows her Arsenal.",
+    "description": "Terrace song celebrating female Arsenal supporters and club colours.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-song",
+      "classic"
+    ]
+  },
+  {
+    "title": "Keep the Faith",
+    "lyrics": "Keep the faith, keep the faith, keep the faith,\nWe are Arsenal.",
+    "description": "Encouraging chant sung during difficult periods, urging supporters to stay loyal.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "We're the North London Side",
+    "lyrics": "We're the North London side, the Emirates side,\nWe're the North London side, the Emirates side.",
+    "description": "Identity chant asserting Arsenal's North London roots at the Emirates Stadium.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "north-london",
+      "emirates"
+    ]
+  },
+  {
+    "title": "Robert Pires",
+    "lyrics": "Robert Pires, Robert Pires, Robert Pires,\nRunning down the wing.",
+    "description": "Tribute to French winger Robert Pires, key member of the Invincibles.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "legend",
+      "pires",
+      "invincibles"
+    ]
+  },
+  {
+    "title": "Freddie Ljungberg",
+    "lyrics": "Freddie Ljungberg, he wears red hair,\nFreddie Ljungberg, he plays for Arsenal.",
+    "description": "Chant for Swedish winger Freddie Ljungberg, known for his distinctive red hair.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "legend",
+      "ljungberg",
+      "invincibles"
+    ]
+  },
+  {
+    "title": "Sol Campbell",
+    "lyrics": "Sol Campbell, Sol Campbell, Sol Campbell,\nHe left Tottenham for Arsenal.",
+    "description": "Controversial tribute to Sol Campbell, who crossed the North London divide in 2001.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "legend",
+      "campbell",
+      "north-london"
+    ]
+  },
+  {
+    "title": "David Seaman",
+    "lyrics": "David Seaman, David Seaman, David Seaman,\nThe best goalkeeper in the land.",
+    "description": "Chant for goalkeeper David Seaman, Arsenal's number one through the 1990s and early 2000s.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "legend",
+      "seaman",
+      "goalkeeper"
+    ]
+  },
+  {
+    "title": "Lee Dixon",
+    "lyrics": "Lee Dixon, Lee Dixon, Lee Dixon,\nRight-back, right-back.",
+    "description": "Tribute to full-back Lee Dixon, part of Arsenal's famous defensive unit.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "legend",
+      "dixon"
+    ]
+  },
+  {
+    "title": "Nigel Winterburn",
+    "lyrics": "Nigel Winterburn, Nigel Winterburn,\nLeft-back, left-back.",
+    "description": "Chant for left-back Nigel Winterburn, a mainstay of the Wenger revolution.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "legend",
+      "winterburn"
+    ]
+  },
+  {
+    "title": "Ray Parlour",
+    "lyrics": "Ray Parlour, Ray Parlour, Ray Parlour,\nThe Romford Pele.",
+    "description": "Tribute to midfielder Ray Parlour, nicknamed the Romford Pele for his work rate.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "legend",
+      "parlour"
+    ]
+  },
+  {
+    "title": "Robin van Persie",
+    "lyrics": "Robin van Persie, he scores the goals,\nRobin van Persie, he plays for Arsenal.",
+    "description": "Chant for Dutch striker Robin van Persie during his prolific Arsenal years.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "van-persie"
+    ]
+  },
+  {
+    "title": "Cesc Fabregas",
+    "lyrics": "Cesc Fabregas, he plays in midfield,\nCesc Fabregas, he plays for Arsenal.",
+    "description": "Tribute to Spanish midfielder Cesc Fabregas, academy graduate and future captain.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "fabregas",
+      "academy"
+    ]
+  },
+  {
+    "title": "Jack Wilshere",
+    "lyrics": "Jack Wilshere, Jack Wilshere, Jack Wilshere,\nHe's one of our own.",
+    "description": "Homegrown midfielder chant for Jack Wilshere, Hale End academy product.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "wilshere",
+      "academy"
+    ]
+  },
+  {
+    "title": "Alexis Sanchez",
+    "lyrics": "Alexis Sanchez, he plays on the left,\nAlexis Sanchez, he's the best.",
+    "description": "Chant for Chilean forward Alexis Sanchez during his prolific 2014-2018 spell.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "sanchez"
+    ]
+  },
+  {
+    "title": "Pierre-Emerick Aubameyang",
+    "lyrics": "Aubameyang, Aubameyang, Aubameyang,\nHe scores the goals.",
+    "description": "Terrace song for striker Pierre-Emerick Aubameyang, Golden Boot winner.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "aubameyang"
+    ]
+  },
+  {
+    "title": "Gabriel Jesus",
+    "lyrics": "Gabriel Jesus, he plays for Arsenal,\nGabriel Jesus, he scores the goals.",
+    "description": "Chant for Brazilian striker Gabriel Jesus, signed from Manchester City.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "jesus",
+      "modern"
+    ]
+  },
+  {
+    "title": "Gabriel Magalhaes",
+    "lyrics": "Gabriel, Gabriel, Gabriel Magalhaes,\nHe plays at the back.",
+    "description": "Chant for Brazilian centre-back Gabriel Magalhaes.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "gabriel",
+      "modern"
+    ]
+  },
+  {
+    "title": "William Saliba",
+    "lyrics": "William Saliba, he plays at the back,\nWilliam Saliba, he's the best in France.",
+    "description": "Tribute to French centre-back William Saliba, Hale End graduate.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "saliba",
+      "modern",
+      "academy"
+    ]
+  },
+  {
+    "title": "Kai Havertz",
+    "lyrics": "Kai Havertz, he plays for Arsenal,\nKai Havertz, he scores the goals.",
+    "description": "Chant for German forward Kai Havertz, signed from Chelsea in 2023.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "player-tribute",
+      "havertz",
+      "modern"
+    ]
+  },
+  {
+    "title": "Mikel Arteta Chant",
+    "lyrics": "Mikel Arteta, he leads the team,\nMikel Arteta, he plays the Arsenal way.",
+    "description": "Chant for manager Mikel Arteta, former captain and Invincibles midfielder.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "manager-tribute",
+      "arteta",
+      "modern"
+    ]
+  },
+  {
+    "title": "Double Winners 1971",
+    "lyrics": "Nineteen seventy-one, we won the Double,\nNineteen seventy-one, we won the Double.",
+    "description": "Chant celebrating Arsenal's first league and FA Cup double in 1970-71.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic",
+      "history"
+    ]
+  },
+  {
+    "title": "FA Cup Kings",
+    "lyrics": "Fourteen times we've won the FA Cup,\nFourteen times we've won the FA Cup.",
+    "description": "Chant celebrating Arsenal's record FA Cup haul.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "classic",
+      "fa-cup"
+    ]
+  },
+  {
+    "title": "Wenger Out (Irony)",
+    "lyrics": "We want Wenger out, we want Wenger out,\nWe want Wenger out, and then we want him back.",
+    "description": "Ironic terrace song from the later Wenger years, sung affectionately by supporters.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "banter",
+      "wenger"
+    ]
+  },
+  {
+    "title": "Fields of Highbury",
+    "lyrics": "Low lie the fields of Highbury,\nWhere once we watched the great Arsene Wenger.",
+    "description": "Fan song sung to the tune of Fields of Athenry, nostalgic for the old ground.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-song",
+      "classic",
+      "highbury"
+    ]
+  },
+  {
+    "title": "Allez Allez Allez (Arsenal)",
+    "lyrics": "Allez, allez, allez,\nWe are Arsenal, super Arsenal,\nAllez, allez, allez.",
+    "description": "European-style terrace chant adopted by Arsenal fans during European campaigns.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "modern",
+      "european"
+    ]
+  },
+  {
+    "title": "Who Are Ya",
+    "lyrics": "Who are ya? Who are ya? Who are ya?",
+    "description": "Generic terrace taunt used by Arsenal fans toward opposition supporters.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Arsenal FC"
+    ],
+    "tags": [
+      "chant",
+      "arsenal",
+      "fan-chant",
+      "away",
+      "banter"
+    ]
+  }
+]

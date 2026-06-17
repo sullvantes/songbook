@@ -1,0 +1,890 @@
+[
+  {
+    "title": "Carefree",
+    "lyrics": "Carefree, wherever we may be,\nWe are the famous CFC,\nStrongly we will follow,\nWherever they may be,\nWe will not be moved,\nFrom our old familiar home on the banks of the River Thames.",
+    "description": "Chelsea's best-known terrace song, sung home and away to declare loyalty to the club.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-song",
+      "classic",
+      "anthem"
+    ]
+  },
+  {
+    "title": "Blue is the Colour",
+    "lyrics": "Blue is the colour, football is the game,\nWe're all together and winning is our aim,\nSo cheer us on through the sun and rain,\n'Cause Chelsea, Chelsea is our name.\nSo cheer us on through the sun and rain,\n'Cause Chelsea, Chelsea is our name.",
+    "description": "Official Chelsea club song written by Daniel O'Donnell; played before home matches at Stamford Bridge.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "anthem",
+      "classic",
+      "pre-match"
+    ]
+  },
+  {
+    "title": "Celery",
+    "lyrics": "Celery, celery,\nIf she don't come I'll stalk her,\nUp to the shed,\nStand her on her head,\nKeep the dampers down,\nThe blue flag flying, we're all off to Stamford Bridge.",
+    "description": "Historic Chelsea terrace chant; supporters often throw celery (now banned) during the song.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "historic",
+      "shed-end"
+    ]
+  },
+  {
+    "title": "Ten Men Went to Mow",
+    "lyrics": "Ten men went to mow, went to mow a meadow,\nHeigh ho! The derry-o, ten men went to mow.\nNine men went to mow, went to mow a meadow,\nHeigh ho! The derry-o, nine men went to mow.\nEight men went to mow, went to mow a meadow,\nHeigh ho! The derry-o, eight men went to mow.",
+    "description": "Traditional counting song sung in the Shed End; counts down from ten men to one.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "classic",
+      "shed-end"
+    ]
+  },
+  {
+    "title": "Keep the Blue Flag Flying High",
+    "lyrics": "Keep the blue flag flying high,\nHigh up in the sky,\nKeep the blue flag flying high,\nFor Chelsea, for Chelsea.",
+    "description": "Classic Chelsea terrace song celebrating the club's blue colours and identity.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-song",
+      "classic"
+    ]
+  },
+  {
+    "title": "We All Follow Chelsea",
+    "lyrics": "We all follow Chelsea,\nOver land and sea and Leicester,\nWe all follow Chelsea,\nOn to victory.",
+    "description": "Core Chelsea call-and-response chant declaring support home and away.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "London is Blue",
+    "lyrics": "London is blue, London is blue,\nTottenham Hotspur, you're in Division Two,\nOh London is blue, London is blue,\nArsenal go to pieces, QPR are shite.",
+    "description": "Terrace song asserting Chelsea's dominance in London and taunting local rivals.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "classic",
+      "rivalry",
+      "london"
+    ]
+  },
+  {
+    "title": "Allez Allez Allez",
+    "lyrics": "Allez, allez, allez,\nWe are Chelsea, super Chelsea,\nAllez, allez, allez.",
+    "description": "Adapted terrace chant popular at Stamford Bridge during European and domestic campaigns.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "modern",
+      "european"
+    ]
+  },
+  {
+    "title": "Chelsea Chelsea",
+    "lyrics": "Chelsea, Chelsea, Chelsea, Chelsea,\nChelsea, Chelsea, Chelsea, Chelsea.",
+    "description": "Simple repetitive call chant used throughout Stamford Bridge.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "We Are Chelsea, Tra La La",
+    "lyrics": "We are Chelsea, tra la la la la,\nWe are Chelsea, tra la la la la la la la.",
+    "description": "Simple call-and-response chant used around the ground.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant"
+    ]
+  },
+  {
+    "title": "This Is Stamford Bridge",
+    "lyrics": "This is Stamford Bridge,\nThis is Stamford Bridge,\nNo one wants to be here.",
+    "description": "Chant referencing Chelsea's home ground, echoing the famous Anfield tunnel sign.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "stamford-bridge"
+    ]
+  },
+  {
+    "title": "Stamford Bridge Is Falling Down",
+    "lyrics": "Stamford Bridge is falling down, falling down, falling down,\nStamford Bridge is falling down, my fair lady.",
+    "description": "Terrace adaptation of the nursery rhyme, sung during big home nights.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "stamford-bridge"
+    ]
+  },
+  {
+    "title": "Shed End Chant",
+    "lyrics": "We're the Shed End boys, we're the Shed End boys,\nWe're the Shed End boys, and we're going to make a noise.",
+    "description": "Chant from the historic Shed End stand, Chelsea's traditional home end.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "shed-end",
+      "stadium"
+    ]
+  },
+  {
+    "title": "We'll Never Be Mastered",
+    "lyrics": "We'll never be mastered, never be mastered,\nWe'll never be mastered by you.",
+    "description": "Defiant terrace chant sung by Chelsea supporters home and away.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "classic"
+    ]
+  },
+  {
+    "title": "One Club One Flag",
+    "lyrics": "One club, one flag, one dream,\nChelsea, Chelsea, Chelsea.",
+    "description": "Modern identity chant celebrating unity among Chelsea supporters.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "modern"
+    ]
+  },
+  {
+    "title": "Jose Mourinho Chant",
+    "lyrics": "Jose Mourinho, Jose Mourinho,\nJose Mourinho, Jose Mourinho,\nOh, Jose Mourinho.",
+    "description": "Iconic chant for Jose Mourinho during his two trophy-laden spells as Chelsea manager.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "manager-tribute",
+      "mourinho",
+      "legend"
+    ]
+  },
+  {
+    "title": "The Special One",
+    "lyrics": "The Special One, la la la la la,\nThe Special One, la la la la la la la.",
+    "description": "Chant referencing Mourinho's famous 'Special One' self-description at his Chelsea unveiling.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "manager-tribute",
+      "mourinho",
+      "legend"
+    ]
+  },
+  {
+    "title": "Antonio Conte Chant",
+    "lyrics": "Antonio Conte, la la la la la,\nAntonio Conte, he leads the Blues.",
+    "description": "Tribute to Antonio Conte, who won the Premier League in his first season at Chelsea (2016-17).",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "manager-tribute",
+      "conte"
+    ]
+  },
+  {
+    "title": "Thomas Tuchel Chant",
+    "lyrics": "Thomas Tuchel, he leads the Blues,\nThomas Tuchel, he leads the Blues.",
+    "description": "Chant for Thomas Tuchel, Chelsea manager during the 2021 Champions League triumph.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "manager-tribute",
+      "tuchel",
+      "modern",
+      "european"
+    ]
+  },
+  {
+    "title": "Gianfranco Zola",
+    "lyrics": "There's only one Gianfranco Zola, one Gianfranco Zola,\nThere's only one Gianfranco Zola.",
+    "description": "Tribute to Gianfranco Zola, beloved Chelsea forward and later assistant manager.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "zola"
+    ]
+  },
+  {
+    "title": "Didier Drogba Is His Name",
+    "lyrics": "His name is Didier Drogba, he plays for Chelsea,\nHe scores the goals, he makes the Shed End sing,\nHe plays on the left, he plays on the right,\nThat boy Drogba makes defenders look shite.",
+    "description": "Terrace tribute to Didier Drogba, Chelsea's greatest big-game striker.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "drogba"
+    ]
+  },
+  {
+    "title": "Drogba La La La",
+    "lyrics": "Drogba, la la la la la la,\nDidier Drogba, la la la la la la.",
+    "description": "Simple melody chant for Didier Drogba during his two Chelsea spells.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "drogba"
+    ]
+  },
+  {
+    "title": "Super Frank Lampard",
+    "lyrics": "Super Frank Lampard, la la la la la,\nSuper Frank Lampard, la la la la la la la.",
+    "description": "Iconic chant for Frank Lampard, Chelsea's all-time leading goalscorer from midfield.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "lampard"
+    ]
+  },
+  {
+    "title": "There's Only One Frank Lampard",
+    "lyrics": "There's only one Frank Lampard, one Frank Lampard,\nThere's only one Frank Lampard.",
+    "description": "Call-and-response tribute to Frank Lampard, later Chelsea manager.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "lampard"
+    ]
+  },
+  {
+    "title": "John Terry Leader of the Blues",
+    "lyrics": "John Terry, leader of the Blues,\nJohn Terry, leader of the Blues.",
+    "description": "Shed End chant honouring John Terry's captaincy and Chelsea loyalty.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "terry",
+      "captain"
+    ]
+  },
+  {
+    "title": "There's Only One John Terry",
+    "lyrics": "There's only one John Terry, one John Terry,\nThere's only one John Terry.",
+    "description": "Direct terrace tribute to defender and captain John Terry.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "terry",
+      "captain"
+    ]
+  },
+  {
+    "title": "Eden Hazard Chant",
+    "lyrics": "Hazard, Hazard, Hazard Hazard Hazard,\nEden Hazard, Hazard Hazard Hazard.",
+    "description": "Repetitive chant for Eden Hazard, Chelsea's talisman during the 2010s.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "hazard"
+    ]
+  },
+  {
+    "title": "Hazard La La La",
+    "lyrics": "Hazard, la la la la la la,\nEden Hazard, la la la la la la.",
+    "description": "Melody chant for Belgian winger Eden Hazard.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "hazard"
+    ]
+  },
+  {
+    "title": "N'Golo Kante Chant",
+    "lyrics": "N'Golo Kante, he sits in midfield,\nN'Golo Kante, he plays for Chelsea.",
+    "description": "Terrace tribute to N'Golo Kante, midfield engine of two Premier League titles.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "kante"
+    ]
+  },
+  {
+    "title": "Kante He Runs All Day",
+    "lyrics": "Kante, Kante, N'Golo Kante,\nHe runs all day, he runs all day.",
+    "description": "Chant celebrating Kante's extraordinary stamina and ball-winning ability.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "kante"
+    ]
+  },
+  {
+    "title": "Cole Palmer Chant",
+    "lyrics": "Cole Palmer, he plays for Chelsea,\nCole Palmer, he scores the goals.",
+    "description": "Tribute to Cole Palmer, academy graduate and key figure in Chelsea's modern era.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "palmer",
+      "modern",
+      "academy"
+    ]
+  },
+  {
+    "title": "Cold Palmer",
+    "lyrics": "Cold Palmer, Cold Palmer,\nCole Palmer, Cold Palmer.",
+    "description": "Playful nickname chant for Cole Palmer, a pun on his name and composure.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "palmer",
+      "modern"
+    ]
+  },
+  {
+    "title": "Ashley Cole Chant",
+    "lyrics": "Ashley Cole, Ashley Cole,\nAshley Cole, Ashley Cole.",
+    "description": "Chant for Ashley Cole, one of the greatest left-backs in Premier League history.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "cole"
+    ]
+  },
+  {
+    "title": "Petr Cech Chant",
+    "lyrics": "Petr Cech, la la la la la la la la la,\nThe best goalkeeper in the world.",
+    "description": "Goalkeeper chant for Petr Cech, Chelsea's legendary number one.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "cech",
+      "goalkeeper"
+    ]
+  },
+  {
+    "title": "Joe Cole Chant",
+    "lyrics": "Joe Cole, Joe Cole, running down the wing,\nJoe Cole, Joe Cole, running down the wing.",
+    "description": "Terrace song for winger Joe Cole during his Chelsea years.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "cole"
+    ]
+  },
+  {
+    "title": "Claude Makelele",
+    "lyrics": "Makelele, Makelele, Claude Makelele,\nMakelele, Makelele, Claude Makelele.",
+    "description": "Tribute to Claude Makelele, whose holding role was so influential it was named after him.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "legend",
+      "makelele"
+    ]
+  },
+  {
+    "title": "Michael Essien",
+    "lyrics": "Michael Essien, he plays in midfield,\nMichael Essien, he plays for Chelsea.",
+    "description": "Chant for Ghanaian midfielder Michael Essien, known as 'The Bison'.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "essien"
+    ]
+  },
+  {
+    "title": "Fernando Torres",
+    "lyrics": "Fernando Torres, he plays for Chelsea,\nFernando Torres, he scores the goals.",
+    "description": "Chant for Fernando Torres, including his famous semi-final goal against Barcelona in 2012.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "torres",
+      "european"
+    ]
+  },
+  {
+    "title": "Thiago Silva Chant",
+    "lyrics": "Thiago Silva, he plays at the back,\nThiago Silva, he plays for Chelsea.",
+    "description": "Chant for Brazilian centre-back Thiago Silva during his Chelsea spell.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "thiago-silva",
+      "modern"
+    ]
+  },
+  {
+    "title": "Mason Mount Chant",
+    "lyrics": "Mason Mount, he wears the number ten,\nMason Mount, he plays for Chelsea.",
+    "description": "Tribute to academy graduate Mason Mount, key player in the 2021 Champions League win.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "mount",
+      "modern",
+      "academy"
+    ]
+  },
+  {
+    "title": "Reece James Chant",
+    "lyrics": "Reece James, he plays right-back,\nReece James, he plays for Chelsea.",
+    "description": "Chant for homegrown captain Reece James.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "james",
+      "modern",
+      "academy",
+      "captain"
+    ]
+  },
+  {
+    "title": "Munich 2012 Chant",
+    "lyrics": "Munich, Munich, we won it all in Munich,\nMunich, Munich, we won it all in Munich.",
+    "description": "Chant celebrating Chelsea's first Champions League title, won in Munich in 2012.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "european",
+      "2012",
+      "champions-league"
+    ]
+  },
+  {
+    "title": "Kings of Europe 2012",
+    "lyrics": "We're the kings of Europe, kings of Europe,\nChelsea FC, we're the kings of Europe.",
+    "description": "Celebration chant for Chelsea's 2012 Champions League triumph over Bayern Munich.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "european",
+      "2012",
+      "champions-league"
+    ]
+  },
+  {
+    "title": "Drogba Penalty Munich",
+    "lyrics": "Drogba, Drogba, he scored in Munich,\nDrogba, Drogba, he scored in Munich.",
+    "description": "Chant immortalising Didier Drogba's winning penalty in the 2012 Champions League final.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "player-tribute",
+      "drogba",
+      "european",
+      "2012",
+      "legend"
+    ]
+  },
+  {
+    "title": "Champions of Europe",
+    "lyrics": "Champions of Europe, champions of Europe,\nChelsea FC, champions of Europe.",
+    "description": "General European celebration chant sung after 2012 and 2021 triumphs.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "european",
+      "champions-league"
+    ]
+  },
+  {
+    "title": "Arsenal Taunt",
+    "lyrics": "We hate Tottenham Hotspur, we hate Tottenham Hotspur,\nWe hate Tottenham Hotspur, but Arsenal are shite.",
+    "description": "Classic Chelsea rivalry chant mocking both North London clubs.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "rivalry",
+      "arsenal",
+      "banter"
+    ]
+  },
+  {
+    "title": "Tottenham Taunt",
+    "lyrics": "What a load of shite, what a load of shite,\nTottenham Hotspur, what a load of shite.",
+    "description": "Terrace taunt directed at Chelsea's North London rivals Tottenham Hotspur.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "rivalry",
+      "tottenham",
+      "banter"
+    ]
+  },
+  {
+    "title": "Liverpool Taunt (2008)",
+    "lyrics": "We won it twice at Anfield, we won it twice at Anfield,\nChelsea FC, we won it twice at Anfield.",
+    "description": "Banter chant referencing Chelsea's Champions League knockouts of Liverpool at Anfield.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "rivalry",
+      "liverpool",
+      "banter",
+      "european"
+    ]
+  },
+  {
+    "title": "Manchester United Taunt",
+    "lyrics": "You're not singing anymore, you're not singing anymore,\nYou're not singing anymore, you're not singing anymore.",
+    "description": "Generic taunt often directed at Manchester United at Stamford Bridge.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "rivalry",
+      "banter"
+    ]
+  },
+  {
+    "title": "Who Are Ya",
+    "lyrics": "Who are ya? Who are ya? Who are ya?",
+    "description": "Generic terrace taunt used by Chelsea fans toward opposition supporters.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "away",
+      "banter"
+    ]
+  },
+  {
+    "title": "You're Not Singing Anymore",
+    "lyrics": "You're not singing anymore, you're not singing anymore,\nYou're not singing anymore, you're not singing anymore.",
+    "description": "Taunt sung when silencing an away end at Stamford Bridge.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-chant",
+      "banter",
+      "stadium"
+    ]
+  },
+  {
+    "title": "Roman Abramovich Song",
+    "lyrics": "Roman Abramovich, he eats his lunch in a solid gold bath,\nRoman Abramovich, he eats his lunch in a solid gold bath.",
+    "description": "Humorous terrace song about former owner Roman Abramovich during the trophy era.",
+    "is_fan_chant": true,
+    "accepted": true,
+    "clubs": [
+      "Chelsea FC"
+    ],
+    "tags": [
+      "chant",
+      "chelsea",
+      "fan-song",
+      "legacy",
+      "abramovich"
+    ]
+  }
+]

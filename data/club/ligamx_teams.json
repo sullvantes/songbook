@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Club America",
+    "nickname": "Las Aguilas",
+    "founded": 1916,
+    "stadium": "Estadio Ciudad de los Deportes",
+    "location": "Mexico City, Mexico",
+    "website": "https://www.clubamerica.com.mx",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#003087",
+    "secondary_color": "#FBECB2"
+  },
+  {
+    "name": "Atlas FC",
+    "nickname": "Los Rojinegros",
+    "founded": 1916,
+    "stadium": "Estadio Jalisco",
+    "location": "Guadalajara, Jalisco, Mexico",
+    "website": "https://www.atlasfc.com.mx",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#E4002B",
+    "secondary_color": "#000000"
+  },
+  {
+    "name": "Atlético de San Luis",
+    "nickname": "Atlético de San Luis",
+    "founded": 2013,
+    "stadium": "Estadio Alfonso Lastras",
+    "location": "San Luis Potosí, San Luis Potosí, Mexico",
+    "website": "https://www.atleticodesanluis.mx",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#E30613",
+    "secondary_color": "#002D72"
+  },
+  {
+    "name": "Cruz Azul",
+    "nickname": "La Maquina",
+    "founded": 1927,
+    "stadium": "Estadio Olímpico Universitario",
+    "location": "Mexico City, Mexico",
+    "website": "https://www.cruzazulfc.com",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#005CB9",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "name": "Chivas Guadalajara",
+    "nickname": "Chivas",
+    "founded": 1906,
+    "stadium": "Estadio Akron",
+    "location": "Zapopan, Jalisco, Mexico",
+    "website": "https://www.chivasdecorazon.com.mx",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#E40613",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "name": "FC Juárez",
+    "nickname": "Los Bravos",
+    "founded": 2015,
+    "stadium": "Estadio Olímpico Benito Juárez",
+    "location": "Ciudad Juárez, Chihuahua, Mexico",
+    "website": "https://www.fcjuarez.com",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#E85D04",
+    "secondary_color": "#000000"
+  },
+  {
+    "name": "Club León",
+    "nickname": "La Fiera",
+    "founded": 1944,
+    "stadium": "Estadio León",
+    "location": "León, Guanajuato, Mexico",
+    "website": "https://www.clubleon.mx",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#008248",
+    "secondary_color": "#FFD700"
+  },
+  {
+    "name": "Mazatlán FC",
+    "nickname": "Los Cañoneros",
+    "founded": 2020,
+    "stadium": "Estadio Mazatlán",
+    "location": "Mazatlán, Sinaloa, Mexico",
+    "website": "https://www.mazatlanfc.com",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#6B2C91",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "name": "CF Monterrey",
+    "nickname": "Rayados",
+    "founded": 1945,
+    "stadium": "Estadio BBVA",
+    "location": "Guadalupe, Nuevo León, Mexico",
+    "website": "https://www.rayados.com",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#004481",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "name": "Club Necaxa",
+    "nickname": "Los Rayos",
+    "founded": 1923,
+    "stadium": "Estadio Victoria",
+    "location": "Aguascalientes, Aguascalientes, Mexico",
+    "website": "https://www.clubnecaxa.com",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#E4002B",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "name": "CF Pachuca",
+    "nickname": "Los Tuzos",
+    "founded": 1901,
+    "stadium": "Estadio Hidalgo",
+    "location": "Pachuca, Hidalgo, Mexico",
+    "website": "https://www.tuzos.com.mx",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#004990",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "name": "Club Puebla",
+    "nickname": "La Franja",
+    "founded": 1944,
+    "stadium": "Estadio Cuauhtémoc",
+    "location": "Puebla, Puebla, Mexico",
+    "website": "https://www.clubpuebla.com",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#002B7F",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "name": "Querétaro FC",
+    "nickname": "Gallos Blancos",
+    "founded": 1950,
+    "stadium": "Estadio Corregidora",
+    "location": "Querétaro, Querétaro, Mexico",
+    "website": "https://www.gallosblancos.com.mx",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#003087",
+    "secondary_color": "#000000"
+  },
+  {
+    "name": "Santos Laguna",
+    "nickname": "Guerreros",
+    "founded": 1983,
+    "stadium": "Estadio Corona",
+    "location": "Torreón, Coahuila, Mexico",
+    "website": "https://www.clubsantos.mx",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#008542",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "name": "Club Tijuana",
+    "nickname": "Xolos",
+    "founded": 2007,
+    "stadium": "Estadio Caliente",
+    "location": "Tijuana, Baja California, Mexico",
+    "website": "https://www.xolos.com.mx",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#CE1126",
+    "secondary_color": "#000000"
+  },
+  {
+    "name": "Deportivo Toluca FC",
+    "nickname": "Diablos Rojos",
+    "founded": 1917,
+    "stadium": "Estadio Nemesio Díez",
+    "location": "Toluca, State of Mexico, Mexico",
+    "website": "https://www.deportivotolucafc.com",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#E30613",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "name": "Tigres UANL",
+    "nickname": "Los Tigres",
+    "founded": 1960,
+    "stadium": "Estadio Universitario",
+    "location": "San Nicolás de los Garza, Nuevo León, Mexico",
+    "website": "https://www.tigres.com.mx",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#FFCD00",
+    "secondary_color": "#006FB4"
+  },
+  {
+    "name": "Pumas UNAM",
+    "nickname": "Los Pumas",
+    "founded": 1954,
+    "stadium": "Estadio Olímpico Universitario",
+    "location": "Mexico City, Mexico",
+    "website": "https://www.pumas.mx",
+    "tags": [
+      "ligamx",
+      "mexican",
+      "north-america"
+    ],
+    "primary_color": "#CBA135",
+    "secondary_color": "#004B87"
+  }
+]
