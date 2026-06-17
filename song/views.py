@@ -1,12 +1,119 @@
 # songs/views.py
-from django.views.generic import CreateView, ListView
+from django.contrib import messages
+from django.contrib.auth import get_user_model
+from django.contrib.auth.forms import AuthenticationForm
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.tokens import default_token_generator
+from django.contrib.auth.views import LoginView
+from django.shortcuts import redirect
 from django.urls import reverse_lazy
+from django.utils.encoding import force_str
+from django.utils.http import urlsafe_base64_decode
+from django.views.generic import CreateView, FormView, ListView, TemplateView, View
 
 from club.models import Club
 from player.models import Player
 
-from .forms import SongSuggestionForm
+from .emails import send_activation_email
+from .forms import ResendActivationForm, SongSuggestionForm, UserRegistrationForm
 from .models import Song
+
+User = get_user_model()
+
+
+class UserLoginView(LoginView):
+    template_name = "registration/login.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context.setdefault("register_form", UserRegistrationForm())
+        return context
+
+
+class RegisterView(FormView):
+    template_name = "registration/login.html"
+    form_class = UserRegistrationForm
+    success_url = reverse_lazy("activation_sent")
+
+    def dispatch(self, request, *args, **kwargs):
+        if request.user.is_authenticated:
+            return redirect("home")
+        return super().dispatch(request, *args, **kwargs)
+
+    def get(self, request, *args, **kwargs):
+        return redirect("login")
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["form"] = AuthenticationForm()
+        context["register_form"] = self.get_form()
+        return context
+
+    def form_valid(self, form):
+        user = form.save()
+        send_activation_email(self.request, user)
+        self.request.session["pending_activation_email"] = user.email
+        return super().form_valid(form)
+
+    def form_invalid(self, form):
+        context = self.get_context_data()
+        context["register_form"] = form
+        return self.render_to_response(context)
+
+
+class ActivationSentView(TemplateView):
+    template_name = "registration/activation_sent.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["email"] = self.request.session.pop("pending_activation_email", "")
+        return context
+
+
+class ActivateAccountView(View):
+    def get(self, request, uidb64, token):
+        user = self._get_user(uidb64)
+
+        if user is not None and default_token_generator.check_token(user, token):
+            if user.is_active:
+                messages.info(request, "Your account is already active. You can log in.")
+            else:
+                user.is_active = True
+                user.save(update_fields=["is_active"])
+                messages.success(request, "Your email is confirmed. You can now log in.")
+            return redirect("login")
+
+        messages.error(request, "The confirmation link is invalid or has expired.")
+        return redirect("resend_activation")
+
+    def _get_user(self, uidb64):
+        try:
+            uid = force_str(urlsafe_base64_decode(uidb64))
+            return User.objects.get(pk=uid)
+        except (TypeError, ValueError, OverflowError, User.DoesNotExist):
+            return None
+
+
+class ResendActivationView(FormView):
+    template_name = "registration/resend_activation.html"
+    form_class = ResendActivationForm
+    success_url = reverse_lazy("activation_sent")
+
+    def dispatch(self, request, *args, **kwargs):
+        if request.user.is_authenticated:
+            return redirect("home")
+        return super().dispatch(request, *args, **kwargs)
+
+    def form_valid(self, form):
+        email = form.cleaned_data["email"]
+        user = User.objects.filter(email__iexact=email, is_active=False).first()
+        if user is not None:
+            send_activation_email(self.request, user)
+            self.request.session["pending_activation_email"] = email
+        else:
+            self.request.session.pop("pending_activation_email", None)
+        return super().form_valid(form)
+
 
 class SongListView(ListView):
     model = Song
@@ -19,7 +126,8 @@ class SongListView(ListView):
             .select_related("player")
         )
 
-class SongSuggestionCreateView(CreateView):
+
+class SongSuggestionCreateView(LoginRequiredMixin, CreateView):
     form_class = SongSuggestionForm
     template_name = "song/suggest_song.html"
     success_url = reverse_lazy("songs:list")
@@ -39,6 +147,5 @@ class SongSuggestionCreateView(CreateView):
         return initial
 
     def form_valid(self, form):
-        if self.request.user.is_authenticated:
-            form.instance.created_by = self.request.user
+        form.instance.created_by = self.request.user
         return super().form_valid(form)

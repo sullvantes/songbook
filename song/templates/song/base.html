@@ -20,7 +20,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav me-auto">
           <li class="nav-item">
             <a class="nav-link" href="{% url 'songs:list' %}">Songs</a>
           </li>
@@ -33,6 +33,25 @@
           <li class="nav-item">
             <a class="nav-link" href="{% url 'songs:suggest' %}">Suggest Song</a>
           </li>
+        </ul>
+        <ul class="navbar-nav align-items-lg-center">
+          {% if user.is_authenticated %}
+            <li class="nav-item">
+              <span class="navbar-text me-lg-2">
+                {{ user.get_full_name|default:user.username }}
+              </span>
+            </li>
+            <li class="nav-item">
+              <form method="post" action="{% url 'logout' %}" class="d-inline">
+                {% csrf_token %}
+                <button type="submit" class="nav-link btn btn-link px-0 py-2 border-0">Log out</button>
+              </form>
+            </li>
+          {% else %}
+            <li class="nav-item">
+              <a class="nav-link" href="{% url 'login' %}">Log in</a>
+            </li>
+          {% endif %}
         </ul>
       </div>
     </div>
