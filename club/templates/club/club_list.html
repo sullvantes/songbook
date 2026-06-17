@@ -1,0 +1,134 @@
+{% extends "song/base.html" %}
+
+{% block title %}Clubs{% if active_tag %} · {{ active_tag.name }}{% endif %}{% endblock %}
+
+{% block content %}
+  <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+    <div>
+      <h1 class="h2 mb-1">Clubs</h1>
+      <p class="text-muted mb-0">
+        {% if paginator.count %}
+          {{ paginator.count }} club{{ paginator.count|pluralize }} in the archive
+          {% if active_tag %}
+            tagged <strong>#{{ active_tag.name }}</strong>
+          {% endif %}
+          {% if is_paginated %}
+            · showing {{ page_obj.start_index }}–{{ page_obj.end_index }}
+          {% endif %}
+        {% else %}
+          {% if active_tag %}
+            No clubs tagged <strong>#{{ active_tag.name }}</strong>
+          {% else %}
+            No clubs in the archive yet
+          {% endif %}
+        {% endif %}
+      </p>
+    </div>
+    {% if active_tag %}
+      <a class="btn btn-outline-secondary btn-sm" href="{% url 'clubs:list' %}">Clear filter</a>
+    {% endif %}
+  </div>
+
+  {% if club_tags %}
+    <div class="mb-4">
+      <p class="text-muted small mb-2">Filter by tag</p>
+      <div class="d-flex flex-wrap gap-2">
+        <a
+          class="badge rounded-pill text-decoration-none {% if not active_tag_slug %}text-bg-danger{% else %}text-bg-light border text-dark{% endif %}"
+          href="{% url 'clubs:list' %}"
+        >All</a>
+        {% for tag in club_tags %}
+          <a
+            class="badge rounded-pill text-decoration-none {% if active_tag_slug == tag.slug %}text-bg-danger{% else %}text-bg-light border text-dark{% endif %}"
+            href="{% url 'clubs:list' %}?tag={{ tag.slug }}"
+          >#{{ tag.name }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+
+  {% if club_list %}
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      {% for club in club_list %}
+        <div class="col">
+          <article class="card h-100 shadow-sm">
+            <div class="card-body d-flex flex-column">
+              <h2 class="card-title h5 mb-1">
+                <a class="text-decoration-none text-dark" href="{% url 'clubs:songs' club.slug %}">{{ club.name }}</a>
+              </h2>
+
+              {% if club.nickname %}
+                <p class="text-muted small mb-2">{{ club.nickname }}</p>
+              {% endif %}
+
+              {% if club.stadium or club.location or club.founded %}
+                <dl class="small mb-3">
+                  {% if club.stadium %}
+                    <dt class="text-muted">Stadium</dt>
+                    <dd class="mb-2">{{ club.stadium }}</dd>
+                  {% endif %}
+                  {% if club.location %}
+                    <dt class="text-muted">Location</dt>
+                    <dd class="mb-2">{{ club.location }}</dd>
+                  {% endif %}
+                  {% if club.founded %}
+                    <dt class="text-muted">Founded</dt>
+                    <dd class="mb-2">{{ club.founded }}</dd>
+                  {% endif %}
+                </dl>
+              {% endif %}
+
+              {% if club.player_count %}
+                <div class="small mb-3">
+                  <p class="text-muted mb-1">Players</p>
+                  {% for player in club.players.all|slice:":6" %}
+                    <span class="badge rounded-pill text-bg-light border me-1 mb-1">{{ player.name }}</span>
+                  {% endfor %}
+                  {% if club.player_count > 6 %}
+                    <span class="badge rounded-pill text-bg-secondary mb-1">+{{ club.player_count|add:"-6" }} more</span>
+                  {% endif %}
+                </div>
+              {% endif %}
+
+              <div class="mt-auto pt-2 border-top d-flex flex-wrap justify-content-between align-items-center gap-2">
+                <span class="small text-muted">
+                  {% if club.song_count %}
+                    {{ club.song_count }} song{{ club.song_count|pluralize }}
+                  {% else %}
+                    No songs yet
+                  {% endif %}
+                  {% if club.player_count %}
+                    · {{ club.player_count }} player{{ club.player_count|pluralize }}
+                  {% endif %}
+                </span>
+                <a class="btn btn-sm btn-outline-danger" href="{% url 'clubs:songs' club.slug %}">View songs</a>
+              </div>
+
+              {% if club.tags.all %}
+                <div class="mt-2">
+                  {% for tag in club.tags.all %}
+                    <a
+                      class="badge text-bg-light text-dark text-decoration-none me-1 mb-1 {% if active_tag_slug == tag.slug %}border border-danger{% endif %}"
+                      href="{% url 'clubs:list' %}?tag={{ tag.slug }}"
+                    >#{{ tag.name }}</a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+          </article>
+        </div>
+      {% endfor %}
+    </div>
+
+    {% include "song/includes/pagination.html" with aria_label="Club list pagination" pagination_query=pagination_query %}
+  {% else %}
+    <div class="text-center py-5">
+      {% if active_tag %}
+        <p class="lead text-muted mb-3">No clubs match this tag.</p>
+        <a class="btn btn-outline-secondary" href="{% url 'clubs:list' %}">View all clubs</a>
+      {% else %}
+        <p class="lead text-muted mb-0">No clubs have been added yet.</p>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endblock %}
