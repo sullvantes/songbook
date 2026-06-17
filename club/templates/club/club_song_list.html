@@ -1,0 +1,49 @@
+{% extends "song/base.html" %}
+
+{% block title %}{{ club.name }} Songs & Chants{% endblock %}
+
+{% block content %}
+  <nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'clubs:list' %}">Clubs</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ club.name }}</li>
+    </ol>
+  </nav>
+
+  <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+    <div>
+      <h1 class="h2 mb-1">{{ club.name }}</h1>
+      {% if club.nickname %}
+        <p class="text-muted mb-1">{{ club.nickname }}</p>
+      {% endif %}
+      <p class="text-muted mb-0">
+        {% if paginator.count %}
+          {{ paginator.count }} accepted song{{ paginator.count|pluralize }} for this club
+          {% if is_paginated %}
+            · showing {{ page_obj.start_index }}–{{ page_obj.end_index }}
+          {% endif %}
+        {% else %}
+          No songs linked to this club yet
+        {% endif %}
+      </p>
+      {% if club.stadium or club.location %}
+        <p class="small text-muted mb-0 mt-1">
+          {% if club.stadium %}{{ club.stadium }}{% endif %}
+          {% if club.stadium and club.location %} · {% endif %}
+          {% if club.location %}{{ club.location }}{% endif %}
+        </p>
+      {% endif %}
+    </div>
+    <a class="btn btn-danger" href="{% url 'songs:suggest' %}">Suggest a song</a>
+  </div>
+
+  {% if song_list %}
+    {% include "song/includes/song_cards.html" with current_club=club %}
+    {% include "song/includes/pagination.html" with aria_label="Club song list pagination" %}
+  {% else %}
+    <div class="text-center py-5">
+      <p class="lead text-muted mb-3">No songs for {{ club.name }} yet.</p>
+      <a class="btn btn-outline-danger" href="{% url 'songs:suggest' %}">Suggest a song for this club</a>
+    </div>
+  {% endif %}
+{% endblock %}

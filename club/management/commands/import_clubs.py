@@ -126,4 +126,7 @@ class Command(BaseCommand):
         if "founded" in item:
             values["founded"] = item["founded"]
 
+        if "slug" in item:
+            values["slug"] = item["slug"]
+
         return values

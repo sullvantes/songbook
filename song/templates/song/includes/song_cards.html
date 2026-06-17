@@ -1,0 +1,57 @@
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  {% for song in song_list %}
+    <div class="col">
+      <article class="card h-100 shadow-sm">
+        <div class="card-body d-flex flex-column">
+          <div class="d-flex flex-wrap justify-content-between align-items-start gap-2 mb-2">
+            <h2 class="card-title h5 mb-0">{{ song.title }}</h2>
+            {% if song.is_fan_chant %}
+              <span class="badge text-bg-danger">Fan chant</span>
+            {% else %}
+              <span class="badge text-bg-secondary">Song</span>
+            {% endif %}
+          </div>
+
+          {% if song.description %}
+            <p class="card-text text-muted">{{ song.description|truncatewords:35 }}</p>
+          {% elif song.lyrics %}
+            <p class="card-text text-muted fst-italic">{{ song.lyrics|truncatewords:35 }}</p>
+          {% endif %}
+
+          <dl class="small mb-3">
+            {% if show_clubs and song.clubs.all %}
+              <dt class="text-muted">Clubs</dt>
+              <dd class="mb-2">
+                {% for club in song.clubs.all %}
+                  <a class="badge rounded-pill text-bg-light border text-decoration-none" href="{% url 'clubs:songs' club.slug %}">{{ club.name }}</a>
+                {% endfor %}
+              </dd>
+            {% elif current_club and song.clubs.count > 1 %}
+              <dt class="text-muted">Also linked to: </dt>
+              <dd class="mb-2">
+                {% for linked_club in song.clubs.all %}
+                  {% if linked_club.pk != current_club.pk %}
+                    <a class="badge rounded-pill text-bg-light border text-decoration-none" href="{% url 'clubs:songs' linked_club.slug %}">{{ linked_club.name }}</a>
+                  {% endif %}
+                {% endfor %}
+              </dd>
+            {% endif %}
+
+            {% if song.player %}
+              <dt class="text-muted">Player</dt>
+              <dd class="mb-2">{{ song.player.name }}</dd>
+            {% endif %}
+          </dl>
+
+          {% if song.tags.all %}
+            <div class="mt-auto pt-2 border-top">
+              {% for tag in song.tags.all %}
+                <span class="badge text-bg-light text-dark me-1 mb-1">#{{ tag.name }}</span>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      </article>
+    </div>
+  {% endfor %}
+</div>

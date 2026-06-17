@@ -5,8 +5,9 @@ from .models import Club
 
 @admin.register(Club)
 class ClubAdmin(ModelAdmin):
-    list_display = ("name", "nickname", "founded", "stadium", "location")
-    search_fields = ("name", "nickname", "stadium", "location")
+    list_display = ("name", "slug", "nickname", "founded", "stadium", "location")
+    search_fields = ("name", "slug", "nickname", "stadium", "location")
+    readonly_fields = ("slug",)
     list_filter = ("founded",)
     ordering = ("name",)
     filter_horizontal = ("players",)
