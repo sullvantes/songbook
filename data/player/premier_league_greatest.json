@@ -1,0 +1,2578 @@
+[
+  {
+    "name": "Thierry Henry",
+    "position": "Forward",
+    "years_active": "1999–2007",
+    "clubs": [
+      "Arsenal FC",
+      "France"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Cristiano Ronaldo",
+    "position": "Forward",
+    "years_active": "2003–2009",
+    "clubs": [
+      "Manchester United",
+      "Portugal"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Alan Shearer",
+    "position": "Forward",
+    "years_active": "1992–2006",
+    "clubs": [
+      "Newcastle United",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend",
+      "golden-boot"
+    ]
+  },
+  {
+    "name": "Wayne Rooney",
+    "position": "Forward",
+    "years_active": "2002–2017",
+    "clubs": [
+      "Manchester United",
+      "Everton FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Sergio Aguero",
+    "position": "Forward",
+    "years_active": "2011–2021",
+    "clubs": [
+      "Manchester City",
+      "Argentina"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Frank Lampard",
+    "position": "Midfielder",
+    "years_active": "1995–2014",
+    "clubs": [
+      "Chelsea FC",
+      "West Ham United",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Steven Gerrard",
+    "position": "Midfielder",
+    "years_active": "1998–2015",
+    "clubs": [
+      "Liverpool FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend",
+      "captain"
+    ]
+  },
+  {
+    "name": "Paul Scholes",
+    "position": "Midfielder",
+    "years_active": "1994–2013",
+    "clubs": [
+      "Manchester United",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Ryan Giggs",
+    "position": "Midfielder",
+    "years_active": "1990–2014",
+    "clubs": [
+      "Manchester United",
+      "Wales"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Eric Cantona",
+    "position": "Forward",
+    "years_active": "1992–1997",
+    "clubs": [
+      "Manchester United",
+      "France"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Dennis Bergkamp",
+    "position": "Forward",
+    "years_active": "1995–2006",
+    "clubs": [
+      "Arsenal FC",
+      "Netherlands"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Patrick Vieira",
+    "position": "Midfielder",
+    "years_active": "1997–2005",
+    "clubs": [
+      "Arsenal FC",
+      "France"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Peter Schmeichel",
+    "position": "Goalkeeper",
+    "years_active": "1991–1999",
+    "clubs": [
+      "Manchester United",
+      "Denmark"
+    ],
+    "tags": [
+      "premier-league",
+      "legend",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Roy Keane",
+    "position": "Midfielder",
+    "years_active": "1993–2005",
+    "clubs": [
+      "Manchester United",
+      "Republic of Ireland"
+    ],
+    "tags": [
+      "premier-league",
+      "legend",
+      "captain"
+    ]
+  },
+  {
+    "name": "Didier Drogba",
+    "position": "Forward",
+    "years_active": "2004–2012",
+    "clubs": [
+      "Chelsea FC",
+      "Ivory Coast"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Eden Hazard",
+    "position": "Forward",
+    "years_active": "2012–2019",
+    "clubs": [
+      "Chelsea FC",
+      "Belgium"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Vincent Kompany",
+    "position": "Defender",
+    "years_active": "2008–2019",
+    "clubs": [
+      "Manchester City",
+      "Belgium"
+    ],
+    "tags": [
+      "premier-league",
+      "legend",
+      "captain"
+    ]
+  },
+  {
+    "name": "Kevin De Bruyne",
+    "position": "Midfielder",
+    "years_active": "2015–present",
+    "clubs": [
+      "Manchester City",
+      "Belgium"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "David Silva",
+    "position": "Midfielder",
+    "years_active": "2010–2020",
+    "clubs": [
+      "Manchester City",
+      "Spain"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Yaya Toure",
+    "position": "Midfielder",
+    "years_active": "2010–2018",
+    "clubs": [
+      "Manchester City",
+      "Ivory Coast"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Mohamed Salah",
+    "position": "Forward",
+    "years_active": "2014–present",
+    "clubs": [
+      "Liverpool FC",
+      "Chelsea FC",
+      "Egypt"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Virgil van Dijk",
+    "position": "Defender",
+    "years_active": "2018–present",
+    "clubs": [
+      "Liverpool FC",
+      "Southampton FC",
+      "Netherlands"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Luis Suarez",
+    "position": "Forward",
+    "years_active": "2011–2014",
+    "clubs": [
+      "Liverpool FC",
+      "Uruguay"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Fernando Torres",
+    "position": "Forward",
+    "years_active": "2007–2015",
+    "clubs": [
+      "Liverpool FC",
+      "Chelsea FC",
+      "Spain"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Xabi Alonso",
+    "position": "Midfielder",
+    "years_active": "2004–2009",
+    "clubs": [
+      "Liverpool FC",
+      "Spain"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Jamie Carragher",
+    "position": "Defender",
+    "years_active": "1996–2013",
+    "clubs": [
+      "Liverpool FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Robbie Fowler",
+    "position": "Forward",
+    "years_active": "1993–2007",
+    "clubs": [
+      "Liverpool FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Michael Owen",
+    "position": "Forward",
+    "years_active": "1996–2009",
+    "clubs": [
+      "Liverpool FC",
+      "Newcastle United",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Rio Ferdinand",
+    "position": "Defender",
+    "years_active": "2002–2014",
+    "clubs": [
+      "Manchester United",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Nemanja Vidic",
+    "position": "Defender",
+    "years_active": "2006–2014",
+    "clubs": [
+      "Manchester United",
+      "Serbia"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Edwin van der Sar",
+    "position": "Goalkeeper",
+    "years_active": "2005–2011",
+    "clubs": [
+      "Manchester United",
+      "Netherlands"
+    ],
+    "tags": [
+      "premier-league",
+      "legend",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Petr Cech",
+    "position": "Goalkeeper",
+    "years_active": "2004–2019",
+    "clubs": [
+      "Chelsea FC",
+      "Arsenal FC",
+      "Czech Republic"
+    ],
+    "tags": [
+      "premier-league",
+      "legend",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "John Terry",
+    "position": "Defender",
+    "years_active": "1998–2017",
+    "clubs": [
+      "Chelsea FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend",
+      "captain"
+    ]
+  },
+  {
+    "name": "Ashley Cole",
+    "position": "Defender",
+    "years_active": "1999–2014",
+    "clubs": [
+      "Arsenal FC",
+      "Chelsea FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Claude Makelele",
+    "position": "Midfielder",
+    "years_active": "2003–2008",
+    "clubs": [
+      "Chelsea FC",
+      "France"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Gianfranco Zola",
+    "position": "Forward",
+    "years_active": "1996–2003",
+    "clubs": [
+      "Chelsea FC",
+      "Italy"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Arjen Robben",
+    "position": "Forward",
+    "years_active": "2004–2007",
+    "clubs": [
+      "Chelsea FC",
+      "Netherlands"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Ruud van Nistelrooy",
+    "position": "Forward",
+    "years_active": "2001–2006",
+    "clubs": [
+      "Manchester United",
+      "Netherlands"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "David Beckham",
+    "position": "Midfielder",
+    "years_active": "1992–2003",
+    "clubs": [
+      "Manchester United",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Paul Ince",
+    "position": "Midfielder",
+    "years_active": "1992–2002",
+    "clubs": [
+      "Manchester United",
+      "Liverpool FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Andy Cole",
+    "position": "Forward",
+    "years_active": "1993–2008",
+    "clubs": [
+      "Manchester United",
+      "Newcastle United",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Teddy Sheringham",
+    "position": "Forward",
+    "years_active": "1992–2008",
+    "clubs": [
+      "Manchester United",
+      "Tottenham Hotspur",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Ole Gunnar Solskjaer",
+    "position": "Forward",
+    "years_active": "1996–2007",
+    "clubs": [
+      "Manchester United",
+      "Norway"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Robin van Persie",
+    "position": "Forward",
+    "years_active": "2004–2014",
+    "clubs": [
+      "Arsenal FC",
+      "Manchester United",
+      "Netherlands"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Tony Adams",
+    "position": "Defender",
+    "years_active": "1983–2002",
+    "clubs": [
+      "Arsenal FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend",
+      "captain"
+    ]
+  },
+  {
+    "name": "Ian Wright",
+    "position": "Forward",
+    "years_active": "1991–1998",
+    "clubs": [
+      "Arsenal FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "David Seaman",
+    "position": "Goalkeeper",
+    "years_active": "1990–2003",
+    "clubs": [
+      "Arsenal FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Robert Pires",
+    "position": "Midfielder",
+    "years_active": "2000–2006",
+    "clubs": [
+      "Arsenal FC",
+      "France"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Freddie Ljungberg",
+    "position": "Midfielder",
+    "years_active": "1998–2008",
+    "clubs": [
+      "Arsenal FC",
+      "Sweden"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Sol Campbell",
+    "position": "Defender",
+    "years_active": "1998–2006",
+    "clubs": [
+      "Arsenal FC",
+      "Tottenham Hotspur",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Cesc Fabregas",
+    "position": "Midfielder",
+    "years_active": "2003–2011",
+    "clubs": [
+      "Arsenal FC",
+      "Chelsea FC",
+      "Spain"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Pierre-Emerick Aubameyang",
+    "position": "Forward",
+    "years_active": "2018–2022",
+    "clubs": [
+      "Arsenal FC",
+      "Chelsea FC"
+    ],
+    "tags": [
+      "premier-league",
+      "golden-boot"
+    ]
+  },
+  {
+    "name": "Alexis Sanchez",
+    "position": "Forward",
+    "years_active": "2014–2018",
+    "clubs": [
+      "Arsenal FC",
+      "Manchester United",
+      "Chile"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Mesut Ozil",
+    "position": "Midfielder",
+    "years_active": "2013–2021",
+    "clubs": [
+      "Arsenal FC",
+      "Germany"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Santi Cazorla",
+    "position": "Midfielder",
+    "years_active": "2012–2016",
+    "clubs": [
+      "Arsenal FC",
+      "Spain"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Nicolas Anelka",
+    "position": "Forward",
+    "years_active": "1997–2012",
+    "clubs": [
+      "Arsenal FC",
+      "Chelsea FC",
+      "Manchester City",
+      "Liverpool FC",
+      "France"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Emmanuel Petit",
+    "position": "Midfielder",
+    "years_active": "1997–2000",
+    "clubs": [
+      "Arsenal FC",
+      "Chelsea FC",
+      "France"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Marc Overmars",
+    "position": "Midfielder",
+    "years_active": "1997–2000",
+    "clubs": [
+      "Arsenal FC",
+      "Netherlands"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "N'Golo Kante",
+    "position": "Midfielder",
+    "years_active": "2015–2023",
+    "clubs": [
+      "Chelsea FC",
+      "Leicester City",
+      "France"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Willian",
+    "position": "Forward",
+    "years_active": "2013–2020",
+    "clubs": [
+      "Chelsea FC",
+      "Arsenal FC",
+      "Brazil"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Diego Costa",
+    "position": "Forward",
+    "years_active": "2014–2017",
+    "clubs": [
+      "Chelsea FC",
+      "Spain"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Thibaut Courtois",
+    "position": "Goalkeeper",
+    "years_active": "2014–2018",
+    "clubs": [
+      "Chelsea FC",
+      "Belgium"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Branislav Ivanovic",
+    "position": "Defender",
+    "years_active": "2010–2017",
+    "clubs": [
+      "Chelsea FC",
+      "Serbia"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Cesar Azpilicueta",
+    "position": "Defender",
+    "years_active": "2012–2023",
+    "clubs": [
+      "Chelsea FC",
+      "Spain"
+    ],
+    "tags": [
+      "premier-league",
+      "captain"
+    ]
+  },
+  {
+    "name": "Ricardo Carvalho",
+    "position": "Defender",
+    "years_active": "2004–2010",
+    "clubs": [
+      "Chelsea FC",
+      "Portugal"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Paulo Ferreira",
+    "position": "Defender",
+    "years_active": "2004–2013",
+    "clubs": [
+      "Chelsea FC",
+      "Portugal"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "William Gallas",
+    "position": "Defender",
+    "years_active": "2001–2010",
+    "clubs": [
+      "Chelsea FC",
+      "Arsenal FC",
+      "France"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Michael Essien",
+    "position": "Midfielder",
+    "years_active": "2005–2012",
+    "clubs": [
+      "Chelsea FC",
+      "Ghana"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Joe Cole",
+    "position": "Midfielder",
+    "years_active": "2003–2010",
+    "clubs": [
+      "Chelsea FC",
+      "Liverpool FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Damien Duff",
+    "position": "Midfielder",
+    "years_active": "2003–2006",
+    "clubs": [
+      "Chelsea FC",
+      "Republic of Ireland"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Jimmy Floyd Hasselbaink",
+    "position": "Forward",
+    "years_active": "2000–2004",
+    "clubs": [
+      "Chelsea FC",
+      "Netherlands"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Eidur Gudjohnsen",
+    "position": "Forward",
+    "years_active": "2000–2006",
+    "clubs": [
+      "Chelsea FC",
+      "Iceland"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Deco",
+    "position": "Midfielder",
+    "years_active": "2006–2008",
+    "clubs": [
+      "Chelsea FC",
+      "Portugal"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Michael Ballack",
+    "position": "Midfielder",
+    "years_active": "2006–2010",
+    "clubs": [
+      "Chelsea FC",
+      "Germany"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Florent Malouda",
+    "position": "Midfielder",
+    "years_active": "2007–2013",
+    "clubs": [
+      "Chelsea FC",
+      "France"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Alvaro Morata",
+    "position": "Forward",
+    "years_active": "2017–2019",
+    "clubs": [
+      "Chelsea FC",
+      "Spain"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Romelu Lukaku",
+    "position": "Forward",
+    "years_active": "2013–2014",
+    "clubs": [
+      "Chelsea FC",
+      "Manchester United",
+      "Everton FC",
+      "Belgium"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Alisson",
+    "position": "Goalkeeper",
+    "years_active": "2018–present",
+    "clubs": [
+      "Liverpool FC",
+      "Brazil"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Ederson",
+    "position": "Goalkeeper",
+    "years_active": "2017–present",
+    "clubs": [
+      "Manchester City",
+      "Brazil"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "David de Gea",
+    "position": "Goalkeeper",
+    "years_active": "2011–2023",
+    "clubs": [
+      "Manchester United",
+      "Spain"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Brad Friedel",
+    "position": "Goalkeeper",
+    "years_active": "1997–2012",
+    "clubs": [
+      "Liverpool FC",
+      "Tottenham Hotspur",
+      "United States"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Shay Given",
+    "position": "Goalkeeper",
+    "years_active": "1997–2015",
+    "clubs": [
+      "Newcastle United",
+      "Manchester City",
+      "Republic of Ireland"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Joe Hart",
+    "position": "Goalkeeper",
+    "years_active": "2006–2018",
+    "clubs": [
+      "Manchester City",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Hugo Lloris",
+    "position": "Goalkeeper",
+    "years_active": "2012–2023",
+    "clubs": [
+      "Tottenham Hotspur",
+      "France"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper",
+      "captain"
+    ]
+  },
+  {
+    "name": "Nigel Martyn",
+    "position": "Goalkeeper",
+    "years_active": "1996–2006",
+    "clubs": [
+      "Leeds United",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Jens Lehmann",
+    "position": "Goalkeeper",
+    "years_active": "2003–2008",
+    "clubs": [
+      "Arsenal FC",
+      "Germany"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Jerzy Dudek",
+    "position": "Goalkeeper",
+    "years_active": "2001–2007",
+    "clubs": [
+      "Liverpool FC",
+      "Poland"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Tim Howard",
+    "position": "Goalkeeper",
+    "years_active": "2003–2016",
+    "clubs": [
+      "Manchester United",
+      "Everton FC",
+      "United States"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Harry Kane",
+    "position": "Forward",
+    "years_active": "2011–present",
+    "clubs": [
+      "Tottenham Hotspur",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend",
+      "golden-boot"
+    ]
+  },
+  {
+    "name": "Son Heung-min",
+    "position": "Forward",
+    "years_active": "2015–present",
+    "clubs": [
+      "Tottenham Hotspur",
+      "South Korea"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Luka Modric",
+    "position": "Midfielder",
+    "years_active": "2012–2014",
+    "clubs": [
+      "Tottenham Hotspur",
+      "Croatia"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Gareth Bale",
+    "position": "Forward",
+    "years_active": "2007–2013",
+    "clubs": [
+      "Tottenham Hotspur",
+      "Wales"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Christian Eriksen",
+    "position": "Midfielder",
+    "years_active": "2013–2020",
+    "clubs": [
+      "Tottenham Hotspur",
+      "Denmark"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Dimitar Berbatov",
+    "position": "Forward",
+    "years_active": "2006–2012",
+    "clubs": [
+      "Manchester United",
+      "Tottenham Hotspur",
+      "Bulgaria"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Jermain Defoe",
+    "position": "Forward",
+    "years_active": "2004–2014",
+    "clubs": [
+      "Tottenham Hotspur",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Robbie Keane",
+    "position": "Forward",
+    "years_active": "2002–2011",
+    "clubs": [
+      "Tottenham Hotspur",
+      "Republic of Ireland"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Gary Lineker",
+    "position": "Forward",
+    "years_active": "1992–1994",
+    "clubs": [
+      "Tottenham Hotspur",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Ledley King",
+    "position": "Defender",
+    "years_active": "1999–2012",
+    "clubs": [
+      "Tottenham Hotspur",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Kyle Walker",
+    "position": "Defender",
+    "years_active": "2010–present",
+    "clubs": [
+      "Manchester City",
+      "Tottenham Hotspur",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Riyad Mahrez",
+    "position": "Forward",
+    "years_active": "2015–2022",
+    "clubs": [
+      "Leicester City",
+      "Manchester City",
+      "Algeria"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Jamie Vardy",
+    "position": "Forward",
+    "years_active": "2014–present",
+    "clubs": [
+      "Leicester City",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Kasper Schmeichel",
+    "position": "Goalkeeper",
+    "years_active": "2011–2022",
+    "clubs": [
+      "Leicester City",
+      "Denmark"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Phil Foden",
+    "position": "Midfielder",
+    "years_active": "2017–present",
+    "clubs": [
+      "Manchester City",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Carlos Tevez",
+    "position": "Forward",
+    "years_active": "2006–2013",
+    "clubs": [
+      "Manchester City",
+      "Manchester United",
+      "Argentina"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Ilkay Gundogan",
+    "position": "Midfielder",
+    "years_active": "2016–2023",
+    "clubs": [
+      "Manchester City",
+      "Germany"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Bernardo Silva",
+    "position": "Midfielder",
+    "years_active": "2017–present",
+    "clubs": [
+      "Manchester City",
+      "Portugal"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Ruben Dias",
+    "position": "Defender",
+    "years_active": "2020–present",
+    "clubs": [
+      "Manchester City",
+      "Portugal"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "John Stones",
+    "position": "Defender",
+    "years_active": "2013–present",
+    "clubs": [
+      "Manchester City",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Raheem Sterling",
+    "position": "Forward",
+    "years_active": "2015–2022",
+    "clubs": [
+      "Manchester City",
+      "Liverpool FC",
+      "Chelsea FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Gabriel Jesus",
+    "position": "Forward",
+    "years_active": "2017–2022",
+    "clubs": [
+      "Manchester City",
+      "Brazil"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Fernandinho",
+    "position": "Midfielder",
+    "years_active": "2013–2022",
+    "clubs": [
+      "Manchester City",
+      "Brazil"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Mario Balotelli",
+    "position": "Forward",
+    "years_active": "2010–2013",
+    "clubs": [
+      "Manchester City",
+      "Italy"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Samir Nasri",
+    "position": "Midfielder",
+    "years_active": "2010–2016",
+    "clubs": [
+      "Manchester City",
+      "Arsenal FC",
+      "France"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Emmanuel Adebayor",
+    "position": "Forward",
+    "years_active": "2006–2012",
+    "clubs": [
+      "Arsenal FC",
+      "Manchester City",
+      "Tottenham Hotspur",
+      "Togo"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Sadio Mane",
+    "position": "Forward",
+    "years_active": "2014–2022",
+    "clubs": [
+      "Liverpool FC",
+      "Senegal"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Roberto Firmino",
+    "position": "Forward",
+    "years_active": "2015–2023",
+    "clubs": [
+      "Liverpool FC",
+      "Brazil"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Jordan Henderson",
+    "position": "Midfielder",
+    "years_active": "2011–2023",
+    "clubs": [
+      "Liverpool FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "captain"
+    ]
+  },
+  {
+    "name": "Andrew Robertson",
+    "position": "Defender",
+    "years_active": "2017–present",
+    "clubs": [
+      "Liverpool FC",
+      "Scotland"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Trent Alexander-Arnold",
+    "position": "Defender",
+    "years_active": "2016–present",
+    "clubs": [
+      "Liverpool FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Sami Hyypia",
+    "position": "Defender",
+    "years_active": "1999–2009",
+    "clubs": [
+      "Liverpool FC"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Pepe Reina",
+    "position": "Goalkeeper",
+    "years_active": "2005–2013",
+    "clubs": [
+      "Liverpool FC",
+      "Spain"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Daniel Sturridge",
+    "position": "Forward",
+    "years_active": "2013–2019",
+    "clubs": [
+      "Liverpool FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Emile Heskey",
+    "position": "Forward",
+    "years_active": "1999–2004",
+    "clubs": [
+      "Liverpool FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "John Barnes",
+    "position": "Midfielder",
+    "years_active": "1992–1997",
+    "clubs": [
+      "Liverpool FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Dietmar Hamann",
+    "position": "Midfielder",
+    "years_active": "1999–2006",
+    "clubs": [
+      "Liverpool FC",
+      "Germany"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Gary McAllister",
+    "position": "Midfielder",
+    "years_active": "2000–2002",
+    "clubs": [
+      "Liverpool FC",
+      "Scotland"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Steve McManaman",
+    "position": "Midfielder",
+    "years_active": "1992–1999",
+    "clubs": [
+      "Liverpool FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Ian Rush",
+    "position": "Forward",
+    "years_active": "1992–1996",
+    "clubs": [
+      "Liverpool FC",
+      "Wales"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Fabinho",
+    "position": "Midfielder",
+    "years_active": "2018–2023",
+    "clubs": [
+      "Liverpool FC",
+      "Brazil"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Georginio Wijnaldum",
+    "position": "Midfielder",
+    "years_active": "2016–2021",
+    "clubs": [
+      "Liverpool FC",
+      "Netherlands"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "James Milner",
+    "position": "Midfielder",
+    "years_active": "2015–2023",
+    "clubs": [
+      "Liverpool FC",
+      "Manchester City",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Dirk Kuyt",
+    "position": "Forward",
+    "years_active": "2006–2012",
+    "clubs": [
+      "Liverpool FC",
+      "Netherlands"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Luis Garcia",
+    "position": "Midfielder",
+    "years_active": "2005–2007",
+    "clubs": [
+      "Liverpool FC",
+      "Spain"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Xherdan Shaqiri",
+    "position": "Midfielder",
+    "years_active": "2018–2021",
+    "clubs": [
+      "Liverpool FC",
+      "Switzerland"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Joel Matip",
+    "position": "Defender",
+    "years_active": "2016–2023",
+    "clubs": [
+      "Liverpool FC",
+      "Cameroon"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Leighton Baines",
+    "position": "Defender",
+    "years_active": "2005–2020",
+    "clubs": [
+      "Everton FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Tim Cahill",
+    "position": "Midfielder",
+    "years_active": "2004–2012",
+    "clubs": [
+      "Everton FC",
+      "Australia"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Mikel Arteta",
+    "position": "Midfielder",
+    "years_active": "2005–2011",
+    "clubs": [
+      "Everton FC",
+      "Arsenal FC",
+      "Spain"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Phil Neville",
+    "position": "Defender",
+    "years_active": "2005–2013",
+    "clubs": [
+      "Everton FC",
+      "Manchester United",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Duncan Ferguson",
+    "position": "Forward",
+    "years_active": "1994–2006",
+    "clubs": [
+      "Everton FC",
+      "Scotland"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "James Rodriguez",
+    "position": "Midfielder",
+    "years_active": "2020–2021",
+    "clubs": [
+      "Everton FC",
+      "Colombia"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Paolo Di Canio",
+    "position": "Forward",
+    "years_active": "1999–2002",
+    "clubs": [
+      "West Ham United",
+      "Italy"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Mark Noble",
+    "position": "Midfielder",
+    "years_active": "2006–2022",
+    "clubs": [
+      "West Ham United",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "captain"
+    ]
+  },
+  {
+    "name": "Pablo Zabaleta",
+    "position": "Defender",
+    "years_active": "2012–2020",
+    "clubs": [
+      "Manchester City",
+      "West Ham United",
+      "Argentina"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Craig Bellamy",
+    "position": "Forward",
+    "years_active": "2001–2011",
+    "clubs": [
+      "Manchester City",
+      "Liverpool FC",
+      "West Ham United",
+      "Wales"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Scott Parker",
+    "position": "Midfielder",
+    "years_active": "1997–2013",
+    "clubs": [
+      "West Ham United",
+      "Chelsea FC",
+      "Tottenham Hotspur",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Dwight Yorke",
+    "position": "Forward",
+    "years_active": "1998–2002",
+    "clubs": [
+      "Manchester United",
+      "Trinidad and Tobago"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Denis Irwin",
+    "position": "Defender",
+    "years_active": "1990–2002",
+    "clubs": [
+      "Manchester United",
+      "Republic of Ireland"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Gary Neville",
+    "position": "Defender",
+    "years_active": "1992–2011",
+    "clubs": [
+      "Manchester United",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Wes Brown",
+    "position": "Defender",
+    "years_active": "1998–2011",
+    "clubs": [
+      "Manchester United",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Nicky Butt",
+    "position": "Midfielder",
+    "years_active": "1992–2004",
+    "clubs": [
+      "Manchester United",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "John O'Shea",
+    "position": "Defender",
+    "years_active": "1999–2011",
+    "clubs": [
+      "Manchester United",
+      "Republic of Ireland"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Patrice Evra",
+    "position": "Defender",
+    "years_active": "2006–2014",
+    "clubs": [
+      "Manchester United",
+      "France"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Antonio Valencia",
+    "position": "Midfielder",
+    "years_active": "2009–2019",
+    "clubs": [
+      "Manchester United",
+      "Ecuador"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Park Ji-sung",
+    "position": "Midfielder",
+    "years_active": "2005–2012",
+    "clubs": [
+      "Manchester United",
+      "South Korea"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Nani",
+    "position": "Midfielder",
+    "years_active": "2007–2015",
+    "clubs": [
+      "Manchester United",
+      "Portugal"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Javier Hernandez",
+    "position": "Forward",
+    "years_active": "2010–2015",
+    "clubs": [
+      "Manchester United",
+      "Mexico"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Bryan Robson",
+    "position": "Midfielder",
+    "years_active": "1992–1994",
+    "clubs": [
+      "Manchester United",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend",
+      "captain"
+    ]
+  },
+  {
+    "name": "Mark Hughes",
+    "position": "Forward",
+    "years_active": "1992–1995",
+    "clubs": [
+      "Manchester United",
+      "Wales"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Jaap Stam",
+    "position": "Defender",
+    "years_active": "1998–2001",
+    "clubs": [
+      "Manchester United",
+      "Netherlands"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Angel Di Maria",
+    "position": "Midfielder",
+    "years_active": "2014–2015",
+    "clubs": [
+      "Manchester United",
+      "Argentina"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Juan Sebastian Veron",
+    "position": "Midfielder",
+    "years_active": "2001–2003",
+    "clubs": [
+      "Manchester United",
+      "Argentina"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Fabien Barthez",
+    "position": "Goalkeeper",
+    "years_active": "2000–2003",
+    "clubs": [
+      "Manchester United",
+      "France"
+    ],
+    "tags": [
+      "premier-league",
+      "goalkeeper"
+    ]
+  },
+  {
+    "name": "Peter Crouch",
+    "position": "Forward",
+    "years_active": "2005–2011",
+    "clubs": [
+      "Liverpool FC",
+      "Tottenham Hotspur",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "David Ginola",
+    "position": "Midfielder",
+    "years_active": "1995–2000",
+    "clubs": [
+      "Tottenham Hotspur",
+      "Newcastle United",
+      "France"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Les Ferdinand",
+    "position": "Forward",
+    "years_active": "1995–2005",
+    "clubs": [
+      "Tottenham Hotspur",
+      "Newcastle United",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Jurgen Klinsmann",
+    "position": "Forward",
+    "years_active": "1994–1998",
+    "clubs": [
+      "Tottenham Hotspur",
+      "Germany"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Glenn Hoddle",
+    "position": "Midfielder",
+    "years_active": "1992–1995",
+    "clubs": [
+      "Tottenham Hotspur",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Paul Gascoigne",
+    "position": "Midfielder",
+    "years_active": "1992–1995",
+    "clubs": [
+      "Tottenham Hotspur",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Rafael van der Vaart",
+    "position": "Midfielder",
+    "years_active": "2010–2012",
+    "clubs": [
+      "Tottenham Hotspur",
+      "Netherlands"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Aaron Lennon",
+    "position": "Midfielder",
+    "years_active": "2005–2015",
+    "clubs": [
+      "Tottenham Hotspur",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Aaron Ramsey",
+    "position": "Midfielder",
+    "years_active": "2008–2019",
+    "clubs": [
+      "Arsenal FC",
+      "Wales"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Bukayo Saka",
+    "position": "Midfielder",
+    "years_active": "2019–present",
+    "clubs": [
+      "Arsenal FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Martin Odegaard",
+    "position": "Midfielder",
+    "years_active": "2021–present",
+    "clubs": [
+      "Arsenal FC",
+      "Norway"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Ray Parlour",
+    "position": "Midfielder",
+    "years_active": "1992–2004",
+    "clubs": [
+      "Arsenal FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Lee Dixon",
+    "position": "Defender",
+    "years_active": "1991–2002",
+    "clubs": [
+      "Arsenal FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Nigel Winterburn",
+    "position": "Defender",
+    "years_active": "1990–2000",
+    "clubs": [
+      "Arsenal FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Martin Keown",
+    "position": "Defender",
+    "years_active": "1990–2004",
+    "clubs": [
+      "Arsenal FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Lauren",
+    "position": "Defender",
+    "years_active": "1999–2006",
+    "clubs": [
+      "Arsenal FC",
+      "Cameroon"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Sylvinho",
+    "position": "Defender",
+    "years_active": "1999–2007",
+    "clubs": [
+      "Arsenal FC",
+      "Brazil"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Kolo Toure",
+    "position": "Defender",
+    "years_active": "2002–2013",
+    "clubs": [
+      "Arsenal FC",
+      "Manchester City",
+      "Ivory Coast"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Bacary Sagna",
+    "position": "Defender",
+    "years_active": "2007–2014",
+    "clubs": [
+      "Arsenal FC",
+      "Manchester City",
+      "France"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Gael Clichy",
+    "position": "Defender",
+    "years_active": "2003–2011",
+    "clubs": [
+      "Arsenal FC",
+      "Manchester City",
+      "France"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Ashley Williams",
+    "position": "Defender",
+    "years_active": "2017–2019",
+    "clubs": [
+      "Everton FC",
+      "Wales"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Phil Jagielka",
+    "position": "Defender",
+    "years_active": "2007–2019",
+    "clubs": [
+      "Everton FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Seamus Coleman",
+    "position": "Defender",
+    "years_active": "2009–present",
+    "clubs": [
+      "Everton FC",
+      "Republic of Ireland"
+    ],
+    "tags": [
+      "premier-league",
+      "captain"
+    ]
+  },
+  {
+    "name": "Marouane Fellaini",
+    "position": "Midfielder",
+    "years_active": "2008–2013",
+    "clubs": [
+      "Everton FC",
+      "Manchester United",
+      "Belgium"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Yakubu",
+    "position": "Forward",
+    "years_active": "2007–2012",
+    "clubs": [
+      "Everton FC",
+      "Nigeria"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "James McFadden",
+    "position": "Forward",
+    "years_active": "2003–2008",
+    "clubs": [
+      "Everton FC",
+      "Scotland"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Andy Carroll",
+    "position": "Forward",
+    "years_active": "2011–2013",
+    "clubs": [
+      "Liverpool FC",
+      "Newcastle United",
+      "West Ham United",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Demba Ba",
+    "position": "Forward",
+    "years_active": "2011–2013",
+    "clubs": [
+      "Chelsea FC",
+      "Newcastle United",
+      "Senegal"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Yohan Cabaye",
+    "position": "Midfielder",
+    "years_active": "2014–2015",
+    "clubs": [
+      "Newcastle United",
+      "France"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Samuel Eto'o",
+    "position": "Forward",
+    "years_active": "2013–2014",
+    "clubs": [
+      "Chelsea FC",
+      "Cameroon"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Fernando Morientes",
+    "position": "Forward",
+    "years_active": "2005–2006",
+    "clubs": [
+      "Liverpool FC",
+      "Spain"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Stan Collymore",
+    "position": "Forward",
+    "years_active": "1995–1997",
+    "clubs": [
+      "Liverpool FC",
+      "Aston Villa",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Jack Grealish",
+    "position": "Midfielder",
+    "years_active": "2014–2021",
+    "clubs": [
+      "Aston Villa",
+      "Manchester City",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Paul McGrath",
+    "position": "Defender",
+    "years_active": "1992–1998",
+    "clubs": [
+      "Aston Villa",
+      "Republic of Ireland"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "Gareth Barry",
+    "position": "Midfielder",
+    "years_active": "1997–2017",
+    "clubs": [
+      "Aston Villa",
+      "Manchester City",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  },
+  {
+    "name": "Matt Le Tissier",
+    "position": "Midfielder",
+    "years_active": "1992–2002",
+    "clubs": [
+      "Southampton FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league",
+      "legend"
+    ]
+  },
+  {
+    "name": "James Ward-Prowse",
+    "position": "Midfielder",
+    "years_active": "2011–2023",
+    "clubs": [
+      "Southampton FC",
+      "England"
+    ],
+    "tags": [
+      "premier-league"
+    ]
+  }
+]
