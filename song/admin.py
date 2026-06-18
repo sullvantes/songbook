@@ -60,16 +60,17 @@ class MediaLinkInline(admin.TabularInline):
 @admin.register(Song)
 class SongAdmin(ModelAdmin):
     form = SongAdminForm
-    list_display = ("title", "display_clubs", "player", "is_fan_chant", "created_at", "updated_at")
+    list_display = ("title", "slug", "display_clubs", "player", "is_fan_chant", "created_at", "updated_at")
     list_filter = ("is_fan_chant", "clubs", "player", "created_at")
-    search_fields = ("title", "lyrics", "description", "clubs__name", "player__name")
+    search_fields = ("title", "slug", "lyrics", "description", "clubs__name", "player__name")
+    readonly_fields = ("slug",)
     filter_horizontal = ("clubs",)
 
     inlines = [MediaLinkInline]
 
     fieldsets = (
         (None, {
-            "fields": ("title", "lyrics", "description", "is_fan_chant")
+            "fields": ("title", "slug", "lyrics", "description", "is_fan_chant")
         }),
         ("Related To", {
             "fields": ("clubs", "player")

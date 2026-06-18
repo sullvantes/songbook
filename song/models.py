@@ -2,10 +2,12 @@ from taggit.managers import TaggableManager
 
 from django.db import models
 from django.contrib.auth.models import User
+from django.utils.text import slugify
 
 
 class Song(models.Model):
     title = models.CharField(max_length=255, unique=True)
+    slug = models.SlugField(max_length=255, unique=True)
     lyrics = models.TextField(blank=True, help_text="Suggested Lyrics")
     is_fan_chant = models.BooleanField(default=True)  # distinguishes chants vs copyrighted songs
     description = models.TextField(blank=True, help_text="Background or story behind the song")
@@ -28,6 +30,20 @@ class Song(models.Model):
 
     def __str__(self):
         return self.title
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug = self._generate_unique_slug()
+        super().save(*args, **kwargs)
+
+    def _generate_unique_slug(self):
+        base = slugify(self.title) or "song"
+        slug = base
+        counter = 2
+        while Song.objects.filter(slug=slug).exclude(pk=self.pk).exists():
+            slug = f"{base}-{counter}"
+            counter += 1
+        return slug
 
     def branding_club(self):
         clubs = list(self.clubs.all())

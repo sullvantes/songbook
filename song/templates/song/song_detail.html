@@ -22,7 +22,7 @@
       </div>
     </div>
     {% if user.is_staff %}
-      {% url 'songs:delete' song.pk as delete_url %}
+      {% url 'songs:delete' song.slug as delete_url %}
       {% with confirm_message="Delete "|add:song.title|add:" permanently?" %}
         {% include "song/includes/staff_delete_button.html" with delete_url=delete_url confirm_message=confirm_message %}
       {% endwith %}

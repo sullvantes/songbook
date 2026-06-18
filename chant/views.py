@@ -108,4 +108,4 @@ class ChantCreateView(LoginRequiredMixin, CreateView):
         return super().form_valid(form)
 
     def get_success_url(self):
-        return reverse("songs:detail", kwargs={"pk": self.object.song_id})
+        return reverse("songs:detail", kwargs={"slug": self.object.song.slug})

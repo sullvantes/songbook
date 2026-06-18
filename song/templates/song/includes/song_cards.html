@@ -36,7 +36,7 @@
           <div class="card-body d-flex flex-column">
             <div class="d-flex flex-wrap justify-content-between align-items-start gap-2 mb-2">
               <h2 class="card-title h5 mb-0">
-                <a class="text-decoration-none {% if not use_club_colors or not branding_club or not branding_club.primary_color %}text-dark{% endif %}" href="{% url 'songs:detail' song.pk %}">{{ song.title }}</a>
+                <a class="text-decoration-none {% if not use_club_colors or not branding_club or not branding_club.primary_color %}text-dark{% endif %}" href="{% url 'songs:detail' song.slug %}">{{ song.title }}</a>
               </h2>
               <div class="d-flex flex-wrap align-items-center gap-2">
                 {% if song.is_fan_chant %}
@@ -45,7 +45,7 @@
                   <span class="badge {% if use_club_colors and branding_club and branding_club.primary_color %}song-type-pill{% else %}text-bg-secondary{% endif %}">Song</span>
                 {% endif %}
                 {% if user.is_staff %}
-                  {% url 'songs:delete' song.pk as delete_url %}
+                  {% url 'songs:delete' song.slug as delete_url %}
                   {% with confirm_message="Delete "|add:song.title|add:" permanently?" %}
                     {% include "song/includes/staff_delete_button.html" with delete_url=delete_url confirm_message=confirm_message %}
                   {% endwith %}

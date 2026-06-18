@@ -161,6 +161,7 @@ class SongListView(ListView):
 
 class SongDetailView(DetailView):
     model = Song
+    slug_url_kwarg = "slug"
     context_object_name = "song"
     template_name = "song/song_detail.html"
 
@@ -185,8 +186,8 @@ class SongDetailView(DetailView):
 
 
 class SongDeleteView(StaffRequiredMixin, View):
-    def post(self, request, pk):
-        song = get_object_or_404(Song, pk=pk)
+    def post(self, request, slug):
+        song = get_object_or_404(Song, slug=slug)
         title = song.title
         song.delete()
         messages.success(request, f'Deleted song "{title}".')
