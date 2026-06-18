@@ -2,12 +2,84 @@
 
 {% block title %}Players · {{ site_name }}{% if active_club %} · {{ active_club.name }}{% endif %}{% if search_query %} · Search{% endif %}{% endblock %}
 
+{% block navbar_class %}{% if active_club %}club-branded-navbar{% if not active_club.primary_color %} bg-danger{% endif %}{% endif %}{% endblock %}
+{% block navbar_style %}{% if active_club %} style="{% if active_club.primary_color %}background-color: {{ active_club.primary_color }};{% endif %}"{% endif %}{% endblock %}
+
 {% block seo_meta %}
   {% if active_club %}
     {% include "song/includes/seo_meta.html" with title="Players · "|add:site_name description="Players linked to "|add:active_club.name|add:" and their songs in the Football Chants Archive." robots=search_query|yesno:"noindex, follow," %}
   {% else %}
     {% include "song/includes/seo_meta.html" with title="Players · "|add:site_name description="Browse football players in the archive and explore songs and chants linked to them." robots=search_query|yesno:"noindex, follow," %}
   {% endif %}
+{% endblock %}
+
+{% block extra_head %}
+  {% if active_club %}
+    {% include "club/includes/club_branding_styles.html" with club=active_club %}
+  {% endif %}
+  <style>
+    .player-list-portrait-wrap {
+      display: flex;
+      align-self: stretch;
+      flex: 1 1 auto;
+      min-height: 4.5rem;
+      background: transparent;
+      border: none;
+      text-decoration: none;
+    }
+
+    .player-list-portrait {
+      height: 100%;
+      width: auto;
+      max-width: 5rem;
+      object-fit: contain;
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      border-radius: 0;
+    }
+
+    .player-list-portrait--pixel {
+      image-rendering: pixelated;
+    }
+
+    .player-list-aside {
+      display: flex;
+      align-items: stretch;
+      gap: 0.75rem;
+      flex-shrink: 0;
+    }
+
+    .player-list-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+      gap: 0.5rem;
+      text-align: right;
+    }
+
+    {% if active_club and active_club.primary_color %}
+      .player-branded-link {
+        color: var(--club-primary-color);
+      }
+
+      .player-branded-link:hover {
+        color: var(--club-primary-color);
+        opacity: 0.85;
+      }
+
+      .pagination .page-item.active .page-link {
+        background-color: var(--club-primary-color);
+        border-color: var(--club-primary-color);
+        color: var(--club-secondary-color, #fff);
+      }
+
+      .pagination .page-link {
+        color: var(--club-primary-color);
+      }
+    {% endif %}
+  </style>
 {% endblock %}
 
 {% block content %}
@@ -39,7 +111,7 @@
       </p>
     </div>
     {% if active_club %}
-      <a class="btn btn-outline-secondary btn-sm" href="{% url 'players:list' %}{% if search_query %}?q={{ search_query|urlencode }}{% endif %}">All players</a>
+      <a class="btn btn-sm {% if active_club.primary_color %}club-branded-btn-outline{% else %}btn-outline-secondary{% endif %}" href="{% url 'players:list' %}{% if search_query %}?q={{ search_query|urlencode }}{% endif %}">All players</a>
     {% endif %}
   </div>
 
@@ -59,9 +131,9 @@
       >
     </div>
     <div class="col-auto d-flex gap-2">
-      <button type="submit" class="btn btn-danger">Search</button>
+      <button type="submit" class="btn {% if active_club and active_club.primary_color %}club-branded-btn{% else %}btn-danger{% endif %}">Search</button>
       {% if search_query %}
-        <a class="btn btn-outline-secondary" href="{% url 'players:list' %}{% if active_club_slug %}?club={{ active_club_slug }}{% endif %}">Clear</a>
+        <a class="btn {% if active_club and active_club.primary_color %}club-branded-btn-outline{% else %}btn-outline-secondary{% endif %}" href="{% url 'players:list' %}{% if active_club_slug %}?club={{ active_club_slug }}{% endif %}">Clear</a>
       {% endif %}
     </div>
   </form>
@@ -71,9 +143,9 @@
       <ul class="list-group list-group-flush">
         {% for player in player_list %}
           <li class="list-group-item">
-            <div class="d-flex flex-wrap justify-content-between align-items-start gap-3">
+            <div class="d-flex flex-wrap justify-content-between align-items-stretch gap-3">
               <div class="flex-grow-1">
-                <a class="h6 mb-1 text-decoration-none" href="{% url 'players:detail' player.slug %}">{{ player.name }}</a>
+                <a class="h6 mb-1 text-decoration-none {% if active_club and active_club.primary_color %}player-branded-link{% endif %}" href="{% url 'players:detail' player.slug %}">{{ player.name }}</a>
                 <p class="small text-muted mb-2">
                   {% if player.position %}{{ player.position }}{% endif %}
                   {% if player.position and player.years_active %} · {% endif %}
@@ -83,7 +155,13 @@
                 {% if player.clubs.all %}
                   <div class="small">
                     {% for club in player.clubs.all|slice:":8" %}
-                      <a class="badge rounded-pill text-bg-light border text-decoration-none me-1 mb-1" href="{% url 'clubs:songs' club.slug %}">{{ club.name }}</a>
+                      <a
+                        class="badge rounded-pill text-decoration-none me-1 mb-1{% if not active_club or club.slug != active_club.slug or not active_club.primary_color %} text-bg-light border{% endif %}"
+                        href="{% url 'clubs:songs' club.slug %}"
+                        {% if active_club and club.slug == active_club.slug and active_club.primary_color %}
+                          style="background-color: {{ active_club.primary_color }}; border-color: {{ active_club.primary_color }}; color: {{ active_club.secondary_color|default:'#fff' }};"
+                        {% endif %}
+                      >{{ club.name }}</a>
                     {% endfor %}
                     {% if player.club_count > 8 %}
                       <span class="badge rounded-pill text-bg-secondary mb-1">+{{ player.club_count|add:"-8" }} more</span>
@@ -100,19 +178,38 @@
                 {% endif %}
               </div>
 
-              <div class="text-end d-flex flex-column align-items-end gap-2">
-                <span class="small text-muted text-nowrap">
-                  {% if player.song_count %}
-                    {{ player.song_count }} song{{ player.song_count|pluralize }}
-                  {% else %}
-                    No songs
+              <div class="player-list-aside">
+                <div class="player-list-meta">
+                  <span class="small text-muted text-nowrap">
+                    {% if player.song_count %}
+                      {{ player.song_count }} song{{ player.song_count|pluralize }}
+                    {% else %}
+                      No songs
+                    {% endif %}
+                  </span>
+                  {% if user.is_staff %}
+                    {% url 'players:delete' player.slug as delete_url %}
+                    {% with confirm_message="Delete "|add:player.name|add:" permanently?" %}
+                      {% include "song/includes/staff_delete_button.html" with delete_url=delete_url confirm_message=confirm_message %}
+                    {% endwith %}
                   {% endif %}
-                </span>
-                {% if user.is_staff %}
-                  {% url 'players:delete' player.slug as delete_url %}
-                  {% with confirm_message="Delete "|add:player.name|add:" permanently?" %}
-                    {% include "song/includes/staff_delete_button.html" with delete_url=delete_url confirm_message=confirm_message %}
-                  {% endwith %}
+                </div>
+                {% if player.portrait or player.photo %}
+                  <a class="player-list-portrait-wrap" href="{% url 'players:detail' player.slug %}">
+                    {% if player.portrait %}
+                      <img
+                        class="player-list-portrait player-list-portrait--pixel"
+                        src="{{ player.portrait.url }}"
+                        alt="{{ player.name }} portrait"
+                      >
+                    {% else %}
+                      <img
+                        class="player-list-portrait"
+                        src="{{ player.photo.url }}"
+                        alt="{{ player.name }}"
+                      >
+                    {% endif %}
+                  </a>
                 {% endif %}
               </div>
             </div>
@@ -126,7 +223,7 @@
     <div class="text-center py-5">
       {% if search_query %}
         <p class="lead text-muted mb-3">No players match your search.</p>
-        <a class="btn btn-outline-secondary" href="{% url 'players:list' %}{% if active_club_slug %}?club={{ active_club_slug }}{% endif %}">Clear search</a>
+        <a class="btn {% if active_club and active_club.primary_color %}club-branded-btn-outline{% else %}btn-outline-secondary{% endif %}" href="{% url 'players:list' %}{% if active_club_slug %}?club={{ active_club_slug }}{% endif %}">Clear search</a>
       {% else %}
         <p class="lead text-muted mb-0">No players have been added yet.</p>
       {% endif %}

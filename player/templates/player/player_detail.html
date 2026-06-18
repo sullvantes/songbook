@@ -7,7 +7,10 @@
 {% block navbar_style %}{% if branding_club %} style="{% if branding_club.primary_color %}background-color: {{ branding_club.primary_color }};{% endif %}"{% endif %}{% endblock %}
 
 {% block seo_meta %}
-  {% if player.photo %}
+  {% if player.portrait %}
+    {% absolute_uri player.portrait.url as player_image %}
+    {% include "song/includes/seo_meta.html" with title=player.name|add:" · "|add:site_name description=player.name|add:" — player songs and chants linked to clubs in the Football Chants Archive." image=player_image %}
+  {% elif player.photo %}
     {% absolute_uri player.photo.url as player_image %}
     {% include "song/includes/seo_meta.html" with title=player.name|add:" · "|add:site_name description=player.name|add:" — player songs and chants linked to clubs in the Football Chants Archive." image=player_image %}
   {% elif branding_club and branding_club.crest %}
@@ -42,7 +45,11 @@
         <p class="text-muted mb-0">Active: {{ player.years_active }}</p>
       {% endif %}
     </div>
-    {% if player.photo %}
+    {% if player.portrait %}
+      <div class="col-lg-4 text-lg-end">
+        <img class="img-fluid rounded shadow-sm border" src="{{ player.portrait.url }}" alt="{{ player.name }} portrait" style="max-height: 240px; image-rendering: pixelated;">
+      </div>
+    {% elif player.photo %}
       <div class="col-lg-4 text-lg-end">
         <img class="img-fluid rounded shadow-sm" src="{{ player.photo.url }}" alt="{{ player.name }}" style="max-height: 200px;">
       </div>

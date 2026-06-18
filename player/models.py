@@ -10,6 +10,12 @@ class Player(models.Model):
     position = models.CharField(max_length=100, blank=True)
     years_active = models.CharField(max_length=50, blank=True, help_text="e.g. 2017–2023")
     photo = models.ImageField(upload_to="players/", blank=True, null=True)
+    portrait = models.ImageField(
+        upload_to="players/portraits/",
+        blank=True,
+        null=True,
+        help_text="Stylized portrait (e.g. retro game art).",
+    )
 
     tags = TaggableManager(blank=True)
 

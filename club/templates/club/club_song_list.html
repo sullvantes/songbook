@@ -75,7 +75,12 @@
         {% endif %}
       </div>
     </div>
-    {% include "club/includes/club_suggest_button.html" with club=club club_slug=club.slug label="Suggest a song" %}
+    <div class="d-flex flex-wrap gap-2">
+      {% if club.players.count %}
+        <a class="btn btn-outline-secondary" href="{% url 'players:list' %}?club={{ club.slug }}">View players</a>
+      {% endif %}
+      {% include "club/includes/club_suggest_button.html" with club=club club_slug=club.slug label="Suggest a song" %}
+    </div>
   </div>
 
   {% if song_list %}
