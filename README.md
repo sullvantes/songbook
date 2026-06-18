@@ -15,14 +15,27 @@ A Django web app for browsing and collecting football fan chants and songs, link
 
 - Python 3.12+
 - Django 5.2
-- SQLite (default)
+- PostgreSQL (Docker Compose / production) or SQLite (local dev without Docker)
 - [django-taggit](https://github.com/jazzband/django-taggit) for tagging
 - [django-unfold](https://github.com/unfoldadmin/django-unfold) for admin UI
 - Pillow for image handling
 
 ## Getting started
 
-### 1. Clone and create a virtual environment
+### Option A: Docker Compose (PostgreSQL — recommended)
+
+See **[docs/DOCKER.md](docs/DOCKER.md)** for full details.
+
+```bash
+cp .env.example .env
+docker compose up --build
+```
+
+Visit **http://localhost:8000** · create admin with `docker compose exec web python manage.py createsuperuser`
+
+### Option B: Local virtualenv (SQLite)
+
+#### 1. Clone and create a virtual environment
 
 ```bash
 git clone <your-repo-url>
@@ -32,19 +45,19 @@ source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 2. Run migrations
+#### 2. Run migrations
 
 ```bash
 python manage.py migrate
 ```
 
-### 3. Create a superuser (for admin access)
+#### 3. Create a superuser (for admin access)
 
 ```bash
 python manage.py createsuperuser
 ```
 
-### 4. Run the development server
+#### 4. Run the development server
 
 ```bash
 python manage.py runserver
@@ -56,6 +69,22 @@ Visit:
 - **Admin:** http://127.0.0.1:8000/admin/
 
 Uploaded images (crests, portraits, photos) are served from `/media/` in debug mode.
+
+## Deploy to Fly.io
+
+See **[docs/FLY.md](docs/FLY.md)** for step-by-step instructions (Postgres, media volume, secrets, deploy).
+
+Quick start:
+
+```bash
+fly auth login
+fly launch --no-deploy
+fly postgres create --name songbook-db --region lhr
+fly postgres attach songbook-db
+fly volumes create media_data --region lhr --size 1
+fly secrets set SECRET_KEY="..." SITE_URL="https://your-app.fly.dev"
+fly deploy
+```
 
 ## Main URLs
 
@@ -77,7 +106,11 @@ Uploaded images (crests, portraits, photos) are served from `/media/` in debug m
 
 | Variable | Purpose |
 |----------|---------|
+| `DATABASE_URL` | PostgreSQL connection URL (Docker/Fly); omit for SQLite |
 | `SITE_URL` | Canonical base URL for SEO tags (e.g. `https://example.com`) |
+| `SECRET_KEY` | Django secret key |
+| `DEBUG` | `true` for local dev |
+| `SERVE_MEDIA` | Serve `/media/` uploads (set `true` in Docker) |
 | `OPENAI_API_KEY` | Optional; used by `generate_player_portraits` for AI portrait generation |
 
 ## Management commands

@@ -26,7 +26,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name="club",
             name="slug",
-            field=models.SlugField(max_length=255, null=True),
+            field=models.SlugField(max_length=255, null=True, db_index=False),
         ),
         migrations.RunPython(populate_slugs, migrations.RunPython.noop),
         migrations.AlterField(

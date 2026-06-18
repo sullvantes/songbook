@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 from pathlib import Path
 import os
 
+from songbook.database import config_from_database_url
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -21,12 +23,20 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "django-insecure-8gppiwf378lir0s4ozznlz4^jml=ev(s$a#k73ue54d&r9a!&%"
+SECRET_KEY = os.environ.get(
+    "SECRET_KEY",
+    "django-insecure-8gppiwf378lir0s4ozznlz4^jml=ev(s$a#k73ue54d&r9a!&%",
+)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get("DEBUG", "true").lower() in {"1", "true", "yes"}
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    host.strip()
+    for host in os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1").split(",")
+    if host.strip()
+]
+ALLOWED_HOSTS.append('0.0.0.0:8000')
 
 
 # Application definition
@@ -44,6 +54,7 @@ INSTALLED_APPS = [
     "player",
     "song",
     "chant",
+    "songbook",
 ]
 
 MIDDLEWARE = [
@@ -80,12 +91,18 @@ WSGI_APPLICATION = "songbook.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+DATABASE_URL = os.environ.get("DATABASE_URL")
+if DATABASE_URL:
+    DATABASES = {
+        "default": config_from_database_url(DATABASE_URL),
     }
-}
+else:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": BASE_DIR / "db.sqlite3",
+        }
+    }
 
 
 # Password validation
@@ -126,6 +143,7 @@ STATIC_URL = "static/"
 
 MEDIA_URL = "media/"
 MEDIA_ROOT = BASE_DIR / "media"
+SERVE_MEDIA = os.environ.get("SERVE_MEDIA", "false").lower() in {"1", "true", "yes"}
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
@@ -145,4 +163,3 @@ EMAIL_BACKEND = os.environ.get(
 # UNFOLD = {
 #     "DASHBOARD_CALLBACK": "song.utils.dashboard_callback",
 # }
-

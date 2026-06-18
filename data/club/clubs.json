@@ -154,11 +154,40 @@
     "location": "Leeds, England",
     "website": "https://www.leedsunited.com",
     "tags": [
+      "premier-league",
       "english",
       "yorkshire"
     ],
     "primary_color": "#FFCD00",
     "secondary_color": "#1D428A"
+  },
+  {
+    "name": "Sunderland AFC",
+    "nickname": "The Black Cats",
+    "founded": 1879,
+    "stadium": "Stadium of Light",
+    "location": "Sunderland, England",
+    "website": "https://www.safc.com",
+    "tags": [
+      "premier-league",
+      "english"
+    ],
+    "primary_color": "#EB172B",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "name": "Burnley FC",
+    "nickname": "The Clarets",
+    "founded": 1882,
+    "stadium": "Turf Moor",
+    "location": "Burnley, England",
+    "website": "https://www.burnleyfootballclub.com",
+    "tags": [
+      "premier-league",
+      "english"
+    ],
+    "primary_color": "#6C1D45",
+    "secondary_color": "#99D6EA"
   },
   {
     "name": "Nottingham Forest",
@@ -197,6 +226,7 @@
     "location": "Leicester, England",
     "website": "https://www.lcfc.com",
     "tags": [
+      "premier-league",
       "english"
     ],
     "primary_color": "#003090",
@@ -210,6 +240,7 @@
     "location": "Southampton, England",
     "website": "https://www.southamptonfc.com",
     "tags": [
+      "premier-league",
       "english"
     ],
     "primary_color": "#D71920",
@@ -227,6 +258,76 @@
       "english"
     ],
     "primary_color": "#0057B8",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "name": "AFC Bournemouth",
+    "nickname": "The Cherries",
+    "founded": 1899,
+    "stadium": "Vitality Stadium",
+    "location": "Bournemouth, England",
+    "website": "https://www.afcb.co.uk",
+    "tags": [
+      "premier-league",
+      "english"
+    ],
+    "primary_color": "#DA291C",
+    "secondary_color": "#000000"
+  },
+  {
+    "name": "Brentford FC",
+    "nickname": "The Bees",
+    "founded": 1889,
+    "stadium": "Gtech Community Stadium",
+    "location": "London, England",
+    "website": "https://www.brentfordfc.com",
+    "tags": [
+      "premier-league",
+      "english"
+    ],
+    "primary_color": "#E30613",
+    "secondary_color": "#FFFFFF"
+  },
+  {
+    "name": "Crystal Palace FC",
+    "nickname": "The Eagles",
+    "founded": 1905,
+    "stadium": "Selhurst Park",
+    "location": "London, England",
+    "website": "https://www.cpfc.co.uk",
+    "tags": [
+      "premier-league",
+      "english"
+    ],
+    "primary_color": "#1B458F",
+    "secondary_color": "#C4122E"
+  },
+  {
+    "name": "Fulham FC",
+    "nickname": "The Cottagers",
+    "founded": 1879,
+    "stadium": "Craven Cottage",
+    "location": "London, England",
+    "website": "https://www.fulhamfc.com",
+    "tags": [
+      "premier-league",
+      "english"
+    ],
+    "primary_color": "#FFFFFF",
+    "secondary_color": "#000000"
+  },
+  {
+    "name": "Ipswich Town FC",
+    "nickname": "The Tractor Boys",
+    "founded": 1878,
+    "stadium": "Portman Road",
+    "location": "Ipswich, England",
+    "website": "https://www.itfc.co.uk",
+    "tags": [
+      "premier-league",
+      "english"
+    ],
+    "primary_color": "#003399",
     "secondary_color": "#FFFFFF"
   },
   {
