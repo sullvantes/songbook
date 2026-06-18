@@ -1,8 +1,11 @@
+from urllib.parse import urlencode
+
 from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.db.models import Count, Q
 from django.shortcuts import get_object_or_404
 from django.urls import reverse, reverse_lazy
-from django.views.generic import CreateView
+from django.views.generic import CreateView, ListView
 
 from club.models import Club
 from song.models import Song
@@ -11,10 +14,46 @@ from .forms import ChantForm, MatchForm
 from .models import Match
 
 
+class MatchListView(ListView):
+    model = Match
+    context_object_name = "match_list"
+    template_name = "chant/match_list.html"
+    paginate_by = 20
+
+    def get_queryset(self):
+        queryset = (
+            Match.objects.select_related("home", "away")
+            .prefetch_related("tags")
+            .annotate(chant_count=Count("chants", distinct=True))
+            .order_by("-kickoff")
+        )
+
+        search_query = self.request.GET.get("q", "").strip()
+        self.search_query = search_query or None
+        if search_query:
+            queryset = queryset.filter(
+                Q(home__name__icontains=search_query)
+                | Q(home__nickname__icontains=search_query)
+                | Q(away__name__icontains=search_query)
+                | Q(away__nickname__icontains=search_query)
+                | Q(tags__name__icontains=search_query)
+            )
+
+        return queryset.distinct()
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["search_query"] = self.search_query or ""
+        context["pagination_query"] = (
+            f"&{urlencode({'q': self.search_query})}" if self.search_query else ""
+        )
+        return context
+
+
 class MatchCreateView(LoginRequiredMixin, CreateView):
     form_class = MatchForm
     template_name = "chant/add_match.html"
-    success_url = reverse_lazy("home")
+    success_url = reverse_lazy("chants:list")
 
     def get_initial(self):
         initial = super().get_initial()

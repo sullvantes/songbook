@@ -7,6 +7,19 @@
 
 {% block extra_head %}
   {% include "club/includes/club_branding_styles.html" with club=club %}
+  <style>
+    .club-crest-wrap {
+      display: flex;
+      align-self: stretch;
+    }
+
+    .club-crest-image {
+      height: 100%;
+      width: auto;
+      max-width: 7rem;
+      object-fit: contain;
+    }
+  </style>
 {% endblock %}
 
 {% block content %}
@@ -17,29 +30,40 @@
     </ol>
   </nav>
 
-  <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
-    <div>
-      <h1 class="h2 mb-1">{{ club.name }}</h1>
-      {% if club.nickname %}
-        <p class="text-muted mb-1">{{ club.nickname }}</p>
+  <div class="d-flex flex-wrap justify-content-between align-items-start gap-2 mb-4">
+    <div class="d-flex align-items-stretch gap-3">
+      {% if club.crest %}
+        <div class="club-crest-wrap flex-shrink-0">
+          <img
+            src="{{ club.crest.url }}"
+            alt="{{ club.name }} crest"
+            class="club-crest-image rounded bg-white border shadow-sm"
+          >
+        </div>
       {% endif %}
-      <p class="text-muted mb-0">
-        {% if paginator.count %}
-          {{ paginator.count }} accepted song{{ paginator.count|pluralize }} for this club
-          {% if is_paginated %}
-            · showing {{ page_obj.start_index }}–{{ page_obj.end_index }}
-          {% endif %}
-        {% else %}
-          No songs linked to this club yet
+      <div>
+        <h1 class="h2 mb-1">{{ club.name }}</h1>
+        {% if club.nickname %}
+          <p class="text-muted mb-1">{{ club.nickname }}</p>
         {% endif %}
-      </p>
-      {% if club.stadium or club.location %}
-        <p class="small text-muted mb-0 mt-1">
-          {% if club.stadium %}{{ club.stadium }}{% endif %}
-          {% if club.stadium and club.location %} · {% endif %}
-          {% if club.location %}{{ club.location }}{% endif %}
+        <p class="text-muted mb-0">
+          {% if paginator.count %}
+            {{ paginator.count }} accepted song{{ paginator.count|pluralize }} for this club
+            {% if is_paginated %}
+              · showing {{ page_obj.start_index }}–{{ page_obj.end_index }}
+            {% endif %}
+          {% else %}
+            No songs linked to this club yet
+          {% endif %}
         </p>
-      {% endif %}
+        {% if club.stadium or club.location %}
+          <p class="small text-muted mb-0 mt-1">
+            {% if club.stadium %}{{ club.stadium }}{% endif %}
+            {% if club.stadium and club.location %} · {% endif %}
+            {% if club.location %}{{ club.location }}{% endif %}
+          </p>
+        {% endif %}
+      </div>
     </div>
     {% include "club/includes/club_suggest_button.html" with club=club club_slug=club.slug label="Suggest a song" %}
   </div>
