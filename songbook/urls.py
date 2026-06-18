@@ -44,4 +44,5 @@ urlpatterns = [
     path("songs/", include("song.urls", namespace="songs")),
     path("players/", include("player.urls", namespace="players")),
     path("clubs/", include("club.urls", namespace="clubs")),
+    path("matches/", include("chant.urls", namespace="chants")),
 ]

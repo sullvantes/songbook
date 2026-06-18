@@ -29,6 +29,13 @@ class Song(models.Model):
     def __str__(self):
         return self.title
 
+    def branding_club(self):
+        clubs = list(self.clubs.all())
+        for club in clubs:
+            if club.primary_color:
+                return club
+        return clubs[0] if clubs else None
+
 # class AltLyric(models.Model):
 #     song = models.ForeignKey(Song, related_name="alt_lyrics", on_delete=models.CASCADE)
 #     lyrics = models.TextField(blank=True)

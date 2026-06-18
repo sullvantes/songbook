@@ -48,7 +48,7 @@
   </form>
 
   {% if song_list %}
-    {% include "song/includes/song_cards.html" with show_clubs=True %}
+    {% include "song/includes/song_cards.html" with show_clubs=True use_club_colors=True %}
     {% include "song/includes/pagination.html" with aria_label="Song list pagination" pagination_query=pagination_query %}
   {% else %}
     <div class="text-center py-5">

@@ -1,0 +1,124 @@
+{% extends "song/base.html" %}
+
+{% block title %}{{ song.title }}{% endblock %}
+
+{% block content %}
+  <nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'songs:list' %}">Songs</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ song.title }}</li>
+    </ol>
+  </nav>
+
+  <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-4">
+    <div>
+      <h1 class="h2 mb-2">{{ song.title }}</h1>
+      <div class="d-flex flex-wrap gap-2">
+        {% if song.is_fan_chant %}
+          <span class="badge text-bg-danger">Fan chant</span>
+        {% else %}
+          <span class="badge text-bg-secondary">Song</span>
+        {% endif %}
+      </div>
+    </div>
+    {% if user.is_staff %}
+      {% url 'songs:delete' song.pk as delete_url %}
+      {% with confirm_message="Delete "|add:song.title|add:" permanently?" %}
+        {% include "song/includes/staff_delete_button.html" with delete_url=delete_url confirm_message=confirm_message %}
+      {% endwith %}
+    {% endif %}
+  </div>
+
+  {% if song.description %}
+    <section class="mb-4">
+      <h2 class="h5 mb-2">About</h2>
+      <p class="mb-0">{{ song.description|linebreaks }}</p>
+    </section>
+  {% endif %}
+
+  {% if song.lyrics %}
+    <section class="mb-4">
+      <h2 class="h5 mb-2">Lyrics</h2>
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <p class="mb-0 fst-italic">{{ song.lyrics|linebreaks }}</p>
+        </div>
+      </div>
+    </section>
+  {% endif %}
+
+  <div class="row g-4 mb-4">
+    {% if song.clubs.all %}
+      <div class="col-md-6">
+        <h2 class="h5 mb-2">Clubs</h2>
+        <div class="d-flex flex-wrap gap-2">
+          {% for club in song.clubs.all %}
+            <a class="badge rounded-pill text-bg-light border text-dark text-decoration-none py-2 px-3" href="{% url 'clubs:songs' club.slug %}">{{ club.name }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if song.player %}
+      <div class="col-md-6">
+        <h2 class="h5 mb-2">Player</h2>
+        <a class="text-decoration-none" href="{% url 'players:detail' song.player.slug %}">{{ song.player.name }}</a>
+      </div>
+    {% endif %}
+  </div>
+
+  {% if song.tags.all %}
+    <section class="mb-4">
+      <h2 class="h5 mb-2">Tags</h2>
+      <div class="d-flex flex-wrap gap-2">
+        {% for tag in song.tags.all %}
+          <span class="badge text-bg-light text-dark">#{{ tag.name }}</span>
+        {% endfor %}
+      </div>
+    </section>
+  {% endif %}
+
+  {% if song.chants.all %}
+    <section class="mb-4">
+      <h2 class="h5 mb-2">Chants</h2>
+      <div class="table-responsive">
+        <table class="table table-sm table-striped shadow-sm bg-white mb-0">
+          <thead>
+            <tr>
+              <th scope="col">Minute</th>
+              <th scope="col">Match</th>
+              <th scope="col">Kickoff</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for chant in song.chants.all %}
+              <tr>
+                <td>{{ chant.minutes }}'</td>
+                <td>
+                  <a class="text-decoration-none" href="{% url 'clubs:songs' chant.match.home.slug %}">{{ chant.match.home.name }}</a>
+                  vs
+                  <a class="text-decoration-none" href="{% url 'clubs:songs' chant.match.away.slug %}">{{ chant.match.away.name }}</a>
+                </td>
+                <td>{{ chant.match.kickoff|date:"M j, Y g:i A" }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  {% endif %}
+
+  {% if song.media_links.all %}
+    <section class="mb-4">
+      <h2 class="h5 mb-2">Media</h2>
+      <ul class="list-group shadow-sm">
+        {% for link in song.media_links.all %}
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <span>{{ link.get_media_type_display }}</span>
+            <a href="{{ link.url }}" target="_blank" rel="noopener noreferrer">{{ link.url|truncatechars:60 }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+{% endblock %}

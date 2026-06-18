@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "club",
     "player",
     "song",
+    "chant",
 ]
 
 MIDDLEWARE = [

@@ -7,17 +7,18 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.tokens import default_token_generator
 from django.contrib.auth.views import LoginView
-from django.db.models import Q
+from django.db.models import Prefetch, Q
 from django.shortcuts import get_object_or_404, redirect
 from django.urls import reverse_lazy
 from django.utils.encoding import force_str
 from django.utils.http import urlsafe_base64_decode
-from django.views.generic import CreateView, FormView, ListView, TemplateView, View
+from django.views.generic import CreateView, DetailView, FormView, ListView, TemplateView, View
 
 from songbook.mixins import StaffRequiredMixin
 
 from club.models import Club
 from player.models import Player
+from chant.models import Chant
 
 from .emails import send_activation_email
 from .forms import ResendActivationForm, SongSuggestionForm, UserRegistrationForm
@@ -127,7 +128,10 @@ class SongListView(ListView):
     def get_queryset(self):
         queryset = (
             Song.objects.filter(accepted=True)
-            .prefetch_related("clubs", "tags")
+            .prefetch_related(
+                Prefetch("clubs", queryset=Club.objects.order_by("name")),
+                "tags",
+            )
             .select_related("player")
             .order_by("title")
         )
@@ -153,6 +157,31 @@ class SongListView(ListView):
             f"&{urlencode({'q': self.search_query})}" if self.search_query else ""
         )
         return context
+
+
+class SongDetailView(DetailView):
+    model = Song
+    context_object_name = "song"
+    template_name = "song/song_detail.html"
+
+    def get_queryset(self):
+        return (
+            Song.objects.filter(accepted=True)
+            .prefetch_related(
+                "clubs",
+                "tags",
+                "media_links",
+                Prefetch(
+                    "chants",
+                    queryset=Chant.objects.select_related(
+                        "match",
+                        "match__home",
+                        "match__away",
+                    ).order_by("-match__kickoff", "minutes"),
+                ),
+            )
+            .select_related("player")
+        )
 
 
 class SongDeleteView(StaffRequiredMixin, View):
