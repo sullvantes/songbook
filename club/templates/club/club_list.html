@@ -1,6 +1,14 @@
 {% extends "song/base.html" %}
 
-{% block title %}Clubs{% if active_tag %} · {{ active_tag.name }}{% endif %}{% if search_query %} · Search{% endif %}{% endblock %}
+{% block title %}Clubs · {{ site_name }}{% if active_tag %} · {{ active_tag.name }}{% endif %}{% if search_query %} · Search{% endif %}{% endblock %}
+
+{% block seo_meta %}
+  {% if active_tag %}
+    {% include "song/includes/seo_meta.html" with title="Clubs · "|add:site_name description="Football clubs tagged "|add:active_tag.name|add:" in the Football Chants Archive." robots=search_query|yesno:"noindex, follow," %}
+  {% else %}
+    {% include "song/includes/seo_meta.html" with title="Clubs · "|add:site_name description="Browse football clubs in the archive and explore their songs, chants, and players." robots=search_query|yesno:"noindex, follow," %}
+  {% endif %}
+{% endblock %}
 
 {% block content %}
   <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">

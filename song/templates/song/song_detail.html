@@ -1,6 +1,28 @@
 {% extends "song/base.html" %}
+{% load seo_tags %}
 
-{% block title %}{{ song.title }}{% endblock %}
+{% block title %}{{ song.title }} · {{ site_name }}{% endblock %}
+
+{% block seo_meta %}
+  {% with branding_club=song.branding_club %}
+    {% if branding_club and branding_club.crest %}
+      {% absolute_uri branding_club.crest.url as song_image %}
+      {% if song.description %}
+        {% include "song/includes/seo_meta.html" with title=song.title|add:" · "|add:site_name description=song.description og_type="article" image=song_image %}
+      {% elif song.lyrics %}
+        {% include "song/includes/seo_meta.html" with title=song.title|add:" · "|add:site_name description=song.lyrics|truncatewords:35 og_type="article" image=song_image %}
+      {% else %}
+        {% include "song/includes/seo_meta.html" with title=song.title|add:" · "|add:site_name description=song.title|add:" — lyrics, background, and linked clubs in the Football Chants Archive." og_type="article" image=song_image %}
+      {% endif %}
+    {% elif song.description %}
+      {% include "song/includes/seo_meta.html" with title=song.title|add:" · "|add:site_name description=song.description og_type="article" %}
+    {% elif song.lyrics %}
+      {% include "song/includes/seo_meta.html" with title=song.title|add:" · "|add:site_name description=song.lyrics|truncatewords:35 og_type="article" %}
+    {% else %}
+      {% include "song/includes/seo_meta.html" with title=song.title|add:" · "|add:site_name description=song.title|add:" — lyrics, background, and linked clubs in the Football Chants Archive." og_type="article" %}
+    {% endif %}
+  {% endwith %}
+{% endblock %}
 
 {% block content %}
   <nav aria-label="breadcrumb" class="mb-3">

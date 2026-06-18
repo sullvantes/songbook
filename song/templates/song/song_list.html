@@ -1,6 +1,10 @@
 {% extends "song/base.html" %}
 
-{% block title %}Songs & Chants{% if search_query %} · Search{% endif %}{% endblock %}
+{% block title %}Songs & Chants · {{ site_name }}{% if search_query %} · Search{% endif %}{% endblock %}
+
+{% block seo_meta %}
+  {% include "song/includes/seo_meta.html" with title="Songs & Chants · "|add:site_name description="Browse accepted football fan chants and songs linked to clubs and players from around the world." robots=search_query|yesno:"noindex, follow," %}
+{% endblock %}
 
 {% block content %}
   <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">

@@ -1,9 +1,19 @@
 {% extends "song/base.html" %}
+{% load seo_tags %}
 
-{% block title %}{{ club.name }} Songs & Chants{% endblock %}
+{% block title %}{{ club.name }} Songs & Chants · {{ site_name }}{% endblock %}
 
 {% block navbar_class %}club-branded-navbar{% if not club.primary_color %} bg-danger{% endif %}{% endblock %}
 {% block navbar_style %} style="{% if club.primary_color %}background-color: {{ club.primary_color }};{% endif %}"{% endblock %}
+
+{% block seo_meta %}
+  {% if club.crest %}
+    {% absolute_uri club.crest.url as club_crest_image %}
+    {% include "song/includes/seo_meta.html" with title=club.name|add:" Songs & Chants · "|add:site_name description=club.name|add:" songs and fan chants — lyrics and matchday songs in the Football Chants Archive." image=club_crest_image %}
+  {% else %}
+    {% include "song/includes/seo_meta.html" with title=club.name|add:" Songs & Chants · "|add:site_name description=club.name|add:" songs and fan chants — lyrics and matchday songs in the Football Chants Archive." %}
+  {% endif %}
+{% endblock %}
 
 {% block extra_head %}
   {% include "club/includes/club_branding_styles.html" with club=club %}

@@ -1,6 +1,10 @@
 {% extends "song/base.html" %}
 
-{% block title %}Log In{% endblock %}
+{% block title %}Log In · {{ site_name }}{% endblock %}
+
+{% block seo_meta %}
+  {% include "song/includes/seo_meta.html" with title="Log In · "|add:site_name description="Log in to the Football Chants Archive to suggest songs and manage your contributions." robots="noindex, nofollow" %}
+{% endblock %}
 
 {% block content %}
   <div class="row justify-content-center g-4">

@@ -1,6 +1,14 @@
 {% extends "song/base.html" %}
 
-{% block title %}Players{% if active_club %} · {{ active_club.name }}{% endif %}{% if search_query %} · Search{% endif %}{% endblock %}
+{% block title %}Players · {{ site_name }}{% if active_club %} · {{ active_club.name }}{% endif %}{% if search_query %} · Search{% endif %}{% endblock %}
+
+{% block seo_meta %}
+  {% if active_club %}
+    {% include "song/includes/seo_meta.html" with title="Players · "|add:site_name description="Players linked to "|add:active_club.name|add:" and their songs in the Football Chants Archive." robots=search_query|yesno:"noindex, follow," %}
+  {% else %}
+    {% include "song/includes/seo_meta.html" with title="Players · "|add:site_name description="Browse football players in the archive and explore songs and chants linked to them." robots=search_query|yesno:"noindex, follow," %}
+  {% endif %}
+{% endblock %}
 
 {% block content %}
   <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
