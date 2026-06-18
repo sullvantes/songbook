@@ -17,6 +17,7 @@ console_command = '/code/manage.py shell'
   MEDIA_ROOT = '/data/media'
   PORT = '8000'
   SERVE_MEDIA = 'true'
+  SITE_URL = 'https://songbook-copper-frog-7225.fly.dev'
 
 [[mounts]]
   source = 'media_data'

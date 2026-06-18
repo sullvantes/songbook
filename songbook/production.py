@@ -43,7 +43,12 @@ if FLY_APP_NAME:
 if not ALLOWED_HOSTS:
     raise ImproperlyConfigured("Set ALLOWED_HOSTS or deploy on Fly with FLY_APP_NAME.")
 
-SITE_URL = env("SITE_URL", required=True).rstrip("/")
+_site_url = os.environ.get("SITE_URL")
+if not _site_url and FLY_APP_NAME:
+    _site_url = f"https://{FLY_APP_NAME}.fly.dev"
+if not _site_url:
+    raise ImproperlyConfigured("Set SITE_URL or deploy on Fly with FLY_APP_NAME.")
+SITE_URL = _site_url.rstrip("/")
 CSRF_TRUSTED_ORIGINS = env_list("CSRF_TRUSTED_ORIGINS")
 if not CSRF_TRUSTED_ORIGINS:
     CSRF_TRUSTED_ORIGINS = [SITE_URL]
