@@ -2,16 +2,22 @@ from urllib.parse import urlencode
 
 from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.db.models import Count, Q
-from django.shortcuts import get_object_or_404
+from django.db.models import Count, Prefetch, Q
+from django.shortcuts import get_object_or_404, redirect
 from django.urls import reverse, reverse_lazy
-from django.views.generic import CreateView, ListView
+from django.views.generic import CreateView, DetailView, ListView
 
 from club.models import Club
-from song.models import Song
+from song.forms import CommentForm
+from song.models import Comment, Song
 
 from .forms import ChantForm, MatchForm
-from .models import Match
+from .models import Chant, Match
+
+COMMENT_PREFETCH = Prefetch(
+    "comments",
+    queryset=Comment.objects.select_related("author"),
+)
 
 
 class MatchListView(ListView):
@@ -108,4 +114,54 @@ class ChantCreateView(LoginRequiredMixin, CreateView):
         return super().form_valid(form)
 
     def get_success_url(self):
-        return reverse("songs:detail", kwargs={"slug": self.object.song.slug})
+        return reverse("chants:detail", kwargs={"pk": self.object.pk})
+
+
+class ChantDetailView(DetailView):
+    model = Chant
+    context_object_name = "chant"
+    template_name = "chant/chant_detail.html"
+
+    def get_queryset(self):
+        return (
+            Chant.objects.filter(song__accepted=True)
+            .select_related(
+                "match",
+                "match__home",
+                "match__away",
+                "song",
+            )
+            .prefetch_related(COMMENT_PREFETCH)
+        )
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["comment_form"] = CommentForm()
+        return context
+
+
+class ChantCommentCreateView(LoginRequiredMixin, CreateView):
+    model = Comment
+    form_class = CommentForm
+
+    def dispatch(self, request, *args, **kwargs):
+        self.chant = get_object_or_404(
+            Chant.objects.filter(song__accepted=True).select_related("song"),
+            pk=kwargs["pk"],
+        )
+        return super().dispatch(request, *args, **kwargs)
+
+    def form_valid(self, form):
+        form.instance.chant = self.chant
+        form.instance.author = self.request.user
+        messages.success(self.request, "Comment posted.")
+        return super().form_valid(form)
+
+    def get_success_url(self):
+        return reverse("chants:detail", kwargs={"pk": self.chant.pk}) + "#comments"
+
+    def form_invalid(self, form):
+        for errors in form.errors.values():
+            for error in errors:
+                messages.error(self.request, error)
+        return redirect(self.get_success_url())

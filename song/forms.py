@@ -5,7 +5,7 @@ from django.contrib.auth.forms import UserCreationForm
 from club.models import Club
 from player.models import Player
 
-from .models import Song
+from .models import Comment, Song
 
 User = get_user_model()
 
@@ -52,6 +52,21 @@ class ResendActivationForm(forms.Form):
         super().__init__(*args, **kwargs)
         if self.is_bound and "email" in self.errors:
             self.fields["email"].widget.attrs["class"] += " is-invalid"
+
+
+class CommentForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = ["body"]
+        widgets = {
+            "body": forms.Textarea(
+                attrs={
+                    "rows": 3,
+                    "class": "form-control",
+                    "placeholder": "Write a comment…",
+                }
+            ),
+        }
 
 
 class SongSuggestionForm(forms.ModelForm):

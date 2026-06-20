@@ -5,7 +5,7 @@ from unfold.admin import ModelAdmin
 
 from player.models import Player
 
-from .models import MediaLink, Song
+from .models import Comment, MediaLink, Song
 
 
 class SongAdminForm(forms.ModelForm):
@@ -49,6 +49,19 @@ class SongAdminForm(forms.ModelForm):
                 {"player": "Selected player has not played at any of the selected clubs."}
             )
         return cleaned_data
+
+
+@admin.register(Comment)
+class CommentAdmin(ModelAdmin):
+    list_display = ("author", "song", "chant", "created_at", "body_preview")
+    list_filter = ("created_at",)
+    search_fields = ("body", "author__username", "song__title")
+    readonly_fields = ("created_at",)
+    raw_id_fields = ("song", "chant", "author")
+
+    @admin.display(description="Body")
+    def body_preview(self, obj):
+        return obj.body[:80]
 
 
 class MediaLinkInline(admin.TabularInline):

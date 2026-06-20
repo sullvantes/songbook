@@ -9,7 +9,7 @@ from django.contrib.auth.tokens import default_token_generator
 from django.contrib.auth.views import LoginView
 from django.db.models import Prefetch, Q
 from django.shortcuts import get_object_or_404, redirect
-from django.urls import reverse_lazy
+from django.urls import reverse, reverse_lazy
 from django.utils.encoding import force_str
 from django.utils.http import urlsafe_base64_decode
 from django.views.generic import CreateView, DetailView, FormView, ListView, TemplateView, View
@@ -21,8 +21,8 @@ from player.models import Player
 from chant.models import Chant
 
 from .emails import send_activation_email
-from .forms import ResendActivationForm, SongSuggestionForm, UserRegistrationForm
-from .models import Song
+from .forms import CommentForm, ResendActivationForm, SongSuggestionForm, UserRegistrationForm
+from .models import Comment, Song
 
 User = get_user_model()
 
@@ -159,6 +159,12 @@ class SongListView(ListView):
         return context
 
 
+COMMENT_PREFETCH = Prefetch(
+    "comments",
+    queryset=Comment.objects.select_related("author"),
+)
+
+
 class SongDetailView(DetailView):
     model = Song
     slug_url_kwarg = "slug"
@@ -172,6 +178,7 @@ class SongDetailView(DetailView):
                 "clubs",
                 "tags",
                 "media_links",
+                COMMENT_PREFETCH,
                 Prefetch(
                     "chants",
                     queryset=Chant.objects.select_related(
@@ -183,6 +190,35 @@ class SongDetailView(DetailView):
             )
             .select_related("player")
         )
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["comment_form"] = CommentForm()
+        return context
+
+
+class SongCommentCreateView(LoginRequiredMixin, CreateView):
+    model = Comment
+    form_class = CommentForm
+
+    def dispatch(self, request, *args, **kwargs):
+        self.song = get_object_or_404(Song, slug=kwargs["slug"], accepted=True)
+        return super().dispatch(request, *args, **kwargs)
+
+    def form_valid(self, form):
+        form.instance.song = self.song
+        form.instance.author = self.request.user
+        messages.success(self.request, "Comment posted.")
+        return super().form_valid(form)
+
+    def get_success_url(self):
+        return reverse("songs:detail", kwargs={"slug": self.song.slug}) + "#comments"
+
+    def form_invalid(self, form):
+        for errors in form.errors.values():
+            for error in errors:
+                messages.error(self.request, error)
+        return redirect(self.get_success_url())
 
 
 class SongDeleteView(StaffRequiredMixin, View):

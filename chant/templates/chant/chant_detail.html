@@ -1,0 +1,59 @@
+{% extends "song/base.html" %}
+
+{% block title %}{{ chant.song.title }} · {{ chant.minutes }}' · {{ site_name }}{% endblock %}
+
+{% block seo_meta %}
+  {% include "song/includes/seo_meta.html" with title=chant.song.title|add:" · "|add:chant.minutes|add:"' · "|add:site_name description=chant.song.title|add:" sung at "|add:chant.minutes|add:"' during "|add:chant.match.home.name|add:" vs "|add:chant.match.away.name|add:"." og_type="article" %}
+{% endblock %}
+
+{% block content %}
+  <nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'songs:list' %}">Songs</a></li>
+      <li class="breadcrumb-item"><a href="{% url 'songs:detail' chant.song.slug %}">{{ chant.song.title }}</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ chant.minutes }}' chant</li>
+    </ol>
+  </nav>
+
+  <div class="mb-4">
+    <h1 class="h2 mb-2">
+      <a class="text-decoration-none" href="{% url 'songs:detail' chant.song.slug %}">{{ chant.song.title }}</a>
+    </h1>
+    <p class="text-muted mb-0">
+      <span class="badge text-bg-danger">{{ chant.minutes }}'</span>
+      <a class="text-decoration-none ms-2" href="{% url 'clubs:songs' chant.match.home.slug %}">{{ chant.match.home.name }}</a>
+      vs
+      <a class="text-decoration-none" href="{% url 'clubs:songs' chant.match.away.slug %}">{{ chant.match.away.name }}</a>
+      · {{ chant.match.kickoff|date:"l, M j, Y g:i A" }}
+    </p>
+  </div>
+
+  {% if chant.song.lyrics %}
+    <section class="mb-4">
+      <h2 class="h5 mb-2">Lyrics</h2>
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <p class="mb-0 fst-italic">{{ chant.song.lyrics|linebreaks }}</p>
+        </div>
+      </div>
+    </section>
+  {% endif %}
+
+  <section class="mb-4" id="comments">
+    <h2 class="h5 mb-2">Comments ({{ chant.comments.all|length }})</h2>
+    <div class="card shadow-sm">
+      <div class="card-body">
+        {% include "song/includes/comment_list.html" with comments=chant.comments.all %}
+        {% if user.is_authenticated %}
+          {% url 'chants:add_comment' chant.pk as chant_comment_url %}
+          {% include "song/includes/comment_form.html" with action_url=chant_comment_url form=comment_form %}
+        {% else %}
+          <p class="text-muted small mt-3 mb-0">
+            <a href="{% url 'login' %}?next={{ request.path }}%23comments">Log in</a>
+            to leave a comment.
+          </p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+{% endblock %}

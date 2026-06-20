@@ -110,6 +110,7 @@
               <th scope="col">Minute</th>
               <th scope="col">Match</th>
               <th scope="col">Kickoff</th>
+              <th scope="col"></th>
             </tr>
           </thead>
           <tbody>
@@ -122,6 +123,9 @@
                   <a class="text-decoration-none" href="{% url 'clubs:songs' chant.match.away.slug %}">{{ chant.match.away.name }}</a>
                 </td>
                 <td>{{ chant.match.kickoff|date:"M j, Y g:i A" }}</td>
+                <td class="text-end">
+                  <a class="text-decoration-none small" href="{% url 'chants:detail' chant.pk %}">View chant</a>
+                </td>
               </tr>
             {% endfor %}
           </tbody>
@@ -143,4 +147,22 @@
       </ul>
     </section>
   {% endif %}
+
+  <section class="mb-4" id="comments">
+    <h2 class="h5 mb-2">Comments ({{ song.comments.all|length }})</h2>
+    <div class="card shadow-sm">
+      <div class="card-body">
+        {% include "song/includes/comment_list.html" with comments=song.comments.all %}
+        {% if user.is_authenticated %}
+          {% url 'songs:add_comment' song.slug as song_comment_url %}
+          {% include "song/includes/comment_form.html" with action_url=song_comment_url form=comment_form %}
+        {% else %}
+          <p class="text-muted small mt-3 mb-0">
+            <a href="{% url 'login' %}?next={{ request.path }}%23comments">Log in</a>
+            to leave a comment.
+          </p>
+        {% endif %}
+      </div>
+    </div>
+  </section>
 {% endblock %}

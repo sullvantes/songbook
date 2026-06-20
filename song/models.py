@@ -60,6 +60,43 @@ class Song(models.Model):
 #
 #     tags = TaggableManager(blank=True)
 
+class Comment(models.Model):
+    song = models.ForeignKey(
+        Song,
+        null=True,
+        blank=True,
+        on_delete=models.CASCADE,
+        related_name="comments",
+    )
+    chant = models.ForeignKey(
+        "chant.Chant",
+        null=True,
+        blank=True,
+        on_delete=models.CASCADE,
+        related_name="comments",
+    )
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name="comments")
+    body = models.TextField(max_length=2000)
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ["created_at"]
+        constraints = [
+            models.CheckConstraint(
+                condition=(
+                    models.Q(song__isnull=False, chant__isnull=True)
+                    | models.Q(song__isnull=True, chant__isnull=False)
+                ),
+                name="comment_on_song_or_chant",
+            )
+        ]
+
+    def __str__(self):
+        if self.song_id:
+            return f"Comment on {self.song.title} by {self.author}"
+        return f"Comment on chant {self.chant_id} by {self.author}"
+
+
 class MediaLink(models.Model):
     SONG_MEDIA_TYPES = [
         ("YOUTUBE", "YouTube"),
