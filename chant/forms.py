@@ -63,12 +63,37 @@ class ChantForm(forms.ModelForm):
     def __init__(self, *args, match=None, **kwargs):
         self.match = match
         super().__init__(*args, **kwargs)
-        self.fields["song"].queryset = Song.objects.filter(accepted=True).order_by("title")
+        queryset = self._songs_for_match(match)
+        if self.instance.pk and self.instance.song_id:
+            queryset = queryset | Song.objects.filter(pk=self.instance.song_id)
+        self.fields["song"].queryset = queryset.distinct().order_by("title")
         self.fields["song"].empty_label = "Select a song"
         self.fields["minutes"].help_text = "When the chant was sung (e.g. 12, 45+2)."
+        if match:
+            self.fields["song"].help_text = (
+                f"Songs linked to {match.home.name} or {match.away.name}."
+            )
 
         for name, field in self.fields.items():
             css_class = "form-select" if name == "song" else "form-control"
             if self.is_bound and name in self.errors:
                 css_class += " is-invalid"
             field.widget.attrs["class"] = css_class
+
+    def _songs_for_match(self, match):
+        if match is None:
+            return Song.objects.none()
+        return Song.objects.filter(
+            accepted=True,
+            clubs__in=[match.home_id, match.away_id],
+        ).distinct()
+
+    def clean_song(self):
+        song = self.cleaned_data.get("song")
+        if song and self.match:
+            club_ids = {self.match.home_id, self.match.away_id}
+            if not song.clubs.filter(pk__in=club_ids).exists():
+                raise forms.ValidationError(
+                    "Select a song linked to one of the clubs in this match."
+                )
+        return song

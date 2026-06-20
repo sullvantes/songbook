@@ -95,7 +95,15 @@ class ChantCreateView(LoginRequiredMixin, CreateView):
         initial = super().get_initial()
         song_pk = self.request.GET.get("song")
         if song_pk and str(song_pk).isdigit():
-            song = Song.objects.filter(pk=song_pk, accepted=True).first()
+            song = (
+                Song.objects.filter(
+                    pk=song_pk,
+                    accepted=True,
+                    clubs__in=[self.match.home_id, self.match.away_id],
+                )
+                .distinct()
+                .first()
+            )
             if song:
                 initial["song"] = song.pk
         return initial

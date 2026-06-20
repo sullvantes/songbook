@@ -79,6 +79,9 @@
       {% if club.players.count %}
         <a class="btn btn-outline-secondary" href="{% url 'players:list' %}?club={{ club.slug }}">View players</a>
       {% endif %}
+      {% if user.is_authenticated %}
+        <a class="btn btn-outline-secondary" href="{% url 'chants:add_match' %}?club={{ club.slug }}">Add match</a>
+      {% endif %}
       {% include "club/includes/club_suggest_button.html" with club=club club_slug=club.slug label="Suggest a song" %}
     </div>
   </div>
