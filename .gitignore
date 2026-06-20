@@ -44,7 +44,7 @@ staticfiles/
 *.env
 .env.*
 
-data/sqlite_backup.json
+#data/sqlite_backup.json
 
 # VSCode
 .vscode/

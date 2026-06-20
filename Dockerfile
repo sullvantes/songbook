@@ -25,11 +25,7 @@ COPY . /code
 # SQLite export for first-deploy import into Fly Postgres (see scripts/fly_release.sh).
 RUN test -f /code/data/sqlite_backup.json || echo "Note: data/sqlite_backup.json not in image; deploy import will be skipped."
 
-RUN DJANGO_SETTINGS_MODULE=songbook.production \
-    SECRET_KEY=build-only-not-for-runtime \
-    DATABASE_URL=postgresql://build:build@localhost/build \
-    SITE_URL=https://example.com \
-    python manage.py collectstatic --noinput
+RUN DJANGO_SETTINGS_MODULE=songbook.build python manage.py collectstatic --noinput
 
 EXPOSE 8000
 
