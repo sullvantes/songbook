@@ -22,6 +22,7 @@ from django.conf.urls.static import static
 from django.urls import include, path
 
 from club.views import ClubListView
+from songbook.views import health_check
 from song.views import (
     ActivateAccountView,
     ActivationSentView,
@@ -31,6 +32,7 @@ from song.views import (
 )
 
 urlpatterns = [
+    path("health/", health_check, name="health"),
     path("admin/", admin.site.urls),
     path("accounts/login/", UserLoginView.as_view(), name="login"),
     path("accounts/register/", RegisterView.as_view(), name="register"),

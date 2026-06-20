@@ -39,7 +39,13 @@ SECRET_KEY = env("SECRET_KEY", required=True)
 ALLOWED_HOSTS = env_list("ALLOWED_HOSTS")
 FLY_APP_NAME = os.environ.get("FLY_APP_NAME")
 if FLY_APP_NAME:
-    ALLOWED_HOSTS.append(f"{FLY_APP_NAME}.fly.dev")
+    ALLOWED_HOSTS.extend(
+        [
+            f"{FLY_APP_NAME}.fly.dev",
+            "localhost",
+            "127.0.0.1",
+        ]
+    )
 if not ALLOWED_HOSTS:
     raise ImproperlyConfigured("Set ALLOWED_HOSTS or deploy on Fly with FLY_APP_NAME.")
 
@@ -83,6 +89,7 @@ STORAGES = {
     },
 }
 
+MIDDLEWARE.insert(0, "songbook.middleware.FlyHealthCheckMiddleware")  # noqa: F405
 MIDDLEWARE.insert(  # noqa: F405
     MIDDLEWARE.index("django.middleware.security.SecurityMiddleware") + 1,  # noqa: F405
     "whitenoise.middleware.WhiteNoiseMiddleware",
