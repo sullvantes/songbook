@@ -1,18 +1,41 @@
 {% extends "song/base.html" %}
 
-{% block title %}Matches · {{ site_name }}{% if search_query %} · Search{% endif %}{% endblock %}
+{% block title %}
+  {% if list_period == "past" %}Past matches{% else %}Upcoming matches{% endif %}
+  · {{ site_name }}{% if search_query %} · Search{% endif %}
+{% endblock %}
 
 {% block seo_meta %}
-  {% include "song/includes/seo_meta.html" with title="Matches · "|add:site_name description="Browse football matches and explore chants sung during games in the Football Chants Archive." robots=search_query|yesno:"noindex, follow," %}
+  {% if list_period == "past" %}
+    {% include "song/includes/seo_meta.html" with title="Past matches · "|add:site_name description="Browse past football matches and explore chants sung during games in the Football Chants Archive." robots=search_query|yesno:"noindex, follow," %}
+  {% else %}
+    {% include "song/includes/seo_meta.html" with title="Upcoming matches · "|add:site_name description="Browse upcoming football matches in the Football Chants Archive." robots=search_query|yesno:"noindex, follow," %}
+  {% endif %}
+{% endblock %}
+
+{% block extra_head %}
+  <style>
+    .match-card {
+      transition: box-shadow 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    }
+
+    .match-card:hover {
+      border-color: rgba(var(--bs-danger-rgb), 0.35);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+    }
+  </style>
 {% endblock %}
 
 {% block content %}
-  <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+  <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
     <div>
-      <h1 class="h2 mb-1">Matches</h1>
+      <h1 class="h2 mb-1">
+        {% if list_period == "past" %}Past matches{% else %}Upcoming matches{% endif %}
+      </h1>
       <p class="text-muted mb-0">
         {% if paginator.count %}
-          {{ paginator.count }} match{{ paginator.count|pluralize }} in the archive
+          {{ paginator.count }} match{{ paginator.count|pluralize }}
+          {% if list_period == "past" %}in the archive{% else %}scheduled{% endif %}
           {% if search_query %}
             matching <strong>"{{ search_query }}"</strong>
           {% endif %}
@@ -22,8 +45,10 @@
         {% else %}
           {% if search_query %}
             No matches matching <strong>"{{ search_query }}"</strong>
+          {% elif list_period == "past" %}
+            No past matches in the archive yet
           {% else %}
-            No matches in the archive yet
+            No upcoming matches scheduled
           {% endif %}
         {% endif %}
       </p>
@@ -32,6 +57,25 @@
       <a class="btn btn-danger" href="{% url 'chants:add_match' %}">Add match</a>
     {% endif %}
   </div>
+
+  <ul class="nav nav-tabs mb-4">
+    <li class="nav-item">
+      <a
+        class="nav-link{% if list_period == 'upcoming' %} active{% endif %}"
+        href="{% url 'chants:list' %}{% if search_query and list_period == 'past' %}?q={{ search_query|urlencode }}{% endif %}"
+      >
+        Upcoming
+      </a>
+    </li>
+    <li class="nav-item">
+      <a
+        class="nav-link{% if list_period == 'past' %} active{% endif %}"
+        href="{% url 'chants:past' %}{% if search_query and list_period == 'upcoming' %}?q={{ search_query|urlencode }}{% endif %}"
+      >
+        Past
+      </a>
+    </li>
+  </ul>
 
   <form method="get" class="row g-2 align-items-center mb-4">
     <div class="col-md-8 col-lg-6">
@@ -48,7 +92,12 @@
     <div class="col-auto d-flex gap-2">
       <button type="submit" class="btn btn-danger">Search</button>
       {% if search_query %}
-        <a class="btn btn-outline-secondary" href="{% url 'chants:list' %}">Clear</a>
+        <a
+          class="btn btn-outline-secondary"
+          href="{% if list_period == 'past' %}{% url 'chants:past' %}{% else %}{% url 'chants:list' %}{% endif %}"
+        >
+          Clear
+        </a>
       {% endif %}
     </div>
   </form>
@@ -57,26 +106,37 @@
     <div class="row row-cols-1 row-cols-md-2 g-4">
       {% for match in match_list %}
         <div class="col">
-          <article class="card h-100 shadow-sm">
-            <div class="card-body d-flex flex-column">
+          <article class="card h-100 shadow-sm match-card">
+            <div class="card-body d-flex flex-column position-relative">
               <h2 class="card-title h5 mb-2">
-                <a class="text-decoration-none" href="{% url 'clubs:songs' match.home.slug %}">{{ match.home.name }}</a>
-                <span class="text-muted fw-normal">vs</span>
-                <a class="text-decoration-none" href="{% url 'clubs:songs' match.away.slug %}">{{ match.away.name }}</a>
+                <a class="stretched-link text-decoration-none text-dark" href="{% url 'chants:match_detail' match.pk %}">
+                  {{ match.home.name }}
+                  <span class="text-muted fw-normal">vs</span>
+                  {{ match.away.name }}
+                </a>
               </h2>
 
               <p class="text-muted small mb-3">{{ match.kickoff|date:"l, M j, Y g:i A" }}</p>
 
+              <div class="d-flex flex-wrap gap-2 mb-3 position-relative z-1">
+                <a class="badge rounded-pill text-bg-light border text-dark text-decoration-none" href="{% url 'clubs:songs' match.home.slug %}">{{ match.home.name }}</a>
+                <a class="badge rounded-pill text-bg-light border text-dark text-decoration-none" href="{% url 'clubs:songs' match.away.slug %}">{{ match.away.name }}</a>
+              </div>
+
               <div class="mt-auto pt-2 border-top d-flex flex-wrap justify-content-between align-items-center gap-2">
-                <span class="small text-muted">
-                  {% if match.chant_count %}
-                    {{ match.chant_count }} chant{{ match.chant_count|pluralize }}
-                  {% else %}
-                    No chants recorded
-                  {% endif %}
-                </span>
-                {% if user.is_authenticated %}
-                  <a class="btn btn-sm btn-outline-danger" href="{% url 'chants:add_chant' match.pk %}">Add chant</a>
+                {% if list_period == "past" %}
+                  <span class="small text-muted">
+                    {% if match.chant_count %}
+                      {{ match.chant_count }} chant{{ match.chant_count|pluralize }}
+                    {% else %}
+                      No chants recorded
+                    {% endif %}
+                  </span>
+                {% else %}
+                  <span class="small text-muted">Chants can be added after kickoff</span>
+                {% endif %}
+                {% if list_period == "past" and user.is_authenticated %}
+                  <a class="btn btn-sm btn-outline-danger position-relative z-1" href="{% url 'chants:add_chant' match.pk %}">Add chant</a>
                 {% endif %}
               </div>
 
@@ -98,11 +158,18 @@
     <div class="text-center py-5">
       {% if search_query %}
         <p class="lead text-muted mb-3">No matches match your search.</p>
-        <a class="btn btn-outline-secondary" href="{% url 'chants:list' %}">Clear search</a>
+        <a
+          class="btn btn-outline-secondary"
+          href="{% if list_period == 'past' %}{% url 'chants:past' %}{% else %}{% url 'chants:list' %}{% endif %}"
+        >
+          Clear search
+        </a>
+      {% elif list_period == "past" %}
+        <p class="lead text-muted mb-3">No past matches in the archive yet.</p>
       {% else %}
-        <p class="lead text-muted mb-3">No matches have been added yet.</p>
+        <p class="lead text-muted mb-3">No upcoming matches scheduled.</p>
         {% if user.is_authenticated %}
-          <a class="btn btn-outline-danger" href="{% url 'chants:add_match' %}">Add the first match</a>
+          <a class="btn btn-outline-danger" href="{% url 'chants:add_match' %}">Add a match</a>
         {% endif %}
       {% endif %}
     </div>

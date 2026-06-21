@@ -1,0 +1,161 @@
+{% extends "song/base.html" %}
+
+{% block title %}{{ match.home.name }} vs {{ match.away.name }} · {{ site_name }}{% endblock %}
+
+{% block seo_meta %}
+  {% include "song/includes/seo_meta.html" with title=match.home.name|add:" vs "|add:match.away.name|add:" · "|add:site_name description="Chants sung during "|add:match.home.name|add:" vs "|add:match.away.name|add:"." og_type="article" %}
+{% endblock %}
+
+{% block extra_head %}
+  <style>
+    .match-fixture {
+      align-items: flex-end;
+    }
+
+    .match-crest {
+      width: 4.5rem;
+      height: 4.5rem;
+      object-fit: contain;
+    }
+
+    .match-team {
+      flex: 1 1 8rem;
+      max-width: 14rem;
+    }
+
+    .match-vs {
+      flex: 0 0 auto;
+      padding-bottom: 0.125rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <nav aria-label="breadcrumb" class="mb-3">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="{% if is_past %}{% url 'chants:past' %}{% else %}{% url 'chants:list' %}{% endif %}">Matches</a>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">{{ match.home.name }} vs {{ match.away.name }}</li>
+    </ol>
+  </nav>
+
+  <div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-4">
+    <div class="flex-grow-1">
+      {% if match.home.crest or match.away.crest %}
+        <h1 class="visually-hidden">{{ match.home.name }} vs {{ match.away.name }}</h1>
+        <div class="d-flex match-fixture justify-content-center gap-3 gap-md-4 mb-3">
+          <div class="match-team d-flex flex-column align-items-center text-center">
+            {% if match.home.crest %}
+              <a class="mb-2" href="{% url 'clubs:songs' match.home.slug %}">
+                <img
+                  src="{{ match.home.crest.url }}"
+                  alt="{{ match.home.name }} crest"
+                  class="match-crest rounded bg-white border shadow-sm"
+                >
+              </a>
+            {% endif %}
+            <p class="h5 mb-0">
+              <a class="text-decoration-none" href="{% url 'clubs:songs' match.home.slug %}">{{ match.home.name }}</a>
+            </p>
+          </div>
+
+          <div class="match-vs text-muted">vs</div>
+
+          <div class="match-team d-flex flex-column align-items-center text-center">
+            {% if match.away.crest %}
+              <a class="mb-2" href="{% url 'clubs:songs' match.away.slug %}">
+                <img
+                  src="{{ match.away.crest.url }}"
+                  alt="{{ match.away.name }} crest"
+                  class="match-crest rounded bg-white border shadow-sm"
+                >
+              </a>
+            {% endif %}
+            <p class="h5 mb-0">
+              <a class="text-decoration-none" href="{% url 'clubs:songs' match.away.slug %}">{{ match.away.name }}</a>
+            </p>
+          </div>
+        </div>
+
+        <p class="text-muted text-center mb-0">{{ match.kickoff|date:"l, M j, Y g:i A" }}</p>
+        {% if match.tags.all %}
+          <div class="mt-2 text-center">
+            {% for tag in match.tags.all %}
+              <span class="badge text-bg-light text-dark me-1 mb-1">#{{ tag.name }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% else %}
+        <h1 class="h2 mb-2">
+          <a class="text-decoration-none" href="{% url 'clubs:songs' match.home.slug %}">{{ match.home.name }}</a>
+          <span class="text-muted fw-normal">vs</span>
+          <a class="text-decoration-none" href="{% url 'clubs:songs' match.away.slug %}">{{ match.away.name }}</a>
+        </h1>
+        <p class="text-muted mb-0">{{ match.kickoff|date:"l, M j, Y g:i A" }}</p>
+        {% if match.tags.all %}
+          <div class="mt-2">
+            {% for tag in match.tags.all %}
+              <span class="badge text-bg-light text-dark me-1 mb-1">#{{ tag.name }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% endif %}
+    </div>
+    {% if allow_add_chant %}
+      <a class="btn btn-danger" href="{% url 'chants:add_chant' match.pk %}">Add chant</a>
+    {% elif not is_past %}
+      <span class="text-muted small">Chants can be added after kickoff</span>
+    {% endif %}
+  </div>
+
+  <section>
+    <h2 class="h5 mb-3">Chants ({{ match.chants.all|length }})</h2>
+
+    {% if match.chants.all %}
+      <div class="table-responsive">
+        <table class="table table-sm table-striped shadow-sm bg-white mb-0">
+          <thead>
+            <tr>
+              <th scope="col">Minute</th>
+              <th scope="col">Song</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for chant in match.chants.all %}
+              <tr>
+                <td>{{ chant.minutes }}'</td>
+                <td>
+                  <a class="text-decoration-none" href="{% url 'songs:detail' chant.song.slug %}">{{ chant.song.title }}</a>
+                </td>
+                <td class="text-end">
+                  <a class="text-decoration-none small" href="{% url 'chants:detail' chant.pk %}">View chant</a>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% else %}
+      <div class="card shadow-sm">
+        <div class="card-body text-center py-4">
+          <p class="text-muted mb-0">
+            {% if is_past %}
+              No chants recorded for this match yet.
+            {% else %}
+              No chants yet. Check back after kickoff.
+            {% endif %}
+          </p>
+          {% if allow_add_chant %}
+            <a class="btn btn-sm btn-outline-danger mt-3" href="{% url 'chants:add_chant' match.pk %}">Add the first chant</a>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+  </section>
+{% endblock %}

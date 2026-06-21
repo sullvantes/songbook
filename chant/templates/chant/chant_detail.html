@@ -9,7 +9,12 @@
 {% block content %}
   <nav aria-label="breadcrumb" class="mb-3">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="{% url 'songs:list' %}">Songs</a></li>
+      <li class="breadcrumb-item">
+        <a href="{% if is_past_match %}{% url 'chants:past' %}{% else %}{% url 'chants:list' %}{% endif %}">Matches</a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="{% url 'chants:match_detail' chant.match.pk %}">{{ chant.match.home.name }} vs {{ chant.match.away.name }}</a>
+      </li>
       <li class="breadcrumb-item"><a href="{% url 'songs:detail' chant.song.slug %}">{{ chant.song.title }}</a></li>
       <li class="breadcrumb-item active" aria-current="page">{{ chant.minutes }}' chant</li>
     </ol>

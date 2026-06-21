@@ -5,6 +5,7 @@ from django.contrib.auth.mixins import LoginRequiredMixin
 from django.db.models import Count, Prefetch, Q
 from django.shortcuts import get_object_or_404, redirect
 from django.urls import reverse, reverse_lazy
+from django.utils import timezone
 from django.views.generic import CreateView, DetailView, ListView
 
 from club.models import Club
@@ -25,14 +26,19 @@ class MatchListView(ListView):
     context_object_name = "match_list"
     template_name = "chant/match_list.html"
     paginate_by = 20
+    list_period = "upcoming"
 
     def get_queryset(self):
+        now = timezone.now()
         queryset = (
             Match.objects.select_related("home", "away")
             .prefetch_related("tags")
             .annotate(chant_count=Count("chants", distinct=True))
-            .order_by("-kickoff")
         )
+        if self.list_period == "upcoming":
+            queryset = queryset.filter(kickoff__gte=now).order_by("kickoff")
+        else:
+            queryset = queryset.filter(kickoff__lt=now).order_by("-kickoff")
 
         search_query = self.request.GET.get("q", "").strip()
         self.search_query = search_query or None
@@ -49,10 +55,48 @@ class MatchListView(ListView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
+        context["list_period"] = self.list_period
+        context["allow_add_chant"] = self.list_period == "past"
         context["search_query"] = self.search_query or ""
         context["pagination_query"] = (
             f"&{urlencode({'q': self.search_query})}" if self.search_query else ""
         )
+        return context
+
+
+class UpcomingMatchListView(MatchListView):
+    list_period = "upcoming"
+
+
+class PastMatchListView(MatchListView):
+    list_period = "past"
+
+
+class MatchDetailView(DetailView):
+    model = Match
+    context_object_name = "match"
+    template_name = "chant/match_detail.html"
+
+    def get_queryset(self):
+        return (
+            Match.objects.select_related("home", "away")
+            .prefetch_related(
+                "tags",
+                Prefetch(
+                    "chants",
+                    queryset=Chant.objects.filter(song__accepted=True)
+                    .select_related("song")
+                    .order_by("minutes"),
+                ),
+            )
+        )
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        is_past = self.object.kickoff < timezone.now()
+        context["is_past"] = is_past
+        context["allow_add_chant"] = is_past and self.request.user.is_authenticated
+        context["list_period"] = "past" if is_past else "upcoming"
         return context
 
 
@@ -84,6 +128,12 @@ class ChantCreateView(LoginRequiredMixin, CreateView):
             Match.objects.select_related("home", "away"),
             pk=kwargs["match_pk"],
         )
+        if self.match.kickoff >= timezone.now():
+            messages.error(
+                request,
+                "Chants can only be added after a match has kicked off.",
+            )
+            return redirect("chants:past")
         return super().dispatch(request, *args, **kwargs)
 
     def get_form_kwargs(self):
@@ -122,7 +172,7 @@ class ChantCreateView(LoginRequiredMixin, CreateView):
         return super().form_valid(form)
 
     def get_success_url(self):
-        return reverse("chants:detail", kwargs={"pk": self.object.pk})
+        return reverse("chants:match_detail", kwargs={"pk": self.match.pk})
 
 
 class ChantDetailView(DetailView):
@@ -145,6 +195,7 @@ class ChantDetailView(DetailView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["comment_form"] = CommentForm()
+        context["is_past_match"] = self.object.match.kickoff < timezone.now()
         return context
 
 
